@@ -45,14 +45,14 @@
 </nav>
 
 <!-- Hero -->
-<main class="flex-grow flex flex-col items-center justify-center px-4 py-20 z-10 text-center">
-    <div class="inline-block px-4 py-1.5 rounded-full bg-slate-800/50 border border-slate-700 text-sm text-slate-300 mb-6 backdrop-blur-sm">
+<main class="flex-grow flex flex-col items-center justify-center px-4 py-10 z-10 text-center">
+    <div class="inline-block px-4 py-1.5 rounded-full bg-slate-800/50 border border-slate-700 text-sm text-slate-300 mb-4 backdrop-blur-sm">
         <i class="fa-regular fa-clock mr-2 text-pink-400"></i> 每天早上 5:00 準時發送
     </div>
-    <h1 class="text-4xl md:text-6xl font-black mb-6 leading-tight max-w-4xl">
+    <h1 class="text-4xl md:text-6xl font-black mb-4 leading-tight max-w-4xl">
         每日為您蒐集全球 <br><span class="gradient-text">最火熱的 AI 繪圖提示詞</span>
     </h1>
-    <p class="text-lg md:text-xl text-slate-400 mb-10 max-w-2xl leading-relaxed">
+    <p class="text-lg md:text-xl text-slate-400 mb-4 max-w-2xl leading-relaxed">
         不用再到處爬文找靈感！我們每天從 PromptHero 與 OpenArt 嚴選各前三名最熱門的圖片與 Prompt，直接送達您的信箱。
     </p>
 
@@ -72,18 +72,66 @@
         </button>
     </form>
     <div id="statusMessage" class="mt-4 text-sm hidden font-medium"></div>
-    <div class="mt-8 text-sm text-slate-500 flex items-center gap-4 flex-wrap justify-center">
+    <div class="mt-4 text-sm text-slate-500 flex items-center gap-4 flex-wrap justify-center">
         <span><i class="fa-solid fa-check text-green-500 mr-1"></i> 完全免費</span>
         <span><i class="fa-solid fa-check text-green-500 mr-1"></i> 隨時可取消</span>
         <span><i class="fa-solid fa-check text-green-500 mr-1"></i> 無廣告干擾</span>
     </div>
 </main>
 
+<!-- Preview Section -->
+<section id="preview" class="w-full py-10 bg-slate-900/50 z-10 border-t border-slate-800">
+<div class="max-w-6xl mx-auto px-4">
+    <h2 class="text-3xl font-bold mb-2 text-center fade-in">信件內容預覽</h2>
+    <p class="text-slate-400 text-center mb-8 fade-in">看看您每天早上會收到什麼樣的靈感寶庫 — 3 個來源，各 3 組精選</p>
+
+    <!-- Source 1: PromptHero Top -->
+    <div class="mb-8 fade-in">
+        <div class="flex items-center gap-3 mb-4">
+            <div class="w-10 h-10 rounded-lg bg-orange-500/15 flex items-center justify-center"><i class="fa-solid fa-fire text-orange-400 text-lg"></i></div>
+            <div>
+                <h3 class="text-xl font-bold text-white">PromptHero 熱門榜</h3>
+                <p class="text-xs text-slate-500">prompthero.com/top — 全站最受歡迎作品</p>
+            </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6" id="cards-ph-top"></div>
+    </div>
+
+    <!-- Source 2: ChatGPT -->
+    <div class="mb-8 fade-in">
+        <div class="flex items-center gap-3 mb-4">
+            <div class="w-10 h-10 rounded-lg bg-teal-500/15 flex items-center justify-center"><i class="fa-solid fa-robot text-teal-400 text-lg"></i></div>
+            <div>
+                <h3 class="text-xl font-bold text-white">ChatGPT 精選</h3>
+                <p class="text-xs text-slate-500">prompthero.com/chatgpt-prompts — ChatGPT 分類最佳作品</p>
+            </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6" id="cards-chatgpt"></div>
+    </div>
+
+    <!-- Source 3: PromptHero MJ -->
+    <div class="mb-8 fade-in">
+        <div class="flex items-center gap-3 mb-4">
+            <div class="w-10 h-10 rounded-lg bg-pink-500/15 flex items-center justify-center"><i class="fa-solid fa-wand-sparkles text-pink-400 text-lg"></i></div>
+            <div>
+                <h3 class="text-xl font-bold text-white">Midjourney 精選</h3>
+                <p class="text-xs text-slate-500">prompthero.com/midjourney-prompts — MJ 分類最佳作品</p>
+            </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6" id="cards-mj"></div>
+    </div>
+
+    <p class="text-center text-slate-500 text-sm mt-10 fade-in">
+        <i class="fa-solid fa-robot mr-1"></i> 以上內容為真實爬取結果，由 GitHub Actions 每日自動更新。
+    </p>
+</div>
+</section>
+
 <!-- How It Works -->
-<section class="w-full py-20 z-10 border-t border-slate-800">
+<section class="w-full py-10 z-10 border-t border-slate-800">
     <div class="max-w-5xl mx-auto px-4">
         <h2 class="text-3xl font-bold mb-2 text-center fade-in">運作原理</h2>
-        <p class="text-slate-400 text-center mb-14 fade-in">全自動的靈感快遞，零手動操作</p>
+        <p class="text-slate-400 text-center mb-6 fade-in">全自動的靈感快遞，零手動操作</p>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             <div class="glass rounded-2xl p-6 text-center fade-in card-hover">
                 <div class="w-14 h-14 mx-auto mb-4 rounded-xl bg-purple-500/15 flex items-center justify-center float-anim">
@@ -117,53 +165,7 @@
     </div>
 </section>
 
-<!-- Preview Section -->
-<section id="preview" class="w-full py-20 bg-slate-900/50 z-10 border-t border-slate-800">
-<div class="max-w-6xl mx-auto px-4">
-    <h2 class="text-3xl font-bold mb-2 text-center fade-in">信件內容預覽</h2>
-    <p class="text-slate-400 text-center mb-14 fade-in">看看您每天早上會收到什麼樣的靈感寶庫 — 3 個來源，各 3 組精選</p>
 
-    <!-- Source 1: PromptHero Top -->
-    <div class="mb-14 fade-in">
-        <div class="flex items-center gap-3 mb-6">
-            <div class="w-10 h-10 rounded-lg bg-orange-500/15 flex items-center justify-center"><i class="fa-solid fa-fire text-orange-400 text-lg"></i></div>
-            <div>
-                <h3 class="text-xl font-bold text-white">PromptHero 熱門榜</h3>
-                <p class="text-xs text-slate-500">prompthero.com/top — 全站最受歡迎作品</p>
-            </div>
-        </div>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6" id="cards-ph-top"></div>
-    </div>
-
-    <!-- Source 2: ChatGPT -->
-    <div class="mb-14 fade-in">
-        <div class="flex items-center gap-3 mb-6">
-            <div class="w-10 h-10 rounded-lg bg-teal-500/15 flex items-center justify-center"><i class="fa-solid fa-robot text-teal-400 text-lg"></i></div>
-            <div>
-                <h3 class="text-xl font-bold text-white">ChatGPT 精選</h3>
-                <p class="text-xs text-slate-500">prompthero.com/chatgpt-prompts — ChatGPT 分類最佳作品</p>
-            </div>
-        </div>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6" id="cards-chatgpt"></div>
-    </div>
-
-    <!-- Source 3: PromptHero MJ -->
-    <div class="mb-8 fade-in">
-        <div class="flex items-center gap-3 mb-6">
-            <div class="w-10 h-10 rounded-lg bg-pink-500/15 flex items-center justify-center"><i class="fa-solid fa-wand-sparkles text-pink-400 text-lg"></i></div>
-            <div>
-                <h3 class="text-xl font-bold text-white">Midjourney 精選</h3>
-                <p class="text-xs text-slate-500">prompthero.com/midjourney-prompts — MJ 分類最佳作品</p>
-            </div>
-        </div>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6" id="cards-mj"></div>
-    </div>
-
-    <p class="text-center text-slate-500 text-sm mt-10 fade-in">
-        <i class="fa-solid fa-robot mr-1"></i> 以上內容為真實爬取結果，由 GitHub Actions 每日自動更新。
-    </p>
-</div>
-</section>
 
 <!-- Footer -->
 <footer class="py-6 border-t border-slate-800 text-center text-slate-500 text-sm z-10 bg-slate-900/80">
