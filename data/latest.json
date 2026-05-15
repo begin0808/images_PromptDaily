@@ -3,7 +3,8 @@
     "source": {
       "name": "PromptHero 熱門榜",
       "url": "https://prompthero.com/top",
-      "icon": "🔥"
+      "icon": "🔥",
+      "id": "ph-top"
     },
     "items": [
       {
@@ -33,7 +34,8 @@
     "source": {
       "name": "OpenArt 探索",
       "url": "https://openart.ai/discovery",
-      "icon": "🎨"
+      "icon": "🎨",
+      "id": "openart"
     },
     "items": [
       {
@@ -63,7 +65,8 @@
     "source": {
       "name": "Midjourney 精選",
       "url": "https://prompthero.com/midjourney-prompts",
-      "icon": "✨"
+      "icon": "✨",
+      "id": "mj"
     },
     "items": [
       {

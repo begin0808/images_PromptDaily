@@ -12,16 +12,19 @@ const cheerio = require('cheerio');
 
 const SOURCES = [
     {
+        id: 'ph-top',
         name: 'PromptHero 熱門榜',
         url: 'https://prompthero.com/top',
         icon: '🔥',
     },
     {
+        id: 'openart',
         name: 'OpenArt 探索',
         url: 'https://openart.ai/discovery',
         icon: '🎨',
     },
     {
+        id: 'mj',
         name: 'Midjourney 精選',
         url: 'https://prompthero.com/midjourney-prompts',
         icon: '✨',
