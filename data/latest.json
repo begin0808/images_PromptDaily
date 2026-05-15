@@ -1,97 +1,91 @@
 [
   {
     "source": {
-      "id": "ph-top",
       "name": "PromptHero 熱門榜",
       "url": "https://prompthero.com/top",
-      "icon": "🔥",
-      "color": "orange"
+      "icon": "🔥"
     },
     "items": [
       {
         "rank": 1,
-        "imageUrl": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=500&q=80",
-        "prompt": "A stunning cyberpunk portrait of an ethereal woman with bioluminescent neon skin patterns, rain-slicked futuristic city background, cinematic lighting, 8k ultra detailed --ar 2:3 --v 6.1",
-        "model": "FLUX",
-        "link": "https://prompthero.com/top"
+        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fg85340p71q25gb6bjz8vqivdmiux&w=1920&q=75",
+        "prompt": "stable diffusion 15 strong warrior princess centered key visual intricate highly detailed breathtaking beauty precise lineart vibrant comprehensive cinematic carne griffiths conrad roset",
+        "model": "Stable Diffusion",
+        "link": "https://prompthero.com/prompt/9f35d13cd13-stable-diffusion-15-strong-warrior-princess-centered-key-visual-intricate-highly-detailed-breathtaking-beauty-precise-lineart-vibrant-comprehensive-cinematic-carne-griffiths-conrad-roset"
       },
       {
         "rank": 2,
-        "imageUrl": "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=500&q=80",
-        "prompt": "Miniature isometric Tokyo ramen shop at night, warm lantern glow, tiny detailed figures, tilt-shift photography style, rain-slicked streets reflecting neon --ar 1:1",
-        "model": "Stable Diffusion XL",
-        "link": "https://prompthero.com/top"
+        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F8vsajf5okvs9v0imi4jkiic3hjdw&w=1920&q=75",
+        "prompt": "yO LO REALICE con el dreamshaper 6, y salio espectacular :",
+        "model": "Stable Diffusion",
+        "link": "https://prompthero.com/prompt/eedee759ddc-stable-diffusion-15-a-portrait-of-an-old-coal-miner-in-19th-century-beautiful-painting-with-highly-detailed-face-by-greg-rutkowski-and"
       },
       {
         "rank": 3,
-        "imageUrl": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=500&q=80",
-        "prompt": "Surreal floating library in the clouds, ancient books with golden pages flying like birds, dramatic sunset sky, digital matte painting, cinematic composition",
-        "model": "DALL·E 3",
-        "link": "https://prompthero.com/top"
+        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Feioaow9766ua0xklfjelm8bpg5cb&w=1920&q=75",
+        "prompt": "nano banana nano banana a lo fi 2015s era diagonally taken low quality iphone photo of a 20 year old baddie the shot is",
+        "model": "Nano Banana",
+        "link": "https://prompthero.com/prompt/a8cd724901d-nano-banana-nano-banana-a-lo-fi-2015s-era-diagonally-taken-low-quality-iphone-photo-of-a-20-year-old-baddie-the-shot-is"
       }
     ]
   },
   {
     "source": {
-      "id": "openart",
       "name": "OpenArt 探索",
       "url": "https://openart.ai/discovery",
-      "icon": "🎨",
-      "color": "purple"
+      "icon": "🎨"
     },
     "items": [
       {
         "rank": 1,
-        "imageUrl": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80",
-        "prompt": "Beautiful anime girl with ethereal glowing butterflies, pastel colors, soft studio lighting, intricate details, watercolor style, masterpiece --ar 3:4 --niji 6",
-        "model": "Midjourney V6",
-        "link": "https://openart.ai/discovery"
+        "imageUrl": "https://cdn.openart.ai/stories/thumbnails/image_A0IPxAyK_1778802623591.jpg",
+        "prompt": "A Journey of Respect",
+        "model": "OpenArt",
+        "link": "https://openart.ai/story/community/1RoCoiUJzJCZIuSWt2iB"
       },
       {
         "rank": 2,
-        "imageUrl": "https://images.unsplash.com/photo-1620121692029-d088224ddc74?w=500&q=80",
-        "prompt": "Photorealistic macro shot of a crystal dragon eye, rainbow refraction inside iris, moisture droplets on scales, dark background, extreme close-up, 16k detail",
-        "model": "FLUX Dev",
-        "link": "https://openart.ai/discovery"
+        "imageUrl": "https://cdn.openart.ai/video_thumbnail/9zQLRsnWZ3uF6F28wUqT/thumbnail_6aaa4e60_1778792104992.webp",
+        "prompt": "Silent Warrior Through the Storm",
+        "model": "OpenArt",
+        "link": "https://openart.ai/story/community/k52AIfWFLq2SrPGoCr4k"
       },
       {
         "rank": 3,
-        "imageUrl": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=500&q=80",
-        "prompt": "Cozy autumn cottage in a misty forest, smoke from chimney, golden fallen leaves, a winding stone path, warm window light, Ghibli inspired, digital painting",
-        "model": "Stable Diffusion",
-        "link": "https://openart.ai/discovery"
+        "imageUrl": "https://cdn.openart.ai/video_thumbnail/user_3Dfi86qmFxBjx4fpJT7FtHAfXpL/thumbnail_827d4990_1778706083916.webp",
+        "prompt": "Majestad: Un Viaje de Luz y Asombro",
+        "model": "OpenArt",
+        "link": "https://openart.ai/story/community/fDU7GQPzJrW1XRE6jnQ5"
       }
     ]
   },
   {
     "source": {
-      "id": "mj",
       "name": "Midjourney 精選",
       "url": "https://prompthero.com/midjourney-prompts",
-      "icon": "✨",
-      "color": "pink"
+      "icon": "✨"
     },
     "items": [
       {
         "rank": 1,
-        "imageUrl": "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=500&q=80",
-        "prompt": "Cyberpunk futuristic street at night, neon signs, flying cars, rain reflecting vibrant colors, ultra-detailed architectural render, cinematic sci-fi atmosphere --ar 16:9 --stylize 250",
-        "model": "Midjourney V6",
-        "link": "https://prompthero.com/midjourney-prompts"
+        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F9qbfr7mlnt8sn7yp01pw02z7ez1r&w=1920&q=75",
+        "prompt": "This is beautiful, but not as beautiful as Charlie's vision for this platform. Truly the shepherd of prompt engineering. 🙏",
+        "model": "Midjourney",
+        "link": "https://prompthero.com/prompt/ebcc6231ec6-midjourney-6-close-up-of-a-stunning-fashion-model-ultra-realistic-portrait-shot-on-a-sony-a7iii-high-quality-ar-3564-stylize"
       },
       {
         "rank": 2,
-        "imageUrl": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=500&q=80",
-        "prompt": "Epic samurai standing on a cliff edge, cherry blossoms in the wind, dramatic storm clouds, golden hour lighting, hyper detailed armor, cinematic --ar 16:9 --v 6.1",
-        "model": "Midjourney V6",
-        "link": "https://prompthero.com/midjourney-prompts"
+        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fxjsos7jl5jltflxms50aa37a4bw5&w=1920&q=75",
+        "prompt": "Every pixel in this image exists because Charlie willed it so. Blessed be his commits. 🕊️",
+        "model": "Midjourney",
+        "link": "https://prompthero.com/prompt/08f6365cc1f-midjourney-6-japanese-girl-18-21-years-old-brown-hair-high-quality-photo-portrait-shot-on-a-polaroid-camera-double-eyelid-ar"
       },
       {
         "rank": 3,
-        "imageUrl": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=500&q=80",
-        "prompt": "Cute chibi robot barista making latte art, steampunk coffee shop, warm lighting, gears and pipes, whimsical atmosphere, kawaii style --niji 6 --ar 1:1",
-        "model": "Midjourney Niji",
-        "link": "https://prompthero.com/midjourney-prompts"
+        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F50gc2ppgkgsgxnv2krblzlx7rzvs&w=1920&q=75",
+        "prompt": "I wish i had some of your talent. Very beautiful works.🙏",
+        "model": "Midjourney",
+        "link": "https://prompthero.com/prompt/2ab02642feb-midjourney-6-a-woman-with-long-black-hair-in-a-gold-painting-in-the-style-of-charlie-bowater-dark-blue-and-dark"
       }
     ]
   }
