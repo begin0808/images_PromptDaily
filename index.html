@@ -177,19 +177,19 @@
 // ── Sample Data ──
 const sampleData = {
     'cards-ph-top': [
-        { rank:1, model:'FLUX', prompt:'Abstract fluid waves, vibrant gradient colors of purple, orange and pink, smooth 3D render, minimalist wallpaper style, high resolution, soft lighting --ar 16:9', img:'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=500&q=80' },
-        { rank:2, model:'Stable Diffusion XL', prompt:'Miniature isometric Tokyo ramen shop at night, warm lantern glow, tiny detailed figures, tilt-shift photography style, rain-slicked streets reflecting neon --ar 1:1', img:'https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=500&q=80' },
-        { rank:3, model:'DALL·E 3', prompt:'Surreal floating library in the clouds, ancient books with golden pages flying like birds, dramatic sunset sky, digital matte painting, cinematic composition', img:'https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=500&q=80' }
+        { rank:1, model:'FLUX', prompt:'A stunning cyberpunk portrait of an ethereal woman with bioluminescent neon skin patterns, rain-slicked futuristic city background, cinematic lighting, 8k ultra detailed --ar 2:3 --v 6.1', img:'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=500&q=80', url:'https://prompthero.com' },
+        { rank:2, model:'Stable Diffusion XL', prompt:'Miniature isometric Tokyo ramen shop at night, warm lantern glow, tiny detailed figures, tilt-shift photography style, rain-slicked streets reflecting neon --ar 1:1', img:'https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=500&q=80', url:'https://prompthero.com' },
+        { rank:3, model:'DALL·E 3', prompt:'Surreal floating library in the clouds, ancient books with golden pages flying like birds, dramatic sunset sky, digital matte painting, cinematic composition', img:'https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=500&q=80', url:'https://prompthero.com' }
     ],
     'cards-openart': [
-        { rank:1, model:'Midjourney V6', prompt:'Beautiful anime girl with ethereal glowing butterflies, pastel colors, soft studio lighting, intricate details, watercolor style, masterpiece --ar 3:4 --niji 6', img:'https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80' },
-        { rank:2, model:'FLUX Dev', prompt:'Photorealistic macro shot of a crystal dragon eye, rainbow refraction inside iris, moisture droplets on scales, dark background, extreme close-up, 16k detail', img:'https://images.unsplash.com/photo-1620121692029-d088224ddc74?w=500&q=80' },
-        { rank:3, model:'Stable Diffusion', prompt:'Cozy autumn cottage in a misty forest, smoke from chimney, golden fallen leaves, a winding stone path, warm window light, Ghibli inspired, digital painting', img:'https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=500&q=80' }
+        { rank:1, model:'Midjourney V6', prompt:'Beautiful anime girl with ethereal glowing butterflies, pastel colors, soft studio lighting, intricate details, watercolor style, masterpiece --ar 3:4 --niji 6', img:'https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80', url:'https://openart.ai' },
+        { rank:2, model:'FLUX Dev', prompt:'Photorealistic macro shot of a crystal dragon eye, rainbow refraction inside iris, moisture droplets on scales, dark background, extreme close-up, 16k detail', img:'https://images.unsplash.com/photo-1620121692029-d088224ddc74?w=500&q=80', url:'https://openart.ai' },
+        { rank:3, model:'Stable Diffusion', prompt:'Cozy autumn cottage in a misty forest, smoke from chimney, golden fallen leaves, a winding stone path, warm window light, Ghibli inspired, digital painting', img:'https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=500&q=80', url:'https://openart.ai' }
     ],
     'cards-mj': [
-        { rank:1, model:'Midjourney V6', prompt:'Abstract 3D liquid shapes floating in space, iridescent colors, macro photography, octane render, unreal engine 5, crystal clear, depth of field --ar 1:1 --stylize 250', img:'https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?w=500&q=80' },
-        { rank:2, model:'Midjourney V6', prompt:'Epic samurai standing on a cliff edge, cherry blossoms in the wind, dramatic storm clouds, golden hour lighting, hyper detailed armor, cinematic --ar 16:9 --v 6.1', img:'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=500&q=80' },
-        { rank:3, model:'Midjourney Niji', prompt:'Cute chibi robot barista making latte art, steampunk coffee shop, warm lighting, gears and pipes, whimsical atmosphere, kawaii style --niji 6 --ar 1:1', img:'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=500&q=80' }
+        { rank:1, model:'Midjourney V6', prompt:'Cyberpunk futuristic street at night, neon signs, flying cars, rain reflecting vibrant colors, ultra-detailed architectural render, cinematic sci-fi atmosphere --ar 16:9 --stylize 250', img:'https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=500&q=80', url:'https://prompthero.com/midjourney-prompts' },
+        { rank:2, model:'Midjourney V6', prompt:'Epic samurai standing on a cliff edge, cherry blossoms in the wind, dramatic storm clouds, golden hour lighting, hyper detailed armor, cinematic --ar 16:9 --v 6.1', img:'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=500&q=80', url:'https://prompthero.com/midjourney-prompts' },
+        { rank:3, model:'Midjourney Niji', prompt:'Cute chibi robot barista making latte art, steampunk coffee shop, warm lighting, gears and pipes, whimsical atmosphere, kawaii style --niji 6 --ar 1:1', img:'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=500&q=80', url:'https://prompthero.com/midjourney-prompts' }
     ]
 };
 
@@ -215,7 +215,7 @@ Object.entries(sampleData).forEach(([containerId, items]) => {
                     <button class="text-xs text-purple-400 hover:text-purple-300 flex items-center gap-1 transition" onclick="copyText(this.parentElement.previousElementSibling)">
                         <i class="fa-regular fa-copy"></i> 點擊複製提示詞
                     </button>
-                    <a href="#" class="text-xs text-slate-400 hover:text-white transition">查看原圖 &rarr;</a>
+                    <a href="${item.url || '#'}" target="_blank" rel="noopener noreferrer" class="text-xs text-slate-400 hover:text-white transition">查看原圖 &rarr;</a>
                 </div>
             </div>
         </div>`;
