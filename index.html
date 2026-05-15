@@ -240,13 +240,30 @@ form.addEventListener('submit', async (e) => {
     statusMessage.classList.add('hidden');
     statusMessage.classList.remove('text-green-400','text-red-400');
 
-    // Store locally + simulate
-    await new Promise(r => setTimeout(r, 1200));
-    localStorage.setItem('promptdaily_email', email);
-    form.reset();
-    statusMessage.innerHTML = '<i class="fa-solid fa-circle-check"></i> 訂閱成功！明天早上 5 點記得檢查信箱。';
-    statusMessage.classList.add('text-green-400','block');
-    statusMessage.classList.remove('hidden');
+    // Call Apps Script Web App
+    try {
+        const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxRQ0C5rLCVmHeQ_R2ai-cMASQ4kWb9TRZiA06vdFHaSQCcaCRDsk7I8X-V7royTScb/exec';
+        const res = await fetch(`${APPS_SCRIPT_URL}?action=subscribe&email=${encodeURIComponent(email)}`);
+        const result = await res.json();
+
+        statusMessage.classList.remove('hidden', 'text-green-400', 'text-red-400', 'text-orange-400');
+        
+        if (result.status === 'success') {
+            statusMessage.innerHTML = `<i class="fa-solid fa-circle-check"></i> ${result.message}`;
+            statusMessage.classList.add('text-green-400','block');
+            form.reset();
+        } else if (result.status === 'full') {
+            statusMessage.innerHTML = `<i class="fa-solid fa-circle-exclamation"></i> ${result.message}`;
+            statusMessage.classList.add('text-orange-400','block');
+        } else {
+            statusMessage.innerHTML = `<i class="fa-solid fa-circle-xmark"></i> ${result.message || '訂閱失敗，請稍後再試'}`;
+            statusMessage.classList.add('text-red-400','block');
+        }
+    } catch (e) {
+        statusMessage.classList.remove('hidden');
+        statusMessage.innerHTML = '<i class="fa-solid fa-circle-xmark"></i> 網路錯誤，請稍後再試。';
+        statusMessage.classList.add('text-red-400','block');
+    }
 
     submitBtn.disabled = false;
     submitBtn.classList.remove('opacity-70','cursor-not-allowed');

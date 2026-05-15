@@ -109,10 +109,34 @@ async function main() {
     const subject = `🎨 PromptDaily｜${dateStr} Top 9 AI 提示詞`;
 
     console.log(`📧 正在寄信給 ${MY_EMAIL}...`);
+
+    let bccList = [];
+    const scriptUrl = process.env.APPS_SCRIPT_URL;
+    const scriptToken = process.env.APPS_SCRIPT_TOKEN;
+    
+    if (scriptUrl && scriptToken) {
+        try {
+            console.log('👥 正在從 Google Sheets 取得訂閱名單...');
+            const res = await fetch(`${scriptUrl}?action=list&token=${scriptToken}`);
+            const result = await res.json();
+            if (result.status === 'success' && result.emails) {
+                bccList = result.emails.filter(e => e !== MY_EMAIL);
+                console.log(`✅ 成功取得 ${bccList.length} 位額外訂閱者`);
+            } else {
+                console.log('⚠️ 取得訂閱名單失敗:', result.message);
+            }
+        } catch (err) {
+            console.log('⚠️ 網路錯誤，無法取得訂閱名單:', err.message);
+        }
+    } else {
+        console.log('⚠️ 未設定 APPS_SCRIPT_URL 或 APPS_SCRIPT_TOKEN，跳過讀取訂閱者');
+    }
+
     await sendEmail({
         smtpUser: SMTP_USER,
         smtpPass: SMTP_PASS,
         to: MY_EMAIL,
+        bcc: bccList.join(','),
         subject,
         html,
     });

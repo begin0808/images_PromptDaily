@@ -26,12 +26,13 @@ function createTransporter(smtpUser, smtpPass) {
  * @param {string} opts.subject   - 主旨
  * @param {string} opts.html      - HTML 內容
  */
-async function sendEmail({ smtpUser, smtpPass, to, subject, html }) {
+async function sendEmail({ smtpUser, smtpPass, to, bcc, subject, html }) {
     const transporter = createTransporter(smtpUser, smtpPass);
 
     const info = await transporter.sendMail({
         from: `"PromptDaily ✨" <${smtpUser}>`,
         to,
+        bcc,
         subject,
         html,
     });
