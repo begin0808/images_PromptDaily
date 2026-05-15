@@ -32,32 +32,32 @@
   },
   {
     "source": {
-      "id": "sd",
-      "name": "Stable Diffusion 精選",
-      "url": "https://prompthero.com/stable-diffusion-prompts",
-      "icon": "🖌️"
+      "id": "chatgpt",
+      "name": "ChatGPT 精選",
+      "url": "https://prompthero.com/chatgpt-prompts",
+      "icon": "🤖"
     },
     "items": [
       {
         "rank": 1,
-        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fg85340p71q25gb6bjz8vqivdmiux&w=1920&q=75",
-        "prompt": "stable diffusion 15 strong warrior princess centered key visual intricate highly detailed breathtaking beauty precise lineart vibrant comprehensive cinematic carne griffiths conrad roset",
-        "model": "Stable Diffusion",
-        "link": "https://prompthero.com/prompt/9f35d13cd13-stable-diffusion-15-strong-warrior-princess-centered-key-visual-intricate-highly-detailed-breathtaking-beauty-precise-lineart-vibrant-comprehensive-cinematic-carne-griffiths-conrad-roset"
+        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F58pyr2n7l0r1fbvdhei50wirrcgp&w=1920&q=75",
+        "prompt": "chatgpt image gpt 4 dynamic personality collage ai prompt",
+        "model": "Chatgpt",
+        "link": "https://prompthero.com/prompt/da70bffc84d-chatgpt-image-gpt-4-dynamic-personality-collage-ai-prompt"
       },
       {
         "rank": 2,
-        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F8vsajf5okvs9v0imi4jkiic3hjdw&w=1920&q=75",
-        "prompt": "yO LO REALICE con el dreamshaper 6, y salio espectacular :",
-        "model": "Stable Diffusion",
-        "link": "https://prompthero.com/prompt/eedee759ddc-stable-diffusion-15-a-portrait-of-an-old-coal-miner-in-19th-century-beautiful-painting-with-highly-detailed-face-by-greg-rutkowski-and"
+        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fkix3ksvzmp3ze646keiyfi03cqqj&w=1920&q=75",
+        "prompt": "chatgpt image gpt 4o a person with slicked back dark hair wearing oversized square sunglasses is shown in a dramatic cinematic portrait the lighting",
+        "model": "Chatgpt",
+        "link": "https://prompthero.com/prompt/012ce232b42-chatgpt-image-gpt-4o-a-person-with-slicked-back-dark-hair-wearing-oversized-square-sunglasses-is-shown-in-a-dramatic-cinematic-portrait-the-lighting"
       },
       {
         "rank": 3,
-        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fg4n3boj7wkfug4mkf68fj0dcj6os&w=1920&q=75",
-        "prompt": "stable diffusion 15 hyper realistic painting of a beautiful girl in an eva plugsuit hyper detailed anime by greg rutkowski trending on artstation",
-        "model": "Stable Diffusion",
-        "link": "https://prompthero.com/prompt/8863f6cbc15-stable-diffusion-15-hyper-realistic-painting-of-a-beautiful-girl-in-an-eva-plugsuit-hyper-detailed-anime-by-greg-rutkowski-trending-on-artstation"
+        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F9z3vyjscetq5r4njy1dbbab8snnp&w=1920&q=75",
+        "prompt": "Would like to use this image on a website, as I'm creating under 10 second MP4's from images, to deliver as responses to social media posts. Would like a female version of this also. How to contact you?",
+        "model": "Chatgpt",
+        "link": "https://prompthero.com/prompt/31bb9e41c58-chatgpt-image-gpt-4o-old-man-expressive-caricature-in-pixar-style-unreal-charming-seemingly-mischievous-irritated-very-old-man-with-deep-wrinkles-wrinkles-glasses-portrait-cartoon"
       }
     ]
   },

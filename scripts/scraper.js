@@ -18,10 +18,10 @@ const SOURCES = [
         icon: '🔥',
     },
     {
-        id: 'sd',
-        name: 'Stable Diffusion 精選',
-        url: 'https://prompthero.com/stable-diffusion-prompts',
-        icon: '🖌️',
+        id: 'chatgpt',
+        name: 'ChatGPT 精選',
+        url: 'https://prompthero.com/chatgpt-prompts',
+        icon: '🤖',
     },
     {
         id: 'mj',
@@ -226,11 +226,11 @@ async function scrapeAll() {
         allData.push({ source: SOURCES[0], items: phTop });
         console.log(`  ✅ 取得 ${phTop.length} 筆\n`);
 
-        // 來源 2: Stable Diffusion
+        // 來源 2: ChatGPT
         console.log(`📦 [2/3] ${SOURCES[1].name}`);
-        const sd = await scrapePromptHero(page, SOURCES[1].url, 3);
-        allData.push({ source: SOURCES[1], items: sd });
-        console.log(`  ✅ 取得 ${sd.length} 筆\n`);
+        const chatgpt = await scrapePromptHero(page, SOURCES[1].url, 3);
+        allData.push({ source: SOURCES[1], items: chatgpt });
+        console.log(`  ✅ 取得 ${chatgpt.length} 筆\n`);
 
         // 來源 3: PromptHero Midjourney
         console.log(`📦 [3/3] ${SOURCES[2].name}`);
