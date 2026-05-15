@@ -77,6 +77,9 @@
         <span><i class="fa-solid fa-check text-green-500 mr-1"></i> 隨時可取消</span>
         <span><i class="fa-solid fa-check text-green-500 mr-1"></i> 無廣告干擾</span>
     </div>
+    <div class="mt-8 text-sm text-slate-500">
+        不再需要靈感了嗎？ <button type="button" id="unsubBtn" class="text-slate-400 underline hover:text-white transition cursor-pointer">取消訂閱</button>
+    </div>
 </main>
 
 <!-- Preview Section -->
@@ -228,6 +231,7 @@ const emailInput = document.getElementById('emailInput');
 const submitBtn = document.getElementById('submitBtn');
 const btnText = submitBtn.querySelector('span');
 const statusMessage = document.getElementById('statusMessage');
+const unsubBtn = document.getElementById('unsubBtn');
 
 form.addEventListener('submit', async (e) => {
     e.preventDefault();
@@ -238,7 +242,7 @@ form.addEventListener('submit', async (e) => {
     submitBtn.classList.add('opacity-70','cursor-not-allowed');
     btnText.innerHTML = '<div class="spinner"></div> 處理中...';
     statusMessage.classList.add('hidden');
-    statusMessage.classList.remove('text-green-400','text-red-400');
+    statusMessage.classList.remove('text-green-400','text-red-400', 'text-orange-400');
 
     // Call Apps Script Web App
     try {
@@ -268,6 +272,47 @@ form.addEventListener('submit', async (e) => {
     submitBtn.disabled = false;
     submitBtn.classList.remove('opacity-70','cursor-not-allowed');
     btnText.innerHTML = '立即免費訂閱';
+});
+
+unsubBtn.addEventListener('click', async () => {
+    const email = emailInput.value.trim();
+    if (!email) {
+        statusMessage.classList.remove('hidden', 'text-green-400', 'text-red-400', 'text-orange-400');
+        statusMessage.innerHTML = '<i class="fa-solid fa-circle-exclamation"></i> 請先輸入要取消訂閱的信箱！';
+        statusMessage.classList.add('text-orange-400','block');
+        return;
+    }
+
+    submitBtn.disabled = true;
+    unsubBtn.disabled = true;
+    unsubBtn.innerText = '處理中...';
+    statusMessage.classList.add('hidden');
+    statusMessage.classList.remove('text-green-400','text-red-400', 'text-orange-400');
+
+    try {
+        const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxRQ0C5rLCVmHeQ_R2ai-cMASQ4kWb9TRZiA06vdFHaSQCcaCRDsk7I8X-V7royTScb/exec';
+        const res = await fetch(`${APPS_SCRIPT_URL}?action=unsubscribe&email=${encodeURIComponent(email)}`);
+        const result = await res.json();
+
+        statusMessage.classList.remove('hidden', 'text-green-400', 'text-red-400', 'text-orange-400');
+        
+        if (result.status === 'success') {
+            statusMessage.innerHTML = `<i class="fa-solid fa-circle-check"></i> ${result.message}`;
+            statusMessage.classList.add('text-green-400','block');
+            form.reset();
+        } else {
+            statusMessage.innerHTML = `<i class="fa-solid fa-circle-xmark"></i> ${result.message || '操作失敗，請稍後再試'}`;
+            statusMessage.classList.add('text-red-400','block');
+        }
+    } catch (e) {
+        statusMessage.classList.remove('hidden');
+        statusMessage.innerHTML = '<i class="fa-solid fa-circle-xmark"></i> 網路錯誤，請稍後再試。';
+        statusMessage.classList.add('text-red-400','block');
+    }
+
+    submitBtn.disabled = false;
+    unsubBtn.disabled = false;
+    unsubBtn.innerText = '取消訂閱';
 });
 
 // ── Copy ──

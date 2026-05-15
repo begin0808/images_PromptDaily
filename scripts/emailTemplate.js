@@ -56,7 +56,7 @@ function generateEmailHTML(allData, dateStr) {
     <!-- Header -->
     <tr><td style="padding:32px 24px 16px;text-align:center;">
         <div style="font-size:22px;font-weight:700;color:#f8fafc;margin-bottom:4px;">
-            ✨ Prompt<span style="color:#a855f7;">Daily</span>
+            ✨ Studio0808_Prompt<span style="color:#a855f7;">Daily</span>
         </div>
         <div style="font-size:12px;color:#64748b;">${dateStr} — 每日 AI 提示詞精選</div>
     </td></tr>
@@ -84,11 +84,11 @@ function generateEmailHTML(allData, dateStr) {
     <!-- Footer -->
     <tr><td style="padding:20px 24px 32px;text-align:center;">
         <p style="font-size:11px;color:#64748b;margin:0 0 8px;">
-            此信件由 PromptDaily 自動發送<br>
-            資料來源：PromptHero · OpenArt
+            此信件由 Studio0808_PromptDaily 自動發送<br>
+            資料來源：PromptHero · ChatGPT · Midjourney
         </p>
         <p style="font-size:11px;color:#475569;margin:0;">
-            不想再收到？<a href="https://begin0808.github.io/images_PromptDaily/unsubscribe.html" style="color:#a855f7;text-decoration:underline;">取消訂閱</a>
+            不想再收到？<a href="https://begin0808.github.io/images_PromptDaily/" style="color:#a855f7;text-decoration:underline;">至首頁取消訂閱</a>
         </p>
     </td></tr>
 
