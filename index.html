@@ -177,7 +177,7 @@
 // ── Sample Data ──
 const sampleData = {
     'cards-ph-top': [
-        { rank:1, model:'FLUX', prompt:'A stunning portrait of an ethereal woman with bioluminescent skin patterns, deep ocean background, jellyfish floating around, volumetric lighting, 8k ultra detailed --ar 2:3 --v 6.1', img:'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=500&q=80' },
+        { rank:1, model:'FLUX', prompt:'Abstract fluid waves, vibrant gradient colors of purple, orange and pink, smooth 3D render, minimalist wallpaper style, high resolution, soft lighting --ar 16:9', img:'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=500&q=80' },
         { rank:2, model:'Stable Diffusion XL', prompt:'Miniature isometric Tokyo ramen shop at night, warm lantern glow, tiny detailed figures, tilt-shift photography style, rain-slicked streets reflecting neon --ar 1:1', img:'https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=500&q=80' },
         { rank:3, model:'DALL·E 3', prompt:'Surreal floating library in the clouds, ancient books with golden pages flying like birds, dramatic sunset sky, digital matte painting, cinematic composition', img:'https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=500&q=80' }
     ],
@@ -211,9 +211,12 @@ Object.entries(sampleData).forEach(([containerId, items]) => {
             <div class="p-5">
                 <p class="text-xs text-slate-400 mb-2 font-mono uppercase tracking-wider">${item.model}</p>
                 <p class="text-sm text-slate-200 line-clamp-3 mb-4 cursor-pointer hover:text-white transition" onclick="copyText(this)">${item.prompt}</p>
-                <button class="text-xs text-purple-400 hover:text-purple-300 flex items-center gap-1 transition" onclick="copyText(this.previousElementSibling)">
-                    <i class="fa-regular fa-copy"></i> 點擊複製提示詞
-                </button>
+                <div class="flex items-center justify-between mt-2">
+                    <button class="text-xs text-purple-400 hover:text-purple-300 flex items-center gap-1 transition" onclick="copyText(this.parentElement.previousElementSibling)">
+                        <i class="fa-regular fa-copy"></i> 點擊複製提示詞
+                    </button>
+                    <a href="#" class="text-xs text-slate-400 hover:text-white transition">查看原圖 &rarr;</a>
+                </div>
             </div>
         </div>`;
     });
