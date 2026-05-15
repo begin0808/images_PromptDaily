@@ -32,6 +32,14 @@ jobs:
           MY_EMAIL: ${{ secrets.MY_EMAIL }}
         run: node index.js --now
 
+      - name: 🚀 發布最新資料至網頁
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/latest.json
+          git commit -m "Auto-update latest prompts [skip ci]" || echo "No changes to commit"
+          git push
+
       - name: 💾 保存爬取記錄（除錯用）
         if: always()
         uses: actions/upload-artifact@v4
@@ -40,4 +48,5 @@ jobs:
           path: |
             scripts/last-scrape.json
             scripts/last-email.html
+            data/latest.json
           retention-days: 7

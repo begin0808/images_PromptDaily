@@ -63,8 +63,15 @@ async function main() {
     } else {
         allData = await scrapeAll();
 
-        // 將爬取結果存為 JSON（除錯用）
-        const outputPath = path.join(__dirname, 'last-scrape.json');
+        // 將爬取結果存為 JSON（除錯與前端網頁即時讀取用）
+        const debugPath = path.join(__dirname, 'last-scrape.json');
+        fs.writeFileSync(debugPath, JSON.stringify(allData, null, 2), 'utf-8');
+        
+        const dataDir = path.join(__dirname, '..', 'data');
+        if (!fs.existsSync(dataDir)) {
+            fs.mkdirSync(dataDir, { recursive: true });
+        }
+        const outputPath = path.join(dataDir, 'latest.json');
         fs.writeFileSync(outputPath, JSON.stringify(allData, null, 2), 'utf-8');
         console.log(`💾 爬取結果已儲存: ${outputPath}\n`);
     }

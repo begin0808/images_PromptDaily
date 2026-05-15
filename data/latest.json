@@ -1,0 +1,98 @@
+[
+  {
+    "source": {
+      "id": "ph-top",
+      "name": "PromptHero 熱門榜",
+      "url": "https://prompthero.com/top",
+      "icon": "🔥",
+      "color": "orange"
+    },
+    "items": [
+      {
+        "rank": 1,
+        "imageUrl": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=500&q=80",
+        "prompt": "A stunning cyberpunk portrait of an ethereal woman with bioluminescent neon skin patterns, rain-slicked futuristic city background, cinematic lighting, 8k ultra detailed --ar 2:3 --v 6.1",
+        "model": "FLUX",
+        "link": "https://prompthero.com/top"
+      },
+      {
+        "rank": 2,
+        "imageUrl": "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=500&q=80",
+        "prompt": "Miniature isometric Tokyo ramen shop at night, warm lantern glow, tiny detailed figures, tilt-shift photography style, rain-slicked streets reflecting neon --ar 1:1",
+        "model": "Stable Diffusion XL",
+        "link": "https://prompthero.com/top"
+      },
+      {
+        "rank": 3,
+        "imageUrl": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=500&q=80",
+        "prompt": "Surreal floating library in the clouds, ancient books with golden pages flying like birds, dramatic sunset sky, digital matte painting, cinematic composition",
+        "model": "DALL·E 3",
+        "link": "https://prompthero.com/top"
+      }
+    ]
+  },
+  {
+    "source": {
+      "id": "openart",
+      "name": "OpenArt 探索",
+      "url": "https://openart.ai/discovery",
+      "icon": "🎨",
+      "color": "purple"
+    },
+    "items": [
+      {
+        "rank": 1,
+        "imageUrl": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80",
+        "prompt": "Beautiful anime girl with ethereal glowing butterflies, pastel colors, soft studio lighting, intricate details, watercolor style, masterpiece --ar 3:4 --niji 6",
+        "model": "Midjourney V6",
+        "link": "https://openart.ai/discovery"
+      },
+      {
+        "rank": 2,
+        "imageUrl": "https://images.unsplash.com/photo-1620121692029-d088224ddc74?w=500&q=80",
+        "prompt": "Photorealistic macro shot of a crystal dragon eye, rainbow refraction inside iris, moisture droplets on scales, dark background, extreme close-up, 16k detail",
+        "model": "FLUX Dev",
+        "link": "https://openart.ai/discovery"
+      },
+      {
+        "rank": 3,
+        "imageUrl": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=500&q=80",
+        "prompt": "Cozy autumn cottage in a misty forest, smoke from chimney, golden fallen leaves, a winding stone path, warm window light, Ghibli inspired, digital painting",
+        "model": "Stable Diffusion",
+        "link": "https://openart.ai/discovery"
+      }
+    ]
+  },
+  {
+    "source": {
+      "id": "mj",
+      "name": "Midjourney 精選",
+      "url": "https://prompthero.com/midjourney-prompts",
+      "icon": "✨",
+      "color": "pink"
+    },
+    "items": [
+      {
+        "rank": 1,
+        "imageUrl": "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=500&q=80",
+        "prompt": "Cyberpunk futuristic street at night, neon signs, flying cars, rain reflecting vibrant colors, ultra-detailed architectural render, cinematic sci-fi atmosphere --ar 16:9 --stylize 250",
+        "model": "Midjourney V6",
+        "link": "https://prompthero.com/midjourney-prompts"
+      },
+      {
+        "rank": 2,
+        "imageUrl": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=500&q=80",
+        "prompt": "Epic samurai standing on a cliff edge, cherry blossoms in the wind, dramatic storm clouds, golden hour lighting, hyper detailed armor, cinematic --ar 16:9 --v 6.1",
+        "model": "Midjourney V6",
+        "link": "https://prompthero.com/midjourney-prompts"
+      },
+      {
+        "rank": 3,
+        "imageUrl": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=500&q=80",
+        "prompt": "Cute chibi robot barista making latte art, steampunk coffee shop, warm lighting, gears and pipes, whimsical atmosphere, kawaii style --niji 6 --ar 1:1",
+        "model": "Midjourney Niji",
+        "link": "https://prompthero.com/midjourney-prompts"
+      }
+    ]
+  }
+]

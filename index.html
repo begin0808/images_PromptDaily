@@ -160,7 +160,7 @@
     </div>
 
     <p class="text-center text-slate-500 text-sm mt-10 fade-in">
-        <i class="fa-solid fa-info-circle mr-1"></i> 以上為示範內容，實際信件將包含即時爬取的最新熱門提示詞（共 9 組）。
+        <i class="fa-solid fa-robot mr-1"></i> 以上內容為真實爬取結果，由 GitHub Actions 每日自動更新。
     </p>
 </div>
 </section>
@@ -174,53 +174,54 @@
 </footer>
 
 <script>
-// ── Sample Data ──
-const sampleData = {
-    'cards-ph-top': [
-        { rank:1, model:'FLUX', prompt:'A stunning cyberpunk portrait of an ethereal woman with bioluminescent neon skin patterns, rain-slicked futuristic city background, cinematic lighting, 8k ultra detailed --ar 2:3 --v 6.1', img:'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=500&q=80', url:'https://prompthero.com' },
-        { rank:2, model:'Stable Diffusion XL', prompt:'Miniature isometric Tokyo ramen shop at night, warm lantern glow, tiny detailed figures, tilt-shift photography style, rain-slicked streets reflecting neon --ar 1:1', img:'https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=500&q=80', url:'https://prompthero.com' },
-        { rank:3, model:'DALL·E 3', prompt:'Surreal floating library in the clouds, ancient books with golden pages flying like birds, dramatic sunset sky, digital matte painting, cinematic composition', img:'https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=500&q=80', url:'https://prompthero.com' }
-    ],
-    'cards-openart': [
-        { rank:1, model:'Midjourney V6', prompt:'Beautiful anime girl with ethereal glowing butterflies, pastel colors, soft studio lighting, intricate details, watercolor style, masterpiece --ar 3:4 --niji 6', img:'https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500&q=80', url:'https://openart.ai' },
-        { rank:2, model:'FLUX Dev', prompt:'Photorealistic macro shot of a crystal dragon eye, rainbow refraction inside iris, moisture droplets on scales, dark background, extreme close-up, 16k detail', img:'https://images.unsplash.com/photo-1620121692029-d088224ddc74?w=500&q=80', url:'https://openart.ai' },
-        { rank:3, model:'Stable Diffusion', prompt:'Cozy autumn cottage in a misty forest, smoke from chimney, golden fallen leaves, a winding stone path, warm window light, Ghibli inspired, digital painting', img:'https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=500&q=80', url:'https://openart.ai' }
-    ],
-    'cards-mj': [
-        { rank:1, model:'Midjourney V6', prompt:'Cyberpunk futuristic street at night, neon signs, flying cars, rain reflecting vibrant colors, ultra-detailed architectural render, cinematic sci-fi atmosphere --ar 16:9 --stylize 250', img:'https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=500&q=80', url:'https://prompthero.com/midjourney-prompts' },
-        { rank:2, model:'Midjourney V6', prompt:'Epic samurai standing on a cliff edge, cherry blossoms in the wind, dramatic storm clouds, golden hour lighting, hyper detailed armor, cinematic --ar 16:9 --v 6.1', img:'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=500&q=80', url:'https://prompthero.com/midjourney-prompts' },
-        { rank:3, model:'Midjourney Niji', prompt:'Cute chibi robot barista making latte art, steampunk coffee shop, warm lighting, gears and pipes, whimsical atmosphere, kawaii style --niji 6 --ar 1:1', img:'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=500&q=80', url:'https://prompthero.com/midjourney-prompts' }
-    ]
-};
-
-// ── Render Cards ──
+// ── Render Cards (Dynamic Fetch) ──
 const rankIcons = ['🥇','🥈','🥉'];
 const rankClasses = ['rank-1','rank-2','rank-3'];
 
-Object.entries(sampleData).forEach(([containerId, items]) => {
-    const container = document.getElementById(containerId);
-    items.forEach(item => {
-        container.innerHTML += `
-        <div class="glass rounded-2xl overflow-hidden card-hover relative">
-            <div class="rank-badge ${rankClasses[item.rank-1]}">${rankIcons[item.rank-1]}</div>
-            <div class="relative">
-                <div class="w-full h-56 bg-slate-800 overflow-hidden">
-                    <img src="${item.img}" class="object-cover w-full h-full hover:scale-105 transition duration-500" alt="AI Art" loading="lazy">
-                </div>
-            </div>
-            <div class="p-5">
-                <p class="text-xs text-slate-400 mb-2 font-mono uppercase tracking-wider">${item.model}</p>
-                <p class="text-sm text-slate-200 line-clamp-3 mb-4 cursor-pointer hover:text-white transition" onclick="copyText(this)">${item.prompt}</p>
-                <div class="flex items-center justify-between mt-2">
-                    <button class="text-xs text-purple-400 hover:text-purple-300 flex items-center gap-1 transition" onclick="copyText(this.parentElement.previousElementSibling)">
-                        <i class="fa-regular fa-copy"></i> 點擊複製提示詞
-                    </button>
-                    <a href="${item.url || '#'}" target="_blank" rel="noopener noreferrer" class="text-xs text-slate-400 hover:text-white transition">查看原圖 &rarr;</a>
-                </div>
-            </div>
-        </div>`;
-    });
-});
+async function loadLatestPrompts() {
+    try {
+        const res = await fetch('data/latest.json');
+        if (!res.ok) throw new Error('Failed to fetch data');
+        const data = await res.json();
+        
+        data.forEach(({ source, items }) => {
+            const containerId = `cards-${source.id}`;
+            const container = document.getElementById(containerId);
+            if (!container) return;
+            
+            container.innerHTML = ''; // Clear loading
+            
+            items.forEach(item => {
+                const imgUrl = item.imageUrl || item.img;
+                const linkUrl = item.link || item.url || '#';
+                
+                container.innerHTML += `
+                <div class="glass rounded-2xl overflow-hidden card-hover relative">
+                    <div class="rank-badge ${rankClasses[item.rank-1]}">${rankIcons[item.rank-1]}</div>
+                    <div class="relative">
+                        <div class="w-full h-56 bg-slate-800 overflow-hidden">
+                            <img src="${imgUrl}" class="object-cover w-full h-full hover:scale-105 transition duration-500" alt="AI Art" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="p-5">
+                        <p class="text-xs text-slate-400 mb-2 font-mono uppercase tracking-wider">${item.model || 'AI Model'}</p>
+                        <p class="text-sm text-slate-200 line-clamp-3 mb-4 cursor-pointer hover:text-white transition" onclick="copyText(this)">${item.prompt}</p>
+                        <div class="flex items-center justify-between mt-2">
+                            <button class="text-xs text-purple-400 hover:text-purple-300 flex items-center gap-1 transition" onclick="copyText(this.parentElement.previousElementSibling)">
+                                <i class="fa-regular fa-copy"></i> 點擊複製提示詞
+                            </button>
+                            <a href="${linkUrl}" target="_blank" rel="noopener noreferrer" class="text-xs text-slate-400 hover:text-white transition">查看原圖 &rarr;</a>
+                        </div>
+                    </div>
+                </div>`;
+            });
+        });
+    } catch (err) {
+        console.error('Error loading data:', err);
+    }
+}
+
+loadLatestPrompts();
 
 // ── Subscribe Form (no Firebase) ──
 const form = document.getElementById('subscribeForm');
