@@ -1,10 +1,10 @@
 [
   {
     "source": {
+      "id": "ph-top",
       "name": "PromptHero 熱門榜",
       "url": "https://prompthero.com/top",
-      "icon": "🔥",
-      "id": "ph-top"
+      "icon": "🔥"
     },
     "items": [
       {
@@ -32,41 +32,41 @@
   },
   {
     "source": {
-      "name": "OpenArt 探索",
-      "url": "https://openart.ai/discovery",
-      "icon": "🎨",
-      "id": "openart"
+      "id": "sd",
+      "name": "Stable Diffusion 精選",
+      "url": "https://prompthero.com/stable-diffusion-prompts",
+      "icon": "🖌️"
     },
     "items": [
       {
         "rank": 1,
-        "imageUrl": "https://cdn.openart.ai/stories/thumbnails/image_A0IPxAyK_1778802623591.jpg",
-        "prompt": "A Journey of Respect",
-        "model": "OpenArt",
-        "link": "https://openart.ai/story/community/1RoCoiUJzJCZIuSWt2iB"
+        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fg85340p71q25gb6bjz8vqivdmiux&w=1920&q=75",
+        "prompt": "stable diffusion 15 strong warrior princess centered key visual intricate highly detailed breathtaking beauty precise lineart vibrant comprehensive cinematic carne griffiths conrad roset",
+        "model": "Stable Diffusion",
+        "link": "https://prompthero.com/prompt/9f35d13cd13-stable-diffusion-15-strong-warrior-princess-centered-key-visual-intricate-highly-detailed-breathtaking-beauty-precise-lineart-vibrant-comprehensive-cinematic-carne-griffiths-conrad-roset"
       },
       {
         "rank": 2,
-        "imageUrl": "https://cdn.openart.ai/video_thumbnail/9zQLRsnWZ3uF6F28wUqT/thumbnail_6aaa4e60_1778792104992.webp",
-        "prompt": "Silent Warrior Through the Storm",
-        "model": "OpenArt",
-        "link": "https://openart.ai/story/community/k52AIfWFLq2SrPGoCr4k"
+        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F8vsajf5okvs9v0imi4jkiic3hjdw&w=1920&q=75",
+        "prompt": "yO LO REALICE con el dreamshaper 6, y salio espectacular :",
+        "model": "Stable Diffusion",
+        "link": "https://prompthero.com/prompt/eedee759ddc-stable-diffusion-15-a-portrait-of-an-old-coal-miner-in-19th-century-beautiful-painting-with-highly-detailed-face-by-greg-rutkowski-and"
       },
       {
         "rank": 3,
-        "imageUrl": "https://cdn.openart.ai/video_thumbnail/user_3Dfi86qmFxBjx4fpJT7FtHAfXpL/thumbnail_827d4990_1778706083916.webp",
-        "prompt": "Majestad: Un Viaje de Luz y Asombro",
-        "model": "OpenArt",
-        "link": "https://openart.ai/story/community/fDU7GQPzJrW1XRE6jnQ5"
+        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fg4n3boj7wkfug4mkf68fj0dcj6os&w=1920&q=75",
+        "prompt": "stable diffusion 15 hyper realistic painting of a beautiful girl in an eva plugsuit hyper detailed anime by greg rutkowski trending on artstation",
+        "model": "Stable Diffusion",
+        "link": "https://prompthero.com/prompt/8863f6cbc15-stable-diffusion-15-hyper-realistic-painting-of-a-beautiful-girl-in-an-eva-plugsuit-hyper-detailed-anime-by-greg-rutkowski-trending-on-artstation"
       }
     ]
   },
   {
     "source": {
+      "id": "mj",
       "name": "Midjourney 精選",
       "url": "https://prompthero.com/midjourney-prompts",
-      "icon": "✨",
-      "id": "mj"
+      "icon": "✨"
     },
     "items": [
       {
