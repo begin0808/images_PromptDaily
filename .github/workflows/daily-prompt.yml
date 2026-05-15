@@ -1,0 +1,43 @@
+name: 📧 PromptDaily 每日提示詞寄送
+
+on:
+  schedule:
+    # 每天 UTC 21:00 = 台灣時間 05:00
+    - cron: '0 21 * * *'
+  workflow_dispatch:  # 允許手動觸發
+
+jobs:
+  scrape-and-send:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: 📥 Checkout 程式碼
+        uses: actions/checkout@v4
+
+      - name: 🟢 安裝 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 📦 安裝依賴
+        working-directory: ./scripts
+        run: npm install
+
+      - name: 🤖 執行爬蟲 + 寄信
+        working-directory: ./scripts
+        env:
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          MY_EMAIL: ${{ secrets.MY_EMAIL }}
+        run: node index.js --now
+
+      - name: 💾 保存爬取記錄（除錯用）
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: scrape-results-${{ github.run_number }}
+          path: |
+            scripts/last-scrape.json
+            scripts/last-email.html
+          retention-days: 7

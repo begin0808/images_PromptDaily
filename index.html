@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PromptDaily - 每日 AI 熱門提示詞訂閱</title>
+    <meta name="description" content="每天早上5點自動寄送 PromptHero、OpenArt 最熱門的 AI 繪圖提示詞到您的信箱。">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap');
+        body { font-family: 'Noto Sans TC', sans-serif; background: #0f172a; color: #f8fafc; }
+        .gradient-text { background: linear-gradient(135deg,#a855f7,#ec4899,#f43f5e); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+        .glass { background: rgba(30,41,59,0.65); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.08); }
+        .spinner { border:3px solid rgba(255,255,255,0.3); border-radius:50%; border-top:3px solid #fff; width:20px; height:20px; animation:spin 1s linear infinite; display:inline-block; vertical-align:middle; margin-right:8px; }
+        @keyframes spin { to { transform:rotate(360deg); } }
+        @keyframes float { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-8px)} }
+        .float-anim { animation: float 3s ease-in-out infinite; }
+        .fade-in { opacity:0; transform:translateY(28px); transition: opacity 0.7s ease, transform 0.7s ease; }
+        .fade-in.visible { opacity:1; transform:translateY(0); }
+        .card-hover { transition: transform 0.3s, box-shadow 0.3s; }
+        .card-hover:hover { transform: translateY(-6px); box-shadow: 0 16px 48px rgba(0,0,0,0.3); }
+        .rank-badge { position:absolute; top:12px; left:12px; width:36px; height:36px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:1.1rem; font-weight:700; z-index:2; backdrop-filter:blur(8px); }
+        .rank-1 { background: linear-gradient(135deg,#fbbf24,#f59e0b); color:#78350f; box-shadow:0 2px 12px rgba(251,191,36,0.4); }
+        .rank-2 { background: linear-gradient(135deg,#d1d5db,#9ca3af); color:#1f2937; box-shadow:0 2px 12px rgba(156,163,175,0.3); }
+        .rank-3 { background: linear-gradient(135deg,#d97706,#b45309); color:#fff; box-shadow:0 2px 12px rgba(217,119,6,0.3); }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col relative overflow-x-hidden">
+
+<!-- BG -->
+<div class="fixed top-[-10%] left-[-10%] w-[40%] h-[40%] bg-purple-600/30 rounded-full blur-[120px] pointer-events-none"></div>
+<div class="fixed bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-pink-600/20 rounded-full blur-[120px] pointer-events-none"></div>
+
+<!-- Nav -->
+<nav class="w-full px-6 py-4 flex justify-between items-center z-10 glass border-b border-slate-800/50 sticky top-0">
+    <div class="text-xl font-bold tracking-wider flex items-center gap-2">
+        <i class="fa-solid fa-wand-magic-sparkles text-purple-400"></i>
+        <span>Prompt<span class="text-purple-400">Daily</span></span>
+    </div>
+    <div class="flex items-center gap-4">
+        <a href="#preview" class="text-sm text-slate-300 hover:text-white transition">預覽今日報</a>
+        <a href="plan.html" class="text-sm text-slate-300 hover:text-white transition">開發計畫</a>
+    </div>
+</nav>
+
+<!-- Hero -->
+<main class="flex-grow flex flex-col items-center justify-center px-4 py-20 z-10 text-center">
+    <div class="inline-block px-4 py-1.5 rounded-full bg-slate-800/50 border border-slate-700 text-sm text-slate-300 mb-6 backdrop-blur-sm">
+        <i class="fa-regular fa-clock mr-2 text-pink-400"></i> 每天早上 5:00 準時發送
+    </div>
+    <h1 class="text-4xl md:text-6xl font-black mb-6 leading-tight max-w-4xl">
+        每日為您蒐集全球 <br><span class="gradient-text">最火熱的 AI 繪圖提示詞</span>
+    </h1>
+    <p class="text-lg md:text-xl text-slate-400 mb-10 max-w-2xl leading-relaxed">
+        不用再到處爬文找靈感！我們每天從 PromptHero 與 OpenArt 嚴選各前三名最熱門的圖片與 Prompt，直接送達您的信箱。
+    </p>
+
+    <!-- Subscribe Form -->
+    <form id="subscribeForm" class="w-full max-w-md flex flex-col sm:flex-row gap-3 relative">
+        <div class="relative flex-grow">
+            <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                <i class="fa-regular fa-envelope text-slate-400"></i>
+            </div>
+            <input type="email" id="emailInput" required
+                class="block w-full pl-10 pr-3 py-4 rounded-xl border border-slate-700 bg-slate-800/80 text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition"
+                placeholder="輸入您的電子信箱">
+        </div>
+        <button type="submit" id="submitBtn"
+            class="w-full sm:w-auto px-6 py-4 rounded-xl bg-gradient-to-r from-purple-600 to-pink-600 text-white font-bold hover:from-purple-500 hover:to-pink-500 transition shadow-lg shadow-purple-500/30 flex items-center justify-center">
+            <span>立即免費訂閱</span>
+        </button>
+    </form>
+    <div id="statusMessage" class="mt-4 text-sm hidden font-medium"></div>
+    <div class="mt-8 text-sm text-slate-500 flex items-center gap-4 flex-wrap justify-center">
+        <span><i class="fa-solid fa-check text-green-500 mr-1"></i> 完全免費</span>
+        <span><i class="fa-solid fa-check text-green-500 mr-1"></i> 隨時可取消</span>
+        <span><i class="fa-solid fa-check text-green-500 mr-1"></i> 無廣告干擾</span>
+    </div>
+</main>
+
+<!-- How It Works -->
+<section class="w-full py-20 z-10 border-t border-slate-800">
+    <div class="max-w-5xl mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-2 text-center fade-in">運作原理</h2>
+        <p class="text-slate-400 text-center mb-14 fade-in">全自動的靈感快遞，零手動操作</p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="glass rounded-2xl p-6 text-center fade-in card-hover">
+                <div class="w-14 h-14 mx-auto mb-4 rounded-xl bg-purple-500/15 flex items-center justify-center float-anim">
+                    <i class="fa-solid fa-envelope-open-text text-2xl text-purple-400"></i>
+                </div>
+                <h3 class="font-bold mb-2 text-white">1. 輸入信箱</h3>
+                <p class="text-sm text-slate-400">填入您的 Email 即完成訂閱</p>
+            </div>
+            <div class="glass rounded-2xl p-6 text-center fade-in card-hover" style="transition-delay:0.1s">
+                <div class="w-14 h-14 mx-auto mb-4 rounded-xl bg-pink-500/15 flex items-center justify-center float-anim" style="animation-delay:0.5s">
+                    <i class="fa-solid fa-robot text-2xl text-pink-400"></i>
+                </div>
+                <h3 class="font-bold mb-2 text-white">2. 自動爬取</h3>
+                <p class="text-sm text-slate-400">機器人每天凌晨從 3 個來源蒐集熱門提示詞</p>
+            </div>
+            <div class="glass rounded-2xl p-6 text-center fade-in card-hover" style="transition-delay:0.2s">
+                <div class="w-14 h-14 mx-auto mb-4 rounded-xl bg-blue-500/15 flex items-center justify-center float-anim" style="animation-delay:1s">
+                    <i class="fa-solid fa-wand-magic-sparkles text-2xl text-blue-400"></i>
+                </div>
+                <h3 class="font-bold mb-2 text-white">3. 精心排版</h3>
+                <p class="text-sm text-slate-400">將圖片與提示詞組裝成精美的 HTML 信件</p>
+            </div>
+            <div class="glass rounded-2xl p-6 text-center fade-in card-hover" style="transition-delay:0.3s">
+                <div class="w-14 h-14 mx-auto mb-4 rounded-xl bg-green-500/15 flex items-center justify-center float-anim" style="animation-delay:1.5s">
+                    <i class="fa-solid fa-paper-plane text-2xl text-green-400"></i>
+                </div>
+                <h3 class="font-bold mb-2 text-white">4. 準時送達</h3>
+                <p class="text-sm text-slate-400">每天早上 05:00 信件自動送進您的信箱</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Preview Section -->
+<section id="preview" class="w-full py-20 bg-slate-900/50 z-10 border-t border-slate-800">
+<div class="max-w-6xl mx-auto px-4">
+    <h2 class="text-3xl font-bold mb-2 text-center fade-in">信件內容預覽</h2>
+    <p class="text-slate-400 text-center mb-14 fade-in">看看您每天早上會收到什麼樣的靈感寶庫 — 3 個來源，各 3 組精選</p>
+
+    <!-- Source 1: PromptHero Top -->
+    <div class="mb-14 fade-in">
+        <div class="flex items-center gap-3 mb-6">
+            <div class="w-10 h-10 rounded-lg bg-orange-500/15 flex items-center justify-center"><i class="fa-solid fa-fire text-orange-400 text-lg"></i></div>
+            <div>
+                <h3 class="text-xl font-bold text-white">PromptHero 熱門榜</h3>
+                <p class="text-xs text-slate-500">prompthero.com/top — 全站最受歡迎作品</p>
+            </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6" id="cards-ph-top"></div>
+    </div>
+
+    <!-- Source 2: OpenArt -->
+    <div class="mb-14 fade-in">
+        <div class="flex items-center gap-3 mb-6">
+            <div class="w-10 h-10 rounded-lg bg-purple-500/15 flex items-center justify-center"><i class="fa-solid fa-palette text-purple-400 text-lg"></i></div>
+            <div>
+                <h3 class="text-xl font-bold text-white">OpenArt 探索</h3>
+                <p class="text-xs text-slate-500">openart.ai/discovery — 社群精選創作</p>
+            </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6" id="cards-openart"></div>
+    </div>
+
+    <!-- Source 3: PromptHero MJ -->
+    <div class="mb-8 fade-in">
+        <div class="flex items-center gap-3 mb-6">
+            <div class="w-10 h-10 rounded-lg bg-pink-500/15 flex items-center justify-center"><i class="fa-solid fa-wand-sparkles text-pink-400 text-lg"></i></div>
+            <div>
+                <h3 class="text-xl font-bold text-white">Midjourney 精選</h3>
+                <p class="text-xs text-slate-500">prompthero.com/midjourney-prompts — MJ 分類最佳作品</p>
+            </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6" id="cards-mj"></div>
+    </div>
+
+    <p class="text-center text-slate-500 text-sm mt-10 fade-in">
+        <i class="fa-solid fa-info-circle mr-1"></i> 以上為示範內容，實際信件將包含即時爬取的最新熱門提示詞（共 9 組）。
+    </p>
+</div>
+</section>
+
+<!-- Footer -->
+<footer class="py-6 border-t border-slate-800 text-center text-slate-500 text-sm z-10 bg-slate-900/80">
+    &copy; 2024 PromptDaily. All rights reserved.<br>
+    <span class="text-xs">
+        <a href="plan.html" class="text-purple-400 hover:text-purple-300 transition">查看開發計畫</a>
+    </span>
+</footer>
+
+<script>
+// ── Sample Data ──
+const sampleData = {
+    'cards-ph-top': [
+        { rank:1, model:'FLUX', prompt:'A stunning portrait of an ethereal woman with bioluminescent skin patterns, deep ocean background, jellyfish floating around, volumetric lighting, 8k ultra detailed --ar 2:3 --v 6.1', img:'https://images.unsplash.com/photo-1678885121081-6458512e09bc?w=500&q=80' },
+        { rank:2, model:'Stable Diffusion XL', prompt:'Miniature isometric Tokyo ramen shop at night, warm lantern glow, tiny detailed figures, tilt-shift photography style, rain-slicked streets reflecting neon --ar 1:1', img:'https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=500&q=80' },
+        { rank:3, model:'DALL·E 3', prompt:'Surreal floating library in the clouds, ancient books with golden pages flying like birds, dramatic sunset sky, digital matte painting, cinematic composition', img:'https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=500&q=80' }
+    ],
+    'cards-openart': [
+        { rank:1, model:'Midjourney V6', prompt:'Beautiful anime girl with ethereal glowing butterflies, pastel colors, soft studio lighting, intricate details, watercolor style, masterpiece --ar 3:4 --niji 6', img:'https://images.unsplash.com/photo-1685303494796-03c0042a96f1?w=500&q=80' },
+        { rank:2, model:'FLUX Dev', prompt:'Photorealistic macro shot of a crystal dragon eye, rainbow refraction inside iris, moisture droplets on scales, dark background, extreme close-up, 16k detail', img:'https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=500&q=80' },
+        { rank:3, model:'Stable Diffusion', prompt:'Cozy autumn cottage in a misty forest, smoke from chimney, golden fallen leaves, a winding stone path, warm window light, Ghibli inspired, digital painting', img:'https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=500&q=80' }
+    ],
+    'cards-mj': [
+        { rank:1, model:'Midjourney V6', prompt:'Abstract 3D liquid shapes floating in space, iridescent colors, macro photography, octane render, unreal engine 5, crystal clear, depth of field --ar 1:1 --stylize 250', img:'https://images.unsplash.com/photo-1694709419131-7e8c1ba14502?w=500&q=80' },
+        { rank:2, model:'Midjourney V6', prompt:'Epic samurai standing on a cliff edge, cherry blossoms in the wind, dramatic storm clouds, golden hour lighting, hyper detailed armor, cinematic --ar 16:9 --v 6.1', img:'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=500&q=80' },
+        { rank:3, model:'Midjourney Niji', prompt:'Cute chibi robot barista making latte art, steampunk coffee shop, warm lighting, gears and pipes, whimsical atmosphere, kawaii style --niji 6 --ar 1:1', img:'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=500&q=80' }
+    ]
+};
+
+// ── Render Cards ──
+const rankIcons = ['🥇','🥈','🥉'];
+const rankClasses = ['rank-1','rank-2','rank-3'];
+
+Object.entries(sampleData).forEach(([containerId, items]) => {
+    const container = document.getElementById(containerId);
+    items.forEach(item => {
+        container.innerHTML += `
+        <div class="glass rounded-2xl overflow-hidden card-hover relative">
+            <div class="rank-badge ${rankClasses[item.rank-1]}">${rankIcons[item.rank-1]}</div>
+            <div class="relative">
+                <div class="w-full h-56 bg-slate-800 overflow-hidden">
+                    <img src="${item.img}" class="object-cover w-full h-full hover:scale-105 transition duration-500" alt="AI Art" loading="lazy">
+                </div>
+            </div>
+            <div class="p-5">
+                <p class="text-xs text-slate-400 mb-2 font-mono uppercase tracking-wider">${item.model}</p>
+                <p class="text-sm text-slate-200 line-clamp-3 mb-4 cursor-pointer hover:text-white transition" onclick="copyText(this)">${item.prompt}</p>
+                <button class="text-xs text-purple-400 hover:text-purple-300 flex items-center gap-1 transition" onclick="copyText(this.previousElementSibling)">
+                    <i class="fa-regular fa-copy"></i> 點擊複製提示詞
+                </button>
+            </div>
+        </div>`;
+    });
+});
+
+// ── Subscribe Form (no Firebase) ──
+const form = document.getElementById('subscribeForm');
+const emailInput = document.getElementById('emailInput');
+const submitBtn = document.getElementById('submitBtn');
+const btnText = submitBtn.querySelector('span');
+const statusMessage = document.getElementById('statusMessage');
+
+form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const email = emailInput.value.trim();
+    if (!email) return;
+
+    submitBtn.disabled = true;
+    submitBtn.classList.add('opacity-70','cursor-not-allowed');
+    btnText.innerHTML = '<div class="spinner"></div> 處理中...';
+    statusMessage.classList.add('hidden');
+    statusMessage.classList.remove('text-green-400','text-red-400');
+
+    // Store locally + simulate
+    await new Promise(r => setTimeout(r, 1200));
+    localStorage.setItem('promptdaily_email', email);
+    form.reset();
+    statusMessage.innerHTML = '<i class="fa-solid fa-circle-check"></i> 訂閱成功！明天早上 5 點記得檢查信箱。';
+    statusMessage.classList.add('text-green-400','block');
+    statusMessage.classList.remove('hidden');
+
+    submitBtn.disabled = false;
+    submitBtn.classList.remove('opacity-70','cursor-not-allowed');
+    btnText.innerHTML = '立即免費訂閱';
+});
+
+// ── Copy ──
+window.copyText = function(el) {
+    navigator.clipboard.writeText(el.innerText).then(() => showToast('提示詞已複製到剪貼簿！')).catch(() => {
+        const ta = document.createElement('textarea');
+        ta.value = el.innerText; document.body.appendChild(ta); ta.select();
+        document.execCommand('copy'); document.body.removeChild(ta);
+        showToast('提示詞已複製！');
+    });
+};
+
+function showToast(msg) {
+    const t = document.createElement('div');
+    t.className = 'fixed bottom-10 left-1/2 -translate-x-1/2 bg-slate-800 text-white px-6 py-3 rounded-full shadow-2xl border border-slate-700 z-50 transition-opacity duration-300 flex items-center gap-2';
+    t.innerHTML = `<i class="fa-solid fa-check text-green-400"></i> ${msg}`;
+    document.body.appendChild(t);
+    setTimeout(() => { t.style.opacity='0'; setTimeout(() => t.remove(), 300); }, 2000);
+}
+
+// ── Scroll Animation ──
+const obs = new IntersectionObserver(entries => {
+    entries.forEach(e => { if(e.isIntersecting) e.target.classList.add('visible'); });
+}, { threshold: 0.1 });
+document.querySelectorAll('.fade-in').forEach(el => obs.observe(el));
+</script>
+</body>
+</html>

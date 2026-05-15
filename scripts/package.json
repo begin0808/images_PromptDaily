@@ -1,0 +1,18 @@
+{
+  "name": "promptdaily-backend",
+  "version": "1.0.0",
+  "description": "PromptDaily - 每日 AI 提示詞爬蟲與寄信服務",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test-scrape": "node index.js --test-scrape",
+    "test-email": "node index.js --test-email",
+    "now": "node index.js --now"
+  },
+  "dependencies": {
+    "puppeteer": "^23.0.0",
+    "cheerio": "^1.0.0",
+    "nodemailer": "^6.9.0",
+    "dotenv": "^16.4.0"
+  }
+}

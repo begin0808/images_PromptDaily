@@ -1,0 +1,5 @@
+node_modules/
+.env
+last-scrape.json
+last-email.html
+.DS_Store

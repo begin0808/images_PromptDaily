@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PromptDaily - 開發計畫</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&family=JetBrains+Mono:wght@400;500&display=swap');
+
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            background-color: #0f172a;
+            color: #f1f5f9;
+            line-height: 1.7;
+            overflow-x: hidden;
+        }
+
+        /* ─── Background ─── */
+        .bg-glow-1 { position: fixed; top: -15%; left: -10%; width: 45%; height: 45%; background: radial-gradient(circle, rgba(139,92,246,0.25), transparent 70%); border-radius: 50%; pointer-events: none; z-index: 0; }
+        .bg-glow-2 { position: fixed; bottom: -15%; right: -10%; width: 45%; height: 45%; background: radial-gradient(circle, rgba(236,72,153,0.18), transparent 70%); border-radius: 50%; pointer-events: none; z-index: 0; }
+
+        /* ─── Nav ─── */
+        nav {
+            position: sticky; top: 0; z-index: 100;
+            display: flex; justify-content: space-between; align-items: center;
+            padding: 1rem 2rem;
+            background: rgba(15,23,42,0.85);
+            backdrop-filter: blur(16px);
+            border-bottom: 1px solid rgba(255,255,255,0.06);
+        }
+        nav .logo { font-size: 1.15rem; font-weight: 700; letter-spacing: 0.04em; }
+        nav .logo span { color: #a855f7; }
+        nav a { color: #94a3b8; text-decoration: none; font-size: 0.875rem; transition: color 0.2s; }
+        nav a:hover { color: #fff; }
+
+        /* ─── Container ─── */
+        .container { max-width: 960px; margin: 0 auto; padding: 0 1.5rem; position: relative; z-index: 1; }
+
+        /* ─── Hero ─── */
+        .hero {
+            text-align: center; padding: 5rem 0 3rem;
+        }
+        .hero h1 { font-size: 2.8rem; font-weight: 900; margin-bottom: 1rem; line-height: 1.25; }
+        .hero h1 .gradient { background: linear-gradient(135deg, #a855f7, #ec4899, #f43f5e); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+        .hero p { color: #94a3b8; font-size: 1.1rem; max-width: 620px; margin: 0 auto; }
+        .badge { display: inline-block; padding: 0.35rem 1rem; border-radius: 999px; background: rgba(30,41,59,0.6); border: 1px solid rgba(255,255,255,0.08); color: #94a3b8; font-size: 0.8rem; margin-bottom: 1.5rem; }
+        .badge i { color: #a855f7; margin-right: 0.35rem; }
+
+        /* ─── Glass Card ─── */
+        .glass {
+            background: rgba(30,41,59,0.55);
+            backdrop-filter: blur(14px);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 1rem;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .glass:hover { transform: translateY(-3px); box-shadow: 0 12px 40px rgba(0,0,0,0.25); }
+
+        .glass h2 {
+            font-size: 1.35rem; font-weight: 700; margin-bottom: 1.25rem;
+            display: flex; align-items: center; gap: 0.6rem;
+        }
+        .glass h2 i { color: #a855f7; font-size: 1.1rem; }
+        .glass h3 { font-size: 1.05rem; font-weight: 600; margin: 1.5rem 0 0.75rem; color: #e2e8f0; }
+
+        /* ─── Architecture ─── */
+        .arch-box {
+            background: rgba(15,23,42,0.7);
+            border: 1px solid rgba(139,92,246,0.2);
+            border-radius: 0.75rem;
+            padding: 1.5rem;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.82rem;
+            line-height: 1.8;
+            color: #cbd5e1;
+            overflow-x: auto;
+            white-space: pre;
+        }
+        .arch-box .folder { color: #a855f7; font-weight: 500; }
+        .arch-box .file { color: #38bdf8; }
+        .arch-box .comment { color: #64748b; }
+        .arch-box .arrow { color: #ec4899; }
+
+        /* ─── Phase Cards ─── */
+        .phase-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin: 1.5rem 0;
+        }
+        .phase-card {
+            background: rgba(30,41,59,0.5);
+            border: 1px solid rgba(255,255,255,0.06);
+            border-radius: 1rem;
+            padding: 1.5rem;
+            position: relative;
+            overflow: hidden;
+            transition: transform 0.3s, border-color 0.3s;
+        }
+        .phase-card:hover { transform: translateY(-4px); border-color: rgba(168,85,247,0.3); }
+        .phase-card .phase-num {
+            position: absolute; top: -8px; right: -8px;
+            font-size: 5rem; font-weight: 900;
+            color: rgba(168,85,247,0.06);
+            line-height: 1; pointer-events: none;
+        }
+        .phase-card .status {
+            display: inline-block;
+            padding: 0.2rem 0.65rem; border-radius: 999px;
+            font-size: 0.72rem; font-weight: 600;
+            margin-bottom: 0.75rem;
+        }
+        .status-active { background: rgba(34,197,94,0.15); color: #4ade80; border: 1px solid rgba(34,197,94,0.2); }
+        .status-pending { background: rgba(234,179,8,0.12); color: #facc15; border: 1px solid rgba(234,179,8,0.15); }
+        .phase-card h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 0.5rem; color: #f1f5f9; }
+        .phase-card p { color: #94a3b8; font-size: 0.88rem; margin-bottom: 1rem; }
+        .phase-card ul { list-style: none; }
+        .phase-card ul li {
+            padding: 0.35rem 0;
+            font-size: 0.85rem;
+            color: #cbd5e1;
+            display: flex; align-items: flex-start; gap: 0.5rem;
+        }
+        .phase-card ul li i { color: #a855f7; margin-top: 0.2rem; font-size: 0.7rem; }
+
+        /* ─── Table ─── */
+        .info-table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0;
+            overflow: hidden;
+            border-radius: 0.75rem;
+            border: 1px solid rgba(255,255,255,0.06);
+            margin: 1rem 0;
+        }
+        .info-table th {
+            background: rgba(139,92,246,0.12);
+            padding: 0.75rem 1rem;
+            text-align: left;
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: #c4b5fd;
+            border-bottom: 1px solid rgba(255,255,255,0.06);
+        }
+        .info-table td {
+            padding: 0.7rem 1rem;
+            font-size: 0.85rem;
+            color: #cbd5e1;
+            border-bottom: 1px solid rgba(255,255,255,0.04);
+        }
+        .info-table tr:last-child td { border-bottom: none; }
+        .info-table tr:hover td { background: rgba(255,255,255,0.02); }
+        .info-table code {
+            background: rgba(139,92,246,0.12);
+            padding: 0.15rem 0.45rem;
+            border-radius: 0.3rem;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.78rem;
+            color: #c4b5fd;
+        }
+
+        /* ─── Decisions ─── */
+        .decision-list { list-style: none; margin: 1rem 0; }
+        .decision-list li {
+            display: flex; align-items: center; gap: 0.75rem;
+            padding: 0.75rem 1rem;
+            border-radius: 0.6rem;
+            margin-bottom: 0.5rem;
+            background: rgba(34,197,94,0.06);
+            border: 1px solid rgba(34,197,94,0.1);
+            font-size: 0.9rem;
+        }
+        .decision-list li .check { color: #4ade80; font-size: 1rem; flex-shrink: 0; }
+        .decision-list li strong { color: #f1f5f9; }
+
+        /* ─── Tech Stack ─── */
+        .tech-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 0.75rem;
+            margin: 1rem 0;
+        }
+        .tech-pill {
+            display: flex; align-items: center; gap: 0.5rem;
+            padding: 0.6rem 1rem;
+            background: rgba(30,41,59,0.6);
+            border: 1px solid rgba(255,255,255,0.06);
+            border-radius: 0.6rem;
+            font-size: 0.82rem;
+            color: #cbd5e1;
+            transition: border-color 0.2s;
+        }
+        .tech-pill:hover { border-color: rgba(168,85,247,0.3); }
+        .tech-pill i { color: #a855f7; }
+
+        /* ─── Footer ─── */
+        footer {
+            text-align: center; padding: 2.5rem 1rem;
+            border-top: 1px solid rgba(255,255,255,0.05);
+            color: #64748b; font-size: 0.82rem;
+            position: relative; z-index: 1;
+        }
+        footer a { color: #a855f7; text-decoration: none; }
+
+        /* ─── Section Spacing ─── */
+        section { padding: 2rem 0; }
+
+        /* ─── Scroll Animation ─── */
+        .fade-in {
+            opacity: 0; transform: translateY(24px);
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+        .fade-in.visible { opacity: 1; transform: translateY(0); }
+
+        /* ─── Responsive ─── */
+        @media (max-width: 640px) {
+            .hero h1 { font-size: 1.8rem; }
+            .hero p { font-size: 0.95rem; }
+            nav { padding: 0.75rem 1rem; }
+            .glass { padding: 1.25rem; }
+            .arch-box { font-size: 0.7rem; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="bg-glow-1"></div>
+<div class="bg-glow-2"></div>
+
+<!-- Nav -->
+<nav>
+    <div class="logo">
+        <i class="fa-solid fa-wand-magic-sparkles" style="color:#a855f7; margin-right:6px;"></i>
+        Prompt<span>Daily</span> · 開發計畫
+    </div>
+    <a href="index.html"><i class="fa-solid fa-arrow-left" style="margin-right:4px;"></i> 回首頁</a>
+</nav>
+
+<div class="container">
+
+    <!-- Hero -->
+    <div class="hero fade-in">
+        <div class="badge"><i class="fa-solid fa-code-branch"></i> v1.0 Development Roadmap</div>
+        <h1>專案 <span class="gradient">開發計畫</span></h1>
+        <p>PromptDaily — 每日自動從 PromptHero 與 OpenArt 蒐集最熱門的 AI 繪圖提示詞，透過 Gmail 寄送到您的信箱。</p>
+    </div>
+
+    <!-- Decisions -->
+    <section>
+        <div class="glass fade-in">
+            <h2><i class="fa-solid fa-circle-check"></i> 已確認的決定</h2>
+            <ul class="decision-list">
+                <li><span class="check"><i class="fa-solid fa-check-circle"></i></span> <span><strong>個人使用</strong> — 不使用 Firebase，Email 以環境變數管理</span></li>
+                <li><span class="check"><i class="fa-solid fa-check-circle"></i></span> <span><strong>Gmail SMTP</strong> — 使用 Nodemailer + Gmail App Password 寄信</span></li>
+                <li><span class="check"><i class="fa-solid fa-check-circle"></i></span> <span><strong>GitHub 部署</strong> — 前端 GitHub Pages ＋ 後端 GitHub Actions Cron</span></li>
+                <li><span class="check"><i class="fa-solid fa-check-circle"></i></span> <span><strong>Midjourney 替代</strong> — 改用 PromptHero 的 Midjourney 分類頁面</span></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Architecture -->
+    <section>
+        <div class="glass fade-in">
+            <h2><i class="fa-solid fa-sitemap"></i> 系統架構</h2>
+            <div class="arch-box"><span class="folder">GitHub Repository</span>
+├── <span class="file">index.html</span>          <span class="arrow">←</span> <span class="comment">訂閱首頁（GitHub Pages 托管）</span>
+├── <span class="file">unsubscribe.html</span>    <span class="arrow">←</span> <span class="comment">取消訂閱頁面</span>
+├── <span class="file">plan.html</span>           <span class="arrow">←</span> <span class="comment">本頁面（開發計畫）</span>
+│
+├── <span class="folder">scripts/</span>
+│   ├── <span class="file">scraper.js</span>      <span class="arrow">←</span> <span class="comment">Puppeteer 爬蟲（抓取 3 來源 × 3 提示詞）</span>
+│   ├── <span class="file">emailTemplate.js</span><span class="arrow">←</span> <span class="comment">HTML 信件模板產生器</span>
+│   └── <span class="file">mailer.js</span>       <span class="arrow">←</span> <span class="comment">Nodemailer SMTP 寄信模組</span>
+│
+└── <span class="folder">.github/workflows/</span>
+    └── <span class="file">daily-prompt.yml</span><span class="arrow">←</span> <span class="comment">排程：每天 21:00 UTC（台灣 05:00）</span>
+        <span class="comment">├─ Step 1: 執行爬蟲抓取提示詞</span>
+        <span class="comment">├─ Step 2: 組裝 HTML 信件</span>
+        <span class="comment">└─ Step 3: Gmail SMTP 寄出信件</span></div>
+        </div>
+    </section>
+
+    <!-- Phases -->
+    <section>
+        <div class="glass fade-in">
+            <h2><i class="fa-solid fa-layer-group"></i> 開發階段</h2>
+            <div class="phase-grid">
+                <!-- Phase 1 -->
+                <div class="phase-card">
+                    <div class="phase-num">01</div>
+                    <span class="status status-active"><i class="fa-solid fa-bolt" style="margin-right:4px;"></i>進行中</span>
+                    <h3>Phase 1：前端增強</h3>
+                    <p>強化訂閱首頁的視覺與互動體驗</p>
+                    <ul>
+                        <li><i class="fa-solid fa-diamond"></i> 預覽區擴充至 9 張卡片（3 來源 × 3）</li>
+                        <li><i class="fa-solid fa-diamond"></i> 加入排名徽章 🥇🥈🥉</li>
+                        <li><i class="fa-solid fa-diamond"></i> 新增「運作原理」說明區塊</li>
+                        <li><i class="fa-solid fa-diamond"></i> 滾動動畫（fade-in）</li>
+                        <li><i class="fa-solid fa-diamond"></i> 移除 Firebase 依賴</li>
+                    </ul>
+                </div>
+
+                <!-- Phase 2 -->
+                <div class="phase-card">
+                    <div class="phase-num">02</div>
+                    <span class="status status-pending"><i class="fa-solid fa-clock" style="margin-right:4px;"></i>待執行</span>
+                    <h3>Phase 2：後端自動化</h3>
+                    <p>GitHub Actions 爬蟲 + 寄信排程</p>
+                    <ul>
+                        <li><i class="fa-solid fa-diamond"></i> Puppeteer 爬蟲腳本</li>
+                        <li><i class="fa-solid fa-diamond"></i> HTML Email 模板產生器</li>
+                        <li><i class="fa-solid fa-diamond"></i> Gmail SMTP 寄信模組</li>
+                        <li><i class="fa-solid fa-diamond"></i> GitHub Actions Cron 排程</li>
+                        <li><i class="fa-solid fa-diamond"></i> 設定 Secrets（SMTP 密碼）</li>
+                    </ul>
+                </div>
+
+                <!-- Phase 3 -->
+                <div class="phase-card">
+                    <div class="phase-num">03</div>
+                    <span class="status status-pending"><i class="fa-solid fa-clock" style="margin-right:4px;"></i>待執行</span>
+                    <h3>Phase 3：取消訂閱</h3>
+                    <p>簡易的取消訂閱頁面</p>
+                    <ul>
+                        <li><i class="fa-solid fa-diamond"></i> 取消訂閱頁面 UI</li>
+                        <li><i class="fa-solid fa-diamond"></i> 風格與主頁一致</li>
+                        <li><i class="fa-solid fa-diamond"></i> 信件中附上連結</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Data Sources -->
+    <section>
+        <div class="glass fade-in">
+            <h2><i class="fa-solid fa-database"></i> 爬取資料來源</h2>
+            <table class="info-table">
+                <thead>
+                    <tr>
+                        <th>來源</th>
+                        <th>URL</th>
+                        <th>抓取數量</th>
+                        <th>策略</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><i class="fa-solid fa-fire" style="color:#f97316; margin-right:6px;"></i>PromptHero Top</td>
+                        <td><code>/top</code></td>
+                        <td>Top 3</td>
+                        <td>Puppeteer 抓取卡片圖 + Prompt</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-palette" style="color:#8b5cf6; margin-right:6px;"></i>OpenArt Discovery</td>
+                        <td><code>/discovery</code></td>
+                        <td>Top 3</td>
+                        <td>Puppeteer 等待頁面載入</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-wand-sparkles" style="color:#ec4899; margin-right:6px;"></i>PromptHero MJ</td>
+                        <td><code>/midjourney-prompts</code></td>
+                        <td>Top 3</td>
+                        <td>Puppeteer 抓取 MJ 分類前 3</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Tech Stack -->
+    <section>
+        <div class="glass fade-in">
+            <h2><i class="fa-solid fa-microchip"></i> 技術棧</h2>
+            <h3>前端</h3>
+            <div class="tech-grid">
+                <div class="tech-pill"><i class="fa-brands fa-html5"></i> HTML5</div>
+                <div class="tech-pill"><i class="fa-brands fa-css3-alt"></i> Tailwind CSS</div>
+                <div class="tech-pill"><i class="fa-brands fa-js"></i> Vanilla JS</div>
+                <div class="tech-pill"><i class="fa-solid fa-font"></i> Font Awesome</div>
+            </div>
+            <h3>後端 / CI</h3>
+            <div class="tech-grid">
+                <div class="tech-pill"><i class="fa-brands fa-node-js"></i> Node.js</div>
+                <div class="tech-pill"><i class="fa-solid fa-robot"></i> Puppeteer</div>
+                <div class="tech-pill"><i class="fa-solid fa-envelope"></i> Nodemailer</div>
+                <div class="tech-pill"><i class="fa-brands fa-github"></i> GitHub Actions</div>
+                <div class="tech-pill"><i class="fa-brands fa-google"></i> Gmail SMTP</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline -->
+    <section>
+        <div class="glass fade-in">
+            <h2><i class="fa-solid fa-calendar-days"></i> 信件寄送時間</h2>
+            <table class="info-table">
+                <thead>
+                    <tr><th>設定項</th><th>值</th><th>說明</th></tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Cron 表達式</td>
+                        <td><code>0 21 * * *</code></td>
+                        <td>UTC 21:00 = 台灣時間每天早上 05:00</td>
+                    </tr>
+                    <tr>
+                        <td>寄送對象</td>
+                        <td><code>$&#123;&#123;secrets.MY_EMAIL&#125;&#125;</code></td>
+                        <td>您自己的 Email（GitHub Secrets 管理）</td>
+                    </tr>
+                    <tr>
+                        <td>信件主旨</td>
+                        <td><code>🎨 PromptDaily｜今日 Top 9 AI 提示詞</code></td>
+                        <td>含日期的每日報標題</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+</div>
+
+<footer>
+    <p>&copy; 2024 Prompt<span style="color:#a855f7;">Daily</span>. Development Roadmap.</p>
+    <p style="margin-top:0.3rem;"><a href="index.html">← 回到訂閱首頁</a></p>
+</footer>
+
+<script>
+    // Scroll Animation
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+            }
+        });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+</script>
+
+</body>
+</html>

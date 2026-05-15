@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PromptDaily - 取消訂閱</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap');
+        body { font-family: 'Noto Sans TC', sans-serif; background: #0f172a; color: #f8fafc; }
+        .gradient-text { background: linear-gradient(135deg,#a855f7,#ec4899,#f43f5e); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+        .glass { background: rgba(30,41,59,0.65); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.08); }
+        .spinner { border:3px solid rgba(255,255,255,0.3); border-radius:50%; border-top:3px solid #fff; width:20px; height:20px; animation:spin 1s linear infinite; display:inline-block; vertical-align:middle; margin-right:8px; }
+        @keyframes spin { to { transform:rotate(360deg); } }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col relative overflow-hidden">
+
+<!-- BG -->
+<div class="fixed top-[-10%] left-[-10%] w-[40%] h-[40%] bg-purple-600/30 rounded-full blur-[120px] pointer-events-none"></div>
+<div class="fixed bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-pink-600/20 rounded-full blur-[120px] pointer-events-none"></div>
+
+<!-- Nav -->
+<nav class="w-full px-6 py-4 flex justify-between items-center z-10 glass border-b border-slate-800/50">
+    <a href="index.html" class="text-xl font-bold tracking-wider flex items-center gap-2 hover:opacity-80 transition">
+        <i class="fa-solid fa-wand-magic-sparkles text-purple-400"></i>
+        <span>Prompt<span class="text-purple-400">Daily</span></span>
+    </a>
+</nav>
+
+<!-- Main -->
+<main class="flex-grow flex flex-col items-center justify-center px-4 z-10">
+    <div class="glass rounded-3xl p-8 md:p-12 w-full max-w-lg text-center">
+        <div class="w-16 h-16 mx-auto bg-slate-800 rounded-full flex items-center justify-center mb-6 border border-slate-700">
+            <i class="fa-solid fa-envelope-open text-2xl text-slate-400"></i>
+        </div>
+        
+        <h1 class="text-2xl font-bold mb-3">取消訂閱 PromptDaily</h1>
+        <p class="text-slate-400 mb-8 text-sm">
+            請輸入您要取消訂閱的電子信箱。取消後您將不再收到每日的 AI 提示詞靈感。
+        </p>
+
+        <form id="unsubscribeForm" class="flex flex-col gap-4">
+            <div class="relative">
+                <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+                    <i class="fa-regular fa-envelope text-slate-400"></i>
+                </div>
+                <input type="email" id="emailInput" required
+                    class="block w-full pl-12 pr-4 py-3.5 rounded-xl border border-slate-700 bg-slate-900/50 text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-purple-500 transition"
+                    placeholder="your@email.com">
+            </div>
+            <button type="submit" id="submitBtn"
+                class="w-full py-3.5 rounded-xl bg-slate-700 hover:bg-slate-600 text-white font-medium transition flex items-center justify-center gap-2">
+                <span>確認取消訂閱</span>
+            </button>
+        </form>
+
+        <div id="statusMessage" class="mt-5 text-sm hidden font-medium"></div>
+        
+        <div class="mt-8 pt-6 border-t border-slate-700/50">
+            <a href="index.html" class="text-sm text-purple-400 hover:text-purple-300 transition flex items-center justify-center gap-2">
+                <i class="fa-solid fa-arrow-left"></i> 回心轉意，返回首頁
+            </a>
+        </div>
+    </div>
+</main>
+
+<script>
+    const form = document.getElementById('unsubscribeForm');
+    const emailInput = document.getElementById('emailInput');
+    const submitBtn = document.getElementById('submitBtn');
+    const btnText = submitBtn.querySelector('span');
+    const statusMessage = document.getElementById('statusMessage');
+
+    // 如果 localStorage 有紀錄，自動填入
+    const savedEmail = localStorage.getItem('promptdaily_email');
+    if (savedEmail) {
+        emailInput.value = savedEmail;
+    }
+
+    form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const email = emailInput.value.trim();
+        if (!email) return;
+
+        submitBtn.disabled = true;
+        submitBtn.classList.add('opacity-70', 'cursor-not-allowed');
+        btnText.innerHTML = '<div class="spinner"></div> 處理中...';
+        statusMessage.classList.add('hidden');
+
+        // 模擬取消訂閱 API 延遲
+        await new Promise(r => setTimeout(r, 1000));
+        
+        // 清除本地紀錄
+        if (savedEmail === email) {
+            localStorage.removeItem('promptdaily_email');
+        }
+
+        form.reset();
+        statusMessage.innerHTML = '<i class="fa-solid fa-circle-check"></i> 已成功取消訂閱。期待未來能再為您服務！';
+        statusMessage.className = 'mt-5 text-sm font-medium text-green-400 block';
+
+        submitBtn.disabled = false;
+        submitBtn.classList.remove('opacity-70', 'cursor-not-allowed');
+        btnText.innerHTML = '確認取消訂閱';
+    });
+</script>
+</body>
+</html>
