@@ -19,10 +19,10 @@ const SOURCES = [
         icon: '🔥',
     },
     {
-        id: 'featured',
-        name: '⭐ 社群精選',
-        url: 'https://prompthero.com/featured',
-        icon: '⭐',
+        id: 'anime',
+        name: '🎨 動漫精選',
+        url: 'https://prompthero.com/anime-prompts',
+        icon: '🎨',
     },
     {
         id: 'top',
@@ -373,24 +373,18 @@ async function scrapeAll() {
     const allData = [];
 
     try {
-        // 來源 1: Hot（即時熱門）
-        console.log(`📦 [1/3] ${SOURCES[0].name}`);
-        const hot = await scrapePromptHero(page, SOURCES[0].url, 3, previousLinks);
-        allData.push({ source: SOURCES[0], items: hot });
-        console.log(`  ✅ 取得 ${hot.length} 筆\n`);
+        for (let i = 0; i < SOURCES.length; i++) {
+            const src = SOURCES[i];
+            console.log(`📦 [${i + 1}/${SOURCES.length}] ${src.name}`);
+            const items = await scrapePromptHero(page, src.url, 3, previousLinks);
+            allData.push({ source: src, items });
+            console.log(`  ✅ 取得 ${items.length} 筆\n`);
 
-        // 來源 2: Featured（社群精選）
-        console.log(`📦 [2/3] ${SOURCES[1].name}`);
-        const featured = await scrapePromptHero(page, SOURCES[1].url, 3, previousLinks);
-        allData.push({ source: SOURCES[1], items: featured });
-        console.log(`  ✅ 取得 ${featured.length} 筆\n`);
-
-        // 來源 3: New（最新發布）
-        console.log(`📦 [3/3] ${SOURCES[2].name}`);
-        const newest = await scrapePromptHero(page, SOURCES[2].url, 3, previousLinks);
-        allData.push({ source: SOURCES[2], items: newest });
-        console.log(`  ✅ 取得 ${newest.length} 筆\n`);
-
+            // 將本批連結加入 previousLinks，讓後續來源不重複選取
+            for (const item of items) {
+                if (item.link) previousLinks.add(item.link);
+            }
+        }
     } catch (error) {
         console.error('❌ 爬蟲發生錯誤:', error.message);
     } finally {

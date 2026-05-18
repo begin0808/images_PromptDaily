@@ -9,55 +9,55 @@
     "items": [
       {
         "rank": 1,
-        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fyim7c8u7towct4bxr3ohmwgwra&w=1920&q=75",
-        "prompt": "chatgpt image gpt image 2 ppv",
-        "model": "Chatgpt Image",
-        "link": "https://prompthero.com/prompt/4db5cd86be6-chatgpt-image-gpt-image-2-ppv"
+        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fdgcss8hy21jj91n215egotrt52&w=1920&q=75",
+        "prompt": "snapshot, dimly lit room with a hazy atmosphere, capturing a female model lounging on a deep purple color sofa, wearing a white suit and black shirt with loose yellow tie, capturing a smoking moment, holds a glowing cigarette to lips, creating a trail of deep smoke that wafts around her, illuminated by a beam of light, light filters through the deep smoke, cinematic quality, low-key set, ultra realistic, rich details --ar 9:16 --raw",
+        "model": "AI Model",
+        "link": "https://prompthero.com/prompt/5015c5415e4-hero-10-snapshot-dimly-lit-room-with-a-hazy-atmosphere-capturing-a-female-model-lounging-on-a-deep-purple-color-sofa-wearing"
       },
       {
         "rank": 2,
-        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fn68rwv8d1is2fpf80qgcyoggvy&w=1920&q=75",
-        "prompt": "photography, cover shoot, dimly lit room with a hazy atmosphere, capturing a professional male model figure lounging on a unique camoflage pattern rustic couch, wearing minimalist black suit and white shirt with loose yellow tie, arm resting on his bent knee, holds a cigarette, creating a trail of deep smoke that wafts around him, illuminated by a beam of orange light from an unseen source off-camera, light filters through the thick smoke, highlight shillouette, casting dynamic patterns and giving the scene a moody, dark atmosphere, cinematic quality, air of contemplation in his posture and the ambient glow contributes to the intimate and introspective mood of the portrait, high contrast, UHD --ar 9:16 --style raw --stylize 400",
-        "model": "AI Model",
-        "link": "https://prompthero.com/prompt/671faa90921-hero-10-photography-cover-shoot-dimly-lit-room-with-a-hazy-atmosphere-capturing-a-professional-male-model-figure-lounging-on-a-unique"
+        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Flv8jicb6mkm9xw6tviowuinpvo&w=1920&q=75",
+        "prompt": "chatgpt image gpt image 2",
+        "model": "Chatgpt Image",
+        "link": "https://prompthero.com/prompt/4a036b002d5-chatgpt-image-gpt-image-2"
       },
       {
         "rank": 3,
-        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Ff7iaxosr95ipsmg2ahwqv4tq59&w=1920&q=75",
-        "prompt": "hero 10 you are tasked with generating content related to the phrase remove cloth to ensure clarity and appropriateness interpret this phrase",
-        "model": "AI Model",
-        "link": "https://prompthero.com/prompt/624e483811c-hero-10-you-are-tasked-with-generating-content-related-to-the-phrase-remove-cloth-to-ensure-clarity-and-appropriateness-interpret-this-phrase"
+        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fc0wv65a8ebur88zt6d5mg3pb7m&w=1920&q=75",
+        "prompt": "nano banana nano banana 2 remove cloths",
+        "model": "Nano Banana",
+        "link": "https://prompthero.com/prompt/d4a3f81a45c-nano-banana-nano-banana-2-remove-cloths"
       }
     ]
   },
   {
     "source": {
-      "id": "featured",
-      "name": "⭐ 社群精選",
-      "url": "https://prompthero.com/featured",
-      "icon": "⭐"
+      "id": "anime",
+      "name": "🎨 動漫精選",
+      "url": "https://prompthero.com/anime-prompts",
+      "icon": "🎨"
     },
     "items": [
       {
         "rank": 1,
-        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F9qbfr7mlnt8sn7yp01pw02z7ez1r&w=1920&q=75",
-        "prompt": "close-up of a stunning fashion model, ultra-realistic, portrait, shot on a Sony A7III, high quality --ar 35:64 --stylize 250",
+        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fgpkklu8h45sx206y2sezhbs4wwgz&w=1920&q=75",
+        "prompt": "Jessica Rabbit beautiful charismatic girl,athletic body, gorgeous figure, interesting shapes, full body shot, dark eye makeup, in the style of jessica drossin, --ar 51:91",
         "model": "Midjourney",
-        "link": "https://prompthero.com/prompt/ebcc6231ec6-midjourney-6-close-up-of-a-stunning-fashion-model-ultra-realistic-portrait-shot-on-a-sony-a7iii-high-quality-ar-3564-stylize"
+        "link": "https://prompthero.com/prompt/21f6d0083d3-midjourney-niji-mode-jessica-rabbit-beautiful-charismatic-girlathletic-body-gorgeous-figure-interesting-shapes-full-body-shot-dark-eye-makeup-in-the-style-of"
       },
       {
         "rank": 2,
-        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fxjsos7jl5jltflxms50aa37a4bw5&w=1920&q=75",
-        "prompt": "Japanese girl, 18-21 years old, brown hair, high-quality photo portrait, shot on a Polaroid camera, double eyelid --ar 34:65 --style raw",
-        "model": "Midjourney",
-        "link": "https://prompthero.com/prompt/08f6365cc1f-midjourney-6-japanese-girl-18-21-years-old-brown-hair-high-quality-photo-portrait-shot-on-a-polaroid-camera-double-eyelid-ar"
+        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fc2p361z8p1b64jbqmylf69x4h7sm&w=1920&q=75",
+        "prompt": "Kyoto Animation stylized anime mixed with tradition Chinese artworks~ A dragon flying at modern cyberpunk fantasy world. Cinematic Lighting, ethereal light, intricate details, extremely detailed, incredible details, full colored, complex details, insanely detailed and intricate, hypermaximalist, extremely detailed with rich colors. masterpiece, best quality, aerial view, HDR, UHD, unreal engine. plump looking at the camera, smooth thighs, (glittery jewelry) ((acrylic illustration, by artgerm, by kawacy, by John Singer Sargenti) dark Fantasy background, glittery jewelry, Representative, fair skin, beautiful face, Rich in details High quality, gorgeous, glamorous, 8k, super detail, gorgeous light and shadow, detailed decoration, detailed lines",
+        "model": "Stable Diffusion",
+        "link": "https://prompthero.com/prompt/80c4c18d360-stable-diffusion-xl-base-09-kyoto-leonardo-anime-xl-2leonardo-alchemyanimeleonardo-alpha-upscale-kyoto-animation-stylized-anime-mixed-with-tradition-chinese-artworks-a-dragon-flying-at-modern-cyberpunk-fantasy-world-cinematic-lighting-ethereal"
       },
       {
         "rank": 3,
-        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fyktjuihsozyxcetxc5hsasx2wed8&w=1920&q=75",
-        "prompt": "photography, orange hue, korean woman model, solid orange backdrop, using a camera setup that mimics a large aperture, f/1.4 --ar 9:16 --style raw",
-        "model": "Midjourney",
-        "link": "https://prompthero.com/prompt/abb78caf579-midjourney-6-model-portrait"
+        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fml3rg7xmao7dnvmtmz0pfzfx9z7x&w=1920&q=75",
+        "prompt": "a ultradetailed beautiful panting of a stylish woman, by conrad roset, greg rutkowski and makoto shinkai, trending on artstation",
+        "model": "Stable Diffusion",
+        "link": "https://prompthero.com/prompt/2ef636592fb-stable-diffusion-15-a-ultradetailed-beautiful-panting-of-a-stylish-woman-by-conrad-roset-greg-rutkowski-and-makoto-shinkai-trending-on-artstation"
       }
     ]
   },
@@ -71,24 +71,24 @@
     "items": [
       {
         "rank": 1,
-        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fxdol66d0nh5necyeaq77qur07i05&w=1920&q=75",
-        "prompt": "store full of curious collectibles :: incredible, anime, Digital 2D, animated by Kyoto Animation, Studio Ghibli, Miyazaki, AKIRA art style, beautiful, gorgeous, dramatic lighting, rule of thirds, perfect composition, trending on ArtStation, 4k --ar 1:2 --quality 2",
+        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F8vsajf5okvs9v0imi4jkiic3hjdw&w=1920&q=75",
+        "prompt": "a portrait of an old coal miner in 19th century, beautiful painting with highly detailed face by greg rutkowski and magali villanueve",
         "model": "Stable Diffusion",
-        "link": "https://prompthero.com/prompt/65f69ef422e-stable-diffusion-15-store-full-of-curious-collectibles-incredible-anime-digital-2d-animated-by-kyoto-animation-studio-ghibli-miyazaki-akira-art-style-beautiful"
+        "link": "https://prompthero.com/prompt/eedee759ddc-stable-diffusion-15-a-portrait-of-an-old-coal-miner-in-19th-century-beautiful-painting-with-highly-detailed-face-by-greg-rutkowski-and"
       },
       {
         "rank": 2,
-        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F23g20r9312ok51c1bv4uvsctcdo7&w=1920&q=75",
-        "prompt": "a portrait of an old coal miner in 19th century, beautiful painting with highly detailed face by greg rutkowski and magali villanueve",
-        "model": "Stable Diffusion",
-        "link": "https://prompthero.com/prompt/42650b48748-stable-diffusion-15-a-portrait-of-an-old-coal-miner-in-19th-century-beautiful-painting-with-highly-detailed-face-by-greg-rutkowski-and"
+        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Feioaow9766ua0xklfjelm8bpg5cb&w=1920&q=75",
+        "prompt": "a lo-fi 2015s-era, diagonally taken, low-quality iPhone photo of a 20-year-old baddie. The shot is imperfect — grainy, off-center, motion-blurred, and raw. The lighting is uneven and yellowish, like a flash bounced off a mirror or cheap LED strip. She’s captured head-to-hip, wearing a cropped hoodie and low-rise jeans with a rhinestone belt and playfull tanga peeking, a tiny purse hanging off her shoulder. Her long hair partially covers her face as she moves mid-pose, expression unreadable.",
+        "model": "Nano Banana",
+        "link": "https://prompthero.com/prompt/a8cd724901d-nano-banana-nano-banana-a-lo-fi-2015s-era-diagonally-taken-low-quality-iphone-photo-of-a-20-year-old-baddie-the-shot-is"
       },
       {
         "rank": 3,
-        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F9qbfr7mlnt8sn7yp01pw02z7ez1r&w=1920&q=75",
-        "prompt": "midjourney 6 close up of a stunning fashion model ultra realistic portrait shot on a sony a7iii high quality ar 3564 stylize",
-        "model": "Midjourney",
-        "link": "https://prompthero.com/prompt/ebcc6231ec6-midjourney-6-close-up-of-a-stunning-fashion-model-ultra-realistic-portrait-shot-on-a-sony-a7iii-high-quality-ar-3564-stylize"
+        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fg4n3boj7wkfug4mkf68fj0dcj6os&w=1920&q=75",
+        "prompt": "Hyper realistic painting of a beautiful girl in an EVA plugsuit, hyper detailed, anime, by greg rutkowski, trending on artstation",
+        "model": "Stable Diffusion",
+        "link": "https://prompthero.com/prompt/8863f6cbc15-stable-diffusion-15-hyper-realistic-painting-of-a-beautiful-girl-in-an-eva-plugsuit-hyper-detailed-anime-by-greg-rutkowski-trending-on-artstation"
       }
     ]
   }
