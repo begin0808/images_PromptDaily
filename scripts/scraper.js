@@ -120,8 +120,11 @@ function isLikelyComment(text) {
 
 const NSFW_KEYWORDS = [
     'sexy', 'nude', 'naked', 'nsfw', 'explicit', 'topless', 'erotic',
-    'pornographic', 'lingerie', 'adult content', 'bra', 'panties',
+    'pornographic', 'lingerie', 'adult content', 'adult woman', 'adult female',
+    'bra', 'panties', 'underwear', 'bikini',
     'nipple', 'genitalia', 'uncensored', 'hentai',
+    'subject type adult',   // JSON-prompt slug pattern: subject-type-adult-woman
+    'seductive', 'alluring pose', 'provocative',
 ];
 
 /**
@@ -151,8 +154,8 @@ async function scrapePromptHero(page, url, count = 3, previousLinks = new Set())
     await page.waitForSelector('img', { timeout: 15000 }).catch(() => {});
     await new Promise(r => setTimeout(r, 3000));
 
-    // 多抓一些候選，以便去重後仍有足夠數量
-    const candidateCount = count * 4;
+    // 多抓一些候選，以便去重、NSFW 過濾後仍有足夠數量
+    const candidateCount = count * 6;
 
     const results = await page.evaluate((candidateCount) => {
         const items = [];
@@ -263,7 +266,15 @@ async function scrapePromptHero(page, url, count = 3, previousLinks = new Set())
                     const favMatch = bodyText.match(/\b(\d[\d,]*)\s+favou?rites?\b/i);
                     if (favMatch) favCount = parseInt(favMatch[1].replace(/,/g, ''));
 
-                    return { prompt: promptText, model: modelName, views: viewCount, favorites: favCount };
+                    // ═══ PromptHero 頁面 NSFW 標籤偵測 ═══
+                    const lowerBody = bodyText.toLowerCase();
+                    const isNSFWPage =
+                        lowerBody.includes('nsfw') ||
+                        lowerBody.includes('mature content') ||
+                        lowerBody.includes('not safe for work') ||
+                        !!document.querySelector('[class*="nsfw"],[class*="mature"],[data-nsfw],[data-mature]');
+
+                    return { prompt: promptText, model: modelName, views: viewCount, favorites: favCount, isNSFWPage };
                 });
 
                 if (detail.prompt && detail.prompt.length > 15
@@ -272,6 +283,12 @@ async function scrapePromptHero(page, url, count = 3, previousLinks = new Set())
                     prompt = detail.prompt;
                 }
                 if (detail.model) model = detail.model;
+
+                // 頁面 NSFW 標籤過濾
+                if (detail.isNSFWPage) {
+                    console.log(`    🔞 頁面有 NSFW 標籤，跳過: ${item.link.substring(0, 50)}...`);
+                    continue;
+                }
 
                 // 互動量過濾：views < 50 且 favorites < 3 → 太冷門，跳過
                 const MIN_VIEWS = 50;
