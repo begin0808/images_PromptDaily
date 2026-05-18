@@ -63,10 +63,23 @@ async function main() {
     } else {
         allData = await scrapeAll();
 
+        if (mode === '--test-scrape') {
+            console.log('🧪 僅測試爬蟲，不寄信。');
+            allData.forEach(({ source, items }) => {
+                console.log(`\n── ${source.icon} ${source.name} ──`);
+                items.forEach(item => {
+                    console.log(`  ${['🥇','🥈','🥉'][item.rank-1]} [${item.model}]`);
+                    console.log(`     ${item.prompt.substring(0, 80)}...`);
+                    console.log(`     🖼 ${item.imageUrl.substring(0, 60)}...`);
+                });
+            });
+            return;
+        }
+
         // 將爬取結果存為 JSON（除錯與前端網頁即時讀取用）
         const debugPath = path.join(__dirname, 'last-scrape.json');
         fs.writeFileSync(debugPath, JSON.stringify(allData, null, 2), 'utf-8');
-        
+
         const dataDir = path.join(__dirname, '..', 'data');
         if (!fs.existsSync(dataDir)) {
             fs.mkdirSync(dataDir, { recursive: true });
@@ -74,19 +87,6 @@ async function main() {
         const outputPath = path.join(dataDir, 'latest.json');
         fs.writeFileSync(outputPath, JSON.stringify(allData, null, 2), 'utf-8');
         console.log(`💾 爬取結果已儲存: ${outputPath}\n`);
-    }
-
-    if (mode === '--test-scrape') {
-        console.log('🧪 僅測試爬蟲，不寄信。');
-        allData.forEach(({ source, items }) => {
-            console.log(`\n── ${source.icon} ${source.name} ──`);
-            items.forEach(item => {
-                console.log(`  ${['🥇','🥈','🥉'][item.rank-1]} [${item.model}]`);
-                console.log(`     ${item.prompt.substring(0, 80)}...`);
-                console.log(`     🖼 ${item.imageUrl.substring(0, 60)}...`);
-            });
-        });
-        return;
     }
 
     // ── 組裝信件 ──
@@ -106,7 +106,7 @@ async function main() {
         process.exit(1);
     }
 
-    const subject = `🎨 PromptDaily｜${dateStr} Top 9 AI 提示詞`;
+    const subject = `🎨 PromptDaily｜${dateStr} 每日 AI 提示詞精選`;
 
     console.log(`📧 正在寄信給 ${MY_EMAIL}...`);
 
@@ -136,7 +136,7 @@ async function main() {
         smtpUser: SMTP_USER,
         smtpPass: SMTP_PASS,
         to: MY_EMAIL,
-        bcc: bccList.join(','),
+        ...(bccList.length > 0 && { bcc: bccList.join(',') }),
         subject,
         html,
     });

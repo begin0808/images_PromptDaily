@@ -10,9 +10,8 @@
     "now": "node index.js --now"
   },
   "dependencies": {
-    "puppeteer": "^23.0.0",
-    "cheerio": "^1.0.0",
-    "nodemailer": "^6.9.0",
-    "dotenv": "^16.4.0"
+    "dotenv": "^16.4.0",
+    "nodemailer": "^8.0.7",
+    "puppeteer": "^23.0.0"
   }
 }

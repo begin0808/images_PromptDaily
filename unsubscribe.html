@@ -67,6 +67,8 @@
 </main>
 
 <script>
+    const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxRQ0C5rLCVmHeQ_R2ai-cMASQ4kWb9TRZiA06vdFHaSQCcaCRDsk7I8X-V7royTScb/exec';
+
     const form = document.getElementById('unsubscribeForm');
     const emailInput = document.getElementById('emailInput');
     const submitBtn = document.getElementById('submitBtn');
@@ -88,18 +90,27 @@
         submitBtn.classList.add('opacity-70', 'cursor-not-allowed');
         btnText.innerHTML = '<div class="spinner"></div> 處理中...';
         statusMessage.classList.add('hidden');
+        statusMessage.classList.remove('text-green-400', 'text-red-400');
 
-        // 模擬取消訂閱 API 延遲
-        await new Promise(r => setTimeout(r, 1000));
-        
-        // 清除本地紀錄
-        if (savedEmail === email) {
-            localStorage.removeItem('promptdaily_email');
+        try {
+            const res = await fetch(`${APPS_SCRIPT_URL}?action=unsubscribe&email=${encodeURIComponent(email)}`);
+            const result = await res.json();
+
+            if (result.status === 'success') {
+                if (savedEmail === email) {
+                    localStorage.removeItem('promptdaily_email');
+                }
+                form.reset();
+                statusMessage.innerHTML = `<i class="fa-solid fa-circle-check"></i> ${result.message || '已成功取消訂閱。期待未來能再為您服務！'}`;
+                statusMessage.className = 'mt-5 text-sm font-medium text-green-400 block';
+            } else {
+                statusMessage.innerHTML = `<i class="fa-solid fa-circle-xmark"></i> ${result.message || '操作失敗，請稍後再試'}`;
+                statusMessage.className = 'mt-5 text-sm font-medium text-red-400 block';
+            }
+        } catch (err) {
+            statusMessage.innerHTML = '<i class="fa-solid fa-circle-xmark"></i> 網路錯誤，請稍後再試。';
+            statusMessage.className = 'mt-5 text-sm font-medium text-red-400 block';
         }
-
-        form.reset();
-        statusMessage.innerHTML = '<i class="fa-solid fa-circle-check"></i> 已成功取消訂閱。期待未來能再為您服務！';
-        statusMessage.className = 'mt-5 text-sm font-medium text-green-400 block';
 
         submitBtn.disabled = false;
         submitBtn.classList.remove('opacity-70', 'cursor-not-allowed');

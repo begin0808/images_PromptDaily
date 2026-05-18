@@ -88,45 +88,43 @@
     <h2 class="text-3xl font-bold mb-2 text-center fade-in">信件內容預覽</h2>
     <p class="text-slate-400 text-center mb-8 fade-in">看看您每天早上會收到什麼樣的靈感寶庫 — 3 個來源，各 3 組精選</p>
 
-    <!-- Source 1: PromptHero Top -->
+    <!-- Source 1: Hot -->
     <div class="mb-8 fade-in">
         <div class="flex items-center gap-3 mb-4">
             <div class="w-10 h-10 rounded-lg bg-orange-500/15 flex items-center justify-center"><i class="fa-solid fa-fire text-orange-400 text-lg"></i></div>
             <div>
-                <h3 class="text-xl font-bold text-white">PromptHero 熱門榜</h3>
-                <p class="text-xs text-slate-500">prompthero.com/top — 全站最受歡迎作品</p>
+                <h3 class="text-xl font-bold text-white">即時熱門榜</h3>
+                <p class="text-xs text-slate-500">prompthero.com/hot — 全站當前最熱門的熱門趨勢作品</p>
             </div>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6" id="cards-ph-top"></div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6" id="cards-hot"></div>
     </div>
 
-    <!-- Source 2: ChatGPT -->
+    <!-- Source 2: Featured -->
     <div class="mb-8 fade-in">
         <div class="flex items-center gap-3 mb-4">
-            <div class="w-10 h-10 rounded-lg bg-teal-500/15 flex items-center justify-center"><i class="fa-solid fa-robot text-teal-400 text-lg"></i></div>
+            <div class="w-10 h-10 rounded-lg bg-teal-500/15 flex items-center justify-center"><i class="fa-solid fa-wand-magic-sparkles text-teal-400 text-lg"></i></div>
             <div>
-                <h3 class="text-xl font-bold text-white">ChatGPT 精選</h3>
-                <p class="text-xs text-slate-500">prompthero.com/chatgpt-prompts — ChatGPT 分類最佳作品</p>
+                <h3 class="text-xl font-bold text-white">社群精選</h3>
+                <p class="text-xs text-slate-500">prompthero.com/featured — 官方與社群精選優質作品</p>
             </div>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6" id="cards-chatgpt"></div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6" id="cards-featured"></div>
     </div>
 
-    <!-- Source 3: PromptHero MJ -->
+    <!-- Source 3: New -->
     <div class="mb-8 fade-in">
         <div class="flex items-center gap-3 mb-4">
-            <div class="w-10 h-10 rounded-lg bg-pink-500/15 flex items-center justify-center"><i class="fa-solid fa-wand-sparkles text-pink-400 text-lg"></i></div>
+            <div class="w-10 h-10 rounded-lg bg-pink-500/15 flex items-center justify-center"><i class="fa-solid fa-clock text-pink-400 text-lg"></i></div>
             <div>
-                <h3 class="text-xl font-bold text-white">Midjourney 精選</h3>
-                <p class="text-xs text-slate-500">prompthero.com/midjourney-prompts — MJ 分類最佳作品</p>
+                <h3 class="text-xl font-bold text-white">最新發布</h3>
+                <p class="text-xs text-slate-500">prompthero.com/new — 社群最新發布與生成的創意作品</p>
             </div>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6" id="cards-mj"></div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6" id="cards-new"></div>
     </div>
 
-    <p class="text-center text-slate-500 text-sm mt-10 fade-in">
-        <i class="fa-solid fa-robot mr-1"></i> 以上內容為真實爬取結果，由 GitHub Actions 每日自動更新。
-    </p>
+        <i class="fa-solid fa-robot mr-1"></i> 以上內容為真實爬取結果，由 GitHub Actions 每日自動更新。資料來源：PromptHero Hot · Featured · New。
 </div>
 </section>
 
@@ -148,7 +146,7 @@
                     <i class="fa-solid fa-robot text-2xl text-pink-400"></i>
                 </div>
                 <h3 class="font-bold mb-2 text-white">2. 自動爬取</h3>
-                <p class="text-sm text-slate-400">機器人每天凌晨從 3 個來源蒐集熱門提示詞</p>
+                <p class="text-sm text-slate-400">機器人每天凌晨從熱門、精選與最新頁面搜羅提示詞</p>
             </div>
             <div class="glass rounded-2xl p-6 text-center fade-in card-hover" style="transition-delay:0.2s">
                 <div class="w-14 h-14 mx-auto mb-4 rounded-xl bg-blue-500/15 flex items-center justify-center float-anim" style="animation-delay:1s">
@@ -180,6 +178,23 @@
 const rankIcons = ['🥇','🥈','🥉'];
 const rankClasses = ['rank-1','rank-2','rank-3'];
 
+function escapeHtml(str) {
+    if (!str) return '';
+    return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+}
+
+function safeUrl(url) {
+    if (!url) return '#';
+    const trimmed = url.trim();
+    if (/^https?:\/\//i.test(trimmed)) return trimmed;
+    return '#';
+}
+
 async function loadLatestPrompts() {
     try {
         const res = await fetch('data/latest.json');
@@ -193,21 +208,23 @@ async function loadLatestPrompts() {
             
             container.innerHTML = ''; // Clear loading
             
-            items.forEach(item => {
-                const imgUrl = item.imageUrl || item.img;
-                const linkUrl = item.link || item.url || '#';
-                
-                container.innerHTML += `
+            const html = items.map(item => {
+                const imgUrl = safeUrl(item.imageUrl || item.img);
+                const linkUrl = safeUrl(item.link || item.url);
+                const prompt = escapeHtml(item.prompt);
+                const model = escapeHtml(item.model || 'AI Model');
+                const rankIdx = (item.rank - 1) || 0;
+                return `
                 <div class="glass rounded-2xl overflow-hidden card-hover relative">
-                    <div class="rank-badge ${rankClasses[item.rank-1]}">${rankIcons[item.rank-1]}</div>
+                    <div class="rank-badge ${rankClasses[rankIdx]}">${rankIcons[rankIdx]}</div>
                     <div class="relative">
                         <div class="w-full h-56 bg-slate-800 overflow-hidden">
                             <img src="${imgUrl}" class="object-cover w-full h-full hover:scale-105 transition duration-500" alt="AI Art" loading="lazy">
                         </div>
                     </div>
                     <div class="p-5">
-                        <p class="text-xs text-slate-400 mb-2 font-mono uppercase tracking-wider">${item.model || 'AI Model'}</p>
-                        <p class="text-sm text-slate-200 line-clamp-3 mb-4 cursor-pointer hover:text-white transition" onclick="copyText(this)">${item.prompt}</p>
+                        <p class="text-xs text-slate-400 mb-2 font-mono uppercase tracking-wider">${model}</p>
+                        <p class="text-sm text-slate-200 line-clamp-3 mb-4 cursor-pointer hover:text-white transition" onclick="copyText(this)">${prompt}</p>
                         <div class="flex items-center justify-between mt-2">
                             <button class="text-xs text-purple-400 hover:text-purple-300 flex items-center gap-1 transition" onclick="copyText(this.parentElement.previousElementSibling)">
                                 <i class="fa-regular fa-copy"></i> 點擊複製提示詞
@@ -216,10 +233,41 @@ async function loadLatestPrompts() {
                         </div>
                     </div>
                 </div>`;
-            });
+            }).join('');
+            container.innerHTML = html;
         });
     } catch (err) {
         console.error('Error loading data:', err);
+        if (window.location.protocol === 'file:') {
+            ['cards-hot', 'cards-featured', 'cards-new'].forEach(id => {
+                const container = document.getElementById(id);
+                if (container) {
+                    container.innerHTML = `
+                    <div class="col-span-full py-8 text-center text-slate-400 border border-dashed border-slate-700/50 rounded-2xl p-6 glass">
+                        <i class="fa-solid fa-triangle-exclamation text-2xl text-amber-500 mb-2"></i>
+                        <p class="font-bold text-slate-200">瀏覽器安全性限制 (CORS)</p>
+                        <p class="text-xs text-slate-400 mt-2 max-w-md mx-auto leading-relaxed">
+                            由於瀏覽器安全機制，直接點兩下檔案以 <code>file://</code> 開啟時，會無法讀取 <code>latest.json</code>。<br>
+                            <strong>解決方案：</strong>請在專案目錄執行本機伺服器（例如：<code>npx http-server</code>），或直接至 GitHub Pages 線上網頁查看！
+                        </p>
+                    </div>`;
+                }
+            });
+        } else {
+            ['cards-hot', 'cards-featured', 'cards-new'].forEach(id => {
+                const container = document.getElementById(id);
+                if (container) {
+                    container.innerHTML = `
+                    <div class="col-span-full py-8 text-center text-slate-400 border border-dashed border-slate-700/50 rounded-2xl p-6 glass">
+                        <i class="fa-solid fa-circle-xmark text-2xl text-red-500 mb-2"></i>
+                        <p class="font-bold text-slate-200">無法讀取資料</p>
+                        <p class="text-xs text-slate-400 mt-2 max-w-md mx-auto">
+                            載入 <code>data/latest.json</code> 失敗，請確認檔案是否存在。
+                        </p>
+                    </div>`;
+                }
+            });
+        }
     }
 }
 

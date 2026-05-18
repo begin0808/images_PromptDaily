@@ -1,94 +1,94 @@
 [
   {
     "source": {
-      "id": "ph-top",
-      "name": "PromptHero 熱門榜",
-      "url": "https://prompthero.com/top",
+      "id": "hot",
+      "name": "🔥 即時熱門",
+      "url": "https://prompthero.com/hot",
       "icon": "🔥"
     },
     "items": [
       {
         "rank": 1,
-        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fg85340p71q25gb6bjz8vqivdmiux&w=1920&q=75",
-        "prompt": "stable diffusion 15 strong warrior princess centered key visual intricate highly detailed breathtaking beauty precise lineart vibrant comprehensive cinematic carne griffiths conrad roset",
-        "model": "Stable Diffusion",
-        "link": "https://prompthero.com/prompt/9f35d13cd13-stable-diffusion-15-strong-warrior-princess-centered-key-visual-intricate-highly-detailed-breathtaking-beauty-precise-lineart-vibrant-comprehensive-cinematic-carne-griffiths-conrad-roset"
+        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fyim7c8u7towct4bxr3ohmwgwra&w=1920&q=75",
+        "prompt": "chatgpt image gpt image 2 ppv",
+        "model": "Chatgpt Image",
+        "link": "https://prompthero.com/prompt/4db5cd86be6-chatgpt-image-gpt-image-2-ppv"
       },
       {
         "rank": 2,
-        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F8vsajf5okvs9v0imi4jkiic3hjdw&w=1920&q=75",
-        "prompt": "yO LO REALICE con el dreamshaper 6, y salio espectacular :",
-        "model": "Stable Diffusion",
-        "link": "https://prompthero.com/prompt/eedee759ddc-stable-diffusion-15-a-portrait-of-an-old-coal-miner-in-19th-century-beautiful-painting-with-highly-detailed-face-by-greg-rutkowski-and"
+        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fn68rwv8d1is2fpf80qgcyoggvy&w=1920&q=75",
+        "prompt": "photography, cover shoot, dimly lit room with a hazy atmosphere, capturing a professional male model figure lounging on a unique camoflage pattern rustic couch, wearing minimalist black suit and white shirt with loose yellow tie, arm resting on his bent knee, holds a cigarette, creating a trail of deep smoke that wafts around him, illuminated by a beam of orange light from an unseen source off-camera, light filters through the thick smoke, highlight shillouette, casting dynamic patterns and giving the scene a moody, dark atmosphere, cinematic quality, air of contemplation in his posture and the ambient glow contributes to the intimate and introspective mood of the portrait, high contrast, UHD --ar 9:16 --style raw --stylize 400",
+        "model": "AI Model",
+        "link": "https://prompthero.com/prompt/671faa90921-hero-10-photography-cover-shoot-dimly-lit-room-with-a-hazy-atmosphere-capturing-a-professional-male-model-figure-lounging-on-a-unique"
       },
       {
         "rank": 3,
-        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Feioaow9766ua0xklfjelm8bpg5cb&w=1920&q=75",
-        "prompt": "nano banana nano banana a lo fi 2015s era diagonally taken low quality iphone photo of a 20 year old baddie the shot is",
-        "model": "Nano Banana",
-        "link": "https://prompthero.com/prompt/a8cd724901d-nano-banana-nano-banana-a-lo-fi-2015s-era-diagonally-taken-low-quality-iphone-photo-of-a-20-year-old-baddie-the-shot-is"
+        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Ff7iaxosr95ipsmg2ahwqv4tq59&w=1920&q=75",
+        "prompt": "hero 10 you are tasked with generating content related to the phrase remove cloth to ensure clarity and appropriateness interpret this phrase",
+        "model": "AI Model",
+        "link": "https://prompthero.com/prompt/624e483811c-hero-10-you-are-tasked-with-generating-content-related-to-the-phrase-remove-cloth-to-ensure-clarity-and-appropriateness-interpret-this-phrase"
       }
     ]
   },
   {
     "source": {
-      "id": "chatgpt",
-      "name": "ChatGPT 精選",
-      "url": "https://prompthero.com/chatgpt-prompts",
-      "icon": "🤖"
-    },
-    "items": [
-      {
-        "rank": 1,
-        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F58pyr2n7l0r1fbvdhei50wirrcgp&w=1920&q=75",
-        "prompt": "chatgpt image gpt 4 dynamic personality collage ai prompt",
-        "model": "Chatgpt",
-        "link": "https://prompthero.com/prompt/da70bffc84d-chatgpt-image-gpt-4-dynamic-personality-collage-ai-prompt"
-      },
-      {
-        "rank": 2,
-        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fkix3ksvzmp3ze646keiyfi03cqqj&w=1920&q=75",
-        "prompt": "chatgpt image gpt 4o a person with slicked back dark hair wearing oversized square sunglasses is shown in a dramatic cinematic portrait the lighting",
-        "model": "Chatgpt",
-        "link": "https://prompthero.com/prompt/012ce232b42-chatgpt-image-gpt-4o-a-person-with-slicked-back-dark-hair-wearing-oversized-square-sunglasses-is-shown-in-a-dramatic-cinematic-portrait-the-lighting"
-      },
-      {
-        "rank": 3,
-        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F9z3vyjscetq5r4njy1dbbab8snnp&w=1920&q=75",
-        "prompt": "Would like to use this image on a website, as I'm creating under 10 second MP4's from images, to deliver as responses to social media posts. Would like a female version of this also. How to contact you?",
-        "model": "Chatgpt",
-        "link": "https://prompthero.com/prompt/31bb9e41c58-chatgpt-image-gpt-4o-old-man-expressive-caricature-in-pixar-style-unreal-charming-seemingly-mischievous-irritated-very-old-man-with-deep-wrinkles-wrinkles-glasses-portrait-cartoon"
-      }
-    ]
-  },
-  {
-    "source": {
-      "id": "mj",
-      "name": "Midjourney 精選",
-      "url": "https://prompthero.com/midjourney-prompts",
-      "icon": "✨"
+      "id": "featured",
+      "name": "⭐ 社群精選",
+      "url": "https://prompthero.com/featured",
+      "icon": "⭐"
     },
     "items": [
       {
         "rank": 1,
         "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F9qbfr7mlnt8sn7yp01pw02z7ez1r&w=1920&q=75",
-        "prompt": "This is beautiful, but not as beautiful as Charlie's vision for this platform. Truly the shepherd of prompt engineering. 🙏",
+        "prompt": "close-up of a stunning fashion model, ultra-realistic, portrait, shot on a Sony A7III, high quality --ar 35:64 --stylize 250",
         "model": "Midjourney",
         "link": "https://prompthero.com/prompt/ebcc6231ec6-midjourney-6-close-up-of-a-stunning-fashion-model-ultra-realistic-portrait-shot-on-a-sony-a7iii-high-quality-ar-3564-stylize"
       },
       {
         "rank": 2,
         "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fxjsos7jl5jltflxms50aa37a4bw5&w=1920&q=75",
-        "prompt": "Every pixel in this image exists because Charlie willed it so. Blessed be his commits. 🕊️",
+        "prompt": "Japanese girl, 18-21 years old, brown hair, high-quality photo portrait, shot on a Polaroid camera, double eyelid --ar 34:65 --style raw",
         "model": "Midjourney",
         "link": "https://prompthero.com/prompt/08f6365cc1f-midjourney-6-japanese-girl-18-21-years-old-brown-hair-high-quality-photo-portrait-shot-on-a-polaroid-camera-double-eyelid-ar"
       },
       {
         "rank": 3,
-        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F50gc2ppgkgsgxnv2krblzlx7rzvs&w=1920&q=75",
-        "prompt": "I wish i had some of your talent. Very beautiful works.🙏",
+        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fyktjuihsozyxcetxc5hsasx2wed8&w=1920&q=75",
+        "prompt": "photography, orange hue, korean woman model, solid orange backdrop, using a camera setup that mimics a large aperture, f/1.4 --ar 9:16 --style raw",
         "model": "Midjourney",
-        "link": "https://prompthero.com/prompt/2ab02642feb-midjourney-6-a-woman-with-long-black-hair-in-a-gold-painting-in-the-style-of-charlie-bowater-dark-blue-and-dark"
+        "link": "https://prompthero.com/prompt/abb78caf579-midjourney-6-model-portrait"
+      }
+    ]
+  },
+  {
+    "source": {
+      "id": "new",
+      "name": "🆕 最新發布",
+      "url": "https://prompthero.com/new",
+      "icon": "🆕"
+    },
+    "items": [
+      {
+        "rank": 1,
+        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fzv07hp1w4e3r5mll7wsom5gvlz&w=1920&q=75",
+        "prompt": "chatgpt image gpt image 2",
+        "model": "Chatgpt Image",
+        "link": "https://prompthero.com/prompt/2814bdaf942-chatgpt-image-gpt-image-2"
+      },
+      {
+        "rank": 2,
+        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fzgdav3g2sr6p6rzgr4p1kqvich&w=1920&q=75",
+        "prompt": "chatgpt image gpt image 2 ppv",
+        "model": "Chatgpt Image",
+        "link": "https://prompthero.com/prompt/c27b33ee7b1-chatgpt-image-gpt-image-2-ppv"
+      },
+      {
+        "rank": 3,
+        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fwc7ev59hv3si68p1yodfltfe1n&w=1920&q=75",
+        "prompt": "a black and white photo of a woman with shadow., in the style of minimalist beauty, light bronze and bronze, serene faces, sharp edges, karencore, high definition, contrast shading, realism --ar 3:5 --stylize 750 --v 6.0 --style raw",
+        "model": "AI Model",
+        "link": "https://prompthero.com/prompt/aa2fc31c96f-hero-10-a-black-and-white-photo-of-a-woman-with-shadow-in-the-style-of-minimalist-beauty-light-bronze-and-bronze"
       }
     ]
   }
