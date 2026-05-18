@@ -25,10 +25,10 @@ const SOURCES = [
         icon: '⭐',
     },
     {
-        id: 'new',
-        name: '🆕 最新發布',
-        url: 'https://prompthero.com/new',
-        icon: '🆕',
+        id: 'top',
+        name: '🏆 本週精華',
+        url: 'https://prompthero.com/top',
+        icon: '🏆',
     },
 ];
 
@@ -254,7 +254,16 @@ async function scrapePromptHero(page, url, count = 3, previousLinks = new Set())
                         if (badge) modelName = badge.textContent.trim();
                     }
 
-                    return { prompt: promptText, model: modelName };
+                    // ═══ 互動量提取（views / favorites）═══
+                    let viewCount = 0;
+                    let favCount = 0;
+                    const bodyText = document.body.innerText;
+                    const viewMatch = bodyText.match(/\b(\d[\d,]*)\s+views?\b/i);
+                    if (viewMatch) viewCount = parseInt(viewMatch[1].replace(/,/g, ''));
+                    const favMatch = bodyText.match(/\b(\d[\d,]*)\s+favou?rites?\b/i);
+                    if (favMatch) favCount = parseInt(favMatch[1].replace(/,/g, ''));
+
+                    return { prompt: promptText, model: modelName, views: viewCount, favorites: favCount };
                 });
 
                 if (detail.prompt && detail.prompt.length > 15
@@ -263,6 +272,14 @@ async function scrapePromptHero(page, url, count = 3, previousLinks = new Set())
                     prompt = detail.prompt;
                 }
                 if (detail.model) model = detail.model;
+
+                // 互動量過濾：views < 50 且 favorites < 3 → 太冷門，跳過
+                const MIN_VIEWS = 50;
+                const MIN_FAV = 3;
+                if (detail.views < MIN_VIEWS && detail.favorites < MIN_FAV) {
+                    console.log(`    📉 跳過低互動 (${detail.views} views / ${detail.favorites} ❤️): ${item.link.substring(0, 50)}...`);
+                    continue;
+                }
             } catch (e) {
                 console.log(`    ⚠ 無法取得詳細頁: ${item.link.substring(0, 60)}`);
             }
