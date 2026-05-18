@@ -15,7 +15,7 @@ const SOURCES = [
     {
         id: 'hot',
         name: '🔥 即時熱門',
-        url: 'https://prompthero.com/hot',
+        url: 'https://prompthero.com/',
         icon: '🔥',
     },
     {
@@ -177,9 +177,22 @@ async function scrapePromptHero(page, url, count = 3, previousLinks = new Set())
             // 過濾影片縮圖
             if (imgSrc.includes('video') || imgSrc.endsWith('.webm') || imgSrc.endsWith('.mp4')) continue;
 
-            items.push({ imageUrl: imgSrc, link: link, alt: img.alt || '' });
+            // 從卡片容器抓點閱數（眼睛圖示旁的數字）
+            let cardViews = 0;
+            const container = card.closest('div') || card.parentElement;
+            if (container) {
+                const nums = (container.innerText.match(/\b(\d[\d,]*)\b/g) || [])
+                    .map(n => parseInt(n.replace(/,/g, '')))
+                    .filter(n => n >= 50 && n < 10000000);  // 50+ 才算點閱數（排除 likes 的小數字）
+                if (nums.length > 0) cardViews = Math.max(...nums);
+            }
+
+            items.push({ imageUrl: imgSrc, link: link, alt: img.alt || '', views: cardViews });
             if (items.length >= candidateCount) break;
         }
+
+        // 按點閱數由高到低排序，優先處理熱門內容
+        items.sort((a, b) => b.views - a.views);
         return items;
     }, candidateCount);
 
