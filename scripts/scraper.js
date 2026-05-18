@@ -1,12 +1,13 @@
 /**
  * scraper.js — 從 PromptHero 各分類頁面爬取每日最熱門 AI 提示詞
  *
- * 資料來源（每日更新，各取 1 張最高點閱）：
+ * 資料來源（每日更新，各取 3 張最高點閱）：
  * 1. Concept Art      → prompthero.com/concept-art-prompts
  * 2. Architecture     → prompthero.com/architecture-prompts
  * 3. Landscapes       → prompthero.com/landscape-prompts
  * 4. Logos & Design   → prompthero.com/logo-design-prompts
  * 5. Interior Design  → prompthero.com/interior-design-prompts
+ * 6. 3D / Renders     → prompthero.com/3d-renders-prompts
  */
 
 const puppeteer = require('puppeteer');
@@ -47,6 +48,13 @@ const SOURCES = [
         name: '🏠 Interior Design',
         url: 'https://prompthero.com/interior-design-prompts',
         icon: '🏠',
+        count: 3,
+    },
+    {
+        id: '3d-renders',
+        name: '🧊 3D / Renders',
+        url: 'https://prompthero.com/3d-renders-prompts',
+        icon: '🧊',
         count: 3,
     },
 ];

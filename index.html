@@ -86,7 +86,7 @@
 <section id="preview" class="w-full py-10 bg-slate-900/50 z-10 border-t border-slate-800">
 <div class="max-w-6xl mx-auto px-4">
     <h2 class="text-3xl font-bold mb-2 text-center fade-in">信件內容預覽</h2>
-    <p class="text-slate-400 text-center mb-8 fade-in">看看您每天早上會收到什麼樣的靈感寶庫 — 5 大分類，各取最高人氣 3 張</p>
+    <p class="text-slate-400 text-center mb-8 fade-in">看看您每天早上會收到什麼樣的靈感寶庫 — 6 大分類，各取最高人氣 3 張</p>
 
     <!-- Category 1: Concept Art -->
     <div class="mb-8 fade-in">
@@ -148,7 +148,19 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="cards-interior-design"></div>
     </div>
 
-        <i class="fa-solid fa-robot mr-1"></i> 以上內容為真實爬取結果，由 GitHub Actions 每日自動更新。資料來源：PromptHero Concept Art · Architecture · Landscapes · Logos &amp; Design · Interior Design。
+    <!-- Category 6: 3D / Renders -->
+    <div class="mb-8 fade-in">
+        <div class="flex items-center gap-3 mb-4">
+            <div class="w-10 h-10 rounded-lg bg-cyan-500/15 flex items-center justify-center"><span class="text-xl">🧊</span></div>
+            <div>
+                <h3 class="text-xl font-bold text-white">3D / Renders</h3>
+                <p class="text-xs text-slate-500">prompthero.com/3d-renders-prompts — 3D 渲染分類最高點閱前 3 名</p>
+            </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="cards-3d-renders"></div>
+    </div>
+
+        <i class="fa-solid fa-robot mr-1"></i> 以上內容為真實爬取結果，由 GitHub Actions 每日自動更新。資料來源：PromptHero Concept Art · Architecture · Landscapes · Logos &amp; Design · Interior Design · 3D / Renders。
 </div>
 </section>
 
@@ -263,7 +275,7 @@ async function loadLatestPrompts() {
     } catch (err) {
         console.error('Error loading data:', err);
         if (window.location.protocol === 'file:') {
-            ['cards-concept-art', 'cards-architecture', 'cards-landscape', 'cards-logo-design', 'cards-interior-design'].forEach(id => {
+            ['cards-concept-art', 'cards-architecture', 'cards-landscape', 'cards-logo-design', 'cards-interior-design', 'cards-3d-renders'].forEach(id => {
                 const container = document.getElementById(id);
                 if (container) {
                     container.innerHTML = `
@@ -278,7 +290,7 @@ async function loadLatestPrompts() {
                 }
             });
         } else {
-            ['cards-concept-art', 'cards-architecture', 'cards-landscape', 'cards-logo-design', 'cards-interior-design'].forEach(id => {
+            ['cards-concept-art', 'cards-architecture', 'cards-landscape', 'cards-logo-design', 'cards-interior-design', 'cards-3d-renders'].forEach(id => {
                 const container = document.getElementById(id);
                 if (container) {
                     container.innerHTML = `
