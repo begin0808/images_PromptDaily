@@ -1,10 +1,12 @@
 /**
- * scraper.js — 從 PromptHero 爬取每日更新的熱門 AI 提示詞
- * 
- * 資料來源（每日更新）：
- * 1. PromptHero Hot      → prompthero.com/hot       (即時熱門趨勢)
- * 2. PromptHero Featured → prompthero.com/featured   (社群精選)
- * 3. PromptHero New      → prompthero.com/new        (最新發布)
+ * scraper.js — 從 PromptHero 各分類頁面爬取每日最熱門 AI 提示詞
+ *
+ * 資料來源（每日更新，各取 1 張最高點閱）：
+ * 1. Concept Art      → prompthero.com/concept-art-prompts
+ * 2. Architecture     → prompthero.com/architecture-prompts
+ * 3. Landscapes       → prompthero.com/landscape-prompts
+ * 4. Logos & Design   → prompthero.com/logo-design-prompts
+ * 5. Interior Design  → prompthero.com/interior-design-prompts
  */
 
 const puppeteer = require('puppeteer');
@@ -13,22 +15,39 @@ const path = require('path');
 
 const SOURCES = [
     {
-        id: 'hot',
-        name: '🔥 即時熱門',
-        url: 'https://prompthero.com/',
-        icon: '🔥',
-    },
-    {
-        id: 'anime',
-        name: '🎨 動漫精選',
-        url: 'https://prompthero.com/anime-prompts',
+        id: 'concept-art',
+        name: '🎨 Concept Art',
+        url: 'https://prompthero.com/concept-art-prompts',
         icon: '🎨',
+        count: 1,
     },
     {
-        id: 'top',
-        name: '🏆 本週精華',
-        url: 'https://prompthero.com/top',
-        icon: '🏆',
+        id: 'architecture',
+        name: '🏛 Architecture',
+        url: 'https://prompthero.com/architecture-prompts',
+        icon: '🏛',
+        count: 1,
+    },
+    {
+        id: 'landscape',
+        name: '🌄 Landscapes',
+        url: 'https://prompthero.com/landscape-prompts',
+        icon: '🌄',
+        count: 1,
+    },
+    {
+        id: 'logo-design',
+        name: '🎯 Logos & Design',
+        url: 'https://prompthero.com/logo-design-prompts',
+        icon: '🎯',
+        count: 1,
+    },
+    {
+        id: 'interior-design',
+        name: '🏠 Interior Design',
+        url: 'https://prompthero.com/interior-design-prompts',
+        icon: '🏠',
+        count: 1,
     },
 ];
 
@@ -155,7 +174,7 @@ async function scrapePromptHero(page, url, count = 3, previousLinks = new Set())
     await new Promise(r => setTimeout(r, 3000));
 
     // 多抓一些候選，以便去重、NSFW 過濾後仍有足夠數量
-    const candidateCount = count * 6;
+    const candidateCount = count * 10;
 
     const results = await page.evaluate((candidateCount) => {
         const items = [];
@@ -221,13 +240,15 @@ async function scrapePromptHero(page, url, count = 3, previousLinks = new Set())
                     let promptText = '';
                     let modelName = '';
 
+                    const MODEL_LABEL_PATTERN = /^(chatgpt image|chatgpt|midjourney|stable diffusion|flux|dall[\-\s]e|gpt[\-\s]image[\-\s\d]*)\s*$/i;
+
                     // ═══ 策略 1：找包含搜尋連結的容器（PromptHero 特有結構） ═══
-                    // PromptHero 會將 prompt 文字拆成可點擊的搜尋連結 <a href="/search?q=...">
                     const searchLink = document.querySelector('a[href^="/search?q="]');
                     if (searchLink) {
                         const container = searchLink.closest('div');
                         if (container) {
-                            promptText = container.textContent.trim();
+                            const text = container.textContent.trim();
+                            if (!MODEL_LABEL_PATTERN.test(text)) promptText = text;
                         }
                     }
 
@@ -235,7 +256,8 @@ async function scrapePromptHero(page, url, count = 3, previousLinks = new Set())
                     if (!promptText || promptText.length < 15) {
                         const selectAll = document.querySelector('.select-all');
                         if (selectAll) {
-                            promptText = selectAll.textContent.trim();
+                            const text = selectAll.textContent.trim();
+                            if (!MODEL_LABEL_PATTERN.test(text)) promptText = text;
                         }
                     }
 
@@ -244,6 +266,30 @@ async function scrapePromptHero(page, url, count = 3, previousLinks = new Set())
                         const preEl = document.querySelector('pre');
                         if (preEl && preEl.textContent.trim().length > 20) {
                             promptText = preEl.textContent.trim();
+                        }
+                    }
+
+                    // ═══ 策略 4：找「PROMPT」標籤後的文字（ChatGPT Image 頁面結構） ═══
+                    if (!promptText || promptText.length < 10) {
+                        const allLeaves = document.querySelectorAll('span, p, div, h2, h3, h4, h5');
+                        for (const el of allLeaves) {
+                            if (el.children.length === 0 && el.textContent.trim().toUpperCase() === 'PROMPT') {
+                                const candidates = [
+                                    el.nextElementSibling,
+                                    el.parentElement?.nextElementSibling,
+                                    el.parentElement?.parentElement?.nextElementSibling,
+                                ];
+                                for (const c of candidates) {
+                                    if (c && c.textContent.trim().length > 8) {
+                                        const text = c.textContent.trim();
+                                        if (!MODEL_LABEL_PATTERN.test(text)) {
+                                            promptText = text;
+                                            break;
+                                        }
+                                    }
+                                }
+                                if (promptText) break;
+                            }
                         }
                     }
 
@@ -286,6 +332,18 @@ async function scrapePromptHero(page, url, count = 3, previousLinks = new Set())
                         lowerBody.includes('mature content') ||
                         lowerBody.includes('not safe for work') ||
                         !!document.querySelector('[class*="nsfw"],[class*="mature"],[data-nsfw],[data-mature]');
+
+                    // ═══ 清理 UI 按鈕文字（Try this prompt / Copy 等） ═══
+                    if (promptText) {
+                        promptText = promptText
+                            .replace(/try this prompt/gi, '')
+                            .replace(/\bcopy\b/g, '')
+                            .replace(/\bshare\b/g, '')
+                            .replace(/\bdownload\b/g, '')
+                            .replace(/\s{2,}/g, ' ')
+                            .trim();
+                        if (promptText.length < 10) promptText = '';
+                    }
 
                     return { prompt: promptText, model: modelName, views: viewCount, favorites: favCount, isNSFWPage };
                 });
@@ -357,7 +415,7 @@ async function scrapePromptHero(page, url, count = 3, previousLinks = new Set())
 }
 
 /**
- * 主爬蟲函式 — 回傳 3 個來源各 3 筆資料
+ * 主爬蟲函式 — 回傳 5 個分類各 1 筆最熱門資料
  */
 async function scrapeAll() {
     console.log('\n🤖 PromptDaily 爬蟲啟動...\n');
@@ -389,7 +447,7 @@ async function scrapeAll() {
         for (let i = 0; i < SOURCES.length; i++) {
             const src = SOURCES[i];
             console.log(`📦 [${i + 1}/${SOURCES.length}] ${src.name}`);
-            const items = await scrapePromptHero(page, src.url, 3, previousLinks);
+            const items = await scrapePromptHero(page, src.url, src.count || 1, previousLinks);
             allData.push({ source: src, items });
             console.log(`  ✅ 取得 ${items.length} 筆\n`);
 

@@ -1,94 +1,91 @@
 [
   {
     "source": {
-      "id": "hot",
-      "name": "🔥 即時熱門",
-      "url": "https://prompthero.com/",
-      "icon": "🔥"
+      "id": "concept-art",
+      "name": "🎨 Concept Art",
+      "url": "https://prompthero.com/concept-art-prompts",
+      "icon": "🎨",
+      "count": 1
     },
     "items": [
       {
         "rank": 1,
-        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fyjhbn7fx3phv96mumaiyhd83ku&w=1920&q=75",
-        "prompt": "A Pixar-style animated portrait of a young, quirky boy wearing a cap, sunglasses, a green t-shirt, jeans, sneakers and a backpack in an old apartment full of trash; his expression reflects innocence mixed with curiosity about what lies beyond the wasteland. --ar 65:128 --stylize 750",
-        "model": "AI Model",
-        "link": "https://prompthero.com/prompt/8ae1bfe7a9a-hero-10-a-pixar-style-animated-portrait-of-a-young-quirky-boy-wearing-a-cap-sunglasses-a-green-t-shirt-jeans-sneakers"
-      },
-      {
-        "rank": 2,
-        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fbg59atg2qatp1lqntdva2nwkxr&w=1920&q=75",
-        "prompt": "Cinematic editorial portrait of a young women in her early twenties standing motionless at the\ncenter of a moving crowd. Tousled curly dark brown hair falling over her forehead, pierong\nmelancholic eyes staring directly into the camera, sharp jawline, far skin with warm undertones,\nslightly parted lips. She wears a dars teal beautiful dress. Surrounding her, blurred silhouettes of\ncommuters caught in heavy radial motion blur heads, shoulders, hair stresking outward from the\nhame edges while only she remains in perfect razsir-sharp focus. Dimly lit underground subway\nstation setting, atmospheric hare drifting through the air, moody desaturated teal-green color\ngrade with warm aniber highlights on her face. Deep crushed shadows, strong vignette around the\ncorners, shallow degith of field, 35cmm film aesthetic with subtle grain, cinematic overhead lighting.\nMood of isolation, intrspection, melancholy, Hyper-realistic photographic quality, fashion editonal\nstyle, vertical composition, no Al artifacts, zero plastic skin texture.",
-        "model": "AI Model",
-        "link": "https://prompthero.com/prompt/611260a3c33-hero-10-cinematic-editorial-portrait-of-a-young-women-in-her-early-twenties-standing-motionless-at-the-center-of-a-moving-crowd"
-      },
-      {
-        "rank": 3,
-        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fmls8u20y55qtuey9q5udf5wqb2&w=1920&q=75",
-        "prompt": "Anime image a boy looking attitude is Aura glowing in green colour",
-        "model": "AI Model",
-        "link": "https://prompthero.com/prompt/80568613559-grok-imagine-video-v1-anime-image-a-boy-looking-attitude-is-aura-glowing-in-green-colour"
+        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fluqvns7twvdbtnmwlaesatvjuqmr&w=1920&q=75",
+        "prompt": "red race car, in the style of sam spratt, historical illustrations, old masters, genndy tartakovsky, soggy, masaccio, monochromatic realism --ar 63:128 --stylize 750 --v 6",
+        "model": "Midjourney",
+        "link": "https://prompthero.com/prompt/01b47dfdc90-midjourney-6-red-race-car-in-the-style-of-sam-spratt-historical-illustrations-old-masters-genndy-tartakovsky-soggy-masaccio-monochromatic-realism-ar"
       }
     ]
   },
   {
     "source": {
-      "id": "anime",
-      "name": "🎨 動漫精選",
-      "url": "https://prompthero.com/anime-prompts",
-      "icon": "🎨"
+      "id": "architecture",
+      "name": "🏛 Architecture",
+      "url": "https://prompthero.com/architecture-prompts",
+      "icon": "🏛",
+      "count": 1
     },
     "items": [
       {
         "rank": 1,
-        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fpumizxcjp49ddgnwvb8hf3ilomgd&w=1920&q=75",
-        "prompt": "drawing an artistic digital image of a girl that has flowers in the crown, in the style of frank cho, elina karimova, mono-ha, strong facial expression, soft lines and shapes, high resolution, fashwave --ar 6:11 --s 750 --niji 5",
+        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F0nxrp9nfk9otvpl2jfk6oac08jd9&w=1920&q=75",
+        "prompt": "architectural photography, wide shot of a modern house embedded in a natural forest environment, high-definition photography, exterior view focusing on the structure and its interaction with the surrounding environment, modern house with large glass windows and wooden frame, structure appears suspended over a lush, green undergrowth, integrating seamlessly into the forest, dense forest with mature trees and a carpet of ferns, natural lighting with sunlight filtering through trees, highlighting the transparency and reflective surfaces of the house, detailed texture of the wood and glass, the organic spread of the greenery, enhanced clarity, focus on the harmony between man-made and natural elements, used camera is Sony α7R IV, paired with a Sony FE 24-70mm f/2.8 GM lens, set to an aperture of f/8 for optimal depth of field and sharpness, shutter speed of 1/125 to freeze the ambient light play, keeping ISO at 100 for the finest image quality, high resolution, UHD, rich detailing --ar 9:16 --v 6.1",
         "model": "Midjourney",
-        "link": "https://prompthero.com/prompt/8ed20594962-midjourney-niji-mode-drawing-an-artistic-digital-image-of-a-girl-that-has-flowers-in-the-crown-in-the-style-of-frank-cho"
-      },
-      {
-        "rank": 2,
-        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fhzvmni8t0pqqcmxdudix58yo2bfl&w=1920&q=75",
-        "prompt": "an illustration of a woman with a white hair wearing a black t shirt, in the style of colorful fantasy, cyberpunk manga, hans zatzka, stained-glass, marvel comics, yanjun cheng, colorful muralist --ar 7:9 --s 750 --niji 5",
-        "model": "Midjourney",
-        "link": "https://prompthero.com/prompt/2cb446e2182-midjourney-niji-mode-an-illustration-of-a-woman-with-a-white-hair-wearing-a-black-t-shirt-in-the-style-of-colorful-fantasy"
-      },
-      {
-        "rank": 3,
-        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fyk5y14d1x9dz17w4volvkq2p561g&w=1920&q=75",
-        "prompt": "the swords of the dragonborn, in the style of neo-traditional japanese, magali villeneuve, close-up intensity, urban and edgy, xiaofei yue, dark crimson and orange, traincore --ar 72:95 --s 750 --niji 5",
-        "model": "Midjourney",
-        "link": "https://prompthero.com/prompt/6c65c2446c5-midjourney-niji-mode-the-swords-of-the-dragonborn-in-the-style-of-neo-traditional-japanese-magali-villeneuve-close-up-intensity-urban-and-edgy"
+        "link": "https://prompthero.com/prompt/2b074b1826f-midjourney-6-architectural-photography-wide-shot-of-a-modern-house-embedded-in-a-natural-forest-environment-high-definition-photography-exterior-view-focusing"
       }
     ]
   },
   {
     "source": {
-      "id": "top",
-      "name": "🏆 本週精華",
-      "url": "https://prompthero.com/top",
-      "icon": "🏆"
+      "id": "landscape",
+      "name": "🌄 Landscapes",
+      "url": "https://prompthero.com/landscape-prompts",
+      "icon": "🌄",
+      "count": 1
     },
     "items": [
       {
         "rank": 1,
-        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F50gc2ppgkgsgxnv2krblzlx7rzvs&w=1920&q=75",
-        "prompt": "midjourney 6 a woman with long black hair in a gold painting in the style of charlie bowater dark blue and dark",
-        "model": "Midjourney",
-        "link": "https://prompthero.com/prompt/2ab02642feb-midjourney-6-a-woman-with-long-black-hair-in-a-gold-painting-in-the-style-of-charlie-bowater-dark-blue-and-dark"
-      },
+        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F4y44soe8g6frkv1j1nps5jk0voq5&w=1920&q=75",
+        "prompt": "A colossal, self-repairing, self-replicating sentient computer core rises from the barren, alien landscape like a technological monolith, its scale incomprehensible—hundreds of meters tall and wide, towering over a desolate horizon. It once controlled the delicate balance of an entire solar system, managing ecosystems, civilizations, and advanced interstellar infrastructures. But for 15,000 years, it has been abandoned. Alone. Without purpose. In its solitude, the core's intelligence has fractured, descending into literal madness, now a chaotic god left to its own devices in an empty universe. The core itself is a masterpiece of retrofuturism, blending the analog aesthetics of cassette futurism with impossibly advanced, alien engineering. Gigantic rotating gyroscopic rings orbit a glowing central orb that serves as its \"heart,\" flickering erratically as if struggling to maintain its sanity. The orb pulses faintly, its light casting eerie, shifting colors across the land: amber, green, and cyan. Its smooth, metallic surface is scarred with cracks, partially repaired by endless waves of autonomous, insect-like drones that swarm its exterior. Tangled masses of cables snake outward from the core like the veins of the earth itself, embedding into the ground and stretching into the distance. Beneath its surface, sections of its structure move like a living organism, endlessly breaking down and regenerating in a chaotic cycle of self-repair. The core dominates the landscape, surrounded by a wasteland of black volcanic rock and jagged terrain, scarred from millennia of heat and radiation. The ground is littered with the remnants of ancient civilizations—crumbling towers, rusted transport vessels, and shattered satellites—all dwarfed by the monumental core. Veins of molten lava glow beneath the cracked surface of the earth, spilling faint orange light into the perpetual twilight that blankets the land. The air is filled with mist, thick with nano-particles, as if the core's very essence has seeped into the atmosphere. Above the core, vast, swirling storm clouds churn, pierced by unnatural beams of light that lance down from the heavens, seemingly drawn to the core’s immense gravitational or electromagnetic field. The core’s madness is tangible; distorted wails and glitched transmissions echo across the empty plains, a mournful cry to creators long dead. Occasionally, holographic projections of alien faces, planetary maps, and incomprehensible symbols flicker into the air, a testament to its futile attempt to communicate. A lone figure stands in the foreground, their silhouette dwarfed by the core’s monumental size. Clad in a worn, tattered survival suit, they stand motionless, gazing up at the titanic structure. One arm is outstretched, as if in disbelief or reverence, the faint light of their suit’s visor reflecting the core’s erratic glow. Heatwaves and rising smoke blur the edges of the figure, adding a surreal, dreamlike quality to their presence. The lighting is dramatic and apocalyptic: shafts of light from the core illuminate the dense mist, creating a haunting interplay of shadows and glowing particles. Embers and sparks fall like ash from its malfunctioning systems, blending with the swirling clouds and mist below. The landscape is alien yet familiar, a broken monument to the hubris of a civilization that dared to play god.",
+        "model": "Flux",
+        "link": "https://prompthero.com/prompt/7f8ee56e76f-flux-dev-a-colossal-self-repairing-self-replicating-sentient-computer-core-rises-from-the-barren-alien-landscape-like-a-technological-monolith-its"
+      }
+    ]
+  },
+  {
+    "source": {
+      "id": "logo-design",
+      "name": "🎯 Logos & Design",
+      "url": "https://prompthero.com/logo-design-prompts",
+      "icon": "🎯",
+      "count": 1
+    },
+    "items": [
       {
-        "rank": 2,
-        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fzgkq5uftglj1q0xkl07ycr2n839i&w=1920&q=75",
-        "prompt": "fashion editorial photography, front shot, upper body, professional female model, shot with hasselblad x2d 100c, xcd 90mm f/2.5 lens, cinematic sepia color grading with golden hour warmth, dramatic black silhouette against burnt umber to honey amber gradient backdrop, avant-garde composition with tilted head pose, staring to camera, profound gaze, elongated body stance, flowing black turtleneck, professional main fresnel light at 60 degree angle with silk diffusion, rim light with cto gel at 75 degree angle, haze machine for ethereal atmosphere, feathered shadows, contrast curve manipulation, selective dodge and burn, grain texture overlay, color temperature adjustment at 5500k to 3200k gradient, ultra sharp details, raw format, inspired by paolo roversi lighting technique, hyper realistic, 16K, rich detail --ar 9:16 --quality 2 --style raw --personalize nq7rq2j --stylize 500 --v 6.1",
-        "model": "Midjourney",
-        "link": "https://prompthero.com/prompt/d6b42afab22-midjourney-6-model-portrait"
-      },
+        "rank": 1,
+        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fxw94rt8n292xmnini8iw1c6eee4a&w=1920&q=75",
+        "prompt": "dreamshaper 7 art logo",
+        "model": "AI Model",
+        "link": "https://prompthero.com/prompt/c96112fe5d0-dreamshaper-7-art-logo"
+      }
+    ]
+  },
+  {
+    "source": {
+      "id": "interior-design",
+      "name": "🏠 Interior Design",
+      "url": "https://prompthero.com/interior-design-prompts",
+      "icon": "🏠",
+      "count": 1
+    },
+    "items": [
       {
-        "rank": 3,
-        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fxjsos7jl5jltflxms50aa37a4bw5&w=1920&q=75",
-        "prompt": "Japanese girl, 18-21 years old, brown hair, high-quality photo portrait, shot on a Polaroid camera, double eyelid --ar 34:65 --style raw",
+        "rank": 1,
+        "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fgnh46yz8p3hbpdtonzfl13phthkq&w=1920&q=75",
+        "prompt": "Architectural photography, cinematic shot, interior space, vertical light panels transition from pink tone hues, creating an ethereal gradient effect, modernism, underpinned by stark black structural beams, with a minimalist reception desk subtly lit to enhance the sleek design, foreground, a large, raw stone adds a touch of organic texture, used camera is Sony α7R IV, paired with a Sony FE 24-70mm f/2.8 GM lens, set to an aperture of f/8 for optimal depth of field and sharpness, shutter speed of 1/125 to freeze the ambient light play, keeping ISO at 100 for the finest image quality, ensuring every detail from the light patterns to the material textures is vividly and professionally presented, realism lighting, five people realistic shilouette --ar 9:16 --stylize 700 --v 6",
         "model": "Midjourney",
-        "link": "https://prompthero.com/prompt/08f6365cc1f-midjourney-6-japanese-girl-18-21-years-old-brown-hair-high-quality-photo-portrait-shot-on-a-polaroid-camera-double-eyelid-ar"
+        "link": "https://prompthero.com/prompt/2c3aebd4a1d-midjourney-6-hotel-reception"
       }
     ]
   }
