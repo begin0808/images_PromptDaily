@@ -86,7 +86,8 @@
 <section id="preview" class="w-full py-10 bg-slate-900/50 z-10 border-t border-slate-800">
 <div class="max-w-6xl mx-auto px-4">
     <h2 class="text-3xl font-bold mb-2 text-center fade-in">信件內容預覽</h2>
-    <p class="text-slate-400 text-center mb-8 fade-in">看看您每天早上會收到什麼樣的靈感寶庫 — 6 大分類，各取最高人氣 3 張</p>
+    <p class="text-slate-400 text-center mb-1 fade-in">看看您每天早上會收到什麼樣的靈感寶庫 — 6 大分類，各取最高人氣 3 張</p>
+    <p id="last-updated" class="text-xs text-slate-600 text-center mb-8 fade-in"></p>
 
     <!-- Category 1: Concept Art -->
     <div class="mb-8 fade-in">
@@ -235,8 +236,16 @@ async function loadLatestPrompts() {
     try {
         const res = await fetch('data/latest.json');
         if (!res.ok) throw new Error('Failed to fetch data');
-        const data = await res.json();
-        
+        const json = await res.json();
+
+        // 支援新格式 {scrapedAt, sources} 及舊格式（純陣列）
+        const data = json.sources || json;
+        if (json.scrapedAt) {
+            const d = new Date(json.scrapedAt);
+            document.getElementById('last-updated').textContent =
+                `資料更新於 ${d.toLocaleString('zh-TW', { timeZone: 'Asia/Taipei' })}`;
+        }
+
         data.forEach(({ source, items }) => {
             const containerId = `cards-${source.id}`;
             const container = document.getElementById(containerId);

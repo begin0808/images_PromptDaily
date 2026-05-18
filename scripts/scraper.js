@@ -66,7 +66,9 @@ function loadPreviousLinks() {
     try {
         const latestPath = path.join(__dirname, '..', 'data', 'latest.json');
         if (fs.existsSync(latestPath)) {
-            const data = JSON.parse(fs.readFileSync(latestPath, 'utf-8'));
+            const raw = JSON.parse(fs.readFileSync(latestPath, 'utf-8'));
+            // 支援新格式 {scrapedAt, sources} 及舊格式（純陣列）
+            const data = raw.sources || raw;
             const links = new Set();
             for (const group of data) {
                 if (group.items) {
@@ -380,11 +382,16 @@ async function scrapePromptHero(page, url, count = 3, previousLinks = new Set())
                 console.log(`    ⚠ 無法取得詳細頁: ${item.link.substring(0, 60)}`);
             }
 
-            // Fallback：從 URL slug 還原
+            // Fallback：從 URL slug 還原（僅接受非模型名稱開頭、且長度足夠的結果）
             if (!prompt || prompt.length < 15) {
-                prompt = extractPromptFromSlug(item.link);
-                if (prompt) {
+                const slugText = extractPromptFromSlug(item.link);
+                const MODEL_PREFIX = /^(chatgpt|midjourney|stable[\s-]?diffusion|flux|dall[\s-]?e|dreamshaper|majicmix|seedream|hero[\s-]?10|nano[\s-]?banana|animagine|realvisxl|juggernaut|unstable|anything|veo|sora|hunyuan|leonardo)/i;
+                if (slugText && slugText.length >= 20 && !MODEL_PREFIX.test(slugText)) {
+                    prompt = slugText;
                     console.log(`    📎 從 URL slug 還原 prompt`);
+                } else {
+                    console.log(`    ⏩ 跳過：prompt 品質不足（slug 僅含模型名稱或過短）`);
+                    continue;
                 }
             }
         }

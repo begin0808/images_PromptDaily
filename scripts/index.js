@@ -63,6 +63,12 @@ async function main() {
     } else {
         allData = await scrapeAll();
 
+        const totalScraped = allData.reduce((sum, d) => sum + d.items.length, 0);
+        if (totalScraped === 0) {
+            console.error('❌ 爬蟲取得 0 筆資料！PromptHero 網站結構可能已變更，請手動檢查。');
+            process.exit(1);
+        }
+
         if (mode === '--test-scrape') {
             console.log('🧪 僅測試爬蟲，不寄信。');
             allData.forEach(({ source, items }) => {
@@ -85,7 +91,8 @@ async function main() {
             fs.mkdirSync(dataDir, { recursive: true });
         }
         const outputPath = path.join(dataDir, 'latest.json');
-        fs.writeFileSync(outputPath, JSON.stringify(allData, null, 2), 'utf-8');
+        const outputData = { scrapedAt: new Date().toISOString(), sources: allData };
+        fs.writeFileSync(outputPath, JSON.stringify(outputData, null, 2), 'utf-8');
         console.log(`💾 爬取結果已儲存: ${outputPath}\n`);
     }
 
