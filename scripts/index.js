@@ -5,11 +5,18 @@
  *   node index.js --now          完整執行（爬蟲 + 寄信）
  *   node index.js --test-scrape  僅測試爬蟲
  *   node index.js --test-email   僅測試寄信（使用假資料）
+ *
+ * 資料來源：
+ *   1. PromptHero（Hot / Featured / 分類頁面） — 需 Puppeteer
+ *   2. Civitai 官方 API — 每日最多按讚
+ *   3. PromptHero 主題搜尋 — 隨機主題精選（復用 Puppeteer）
  */
 
 require('dotenv').config();
 
-const { scrapeAll, SOURCES } = require('./scraper');
+const { scrapeAll, SOURCES, saveHistory } = require('./scraper');
+const { scrapeCivitai } = require('./civitaiScraper');
+const { scrapeLexicaTopics } = require('./lexicaScraper');
 const { generateEmailHTML } = require('./emailTemplate');
 const { sendEmail } = require('./mailer');
 const fs = require('fs');
@@ -19,6 +26,10 @@ const path = require('path');
 const SMTP_USER = process.env.SMTP_USER;
 const SMTP_PASS = process.env.SMTP_PASS;
 const MY_EMAIL = process.env.MY_EMAIL;
+
+// 新來源的設定
+const CIVITAI_COUNT = 3;  // Civitai 每日 3 張
+const TOPIC_COUNT = 2;    // 主題搜尋每日 2 張
 
 function getTaipeiDate() {
     return new Date().toLocaleDateString('zh-TW', {
@@ -30,9 +41,23 @@ function getTaipeiDate() {
 
 /** 產生測試用假資料 */
 function getMockData() {
-    return SOURCES.map(source => ({
+    const mockSources = [
+        ...SOURCES,
+        {
+            id: 'civitai',
+            name: '🎨 Civitai 社群精選',
+            icon: '🎨',
+        },
+        {
+            id: 'topic-search',
+            name: '🔍 主題精選',
+            icon: '🔍',
+        },
+    ];
+
+    return mockSources.map(source => ({
         source,
-        items: [1, 2, 3].map(rank => ({
+        items: [1, 2, 3].slice(0, source.count || 2).map(rank => ({
             rank,
             imageUrl: `https://images.unsplash.com/photo-167888512108${rank}?w=500&q=80`,
             prompt: `A beautiful test prompt for ${source.name}, rank #${rank}, cinematic lighting, 8k --ar 16:9`,
@@ -61,11 +86,98 @@ async function main() {
         console.log('🧪 使用測試假資料...\n');
         allData = getMockData();
     } else {
-        allData = await scrapeAll();
+        // ─── Step 1: PromptHero 爬蟲（需要 Puppeteer）───
+        console.log('═══════════════════════════════════');
+        console.log('  📦 STEP 1: PromptHero 爬蟲');
+        console.log('═══════════════════════════════════');
+        const scrapeResult = await scrapeAll();
+        allData = scrapeResult.allData;
+        const { browser, page, historyLinks, previousLinks } = scrapeResult;
+        let newLinks = [...scrapeResult.newLinks];
 
+        // ─── Step 2: Civitai API（不需要 Puppeteer）───
+        console.log('═══════════════════════════════════');
+        console.log('  📦 STEP 2: Civitai API');
+        console.log('═══════════════════════════════════');
+        try {
+            const civitaiItems = await scrapeCivitai(CIVITAI_COUNT, previousLinks);
+            allData.push({
+                source: {
+                    id: 'civitai',
+                    name: '🎨 Civitai 社群精選',
+                    url: 'https://civitai.com',
+                    icon: '🎨',
+                    count: CIVITAI_COUNT,
+                },
+                items: civitaiItems,
+            });
+            // 加入已有連結
+            for (const item of civitaiItems) {
+                if (item.link) {
+                    previousLinks.add(item.link);
+                    newLinks.push(item.link);
+                }
+            }
+        } catch (e) {
+            console.error('❌ Civitai 爬取失敗:', e.message);
+            allData.push({
+                source: { id: 'civitai', name: '🎨 Civitai 社群精選', icon: '🎨', count: CIVITAI_COUNT },
+                items: [],
+            });
+        }
+
+        // ─── Step 3: PromptHero 主題搜尋（復用 Puppeteer browser）───
+        console.log('═══════════════════════════════════');
+        console.log('  📦 STEP 3: 主題搜尋');
+        console.log('═══════════════════════════════════');
+        try {
+            const topicItems = await scrapeLexicaTopics(page, TOPIC_COUNT, previousLinks);
+            allData.push({
+                source: {
+                    id: 'topic-search',
+                    name: '🔍 主題精選',
+                    url: 'https://prompthero.com',
+                    icon: '🔍',
+                    count: TOPIC_COUNT,
+                },
+                items: topicItems,
+            });
+            for (const item of topicItems) {
+                if (item.link) {
+                    previousLinks.add(item.link);
+                    newLinks.push(item.link);
+                }
+            }
+        } catch (e) {
+            console.error('❌ 主題搜尋失敗:', e.message);
+            allData.push({
+                source: { id: 'topic-search', name: '🔍 主題精選', icon: '🔍', count: TOPIC_COUNT },
+                items: [],
+            });
+        }
+
+        // ─── 關閉瀏覽器 ───
+        try {
+            await browser.close();
+            console.log('🌐 瀏覽器已關閉\n');
+        } catch (e) {
+            console.log('⚠ 關閉瀏覽器時出錯:', e.message);
+        }
+
+        // ─── 儲存歷史 ───
+        saveHistory(historyLinks, newLinks);
+
+        // ─── 統計 ───
         const totalScraped = allData.reduce((sum, d) => sum + d.items.length, 0);
+        console.log('═══════════════════════════════════');
+        console.log(`  📊 總計: ${totalScraped} 筆資料`);
+        allData.forEach(({ source, items }) => {
+            console.log(`     ${source.icon} ${source.name}: ${items.length} 筆`);
+        });
+        console.log('═══════════════════════════════════\n');
+
         if (totalScraped === 0) {
-            console.error('❌ 爬蟲取得 0 筆資料！PromptHero 網站結構可能已變更，請手動檢查。');
+            console.error('❌ 所有來源取得 0 筆資料！請手動檢查。');
             process.exit(1);
         }
 
@@ -74,9 +186,10 @@ async function main() {
             allData.forEach(({ source, items }) => {
                 console.log(`\n── ${source.icon} ${source.name} ──`);
                 items.forEach(item => {
-                    console.log(`  ${['🥇','🥈','🥉'][item.rank-1]} [${item.model}]`);
+                    console.log(`  ${['🥇','🥈','🥉'][item.rank-1] || '🏅'} [${item.model}]`);
                     console.log(`     ${item.prompt.substring(0, 80)}...`);
                     console.log(`     🖼 ${item.imageUrl.substring(0, 60)}...`);
+                    console.log(`     🔗 ${item.link}`);
                 });
             });
             return;

@@ -91,7 +91,7 @@ function generateEmailHTML(allData, dateStr) {
     <!-- Intro -->
     <tr><td style="padding:20px 24px 8px;text-align:center;">
         <p style="font-size:15px;color:#cbd5e1;line-height:1.6;margin:0;">
-            早安！☀ 以下是今天的 AI 提示詞精選，涵蓋 Concept Art、Architecture、Landscapes、Logos &amp; Design、Interior Design 與 3D / Renders 六大分類：
+            早安！☀ 以下是今天的 AI 提示詞精選，來自 PromptHero 今日熱門與精選、Civitai 社群熱門、以及每日主題搜尋，共 12 張圖片與完整提示詞：
         </p>
     </td></tr>
 
@@ -107,7 +107,7 @@ function generateEmailHTML(allData, dateStr) {
     <tr><td style="padding:20px 24px 32px;text-align:center;">
         <p style="font-size:11px;color:#64748b;margin:0 0 8px;">
             此信件由 Studio0808_PromptDaily 自動發送<br>
-            資料來源：PromptHero Concept Art · Architecture · Landscapes · Logos &amp; Design · Interior Design · 3D / Renders
+            資料來源：PromptHero Hot · Featured · Architecture · Interior · 3D ｜ Civitai API ｜ Lexica Search
         </p>
         <p style="font-size:11px;color:#475569;margin:0;">
             不想再收到？<a href="https://begin0808.github.io/images_PromptDaily/" style="color:#a855f7;text-decoration:underline;">至首頁取消訂閱</a>

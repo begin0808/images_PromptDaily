@@ -40,7 +40,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/latest.json
+          git add data/latest.json data/history.json
           git commit -m "Auto-update latest prompts [skip ci]" || echo "No changes to commit"
           git push
 

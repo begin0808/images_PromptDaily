@@ -1,89 +1,117 @@
 /**
- * scraper.js — 從 PromptHero 各分類頁面爬取每日最熱門 AI 提示詞
+ * scraper.js — 從 PromptHero 各頁面爬取每日最熱門 AI 提示詞
  *
- * 資料來源（每日更新，各取 3 張最高點閱）：
- * 1. Concept Art      → prompthero.com/concept-art-prompts
- * 2. Architecture     → prompthero.com/architecture-prompts
- * 3. Landscapes       → prompthero.com/landscape-prompts
- * 4. Logos & Design   → prompthero.com/logo-design-prompts
- * 5. Interior Design  → prompthero.com/interior-design-prompts
- * 6. 3D / Renders     → prompthero.com/3d-renders-prompts
+ * 資料來源（每日更新）：
+ * 1. Hot (今日熱門)        → prompthero.com/hot           × 2 張
+ * 2. Featured (官方精選)   → prompthero.com/featured      × 2 張
+ * 3. Architecture          → prompthero.com/architecture-prompts × 1 張
+ * 4. Interior Design       → prompthero.com/interior-design-prompts × 1 張
+ * 5. 3D / Renders          → prompthero.com/3d-renders-prompts × 1 張
+ *
+ * 去重機制：滾動 14 天歷史記錄（data/history.json）
  */
 
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 const path = require('path');
 
+const HISTORY_FILE = path.join(__dirname, '..', 'data', 'history.json');
+const HISTORY_DAYS = 14; // 保留多少天的歷史
+
 const SOURCES = [
     {
-        id: 'concept-art',
-        name: '🎨 Concept Art',
-        url: 'https://prompthero.com/concept-art-prompts',
-        icon: '🎨',
-        count: 3,
+        id: 'hot',
+        name: '🔥 今日熱門',
+        url: 'https://prompthero.com/hot',
+        icon: '🔥',
+        count: 2,
+    },
+    {
+        id: 'featured',
+        name: '✨ 官方精選',
+        url: 'https://prompthero.com/featured',
+        icon: '✨',
+        count: 2,
     },
     {
         id: 'architecture',
         name: '🏛 Architecture',
         url: 'https://prompthero.com/architecture-prompts',
         icon: '🏛',
-        count: 3,
-    },
-    {
-        id: 'landscape',
-        name: '🌄 Landscapes',
-        url: 'https://prompthero.com/landscape-prompts',
-        icon: '🌄',
-        count: 3,
-    },
-    {
-        id: 'logo-design',
-        name: '🎯 Logos & Design',
-        url: 'https://prompthero.com/logo-design-prompts',
-        icon: '🎯',
-        count: 3,
+        count: 1,
     },
     {
         id: 'interior-design',
         name: '🏠 Interior Design',
         url: 'https://prompthero.com/interior-design-prompts',
         icon: '🏠',
-        count: 3,
+        count: 1,
     },
     {
         id: '3d-renders',
         name: '🧊 3D / Renders',
         url: 'https://prompthero.com/3d-renders-prompts',
         icon: '🧊',
-        count: 3,
+        count: 1,
     },
 ];
 
+// ════════════════════════════════════════
+//  歷史管理 — 滾動 14 天去重
+// ════════════════════════════════════════
+
 /**
- * 載入上一次爬取的連結，用於去重
+ * 載入滾動歷史（14 天內所有已出現的連結）
+ * history.json 格式: { "links": { "<url>": "<YYYY-MM-DD>", ... } }
  */
-function loadPreviousLinks() {
+function loadHistory() {
     try {
-        const latestPath = path.join(__dirname, '..', 'data', 'latest.json');
-        if (fs.existsSync(latestPath)) {
-            const raw = JSON.parse(fs.readFileSync(latestPath, 'utf-8'));
-            // 支援新格式 {scrapedAt, sources} 及舊格式（純陣列）
-            const data = raw.sources || raw;
-            const links = new Set();
-            for (const group of data) {
-                if (group.items) {
-                    for (const item of group.items) {
-                        if (item.link) links.add(item.link);
-                    }
+        if (fs.existsSync(HISTORY_FILE)) {
+            const raw = JSON.parse(fs.readFileSync(HISTORY_FILE, 'utf-8'));
+            const links = raw.links || {};
+            const today = new Date();
+            const cutoff = new Date(today);
+            cutoff.setDate(cutoff.getDate() - HISTORY_DAYS);
+
+            // 過濾掉超過 14 天的舊記錄
+            const filtered = {};
+            let removed = 0;
+            for (const [url, dateStr] of Object.entries(links)) {
+                const d = new Date(dateStr);
+                if (d >= cutoff) {
+                    filtered[url] = dateStr;
+                } else {
+                    removed++;
                 }
             }
-            console.log(`  📋 載入 ${links.size} 筆歷史連結用於去重`);
-            return links;
+
+            console.log(`  📋 載入 ${Object.keys(filtered).length} 筆歷史連結（移除 ${removed} 筆過期記錄）`);
+            return filtered;
         }
     } catch (e) {
         console.log(`  ⚠ 無法載入歷史資料: ${e.message}`);
     }
-    return new Set();
+    return {};
+}
+
+/**
+ * 將新爬取的連結加入歷史並儲存
+ */
+function saveHistory(historyLinks, newLinks) {
+    const today = new Date().toISOString().slice(0, 10); // YYYY-MM-DD
+    const updated = { ...historyLinks };
+
+    for (const url of newLinks) {
+        updated[url] = today;
+    }
+
+    const dataDir = path.dirname(HISTORY_FILE);
+    if (!fs.existsSync(dataDir)) {
+        fs.mkdirSync(dataDir, { recursive: true });
+    }
+
+    fs.writeFileSync(HISTORY_FILE, JSON.stringify({ links: updated }, null, 2), 'utf-8');
+    console.log(`💾 歷史記錄已更新: ${Object.keys(updated).length} 筆連結`);
 }
 
 /**
@@ -232,7 +260,7 @@ async function scrapePromptHero(page, url, count = 3, previousLinks = new Set())
     for (let i = 0; i < results.length && enriched.length < count; i++) {
         const item = results[i];
 
-        // 去重：跳過上次已出現的連結
+        // 去重：跳過歷史中已出現的連結
         if (previousLinks.has(item.link)) {
             console.log(`    ⏭ 跳過重複: ${item.link.substring(0, 60)}...`);
             continue;
@@ -372,6 +400,7 @@ async function scrapePromptHero(page, url, count = 3, previousLinks = new Set())
                 }
 
                 // 互動量過濾：views < 50 且 favorites < 3 → 太冷門，跳過
+                // 對 Hot/Featured 頁面放寬，因為它們本身就是精選
                 const MIN_VIEWS = 50;
                 const MIN_FAV = 3;
                 if (detail.views < MIN_VIEWS && detail.favorites < MIN_FAV) {
@@ -430,14 +459,15 @@ async function scrapePromptHero(page, url, count = 3, previousLinks = new Set())
 }
 
 /**
- * 主爬蟲函式 — 回傳 5 個分類各 1 筆最熱門資料
+ * 主爬蟲函式 — 回傳各來源的最熱門資料
  */
 async function scrapeAll() {
     console.log('\n🤖 PromptDaily 爬蟲啟動...\n');
     console.log(`📅 時間: ${new Date().toLocaleString('zh-TW', { timeZone: 'Asia/Taipei' })}\n`);
 
-    // 載入歷史資料用於去重
-    const previousLinks = loadPreviousLinks();
+    // 載入滾動歷史用於去重（14 天）
+    const historyLinks = loadHistory();
+    const previousLinks = new Set(Object.keys(historyLinks));
 
     const browser = await puppeteer.launch({
         headless: 'new',
@@ -457,6 +487,7 @@ async function scrapeAll() {
     );
 
     const allData = [];
+    const newLinks = [];
 
     try {
         for (let i = 0; i < SOURCES.length; i++) {
@@ -468,19 +499,21 @@ async function scrapeAll() {
 
             // 將本批連結加入 previousLinks，讓後續來源不重複選取
             for (const item of items) {
-                if (item.link) previousLinks.add(item.link);
+                if (item.link) {
+                    previousLinks.add(item.link);
+                    newLinks.push(item.link);
+                }
             }
         }
     } catch (error) {
         console.error('❌ 爬蟲發生錯誤:', error.message);
-    } finally {
-        await browser.close();
     }
+    // 注意：不在此處關閉 browser，讓呼叫者決定（主題搜尋可能需要復用）
 
     const totalItems = allData.reduce((sum, d) => sum + d.items.length, 0);
-    console.log(`\n🏁 爬蟲完成！共取得 ${totalItems} 筆資料\n`);
+    console.log(`\n🏁 PromptHero 爬蟲完成！共取得 ${totalItems} 筆資料\n`);
 
-    return allData;
+    return { allData, browser, page, historyLinks, newLinks, previousLinks };
 }
 
-module.exports = { scrapeAll, SOURCES };
+module.exports = { scrapeAll, SOURCES, loadHistory, saveHistory };
