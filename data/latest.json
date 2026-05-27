@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-05-27T13:15:16.638Z",
+  "scrapedAt": "2026-05-27T22:48:59.910Z",
   "sources": [
     {
       "source": {
@@ -12,17 +12,17 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fdgcss8hy21jj91n215egotrt52&w=1920&q=75",
-          "prompt": "snapshot, dimly lit room with a hazy atmosphere, capturing a female model lounging on a deep purple color sofa, wearing a white suit and black shirt with loose yellow tie, capturing a smoking moment, holds a glowing cigarette to lips, creating a trail of deep smoke that wafts around her, illuminated by a beam of light, light filters through the deep smoke, cinematic quality, low-key set, ultra realistic, rich details --ar 9:16 --raw",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fjdwmg48w5xy6mid50xz1dw83yr&w=1920&q=75",
+          "prompt": "spider man, Miles Morales, comics art, render, high detai --ar 9:16",
           "model": "AI Model",
-          "link": "https://prompthero.com/prompt/5015c5415e4-hero-10-snapshot-dimly-lit-room-with-a-hazy-atmosphere-capturing-a-female-model-lounging-on-a-deep-purple-color-sofa-wearing"
+          "link": "https://prompthero.com/prompt/95854313ba8-hero-10-spider-man-miles-morales-comics-art-render-high-detai-ar-916"
         },
         {
           "rank": 2,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fdcwdlnr6rc0gjmusaqossurxds&w=1920&q=75",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fv0vsk9i9orgwqtgf93b3s44wte&w=1920&q=75",
           "prompt": "fashion editorial photography, motion blur, male model, wearing an wool coat, deep purple color, walking in a subway station platform, shutter speed 1/15s, depth of field, low-key, editorial film grain, high-speed movement, rich detailed --ar 9:16 --raw",
           "model": "AI Model",
-          "link": "https://prompthero.com/prompt/4790ec14959-hero-10-fashion-editorial-photography-motion-blur-male-model-wearing-an-wool-coat-deep-purple-color-walking-in-a-subway-station-platform"
+          "link": "https://prompthero.com/prompt/a15f93f638f-hero-10-fashion-editorial-photography-motion-blur-male-model-wearing-an-wool-coat-deep-purple-color-walking-in-a-subway-station-platform"
         }
       ]
     },
@@ -37,17 +37,17 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Ffkcmucr5tdx4bwgcwypx8tnhgdjr&w=1920&q=75",
-          "prompt": "Chinese model poses for a selfie, in the style of social media influencers, webcam photography, Felicia Simion, photo taken with Provia, hinchel or, shiny --ar 68:128 --stylize 750 --v 6",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F41ju9v8tp67gu096s5vc7gpxo01w&w=1920&q=75",
+          "prompt": "editorial photography, male model, 50mm f/1.2 RF lens, f/2.8 set, 1/160s, iso 100, gradient neon orange, minimalist street style, deep orange atmospheric lighting, lights at ceiling, overhead softbox at 3200K, full-body confidence pose with silhouette, dramatic contrast, photorealistic quality, rich detailing --ar 9:16 --raw --profile otwluoo --stylize 200",
           "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/403f19fa9ee-midjourney-6-chinese-model-poses-for-a-selfie-in-the-style-of-social-media-influencers-webcam-photography-felicia-simion-photo-taken-with"
+          "link": "https://prompthero.com/prompt/7ae913f5c1c-midjourney-7-editorial-photography-male-model-50mm-f12-rf-lens-f28-set-1160s-iso-100-gradient-neon-orange-minimalist-street-style-deep"
         },
         {
           "rank": 2,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fzgkq5uftglj1q0xkl07ycr2n839i&w=1920&q=75",
-          "prompt": "fashion editorial photography, front shot, upper body, professional female model, shot with hasselblad x2d 100c, xcd 90mm f/2.5 lens, cinematic sepia color grading with golden hour warmth, dramatic black silhouette against burnt umber to honey amber gradient backdrop, avant-garde composition with tilted head pose, staring to camera, profound gaze, elongated body stance, flowing black turtleneck, professional main fresnel light at 60 degree angle with silk diffusion, rim light with cto gel at 75 degree angle, haze machine for ethereal atmosphere, feathered shadows, contrast curve manipulation, selective dodge and burn, grain texture overlay, color temperature adjustment at 5500k to 3200k gradient, ultra sharp details, raw format, inspired by paolo roversi lighting technique, hyper realistic, 16K, rich detail --ar 9:16 --quality 2 --style raw --personalize nq7rq2j --stylize 500 --v 6.1",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fyxmnjwx7akj5yh08n6h6er498wmu&w=1920&q=75",
+          "prompt": "Kooky portraits of 90’s mall teens in retro clothing, shot on VHS",
           "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/d6b42afab22-midjourney-6-model-portrait"
+          "link": "https://prompthero.com/prompt/d48a3c464ed-midjourney-52-kooky-portraits-of-90s-mall-teens-in-retro-clothing-shot-on-vhs"
         }
       ]
     },
@@ -62,10 +62,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fv6io600el19w16np6fqqihbwqeer&w=1920&q=75",
-          "prompt": "valley, fairytale treehouse village covered,, matte painting, highly detailed, dynamic lighting, cinematic, realism, realistic, photo real, sunset,detailed, high contrast, denoised, centered, michael whelan",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fenzembh96hzhjy8dvl7d4c5rryyg&w=1920&q=75",
+          "prompt": "mdjrny-v4 style traditional french cafe in the street of a small village on France. A terrace in the shade of a hundred-year-old olive tree, a friendly atmosphere around coffee and tea. \"Dolce Vita\". Unreal engine rendering, hyper realist, ultra detailed, oil painting, warm colors, happy, impressionism, Da Vinci, 4k",
           "model": "AI Model",
-          "link": "https://prompthero.com/prompt/ab61e5e9246-openjourney-15-valley-fairytale-treehouse-village-covered-matte-painting-highly-detailed-dynamic-lighting-cinematic-realism-realistic-photo-real-sunsetdetailed-high-contrast-denoised"
+          "link": "https://prompthero.com/prompt/b607aedba7e-openjourney-15-mdjrny-v4-style-traditional-french-cafe-in-the-street-of-a-small-village-on-france-a-terrace-in-the-shade"
         }
       ]
     },
@@ -80,10 +80,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fxvw1mv1z0bepo0ia03l3r2ruiovi&w=1920&q=75",
-          "prompt": "cute isometric cyberpunk bedroom, cutaway box, futuristic, highly detailed, made with blender --v 4",
-          "model": "AI Model",
-          "link": "https://prompthero.com/prompt/5a63ab9db96-openjourney-15-cute-isometric-cyberpunk-bedroom-cutaway-box-futuristic-highly-detailed-made-with-blender-v-4"
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F2hvhr1d3tbo9a259m6erubbqz7fu&w=1920&q=75",
+          "prompt": "Spacious office with frontal view, Herman Miller Aeron chairs, Artemide Tolomeo desk lamps, captured with a Canon EOS R5, 50mm f/1.2 lens, balanced natural and LED lighting",
+          "model": "Midjourney",
+          "link": "https://prompthero.com/prompt/127011c5b32-midjourney-6-spacious-office-with-frontal-view-herman-miller-aeron-chairs-artemide-tolomeo-desk-lamps-captured-with-a-canon-eos-r5-50mm"
         }
       ]
     },
@@ -98,10 +98,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fuqt8i4e3j0qjokkdx437mv90xupu&w=1920&q=75",
-          "prompt": "Skeleton King of Hell :: Flaming Skull, Intricately Designed Nordic Armor, Photograph Taken on Nikon D750 :: Artgerm, WLOP, Greg Rutkowski :: Intricate, Elegant, Digital Illustration, Scenic, Hyper-Realistic, Hyper-Detailed, 8k, royal yellow and ultramarine blue",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fapu4bwo5ru1vtbidndl5nmsa2ytq&w=1920&q=75",
+          "prompt": "Toy with a little doll with a helmet, cute 3d render, cute detailed digital art, female explorer mini cute girl, cute digital painting, stylized 3d render, cute digital art, cute render 3d anime girl , the little astronaut looks up, cute! c4d, portrait anime space cadet girl, sitting on a white pedestal",
           "model": "AI Model",
-          "link": "https://prompthero.com/prompt/160f2eb8776-openjourney-15-skeleton-king-of-hell-flaming-skull-intricately-designed-nordic-armor-photograph-taken-on-nikon-d750-artgerm-wlop-greg-rutkowski-intricate"
+          "link": "https://prompthero.com/prompt/6ad6047035b-rev-animated-v10-toy-with-a-little-doll-with-a-helmet-cute-3d-render-cute-detailed-digital-art-female-explorer-mini-cute-girl"
         }
       ]
     },
@@ -116,26 +116,26 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/801f916f-6920-4e98-8493-4d653eb983cc/original=true/801f916f-6920-4e98-8493-4d653eb983cc.jpeg",
-          "prompt": "(masterpiece, best quality, amazing quality, very aesthetic, extremely detailed, very detailed, absurdres, newest, highres, score_9, score_8),   @Yoneyama_Mai),  watercolor illustration, \n1girl, short hair, huge eyes, cute, looking up, hands up holding her halo, upper body, oversized white tshirt, cropped torso, doodle background, blending, \n,dreamy composition, japanese art aesthetic, gentle lighting, poetic mood, highly detailed fabric texture, \nblending, negative space, , elegant feminine beauty, gentle shadows, cinematic softness, highly detailed, anime illustration, ambient glow, natural harmony, tranquil dreamscape",
-          "model": "Community Model",
-          "link": "https://civitai.com/images/131895974",
+          "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b1312a63-50d8-4fb8-85ea-55df7128b0e8/original=true/b1312a63-50d8-4fb8-85ea-55df7128b0e8.jpeg",
+          "prompt": "masterpiece, newest, best quality, Score_9, score_8, score_7, anime style, \nelsa \\(frozen\\),  , \nsitting at a computer desk from home wearing business suit, eating popcorn, looking at the screen with a :3 expression. plant in background, cat on the back of the chair wearing sunglasses, dim lighting.",
+          "model": "RAMTHRUSTS_Pink_Alchemy_Anima_22",
+          "link": "https://civitai.com/images/131890197",
           "reactions": 0
         },
         {
           "rank": 2,
-          "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e39282c4-c48c-46d7-84dc-69bf2cb8b731/original=true/e39282c4-c48c-46d7-84dc-69bf2cb8b731.jpeg",
-          "prompt": "(masterpiece, best quality, amazing quality, very aesthetic, extremely detailed, very detailed, absurdres, newest, highres, score_9, score_8),   @Yoneyama_Mai),  watercolor illustration, \n1girl, short hair, huge eyes, cute, looking up, hands up holding her halo, upper body, oversized white tshirt, cropped torso, doodle background, blending, \nblack and blue background with watercolor elements, doodle stars at background\n,dreamy composition, japanese art aesthetic, gentle lighting, poetic mood, highly detailed fabric texture, \nblending, negative space, , elegant feminine beauty, gentle shadows, cinematic softness, highly detailed, anime illustration, ambient glow, natural harmony, tranquil dreamscape",
+          "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6dc137e6-54b0-4e88-b6dc-0a4cbb7b4cfe/original=true/6dc137e6-54b0-4e88-b6dc-0a4cbb7b4cfe.jpeg",
+          "prompt": "Amivireg art style, Epic Dolomite mountains at night under bright full moon, sharp jagged rocky peaks covered with fresh snow glowing silver-blue in moonlight, vast starry sky with visible Milky Way and subtle northern lights, misty forested valley deep below, small illuminated mountain hut with warm orange light in window, dramatic scale, mystical and serene mood, perfect wide cinematic composition, ultra-detailed, breathtaking beauty, 8k",
           "model": "Community Model",
-          "link": "https://civitai.com/images/131896343",
+          "link": "https://civitai.com/images/131969963",
           "reactions": 0
         },
         {
           "rank": 3,
-          "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/476b632f-cf47-4a21-ac53-c1cd453c0efd/original=true/476b632f-cf47-4a21-ac53-c1cd453c0efd.jpeg",
-          "prompt": "There's a chicken hiding inside the Tyrannosaurus",
+          "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b4ec078e-fc55-4632-8e6e-5c470e1370a8/original=true/b4ec078e-fc55-4632-8e6e-5c470e1370a8.jpeg",
+          "prompt": "Pov above looking down, sneakers in front of photorealistic puddle, city lights reflecting in puddle, reds blues greens, Mysterious astronaut falling into the deep, dissolving into vibrant aqua liquid, gentle waves, sinking deeper, reaching for help, ethereal koi swimming around, ethereal lighting, photo close-up, highly detailed, hyperrealism style, incredibly eye-catching, glinting surface",
           "model": "Community Model",
-          "link": "https://civitai.com/images/131900960",
+          "link": "https://civitai.com/images/131971795",
           "reactions": 0
         }
       ]
@@ -151,18 +151,18 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://image.lexica.art/md2_webp/604c07ec-b957-4483-a916-061f613870e4",
-          "prompt": "Stilleben nach Vincent van Gogh with nature",
+          "imageUrl": "https://image.lexica.art/md2_webp/62951333-ce40-468e-84d4-c3f324f23c27",
+          "prompt": "Mediterranean landscape in the foreground beautiful bushes with flowers",
           "model": "Stable Diffusion",
-          "link": "https://lexica.art/prompt/41332424-df57-4984-8bd2-6eb421f6d7c5",
+          "link": "https://lexica.art/prompt/731c55ae-c9bd-4c33-875a-1be1b0c75efb",
           "searchTopic": "oil painting impressionist style"
         },
         {
           "rank": 2,
-          "imageUrl": "https://image.lexica.art/md2_webp/667e3296-e2cd-4a9a-881b-c09c3204fdd3",
-          "prompt": "Pixelated Pop Culture Icons\nStep into the pixelated past with \"Pixelated Pop Culture Icons.\" These N...",
+          "imageUrl": "https://image.lexica.art/md2_webp/3fbe9371-8550-4458-9e61-4ee6c5628080",
+          "prompt": "3D pixel retro tiny cute tablet link to a serveur",
           "model": "Stable Diffusion",
-          "link": "https://lexica.art/prompt/e63c678f-8028-4fd1-aa1a-56bcded00a6e",
+          "link": "https://lexica.art/prompt/f9152232-4bcd-4b71-90b4-bb4fcfcb72e2",
           "searchTopic": "pixel art retro gaming"
         }
       ]
