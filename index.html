@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Studio0808_PromptDaily</title>
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✨</text></svg>">
-    <meta name="description" content="每天早上5點自動寄送 PromptHero 最熱門的 AI 繪圖提示詞到您的信箱。">
+    <meta name="description" content="每天早上5點自動寄送 PromptHero 與 Civitai 最熱門的 AI 繪圖提示詞到您的信箱。">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
@@ -53,7 +53,7 @@
         每日為您蒐集全球 <br><span class="gradient-text">最火熱的 AI 繪圖提示詞</span>
     </h1>
     <p class="text-lg md:text-xl text-slate-400 mb-4 max-w-2xl leading-relaxed">
-        不用再到處爬文找靈感！我們每天從 PromptHero 與 OpenArt 嚴選各前三名最熱門的圖片與 Prompt，直接送達您的信箱。
+        不用再到處爬文找靈感！我們每天從 PromptHero 與 Civitai 嚴選今日熱門、官方精選、社群熱門與隨機主題圖片，共 12 張精美圖片與完整 Prompt，直接送達您的信箱。
     </p>
 
     <!-- Subscribe Form -->
@@ -86,82 +86,19 @@
 <section id="preview" class="w-full py-10 bg-slate-900/50 z-10 border-t border-slate-800">
 <div class="max-w-6xl mx-auto px-4">
     <h2 class="text-3xl font-bold mb-2 text-center fade-in">信件內容預覽</h2>
-    <p class="text-slate-400 text-center mb-1 fade-in">看看您每天早上會收到什麼樣的靈感寶庫 — 6 大分類，各取最高人氣 3 張</p>
+    <p class="text-slate-400 text-center mb-1 fade-in">看看您每天早上會收到什麼樣 of 靈感寶庫 — 每日多來源精選，共計 12 張圖片</p>
     <p id="last-updated" class="text-xs text-slate-600 text-center mb-8 fade-in"></p>
 
-    <!-- Category 1: Concept Art -->
-    <div class="mb-8 fade-in">
-        <div class="flex items-center gap-3 mb-4">
-            <div class="w-10 h-10 rounded-lg bg-purple-500/15 flex items-center justify-center"><span class="text-xl">🎨</span></div>
-            <div>
-                <h3 class="text-xl font-bold text-white">Concept Art</h3>
-                <p class="text-xs text-slate-500">prompthero.com/concept-art-prompts — 概念藝術分類最高點閱前 3 名</p>
-            </div>
+    <!-- Categories container -->
+    <div id="preview-categories">
+        <div class="col-span-full py-12 text-center text-slate-400">
+            <div class="spinner"></div> 正在載入今日內容...
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="cards-concept-art"></div>
     </div>
 
-    <!-- Category 2: Architecture -->
-    <div class="mb-8 fade-in">
-        <div class="flex items-center gap-3 mb-4">
-            <div class="w-10 h-10 rounded-lg bg-blue-500/15 flex items-center justify-center"><span class="text-xl">🏛</span></div>
-            <div>
-                <h3 class="text-xl font-bold text-white">Architecture</h3>
-                <p class="text-xs text-slate-500">prompthero.com/architecture-prompts — 建築分類最高點閱前 3 名</p>
-            </div>
-        </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="cards-architecture"></div>
+    <div class="text-xs text-slate-500 mt-8 text-center fade-in">
+        <i class="fa-solid fa-robot mr-1"></i> 以上內容為真實爬取結果，由 GitHub Actions 每日自動更新。資料來源：PromptHero、Civitai 社群。
     </div>
-
-    <!-- Category 3: Landscapes -->
-    <div class="mb-8 fade-in">
-        <div class="flex items-center gap-3 mb-4">
-            <div class="w-10 h-10 rounded-lg bg-green-500/15 flex items-center justify-center"><span class="text-xl">🌄</span></div>
-            <div>
-                <h3 class="text-xl font-bold text-white">Landscapes</h3>
-                <p class="text-xs text-slate-500">prompthero.com/landscape-prompts — 風景分類最高點閱前 3 名</p>
-            </div>
-        </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="cards-landscape"></div>
-    </div>
-
-    <!-- Category 4: Logos & Design -->
-    <div class="mb-8 fade-in">
-        <div class="flex items-center gap-3 mb-4">
-            <div class="w-10 h-10 rounded-lg bg-yellow-500/15 flex items-center justify-center"><span class="text-xl">🎯</span></div>
-            <div>
-                <h3 class="text-xl font-bold text-white">Logos &amp; Design</h3>
-                <p class="text-xs text-slate-500">prompthero.com/logo-design-prompts — Logo 設計分類最高點閱前 3 名</p>
-            </div>
-        </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="cards-logo-design"></div>
-    </div>
-
-    <!-- Category 5: Interior Design -->
-    <div class="mb-8 fade-in">
-        <div class="flex items-center gap-3 mb-4">
-            <div class="w-10 h-10 rounded-lg bg-orange-500/15 flex items-center justify-center"><span class="text-xl">🏠</span></div>
-            <div>
-                <h3 class="text-xl font-bold text-white">Interior Design</h3>
-                <p class="text-xs text-slate-500">prompthero.com/interior-design-prompts — 室內設計分類最高點閱前 3 名</p>
-            </div>
-        </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="cards-interior-design"></div>
-    </div>
-
-    <!-- Category 6: 3D / Renders -->
-    <div class="mb-8 fade-in">
-        <div class="flex items-center gap-3 mb-4">
-            <div class="w-10 h-10 rounded-lg bg-cyan-500/15 flex items-center justify-center"><span class="text-xl">🧊</span></div>
-            <div>
-                <h3 class="text-xl font-bold text-white">3D / Renders</h3>
-                <p class="text-xs text-slate-500">prompthero.com/3d-renders-prompts — 3D 渲染分類最高點閱前 3 名</p>
-            </div>
-        </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="cards-3d-renders"></div>
-    </div>
-
-        <i class="fa-solid fa-robot mr-1"></i> 以上內容為真實爬取結果，由 GitHub Actions 每日自動更新。資料來源：PromptHero Concept Art · Architecture · Landscapes · Logos &amp; Design · Interior Design · 3D / Renders。
 </div>
 </section>
 
@@ -183,7 +120,7 @@
                     <i class="fa-solid fa-robot text-2xl text-pink-400"></i>
                 </div>
                 <h3 class="font-bold mb-2 text-white">2. 自動爬取</h3>
-                <p class="text-sm text-slate-400">機器人每天凌晨從 5 大分類頁面各取最高人氣作品</p>
+                <p class="text-sm text-slate-400">機器人每天凌晨從多個熱門來源與隨機主題爬取精選作品</p>
             </div>
             <div class="glass rounded-2xl p-6 text-center fade-in card-hover" style="transition-delay:0.2s">
                 <div class="w-14 h-14 mx-auto mb-4 rounded-xl bg-blue-500/15 flex items-center justify-center float-anim" style="animation-delay:1s">
@@ -246,72 +183,107 @@ async function loadLatestPrompts() {
                 `資料更新於 ${d.toLocaleString('zh-TW', { timeZone: 'Asia/Taipei' })}`;
         }
 
+        const categoriesContainer = document.getElementById('preview-categories');
+        categoriesContainer.innerHTML = ''; // Clear loading spinner
+        
+        const categoryColors = {
+            'hot': 'bg-red-500/15',
+            'featured': 'bg-amber-500/15',
+            'civitai': 'bg-purple-500/15',
+            'topic-search': 'bg-emerald-500/15',
+            'architecture': 'bg-blue-500/15',
+            'interior-design': 'bg-indigo-500/15',
+            '3d-renders': 'bg-cyan-500/15'
+        };
+
         data.forEach(({ source, items }) => {
-            const containerId = `cards-${source.id}`;
-            const container = document.getElementById(containerId);
-            if (!container) return;
+            if (!items || items.length === 0) return;
             
-            container.innerHTML = ''; // Clear loading
+            const colorClass = categoryColors[source.id] || 'bg-slate-500/15';
             
-            const html = items.map(item => {
-                const imgUrl = safeUrl(item.imageUrl || item.img);
-                const linkUrl = safeUrl(item.link || item.url);
-                const prompt = escapeHtml(item.prompt);
-                const model = escapeHtml(item.model || 'AI Model');
-                const rankIdx = (item.rank - 1) || 0;
-                return `
-                <div class="glass rounded-2xl overflow-hidden card-hover relative">
-                    <div class="rank-badge ${rankClasses[rankIdx]}">${rankIcons[rankIdx]}</div>
-                    <div class="relative">
-                        <div class="w-full h-56 bg-slate-800 overflow-hidden">
-                            <img src="${imgUrl}" class="object-cover w-full h-full hover:scale-105 transition duration-500" alt="AI Art" loading="lazy">
-                        </div>
+            // Clean up name by separating icon and title
+            let icon = source.icon || '✨';
+            let title = source.name || '';
+            
+            if (title.startsWith(icon)) {
+                title = title.substring(icon.length).trim();
+            }
+
+            const cleanUrl = source.url ? source.url.replace(/^https?:\/\//i, '') : '';
+            const description = `${cleanUrl} — ${title}精選前 ${source.count || items.length} 名`;
+
+            const section = document.createElement('div');
+            section.className = 'mb-10 fade-in visible';
+            
+            section.innerHTML = `
+                <div class="flex items-center gap-3 mb-4">
+                    <div class="w-10 h-10 rounded-lg ${colorClass} flex items-center justify-center">
+                        <span class="text-xl">${icon}</span>
                     </div>
-                    <div class="p-5">
-                        <p class="text-xs text-slate-400 mb-2 font-mono uppercase tracking-wider">${model}</p>
-                        <p class="text-sm text-slate-200 line-clamp-3 mb-4 cursor-pointer hover:text-white transition" onclick="copyText(this)">${prompt}</p>
-                        <div class="flex items-center justify-between mt-2">
-                            <button class="text-xs text-purple-400 hover:text-purple-300 flex items-center gap-1 transition" onclick="copyText(this.parentElement.previousElementSibling)">
-                                <i class="fa-regular fa-copy"></i> 點擊複製提示詞
-                            </button>
-                            <a href="${linkUrl}" target="_blank" rel="noopener noreferrer" class="text-xs text-slate-400 hover:text-white transition">查看原圖 &rarr;</a>
-                        </div>
+                    <div>
+                        <h3 class="text-xl font-bold text-white">${title}</h3>
+                        <p class="text-xs text-slate-500">${description}</p>
                     </div>
-                </div>`;
-            }).join('');
-            container.innerHTML = html;
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    ${items.map(item => {
+                        const imgUrl = safeUrl(item.imageUrl || item.img);
+                        const linkUrl = safeUrl(item.link || item.url);
+                        const prompt = escapeHtml(item.prompt);
+                        const model = escapeHtml(item.model || 'AI Model');
+                        const rankIdx = (item.rank - 1) || 0;
+                        return `
+                        <div class="glass rounded-2xl overflow-hidden card-hover relative flex flex-col justify-between">
+                            <div class="relative">
+                                <div class="rank-badge ${rankClasses[rankIdx] || 'rank-3'}">${rankIcons[rankIdx] || '🏅'}</div>
+                                <div class="w-full h-56 bg-slate-800 overflow-hidden">
+                                    <img src="${imgUrl}" class="object-cover w-full h-full hover:scale-105 transition duration-500" alt="AI Art" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="p-5 flex-grow flex flex-col justify-between">
+                                <div>
+                                    <p class="text-xs text-slate-400 mb-2 font-mono uppercase tracking-wider">${model}</p>
+                                    <p class="text-sm text-slate-200 line-clamp-3 mb-4 cursor-pointer hover:text-white transition" onclick="copyText(this)">${prompt}</p>
+                                </div>
+                                <div class="flex items-center justify-between mt-2 pt-2 border-t border-slate-800/40">
+                                    <button class="text-xs text-purple-400 hover:text-purple-300 flex items-center gap-1 transition" onclick="copyText(this.parentElement.previousElementSibling.querySelector('p:nth-child(2)'))">
+                                        <i class="fa-regular fa-copy"></i> 點擊複製提示詞
+                                    </button>
+                                    <a href="${linkUrl}" target="_blank" rel="noopener noreferrer" class="text-xs text-slate-400 hover:text-white transition">查看原圖 &rarr;</a>
+                                </div>
+                            </div>
+                        </div>`;
+                    }).join('')}
+                </div>
+            `;
+            
+            categoriesContainer.appendChild(section);
         });
+
+        // Re-observe scroll animations
+        document.querySelectorAll('.fade-in').forEach(el => obs.observe(el));
     } catch (err) {
         console.error('Error loading data:', err);
+        const categoriesContainer = document.getElementById('preview-categories');
         if (window.location.protocol === 'file:') {
-            ['cards-concept-art', 'cards-architecture', 'cards-landscape', 'cards-logo-design', 'cards-interior-design', 'cards-3d-renders'].forEach(id => {
-                const container = document.getElementById(id);
-                if (container) {
-                    container.innerHTML = `
-                    <div class="col-span-full py-8 text-center text-slate-400 border border-dashed border-slate-700/50 rounded-2xl p-6 glass">
-                        <i class="fa-solid fa-triangle-exclamation text-2xl text-amber-500 mb-2"></i>
-                        <p class="font-bold text-slate-200">瀏覽器安全性限制 (CORS)</p>
-                        <p class="text-xs text-slate-400 mt-2 max-w-md mx-auto leading-relaxed">
-                            由於瀏覽器安全機制，直接點兩下檔案以 <code>file://</code> 開啟時，會無法讀取 <code>latest.json</code>。<br>
-                            <strong>解決方案：</strong>請在專案目錄執行本機伺服器（例如：<code>npx http-server</code>），或直接至 GitHub Pages 線上網頁查看！
-                        </p>
-                    </div>`;
-                }
-            });
+            categoriesContainer.innerHTML = `
+            <div class="py-8 text-center text-slate-400 border border-dashed border-slate-700/50 rounded-2xl p-6 glass">
+                <i class="fa-solid fa-triangle-exclamation text-2xl text-amber-500 mb-2"></i>
+                <p class="font-bold text-slate-200">瀏覽器安全性限制 (CORS)</p>
+                <p class="text-xs text-slate-400 mt-2 max-w-md mx-auto leading-relaxed">
+                    由於瀏覽器安全機制，直接點兩下檔案以 <code>file://</code> 開啟時，會無法讀取 <code>latest.json</code>。<br>
+                    <strong>解決方案：</strong>請在專案目錄執行本機伺服器（例如：<code>npx http-server</code>），或直接至 GitHub Pages 線上網頁查看！
+                </p>
+            </div>`;
         } else {
-            ['cards-concept-art', 'cards-architecture', 'cards-landscape', 'cards-logo-design', 'cards-interior-design', 'cards-3d-renders'].forEach(id => {
-                const container = document.getElementById(id);
-                if (container) {
-                    container.innerHTML = `
-                    <div class="col-span-full py-8 text-center text-slate-400 border border-dashed border-slate-700/50 rounded-2xl p-6 glass">
-                        <i class="fa-solid fa-circle-xmark text-2xl text-red-500 mb-2"></i>
-                        <p class="font-bold text-slate-200">無法讀取資料</p>
-                        <p class="text-xs text-slate-400 mt-2 max-w-md mx-auto">
-                            載入 <code>data/latest.json</code> 失敗，請確認檔案是否存在。
-                        </p>
-                    </div>`;
-                }
-            });
+            categoriesContainer.innerHTML = `
+            <div class="py-8 text-center text-slate-400 border border-dashed border-slate-700/50 rounded-2xl p-6 glass">
+                <i class="fa-solid fa-circle-xmark text-2xl text-red-500 mb-2"></i>
+                <p class="font-bold text-slate-200">無法讀取資料</p>
+                <p class="text-xs text-slate-400 mt-2 max-w-md mx-auto">
+                    載入 <code>data/latest.json</code> 失敗，請確認檔案是否存在。
+                </p>
+            </div>`;
         }
     }
 }
