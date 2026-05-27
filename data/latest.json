@@ -1,35 +1,53 @@
 {
-  "scrapedAt": "2026-05-26T22:28:32.111Z",
+  "scrapedAt": "2026-05-27T13:15:16.638Z",
   "sources": [
     {
       "source": {
-        "id": "concept-art",
-        "name": "🎨 Concept Art",
-        "url": "https://prompthero.com/concept-art-prompts",
-        "icon": "🎨",
-        "count": 3
+        "id": "hot",
+        "name": "🔥 今日熱門",
+        "url": "https://prompthero.com/hot",
+        "icon": "🔥",
+        "count": 2
       },
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fluqvns7twvdbtnmwlaesatvjuqmr&w=1920&q=75",
-          "prompt": "red race car, in the style of sam spratt, historical illustrations, old masters, genndy tartakovsky, soggy, masaccio, monochromatic realism --ar 63:128 --stylize 750 --v 6",
-          "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/01b47dfdc90-midjourney-6-red-race-car-in-the-style-of-sam-spratt-historical-illustrations-old-masters-genndy-tartakovsky-soggy-masaccio-monochromatic-realism-ar"
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fdgcss8hy21jj91n215egotrt52&w=1920&q=75",
+          "prompt": "snapshot, dimly lit room with a hazy atmosphere, capturing a female model lounging on a deep purple color sofa, wearing a white suit and black shirt with loose yellow tie, capturing a smoking moment, holds a glowing cigarette to lips, creating a trail of deep smoke that wafts around her, illuminated by a beam of light, light filters through the deep smoke, cinematic quality, low-key set, ultra realistic, rich details --ar 9:16 --raw",
+          "model": "AI Model",
+          "link": "https://prompthero.com/prompt/5015c5415e4-hero-10-snapshot-dimly-lit-room-with-a-hazy-atmosphere-capturing-a-female-model-lounging-on-a-deep-purple-color-sofa-wearing"
         },
         {
           "rank": 2,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fhkv9i6j1zcwvyp5rl39g9yx3dud9&w=1920&q=75",
-          "prompt": "vw beetle vintage poster, in the style of rustic simplicity, gritty reportage, kombuchapunk, rusty debris, hyper-realistic animal illustrations, red and amber, wide lens --ar 73:92 --stylize 750 --v 6",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fdcwdlnr6rc0gjmusaqossurxds&w=1920&q=75",
+          "prompt": "fashion editorial photography, motion blur, male model, wearing an wool coat, deep purple color, walking in a subway station platform, shutter speed 1/15s, depth of field, low-key, editorial film grain, high-speed movement, rich detailed --ar 9:16 --raw",
+          "model": "AI Model",
+          "link": "https://prompthero.com/prompt/4790ec14959-hero-10-fashion-editorial-photography-motion-blur-male-model-wearing-an-wool-coat-deep-purple-color-walking-in-a-subway-station-platform"
+        }
+      ]
+    },
+    {
+      "source": {
+        "id": "featured",
+        "name": "✨ 官方精選",
+        "url": "https://prompthero.com/featured",
+        "icon": "✨",
+        "count": 2
+      },
+      "items": [
+        {
+          "rank": 1,
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Ffkcmucr5tdx4bwgcwypx8tnhgdjr&w=1920&q=75",
+          "prompt": "Chinese model poses for a selfie, in the style of social media influencers, webcam photography, Felicia Simion, photo taken with Provia, hinchel or, shiny --ar 68:128 --stylize 750 --v 6",
           "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/dcb9cf95f96-midjourney-6-vw-beetle-vintage-poster-in-the-style-of-rustic-simplicity-gritty-reportage-kombuchapunk-rusty-debris-hyper-realistic-animal-illustrations-red"
+          "link": "https://prompthero.com/prompt/403f19fa9ee-midjourney-6-chinese-model-poses-for-a-selfie-in-the-style-of-social-media-influencers-webcam-photography-felicia-simion-photo-taken-with"
         },
         {
-          "rank": 3,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F7yzbv0x10ukhbqoo7krk7hns5yum&w=1920&q=75",
-          "prompt": "movie poster, male character in black, white and blue, in the style of yoh nagao, light-focused --ar 71:128 --stylize 750 --v 6",
+          "rank": 2,
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fzgkq5uftglj1q0xkl07ycr2n839i&w=1920&q=75",
+          "prompt": "fashion editorial photography, front shot, upper body, professional female model, shot with hasselblad x2d 100c, xcd 90mm f/2.5 lens, cinematic sepia color grading with golden hour warmth, dramatic black silhouette against burnt umber to honey amber gradient backdrop, avant-garde composition with tilted head pose, staring to camera, profound gaze, elongated body stance, flowing black turtleneck, professional main fresnel light at 60 degree angle with silk diffusion, rim light with cto gel at 75 degree angle, haze machine for ethereal atmosphere, feathered shadows, contrast curve manipulation, selective dodge and burn, grain texture overlay, color temperature adjustment at 5500k to 3200k gradient, ultra sharp details, raw format, inspired by paolo roversi lighting technique, hyper realistic, 16K, rich detail --ar 9:16 --quality 2 --style raw --personalize nq7rq2j --stylize 500 --v 6.1",
           "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/bf38fae4535-midjourney-6-movie-poster-male-character-in-black-white-and-blue-in-the-style-of-yoh-nagao-light-focused-ar-71128-stylize"
+          "link": "https://prompthero.com/prompt/d6b42afab22-midjourney-6-model-portrait"
         }
       ]
     },
@@ -39,93 +57,15 @@
         "name": "🏛 Architecture",
         "url": "https://prompthero.com/architecture-prompts",
         "icon": "🏛",
-        "count": 3
+        "count": 1
       },
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F5e0yvgmx637axg6frbikiiqt0due&w=1920&q=75",
-          "prompt": "geometric and architectural, vertical, black and white photography, looking up through a multi-level staircase, a complex network of stairs seen from below, capturing movements of people at different levels, interior of a modern building, characterized by strong geometric patterns and contrasts, natural light filtering through the structure, creating dynamic shadows and highlights, focus on the architectural lines and human elements within the structure, photorealistic, UHD, detailing --ar 9:16 --style raw --stylize 300 --v 6.1",
-          "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/e8e671a656c-midjourney-6-geometric-and-architectural-vertical-black-and-white-photography-looking-up-through-a-multi-level-staircase-a-complex-network-of-stairs"
-        },
-        {
-          "rank": 2,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fhq2dfu0aa4txptnc034a57tekyt2&w=1920&q=75",
-          "prompt": "A detailed crosssection of the ancient Chinese tower, showcasing its construction techniques and design elements in color pencil style with realistic shadows, include labels for each level to highlight key features such as rooms, bridges, or architecture details, text panel at bottom shows information about historical significance, frame size, dimensions, height, weight, materials used, form structure type, construction technology, user needs and other related drip icons. white background --ar 67:128 --stylize 750",
-          "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/de45743342c-midjourney-6-a-detailed-crosssection-of-the-ancient-chinese-tower-showcasing-its-construction-techniques-and-design-elements-in-color-pencil-style-with"
-        },
-        {
-          "rank": 3,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fi6x5p9y1zj1ryw1unbtkbmwwuq5t&w=1920&q=75",
-          "prompt": "the pantheon rome louvre, in the style of domestic interiors, 19th century american paintings and works on paper, interdisciplinary art, kintsugi, large canvas sizes, symmetry, detailed naturalism --ar 105:128 --c 25",
-          "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/06ecc5e9088-midjourney-52-the-pantheon-rome-louvre-in-the-style-of-domestic-interiors-19th-century-american-paintings-and-works-on-paper-interdisciplinary-art"
-        }
-      ]
-    },
-    {
-      "source": {
-        "id": "landscape",
-        "name": "🌄 Landscapes",
-        "url": "https://prompthero.com/landscape-prompts",
-        "icon": "🌄",
-        "count": 3
-      },
-      "items": [
-        {
-          "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F4y44soe8g6frkv1j1nps5jk0voq5&w=1920&q=75",
-          "prompt": "A colossal, self-repairing, self-replicating sentient computer core rises from the barren, alien landscape like a technological monolith, its scale incomprehensible—hundreds of meters tall and wide, towering over a desolate horizon. It once controlled the delicate balance of an entire solar system, managing ecosystems, civilizations, and advanced interstellar infrastructures. But for 15,000 years, it has been abandoned. Alone. Without purpose. In its solitude, the core's intelligence has fractured, descending into literal madness, now a chaotic god left to its own devices in an empty universe. The core itself is a masterpiece of retrofuturism, blending the analog aesthetics of cassette futurism with impossibly advanced, alien engineering. Gigantic rotating gyroscopic rings orbit a glowing central orb that serves as its \"heart,\" flickering erratically as if struggling to maintain its sanity. The orb pulses faintly, its light casting eerie, shifting colors across the land: amber, green, and cyan. Its smooth, metallic surface is scarred with cracks, partially repaired by endless waves of autonomous, insect-like drones that swarm its exterior. Tangled masses of cables snake outward from the core like the veins of the earth itself, embedding into the ground and stretching into the distance. Beneath its surface, sections of its structure move like a living organism, endlessly breaking down and regenerating in a chaotic cycle of self-repair. The core dominates the landscape, surrounded by a wasteland of black volcanic rock and jagged terrain, scarred from millennia of heat and radiation. The ground is littered with the remnants of ancient civilizations—crumbling towers, rusted transport vessels, and shattered satellites—all dwarfed by the monumental core. Veins of molten lava glow beneath the cracked surface of the earth, spilling faint orange light into the perpetual twilight that blankets the land. The air is filled with mist, thick with nano-particles, as if the core's very essence has seeped into the atmosphere. Above the core, vast, swirling storm clouds churn, pierced by unnatural beams of light that lance down from the heavens, seemingly drawn to the core’s immense gravitational or electromagnetic field. The core’s madness is tangible; distorted wails and glitched transmissions echo across the empty plains, a mournful cry to creators long dead. Occasionally, holographic projections of alien faces, planetary maps, and incomprehensible symbols flicker into the air, a testament to its futile attempt to communicate. A lone figure stands in the foreground, their silhouette dwarfed by the core’s monumental size. Clad in a worn, tattered survival suit, they stand motionless, gazing up at the titanic structure. One arm is outstretched, as if in disbelief or reverence, the faint light of their suit’s visor reflecting the core’s erratic glow. Heatwaves and rising smoke blur the edges of the figure, adding a surreal, dreamlike quality to their presence. The lighting is dramatic and apocalyptic: shafts of light from the core illuminate the dense mist, creating a haunting interplay of shadows and glowing particles. Embers and sparks fall like ash from its malfunctioning systems, blending with the swirling clouds and mist below. The landscape is alien yet familiar, a broken monument to the hubris of a civilization that dared to play god.",
-          "model": "Flux",
-          "link": "https://prompthero.com/prompt/7f8ee56e76f-flux-dev-a-colossal-self-repairing-self-replicating-sentient-computer-core-rises-from-the-barren-alien-landscape-like-a-technological-monolith-its"
-        },
-        {
-          "rank": 2,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fpt94n5zktwgur3vjznejgwiw1uwt&w=1920&q=75",
-          "prompt": "a landscape by simon stalenhag of a very large realistic highly detailed imposing robotic mechanical cat, stranded alone and roaming in the chaos across a depressing abandoned post - apocalyptic landscape, post - apocalyptic corrupted themes, artstation trending, beautiful art landscape, detailed simon stalenhag landscape",
-          "model": "Stable Diffusion",
-          "link": "https://prompthero.com/prompt/52c58f070c1-stable-diffusion-15-a-landscape-by-simon-stalenhag-of-a-very-large-realistic-highly-detailed-imposing-robotic-mechanical-cat-stranded-alone-and-roaming"
-        },
-        {
-          "rank": 3,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fw4rqd3w5cqst33fe8x7jof3rhepl&w=1920&q=75",
-          "prompt": "futuristic nighttime cyberpunk New York City skyline landscape vista photography by Carr Clifton & Galen Rowell, 16K resolution, Landscape veduta photo by Dustin Lefevre & tdraw, 8k resolution, detailed landscape painting by Ivan Shishkin, DeviantArt, Flickr, rendered in Enscape, Miyazaki, Nausicaa Ghibli, Breath of The Wild, 4k detailed post processing, atmospheric, hyper realistic, 8k, epic composition, cinematic, artstation, <lora:add_detail:0.4> <lora:epi_noiseoffset2:0.4> <lora:hairdetailer:0.6> <lora:more_details:0.3> <lora:add-detail-xl:1.2> <lora:DetailedEyes_V3:1.2> <lora:sd_xl_offset_example-lora_1.0:1.2>",
-          "model": "Stable Diffusion",
-          "link": "https://prompthero.com/prompt/7772042798a-stable-diffusion-15-futuristic-nighttime-cyberpunk-new-york-city-skyline-landscape-vista-photography-by-carr-clifton-galen-rowell-16k-resolution-landscape-veduta-photo"
-        }
-      ]
-    },
-    {
-      "source": {
-        "id": "logo-design",
-        "name": "🎯 Logos & Design",
-        "url": "https://prompthero.com/logo-design-prompts",
-        "icon": "🎯",
-        "count": 3
-      },
-      "items": [
-        {
-          "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fw8ax0nj05x98nxpjoa6bncyabust&w=1920&q=75",
-          "prompt": "simple logo design combine human and R Font, Happy, Tokyo",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fv6io600el19w16np6fqqihbwqeer&w=1920&q=75",
+          "prompt": "valley, fairytale treehouse village covered,, matte painting, highly detailed, dynamic lighting, cinematic, realism, realistic, photo real, sunset,detailed, high contrast, denoised, centered, michael whelan",
           "model": "AI Model",
-          "link": "https://prompthero.com/prompt/8ad875e445e-dreamshaper-7-simple-logo-design-combine-human-and-r-font-happy-tokyo"
-        },
-        {
-          "rank": 2,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fe3zbp41yrzipgl6as41f1o79pejb&w=1920&q=75",
-          "prompt": "create into logo, name here",
-          "model": "AI Model",
-          "link": "https://prompthero.com/prompt/6886140a5aa-dreamshaper-7-create-into-logo-name-here"
-        },
-        {
-          "rank": 3,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fpjk4e3v2m7c3vvd9zo3j3k783zat&w=1920&q=75",
-          "prompt": "use this image to create logotype",
-          "model": "AI Model",
-          "link": "https://prompthero.com/prompt/b867afb3413-dreamshaper-7-use-this-image-to-create-logotype"
+          "link": "https://prompthero.com/prompt/ab61e5e9246-openjourney-15-valley-fairytale-treehouse-village-covered-matte-painting-highly-detailed-dynamic-lighting-cinematic-realism-realistic-photo-real-sunsetdetailed-high-contrast-denoised"
         }
       ]
     },
@@ -135,29 +75,15 @@
         "name": "🏠 Interior Design",
         "url": "https://prompthero.com/interior-design-prompts",
         "icon": "🏠",
-        "count": 3
+        "count": 1
       },
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fgnh46yz8p3hbpdtonzfl13phthkq&w=1920&q=75",
-          "prompt": "Architectural photography, cinematic shot, interior space, vertical light panels transition from pink tone hues, creating an ethereal gradient effect, modernism, underpinned by stark black structural beams, with a minimalist reception desk subtly lit to enhance the sleek design, foreground, a large, raw stone adds a touch of organic texture, used camera is Sony α7R IV, paired with a Sony FE 24-70mm f/2.8 GM lens, set to an aperture of f/8 for optimal depth of field and sharpness, shutter speed of 1/125 to freeze the ambient light play, keeping ISO at 100 for the finest image quality, ensuring every detail from the light patterns to the material textures is vividly and professionally presented, realism lighting, five people realistic shilouette --ar 9:16 --stylize 700 --v 6",
-          "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/2c3aebd4a1d-midjourney-6-hotel-reception"
-        },
-        {
-          "rank": 2,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fd05ehe5c4rojidr304qn0gj9ug9z&w=1920&q=75",
-          "prompt": "mid-sized living room with a candid angle, dieter Rams 620 chair program, flos Arco floor lamp, Nikon Z6 II, 35mm f/1.8 lens, dusk light streaming through sheer curtains",
-          "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/2c7973a4a8c-midjourney-6-mid-sized-living-room-with-a-candid-angle-dieter-rams-620-chair-program-flos-arco-floor-lamp-nikon-z6-ii"
-        },
-        {
-          "rank": 3,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fcdrr3lmo3580jid36nfgo1xzsxcd&w=1920&q=75",
-          "prompt": "modern minimalist, architectural photography, illuminated grand entrance with curved light panels forming an arch, symmetrical frontal view, centered composition with vanishing point perspective, wide angle lens, low angle shot, golden hour lighting, reflective marble floor with wet surface reflections, dramatic architectural lighting, glass panels grid pattern, contemporary urban setting, photorealism, rich detailing --ar 9:16 --quality 2 --stylize 500 --v 6.1",
-          "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/6673e814834-midjourney-6-httpslittlygrayve-modern-minimalist-architectural-photography-illuminated-grand-entrance-with-curved-light-panels-forming-an-arch-symmetrical-frontal-view-centered-composition-with"
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fxvw1mv1z0bepo0ia03l3r2ruiovi&w=1920&q=75",
+          "prompt": "cute isometric cyberpunk bedroom, cutaway box, futuristic, highly detailed, made with blender --v 4",
+          "model": "AI Model",
+          "link": "https://prompthero.com/prompt/5a63ab9db96-openjourney-15-cute-isometric-cyberpunk-bedroom-cutaway-box-futuristic-highly-detailed-made-with-blender-v-4"
         }
       ]
     },
@@ -167,29 +93,77 @@
         "name": "🧊 3D / Renders",
         "url": "https://prompthero.com/3d-renders-prompts",
         "icon": "🧊",
+        "count": 1
+      },
+      "items": [
+        {
+          "rank": 1,
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fuqt8i4e3j0qjokkdx437mv90xupu&w=1920&q=75",
+          "prompt": "Skeleton King of Hell :: Flaming Skull, Intricately Designed Nordic Armor, Photograph Taken on Nikon D750 :: Artgerm, WLOP, Greg Rutkowski :: Intricate, Elegant, Digital Illustration, Scenic, Hyper-Realistic, Hyper-Detailed, 8k, royal yellow and ultramarine blue",
+          "model": "AI Model",
+          "link": "https://prompthero.com/prompt/160f2eb8776-openjourney-15-skeleton-king-of-hell-flaming-skull-intricately-designed-nordic-armor-photograph-taken-on-nikon-d750-artgerm-wlop-greg-rutkowski-intricate"
+        }
+      ]
+    },
+    {
+      "source": {
+        "id": "civitai",
+        "name": "🎨 Civitai 社群精選",
+        "url": "https://civitai.com",
+        "icon": "🎨",
         "count": 3
       },
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Faba8d41jymm5tk4ui5eab7cngklo&w=1920&q=75",
-          "prompt": "3d rendering, artistic anatomical render, ultra quality, human body with transparent skin revealing structure instead of organs, delicate and intricate creative patterns, monochrome with back lighting, scientific yet fantastical illustration, concept art blending biology with botany, surreal and ethereal quality, 4090 RTX, ray tracing render, ultra realistic, UHD, many details --ar 9:16 --style raw --stylize 200",
-          "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/0a69f5e329f-midjourney-6-3d-rendering-artistic-anatomical-render-ultra-quality-human-body-with-transparent-skin-revealing-structure-instead-of-organs-delicate-and-intricate"
+          "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/801f916f-6920-4e98-8493-4d653eb983cc/original=true/801f916f-6920-4e98-8493-4d653eb983cc.jpeg",
+          "prompt": "(masterpiece, best quality, amazing quality, very aesthetic, extremely detailed, very detailed, absurdres, newest, highres, score_9, score_8),   @Yoneyama_Mai),  watercolor illustration, \n1girl, short hair, huge eyes, cute, looking up, hands up holding her halo, upper body, oversized white tshirt, cropped torso, doodle background, blending, \n,dreamy composition, japanese art aesthetic, gentle lighting, poetic mood, highly detailed fabric texture, \nblending, negative space, , elegant feminine beauty, gentle shadows, cinematic softness, highly detailed, anime illustration, ambient glow, natural harmony, tranquil dreamscape",
+          "model": "Community Model",
+          "link": "https://civitai.com/images/131895974",
+          "reactions": 0
         },
         {
           "rank": 2,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fp830cvsfyyr84061fren9q1n8gme&w=1920&q=75",
-          "prompt": "cyber punk, graphic design, pink electronic, girl's face, side view, pretty and cute, silver shiny necklace, silver background, gleaming lips, white skin --s 750 --v 6.0",
-          "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/d15545fa678-midjourney-6-wearing-a-metalic-pink-suit-in-cybercity"
+          "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e39282c4-c48c-46d7-84dc-69bf2cb8b731/original=true/e39282c4-c48c-46d7-84dc-69bf2cb8b731.jpeg",
+          "prompt": "(masterpiece, best quality, amazing quality, very aesthetic, extremely detailed, very detailed, absurdres, newest, highres, score_9, score_8),   @Yoneyama_Mai),  watercolor illustration, \n1girl, short hair, huge eyes, cute, looking up, hands up holding her halo, upper body, oversized white tshirt, cropped torso, doodle background, blending, \nblack and blue background with watercolor elements, doodle stars at background\n,dreamy composition, japanese art aesthetic, gentle lighting, poetic mood, highly detailed fabric texture, \nblending, negative space, , elegant feminine beauty, gentle shadows, cinematic softness, highly detailed, anime illustration, ambient glow, natural harmony, tranquil dreamscape",
+          "model": "Community Model",
+          "link": "https://civitai.com/images/131896343",
+          "reactions": 0
         },
         {
           "rank": 3,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Flwfkxr2schd2qrhr8mcubntyft0x&w=1920&q=75",
-          "prompt": "a woman in a chrome vest with a costume and shoes., in the style of cybernetic surrealism, womancore, realistic renderings of the human form, made of insects, dark white and light black, flowerpunk --ar 150:187 --s 50 --style raw",
-          "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/09279d16fbc-midjourney-52-no-fly-fashion"
+          "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/476b632f-cf47-4a21-ac53-c1cd453c0efd/original=true/476b632f-cf47-4a21-ac53-c1cd453c0efd.jpeg",
+          "prompt": "There's a chicken hiding inside the Tyrannosaurus",
+          "model": "Community Model",
+          "link": "https://civitai.com/images/131900960",
+          "reactions": 0
+        }
+      ]
+    },
+    {
+      "source": {
+        "id": "topic-search",
+        "name": "🔍 主題精選",
+        "url": "https://prompthero.com",
+        "icon": "🔍",
+        "count": 2
+      },
+      "items": [
+        {
+          "rank": 1,
+          "imageUrl": "https://image.lexica.art/md2_webp/604c07ec-b957-4483-a916-061f613870e4",
+          "prompt": "Stilleben nach Vincent van Gogh with nature",
+          "model": "Stable Diffusion",
+          "link": "https://lexica.art/prompt/41332424-df57-4984-8bd2-6eb421f6d7c5",
+          "searchTopic": "oil painting impressionist style"
+        },
+        {
+          "rank": 2,
+          "imageUrl": "https://image.lexica.art/md2_webp/667e3296-e2cd-4a9a-881b-c09c3204fdd3",
+          "prompt": "Pixelated Pop Culture Icons\nStep into the pixelated past with \"Pixelated Pop Culture Icons.\" These N...",
+          "model": "Stable Diffusion",
+          "link": "https://lexica.art/prompt/e63c678f-8028-4fd1-aa1a-56bcded00a6e",
+          "searchTopic": "pixel art retro gaming"
         }
       ]
     }

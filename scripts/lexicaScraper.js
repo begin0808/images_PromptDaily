@@ -93,14 +93,14 @@ function getTodayTopics(count = 3) {
 }
 
 /**
- * 從 PromptHero 搜尋取得隨機主題的圖片
+ * 從 Lexica.art 搜尋取得隨機主題的圖片
  * @param {object} page - Puppeteer page（共用主爬蟲的瀏覽器）
  * @param {number} count - 要取得的圖片數量
  * @param {Set} previousLinks - 歷史連結集合，用於去重
  * @returns {Array} - 圖片資料陣列
  */
 async function scrapeLexicaTopics(page, count = 2, previousLinks = new Set()) {
-    console.log(`\n🔍 PromptHero 主題搜尋中...`);
+    console.log(`\n🔍 Lexica.art 主題搜尋中...`);
 
     // 每個主題取 1 張，多選幾個主題確保有足夠候選
     const topics = getTodayTopics(count * 4);
@@ -113,34 +113,32 @@ async function scrapeLexicaTopics(page, count = 2, previousLinks = new Set()) {
         if (enriched.length >= count) break;
 
         try {
-            const searchUrl = `https://prompthero.com/search?q=${encodeURIComponent(topic)}`;
+            const searchUrl = `https://lexica.art/?q=${encodeURIComponent(topic)}`;
             console.log(`  → 搜尋: "${topic}"`);
 
             await page.goto(searchUrl, { waitUntil: 'networkidle2', timeout: 30000 });
-            await page.waitForSelector('img', { timeout: 10000 }).catch(() => {});
+            await page.waitForSelector('a[href^="/prompt/"]', { timeout: 10000 }).catch(() => {});
             await new Promise(r => setTimeout(r, 2000));
 
-            // 從搜尋結果頁面抓取卡片
+            // 從搜尋結果頁面抓取卡片與 prompt
             const results = await page.evaluate(() => {
                 const items = [];
-                const seenLinks = new Set();
-                const cards = document.querySelectorAll('a[href*="/prompt/"]');
-
-                for (let i = 0; i < Math.min(cards.length, 10); i++) {
-                    const card = cards[i];
-                    const img = card.querySelector('img');
-                    const link = card.href || '';
-
-                    if (seenLinks.has(link)) continue;
-                    seenLinks.add(link);
-
-                    if (!img || !img.src) continue;
-                    const imgSrc = img.src || '';
-                    if (imgSrc.includes('icon') || imgSrc.includes('logo') || imgSrc.includes('avatar')) continue;
-                    if (imgSrc.includes('video') || imgSrc.endsWith('.webm') || imgSrc.endsWith('.mp4')) continue;
-
-                    items.push({ imageUrl: imgSrc, link: link, alt: img.alt || '' });
-                    if (items.length >= 5) break;
+                const cards = Array.from(document.querySelectorAll('a[href^="/prompt/"]'));
+                
+                for (const a of cards) {
+                    const p = a.querySelector('p');
+                    const parent = a.parentElement;
+                    const img = parent ? parent.querySelector('img') : null;
+                    const link = a.href || '';
+                    
+                    if (img && img.src && p && p.textContent.trim().length > 10) {
+                        items.push({
+                            imageUrl: img.src,
+                            link: link,
+                            prompt: p.textContent.trim()
+                        });
+                    }
+                    if (items.length >= 10) break;
                 }
                 return items;
             });
@@ -164,95 +162,28 @@ async function scrapeLexicaTopics(page, count = 2, previousLinks = new Set()) {
                     continue;
                 }
 
-                // 進入詳細頁抓取 prompt
-                try {
-                    await page.goto(item.link, { waitUntil: 'networkidle2', timeout: 20000 });
-                    await new Promise(r => setTimeout(r, 1500));
+                const prompt = item.prompt;
+                const model = 'Stable Diffusion'; // Lexica primarily displays Stable Diffusion (Aperture)
 
-                    const detail = await page.evaluate(() => {
-                        let promptText = '';
-                        let modelName = '';
-
-                        // 策略 1：搜尋連結容器
-                        const searchLink = document.querySelector('a[href^="/search?q="]');
-                        if (searchLink) {
-                            const container = searchLink.closest('div');
-                            if (container) promptText = container.textContent.trim();
-                        }
-
-                        // 策略 2：select-all class
-                        if (!promptText || promptText.length < 15) {
-                            const selectAll = document.querySelector('.select-all');
-                            if (selectAll) promptText = selectAll.textContent.trim();
-                        }
-
-                        // 策略 3：pre 標籤
-                        if (!promptText || promptText.length < 15) {
-                            const preEl = document.querySelector('pre');
-                            if (preEl && preEl.textContent.trim().length > 20) {
-                                promptText = preEl.textContent.trim();
-                            }
-                        }
-
-                        // 模型名稱
-                        const allElements = document.querySelectorAll('div, span, p');
-                        for (const el of allElements) {
-                            const txt = el.textContent.trim().toLowerCase();
-                            if (txt === 'model used' || txt === 'model') {
-                                const parent = el.parentElement;
-                                if (parent) {
-                                    const link = parent.querySelector('a');
-                                    if (link && link.textContent.trim().length > 1) {
-                                        modelName = link.textContent.trim();
-                                        break;
-                                    }
-                                }
-                            }
-                        }
-
-                        // 清理
-                        if (promptText) {
-                            promptText = promptText
-                                .replace(/try this prompt/gi, '')
-                                .replace(/\bcopy\b/g, '')
-                                .replace(/\bshare\b/g, '')
-                                .replace(/\bdownload\b/g, '')
-                                .replace(/\s{2,}/g, ' ')
-                                .trim();
-                        }
-
-                        return { prompt: promptText, model: modelName };
-                    });
-
-                    const prompt = detail.prompt || '';
-                    const model = detail.model || 'AI Model';
-
-                    if (prompt.length < 15) {
-                        continue;
-                    }
-
-                    // NSFW 過濾
-                    const nsfwKeywords = ['sexy', 'nude', 'naked', 'nsfw', 'explicit', 'topless', 'erotic', 'hentai', 'bikini'];
-                    const lower = prompt.toLowerCase() + ' ' + item.link.toLowerCase();
-                    if (nsfwKeywords.some(kw => lower.includes(kw))) {
-                        continue;
-                    }
-
-                    enriched.push({
-                        rank: rankCounter++,
-                        imageUrl: item.imageUrl,
-                        prompt: prompt,
-                        model: model,
-                        link: item.link,
-                        searchTopic: topic,
-                    });
-
-                    console.log(`    ✅ #${rankCounter - 1} [${model}] — ${prompt.substring(0, 60)}...`);
-                    found = true;
-
-                } catch (e) {
-                    console.log(`    ⚠ 無法取得詳細頁: ${e.message}`);
+                // NSFW 過濾
+                const nsfwKeywords = ['sexy', 'nude', 'naked', 'nsfw', 'explicit', 'topless', 'erotic', 'hentai', 'bikini'];
+                const lower = prompt.toLowerCase() + ' ' + item.link.toLowerCase();
+                if (nsfwKeywords.some(kw => lower.includes(kw))) {
+                    continue;
                 }
+
+                enriched.push({
+                    rank: rankCounter++,
+                    imageUrl: item.imageUrl,
+                    prompt: prompt,
+                    model: model,
+                    link: item.link,
+                    searchTopic: topic,
+                });
+
+                console.log(`    ✅ #${rankCounter - 1} [${model}] — ${prompt.substring(0, 60)}...`);
+                found = true;
+                break;
             }
 
             if (!found) {

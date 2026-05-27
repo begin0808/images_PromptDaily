@@ -192,7 +192,6 @@ async function main() {
                     console.log(`     🔗 ${item.link}`);
                 });
             });
-            return;
         }
 
         // 將爬取結果存為 JSON（除錯與前端網頁即時讀取用）
@@ -217,6 +216,11 @@ async function main() {
     const htmlPath = path.join(__dirname, 'last-email.html');
     fs.writeFileSync(htmlPath, html, 'utf-8');
     console.log(`💾 信件 HTML 已儲存: ${htmlPath}\n`);
+
+    if (mode === '--test-scrape') {
+        console.log('🏁 測試爬蟲完成，已儲存資料且未寄信。');
+        return;
+    }
 
     // ── 寄信階段 ──
     if (!SMTP_USER || !SMTP_PASS || !MY_EMAIL) {
