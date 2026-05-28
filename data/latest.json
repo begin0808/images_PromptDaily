@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-05-27T22:48:59.910Z",
+  "scrapedAt": "2026-05-28T22:46:25.692Z",
   "sources": [
     {
       "source": {
@@ -9,22 +9,7 @@
         "icon": "🔥",
         "count": 2
       },
-      "items": [
-        {
-          "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fjdwmg48w5xy6mid50xz1dw83yr&w=1920&q=75",
-          "prompt": "spider man, Miles Morales, comics art, render, high detai --ar 9:16",
-          "model": "AI Model",
-          "link": "https://prompthero.com/prompt/95854313ba8-hero-10-spider-man-miles-morales-comics-art-render-high-detai-ar-916"
-        },
-        {
-          "rank": 2,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fv0vsk9i9orgwqtgf93b3s44wte&w=1920&q=75",
-          "prompt": "fashion editorial photography, motion blur, male model, wearing an wool coat, deep purple color, walking in a subway station platform, shutter speed 1/15s, depth of field, low-key, editorial film grain, high-speed movement, rich detailed --ar 9:16 --raw",
-          "model": "AI Model",
-          "link": "https://prompthero.com/prompt/a15f93f638f-hero-10-fashion-editorial-photography-motion-blur-male-model-wearing-an-wool-coat-deep-purple-color-walking-in-a-subway-station-platform"
-        }
-      ]
+      "items": []
     },
     {
       "source": {
@@ -37,17 +22,17 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F41ju9v8tp67gu096s5vc7gpxo01w&w=1920&q=75",
-          "prompt": "editorial photography, male model, 50mm f/1.2 RF lens, f/2.8 set, 1/160s, iso 100, gradient neon orange, minimalist street style, deep orange atmospheric lighting, lights at ceiling, overhead softbox at 3200K, full-body confidence pose with silhouette, dramatic contrast, photorealistic quality, rich detailing --ar 9:16 --raw --profile otwluoo --stylize 200",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fxjsos7jl5jltflxms50aa37a4bw5&w=1920&q=75",
+          "prompt": "Japanese girl, 18-21 years old, brown hair, high-quality photo portrait, shot on a Polaroid camera, double eyelid --ar 34:65 --style raw",
           "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/7ae913f5c1c-midjourney-7-editorial-photography-male-model-50mm-f12-rf-lens-f28-set-1160s-iso-100-gradient-neon-orange-minimalist-street-style-deep"
+          "link": "https://prompthero.com/prompt/08f6365cc1f-midjourney-6-japanese-girl-18-21-years-old-brown-hair-high-quality-photo-portrait-shot-on-a-polaroid-camera-double-eyelid-ar"
         },
         {
           "rank": 2,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fyxmnjwx7akj5yh08n6h6er498wmu&w=1920&q=75",
-          "prompt": "Kooky portraits of 90’s mall teens in retro clothing, shot on VHS",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F9qbfr7mlnt8sn7yp01pw02z7ez1r&w=1920&q=75",
+          "prompt": "close-up of a stunning fashion model, ultra-realistic, portrait, shot on a Sony A7III, high quality --ar 35:64 --stylize 250",
           "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/d48a3c464ed-midjourney-52-kooky-portraits-of-90s-mall-teens-in-retro-clothing-shot-on-vhs"
+          "link": "https://prompthero.com/prompt/ebcc6231ec6-midjourney-6-close-up-of-a-stunning-fashion-model-ultra-realistic-portrait-shot-on-a-sony-a7iii-high-quality-ar-3564-stylize"
         }
       ]
     },
@@ -62,10 +47,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fenzembh96hzhjy8dvl7d4c5rryyg&w=1920&q=75",
-          "prompt": "mdjrny-v4 style traditional french cafe in the street of a small village on France. A terrace in the shade of a hundred-year-old olive tree, a friendly atmosphere around coffee and tea. \"Dolce Vita\". Unreal engine rendering, hyper realist, ultra detailed, oil painting, warm colors, happy, impressionism, Da Vinci, 4k",
-          "model": "AI Model",
-          "link": "https://prompthero.com/prompt/b607aedba7e-openjourney-15-mdjrny-v4-style-traditional-french-cafe-in-the-street-of-a-small-village-on-france-a-terrace-in-the-shade"
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fbzdmodwk6dnft5gnqgdta2jpnrg3&w=1920&q=75",
+          "prompt": "futuristic tempura food, night, japanese, neon light, volumetric smoke, volumetric light, octane render, food commercial, Filmic",
+          "model": "Stable Diffusion",
+          "link": "https://prompthero.com/prompt/02bb5115ef4-stable-diffusion-15-futuristic-tempura-food-night-japanese-neon-light-volumetric-smoke-volumetric-light-octane-render-food-commercial-filmic"
         }
       ]
     },
@@ -80,10 +65,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F2hvhr1d3tbo9a259m6erubbqz7fu&w=1920&q=75",
-          "prompt": "Spacious office with frontal view, Herman Miller Aeron chairs, Artemide Tolomeo desk lamps, captured with a Canon EOS R5, 50mm f/1.2 lens, balanced natural and LED lighting",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F5jzlog0jqbnqr10oi6wnktn8apj2&w=1920&q=75",
+          "prompt": "USM Haller Table shot in a professional photo studio, Fujifilm GFX 100S, GF 80mm f/1.7 lens, table's elegant simplicity and refined finish, in an environment that showcases the table's clean",
           "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/127011c5b32-midjourney-6-spacious-office-with-frontal-view-herman-miller-aeron-chairs-artemide-tolomeo-desk-lamps-captured-with-a-canon-eos-r5-50mm"
+          "link": "https://prompthero.com/prompt/f98dc718162-midjourney-6-more-info-wwwgraytheorystudiocom-httpswwwinstagramcomspacemakergrayve-httpspromptbasecomprofilespacemakergrayve-usm-haller-table-shot-in-a-professional-photo-studio-fujifilm-gfx-100s-gf-80mm-f17-lens-tables-elegant-simplicity-and"
         }
       ]
     },
@@ -98,10 +83,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fapu4bwo5ru1vtbidndl5nmsa2ytq&w=1920&q=75",
-          "prompt": "Toy with a little doll with a helmet, cute 3d render, cute detailed digital art, female explorer mini cute girl, cute digital painting, stylized 3d render, cute digital art, cute render 3d anime girl , the little astronaut looks up, cute! c4d, portrait anime space cadet girl, sitting on a white pedestal",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F3wnnid288hm5czhkyukfuwsgdw23&w=1920&q=75",
+          "prompt": "cyberpunk dog, futuristic, highly detailed, made with blender --v 4",
           "model": "AI Model",
-          "link": "https://prompthero.com/prompt/6ad6047035b-rev-animated-v10-toy-with-a-little-doll-with-a-helmet-cute-3d-render-cute-detailed-digital-art-female-explorer-mini-cute-girl"
+          "link": "https://prompthero.com/prompt/a98c21a211f-openjourney-15-cyberpunk-dog-futuristic-highly-detailed-made-with-blender-v-4"
         }
       ]
     },
@@ -116,26 +101,26 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b1312a63-50d8-4fb8-85ea-55df7128b0e8/original=true/b1312a63-50d8-4fb8-85ea-55df7128b0e8.jpeg",
-          "prompt": "masterpiece, newest, best quality, Score_9, score_8, score_7, anime style, \nelsa \\(frozen\\),  , \nsitting at a computer desk from home wearing business suit, eating popcorn, looking at the screen with a :3 expression. plant in background, cat on the back of the chair wearing sunglasses, dim lighting.",
-          "model": "RAMTHRUSTS_Pink_Alchemy_Anima_22",
-          "link": "https://civitai.com/images/131890197",
+          "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/472d8360-d40f-48a7-9af3-5ee329899bb4/original=true/472d8360-d40f-48a7-9af3-5ee329899bb4.jpeg",
+          "prompt": "vocaloid, hatsune miku, 1girl, aqua eyes, aqua hair, armpits, arms up, bare arms, bare legs, breasts, cloud, cumulonimbus cloud, dress, frilled dress, frills, hat, long hair, looking at viewer, open mouth, outdoors, sleeveless, sleeveless dress, small breasts, smile, solo, straw hat, sundress, twintails, very long hair, wading, white dress, masterpiece, highres, absurdres, newest, best quality, score_7vocaloid, hatsune miku, 1girl, aqua eyes, aqua hair, armpits, arms up, bare arms, bare legs, breasts, cloud, cumulonimbus cloud, dress, frilled dress, frills, hat, long hair, looking at viewer, open mouth, outdoors, sleeveless, sleeveless dress, small breasts, smile, solo, straw hat, sundress, twintails, very long hair, wading, white dress",
+          "model": "JANIMA_V1",
+          "link": "https://civitai.com/images/131962734",
           "reactions": 0
         },
         {
           "rank": 2,
-          "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6dc137e6-54b0-4e88-b6dc-0a4cbb7b4cfe/original=true/6dc137e6-54b0-4e88-b6dc-0a4cbb7b4cfe.jpeg",
-          "prompt": "Amivireg art style, Epic Dolomite mountains at night under bright full moon, sharp jagged rocky peaks covered with fresh snow glowing silver-blue in moonlight, vast starry sky with visible Milky Way and subtle northern lights, misty forested valley deep below, small illuminated mountain hut with warm orange light in window, dramatic scale, mystical and serene mood, perfect wide cinematic composition, ultra-detailed, breathtaking beauty, 8k",
-          "model": "Community Model",
-          "link": "https://civitai.com/images/131969963",
+          "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/87305b33-75d4-4b3a-8023-22c505d29a84/original=true/87305b33-75d4-4b3a-8023-22c505d29a84.jpeg",
+          "prompt": "genshin impact, columbina \\(genshin impact\\), paimon \\(genshin impact\\), sandrone \\(genshin impact\\), 2girls, bare shoulders, black collar, black hair, black sleeves, blue eyes, blush, bonnet, bow, bread, brown hair, cake, cake slice, closed eyes, collar, cup, detached collar, detached sleeves, dress, food, gloves, hair ornament, head wings, headdress, holding, holding cup, holding plate, indoors, long hair, long sidelocks, long sleeves, looking to the side, multicolored hair, multiple girls, plate, purple hair, purple streaks, short hair with long locks, sidelocks, streaked hair, table, teapot, two-tone hair, upper body, very long hair, whispering in ear, white dress, white gloves, white headdress, white wings, window, wings, wrist bow, x-shaped eyewear, x hair ornament, masterpiece, highres, absurdres, newest, best quality, score_7genshin impact, columbina \\(genshin impact\\), paimon \\(genshin impact\\), sandrone \\(genshin impact\\), 2girls, bare shoulders, black collar, black hair, black sleeves, blue eyes, blush, bonnet, bow, bread, brown hair, cake, cake slice, closed eyes, collar, cup, detached collar, detached sleeves, dress, food, gloves, hair ornament, head wings, headdress, holding, holding cup, holding plate, indoors, long hair, long sidelocks, long sleeves, looking to the side, multicolored hair, multiple girls, plate, purple hair, purple streaks, short hair with long locks, sidelocks, streaked hair, table, teapot, two-tone hair, upper body, very long hair, whispering in ear, white dress, white gloves, white headdress, white wings, window, wings, wrist bow, x-shaped eyewear, x hair ornament",
+          "model": "JANIMA_V1",
+          "link": "https://civitai.com/images/131962908",
           "reactions": 0
         },
         {
           "rank": 3,
-          "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b4ec078e-fc55-4632-8e6e-5c470e1370a8/original=true/b4ec078e-fc55-4632-8e6e-5c470e1370a8.jpeg",
-          "prompt": "Pov above looking down, sneakers in front of photorealistic puddle, city lights reflecting in puddle, reds blues greens, Mysterious astronaut falling into the deep, dissolving into vibrant aqua liquid, gentle waves, sinking deeper, reaching for help, ethereal koi swimming around, ethereal lighting, photo close-up, highly detailed, hyperrealism style, incredibly eye-catching, glinting surface",
+          "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/51bad6d0-a3ba-4089-ac70-f676b7379bb6/original=true/51bad6d0-a3ba-4089-ac70-f676b7379bb6.jpeg",
+          "prompt": "Create a hyper-realistic, extremely detailed image of an anime-style chicken standing on a floating crate in the ocean. Chicken: nervous expression with wide, fearful eyes, holding a sign (THIS IS FINE!). SHARK: Hyper-detailed, sharp-toothed, and hungry swimming next to the crate. STYLE: Hyper-realistic, blending anime's expressive charm with precise textures (feathers, shark, crate) and intense, suspenseful atmosphere.",
           "model": "Community Model",
-          "link": "https://civitai.com/images/131971795",
+          "link": "https://civitai.com/images/132063287",
           "reactions": 0
         }
       ]
@@ -151,18 +136,18 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://image.lexica.art/md2_webp/62951333-ce40-468e-84d4-c3f324f23c27",
-          "prompt": "Mediterranean landscape in the foreground beautiful bushes with flowers",
+          "imageUrl": "https://image.lexica.art/md2_webp/64b3100b-931a-4349-a4f8-078b65479966",
+          "prompt": "Drawing of lawn full of flowers of all colors",
           "model": "Stable Diffusion",
-          "link": "https://lexica.art/prompt/731c55ae-c9bd-4c33-875a-1be1b0c75efb",
+          "link": "https://lexica.art/prompt/db06c404-fc54-435b-bc57-d0f3e6fd1b1c",
           "searchTopic": "oil painting impressionist style"
         },
         {
           "rank": 2,
-          "imageUrl": "https://image.lexica.art/md2_webp/3fbe9371-8550-4458-9e61-4ee6c5628080",
-          "prompt": "3D pixel retro tiny cute tablet link to a serveur",
+          "imageUrl": "https://image.lexica.art/md2_webp/686e851c-28d8-4a18-8e75-46b1256c1a15",
+          "prompt": "Generate a YouTube gaming/education logo with a retro 16-bit feel",
           "model": "Stable Diffusion",
-          "link": "https://lexica.art/prompt/f9152232-4bcd-4b71-90b4-bb4fcfcb72e2",
+          "link": "https://lexica.art/prompt/2aa7a596-759b-4d7f-b5dc-ee64ce91be1f",
           "searchTopic": "pixel art retro gaming"
         }
       ]
