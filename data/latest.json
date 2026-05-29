@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-05-28T22:46:25.692Z",
+  "scrapedAt": "2026-05-29T22:44:13.866Z",
   "sources": [
     {
       "source": {
@@ -9,7 +9,15 @@
         "icon": "🔥",
         "count": 2
       },
-      "items": []
+      "items": [
+        {
+          "rank": 1,
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fr44rsycxahxn3gnhg1ju1dem7g&w=1920&q=75",
+          "prompt": "Image of Cristiano Ronaldo from a VHS camcorder recorder in a highschool in Feb of 1996. Same grain and overall film quality of cameras and vhs of the time period",
+          "model": "Chatgpt Image",
+          "link": "https://prompthero.com/prompt/a091c955611-chatgpt-image-gpt-image-2-image-of-cristiano-ronaldo-from-a-vhs-camcorder-recorder-in-a-highschool-in-feb-of-1996-same-grain-and-overall"
+        }
+      ]
     },
     {
       "source": {
@@ -22,17 +30,17 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fxjsos7jl5jltflxms50aa37a4bw5&w=1920&q=75",
-          "prompt": "Japanese girl, 18-21 years old, brown hair, high-quality photo portrait, shot on a Polaroid camera, double eyelid --ar 34:65 --style raw",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fyktjuihsozyxcetxc5hsasx2wed8&w=1920&q=75",
+          "prompt": "photography, orange hue, korean woman model, solid orange backdrop, using a camera setup that mimics a large aperture, f/1.4 --ar 9:16 --style raw",
           "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/08f6365cc1f-midjourney-6-japanese-girl-18-21-years-old-brown-hair-high-quality-photo-portrait-shot-on-a-polaroid-camera-double-eyelid-ar"
+          "link": "https://prompthero.com/prompt/abb78caf579-midjourney-6-model-portrait"
         },
         {
           "rank": 2,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F9qbfr7mlnt8sn7yp01pw02z7ez1r&w=1920&q=75",
-          "prompt": "close-up of a stunning fashion model, ultra-realistic, portrait, shot on a Sony A7III, high quality --ar 35:64 --stylize 250",
-          "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/ebcc6231ec6-midjourney-6-close-up-of-a-stunning-fashion-model-ultra-realistic-portrait-shot-on-a-sony-a7iii-high-quality-ar-3564-stylize"
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F2oxo0xy8iw94supm5i19ln3ywos3&w=1920&q=75",
+          "prompt": "RPG, Style: MACRO, a low-quality CCTV camera with a slightly fish-eye lens effect. The camera's timestamp and static lines are visible, contributing to the grainy, low-resolution appearance of Samantha, an intricate, attractive, 18-year-old woman with",
+          "model": "Flux",
+          "link": "https://prompthero.com/prompt/193baa13e5b-flux-flux-11-pro-rpg-style-macro-a-low-quality-cctv-camera-with-a-slightly-fish-eye-lens-effect-the-cameras-timestamp-and-static"
         }
       ]
     },
@@ -47,10 +55,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fbzdmodwk6dnft5gnqgdta2jpnrg3&w=1920&q=75",
-          "prompt": "futuristic tempura food, night, japanese, neon light, volumetric smoke, volumetric light, octane render, food commercial, Filmic",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F7yxfewc4npicz0p4lz9t9quu91tv&w=1920&q=75",
+          "prompt": "Indian castle surrounded by water and nature, village, volumetric lighting, photorealistic, insanely detailed and intricate, Fantasy, epic cinematic shot, trending on ArtStation, mountains, 8k ultra hd, magical, mystical, matte painting, bright sunny day, flowers, massive cliffs, Sweeper3D",
           "model": "Stable Diffusion",
-          "link": "https://prompthero.com/prompt/02bb5115ef4-stable-diffusion-15-futuristic-tempura-food-night-japanese-neon-light-volumetric-smoke-volumetric-light-octane-render-food-commercial-filmic"
+          "link": "https://prompthero.com/prompt/c8d122762d5-stable-diffusion-15-indian-castle-surrounded-by-water-and-nature-village-volumetric-lighting-photorealistic-insanely-detailed-and-intricate-fantasy-epic-cinematic-shot-trending"
         }
       ]
     },
@@ -65,10 +73,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F5jzlog0jqbnqr10oi6wnktn8apj2&w=1920&q=75",
-          "prompt": "USM Haller Table shot in a professional photo studio, Fujifilm GFX 100S, GF 80mm f/1.7 lens, table's elegant simplicity and refined finish, in an environment that showcases the table's clean",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F99bd7wc779pysokyg1ern0zhsu0h&w=1920&q=75",
+          "prompt": "Photograph, contemporary living room, soft light of morning, integration of beige flooring and matte stone features, unified color scheme of soothing white tones, creating a white and inviting atmosphere, 35mm f/1.4G lens, set f/4, sophisticated furniture, including a white-colored sofa set and a minimalist side table, natural lights",
           "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/f98dc718162-midjourney-6-more-info-wwwgraytheorystudiocom-httpswwwinstagramcomspacemakergrayve-httpspromptbasecomprofilespacemakergrayve-usm-haller-table-shot-in-a-professional-photo-studio-fujifilm-gfx-100s-gf-80mm-f17-lens-tables-elegant-simplicity-and"
+          "link": "https://prompthero.com/prompt/867567911d0-midjourney-6-realism-living-room-interior"
         }
       ]
     },
@@ -80,15 +88,7 @@
         "icon": "🧊",
         "count": 1
       },
-      "items": [
-        {
-          "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F3wnnid288hm5czhkyukfuwsgdw23&w=1920&q=75",
-          "prompt": "cyberpunk dog, futuristic, highly detailed, made with blender --v 4",
-          "model": "AI Model",
-          "link": "https://prompthero.com/prompt/a98c21a211f-openjourney-15-cyberpunk-dog-futuristic-highly-detailed-made-with-blender-v-4"
-        }
-      ]
+      "items": []
     },
     {
       "source": {
@@ -101,26 +101,26 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/472d8360-d40f-48a7-9af3-5ee329899bb4/original=true/472d8360-d40f-48a7-9af3-5ee329899bb4.jpeg",
-          "prompt": "vocaloid, hatsune miku, 1girl, aqua eyes, aqua hair, armpits, arms up, bare arms, bare legs, breasts, cloud, cumulonimbus cloud, dress, frilled dress, frills, hat, long hair, looking at viewer, open mouth, outdoors, sleeveless, sleeveless dress, small breasts, smile, solo, straw hat, sundress, twintails, very long hair, wading, white dress, masterpiece, highres, absurdres, newest, best quality, score_7vocaloid, hatsune miku, 1girl, aqua eyes, aqua hair, armpits, arms up, bare arms, bare legs, breasts, cloud, cumulonimbus cloud, dress, frilled dress, frills, hat, long hair, looking at viewer, open mouth, outdoors, sleeveless, sleeveless dress, small breasts, smile, solo, straw hat, sundress, twintails, very long hair, wading, white dress",
+          "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/498f7b9c-ff0b-4f4e-90d1-c07cc9efb70b/original=true/498f7b9c-ff0b-4f4e-90d1-c07cc9efb70b.jpeg",
+          "prompt": "sousou no frieren, frieren, 1girl, blue scarf, blush, buttons, coat, cup, dot nose, double-breasted, drink, drinking, drinking straw, elf, floating hair, green eyes, holding, holding drink, looking at viewer, parted bangs, pointy ears, scarf, simple background, solo, standing, twintails, upper body, white background, white coat, white hair, masterpiece, highres, absurdres, newest, best quality, score_7sousou no frieren, frieren, 1girl, blue scarf, blush, buttons, coat, cup, dot nose, double-breasted, drink, drinking, drinking straw, elf, floating hair, green eyes, holding, holding drink, looking at viewer, parted bangs, pointy ears, scarf, simple background, solo, standing, twintails, upper body, white background, white coat, white hair",
           "model": "JANIMA_V1",
-          "link": "https://civitai.com/images/131962734",
+          "link": "https://civitai.com/images/132034191",
           "reactions": 0
         },
         {
           "rank": 2,
-          "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/87305b33-75d4-4b3a-8023-22c505d29a84/original=true/87305b33-75d4-4b3a-8023-22c505d29a84.jpeg",
-          "prompt": "genshin impact, columbina \\(genshin impact\\), paimon \\(genshin impact\\), sandrone \\(genshin impact\\), 2girls, bare shoulders, black collar, black hair, black sleeves, blue eyes, blush, bonnet, bow, bread, brown hair, cake, cake slice, closed eyes, collar, cup, detached collar, detached sleeves, dress, food, gloves, hair ornament, head wings, headdress, holding, holding cup, holding plate, indoors, long hair, long sidelocks, long sleeves, looking to the side, multicolored hair, multiple girls, plate, purple hair, purple streaks, short hair with long locks, sidelocks, streaked hair, table, teapot, two-tone hair, upper body, very long hair, whispering in ear, white dress, white gloves, white headdress, white wings, window, wings, wrist bow, x-shaped eyewear, x hair ornament, masterpiece, highres, absurdres, newest, best quality, score_7genshin impact, columbina \\(genshin impact\\), paimon \\(genshin impact\\), sandrone \\(genshin impact\\), 2girls, bare shoulders, black collar, black hair, black sleeves, blue eyes, blush, bonnet, bow, bread, brown hair, cake, cake slice, closed eyes, collar, cup, detached collar, detached sleeves, dress, food, gloves, hair ornament, head wings, headdress, holding, holding cup, holding plate, indoors, long hair, long sidelocks, long sleeves, looking to the side, multicolored hair, multiple girls, plate, purple hair, purple streaks, short hair with long locks, sidelocks, streaked hair, table, teapot, two-tone hair, upper body, very long hair, whispering in ear, white dress, white gloves, white headdress, white wings, window, wings, wrist bow, x-shaped eyewear, x hair ornament",
+          "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/035695fd-ba70-4874-bbd2-7283ad9b7054/original=true/035695fd-ba70-4874-bbd2-7283ad9b7054.jpeg",
+          "prompt": "honkai: star rail, honkai \\(series\\), evanescia \\(honkai: star rail\\), 1girl, animal ears, asymmetrical gloves, black gloves, black skirt, breasts, cherry blossoms, closed mouth, cropped jacket, day, gloves, hair between eyes, holding, jacket, light frown, looking at viewer, mismatched gloves, open clothes, open jacket, outdoors, partially fingerless gloves, pink hair, purple eyes, shirt, shirt tucked in, short hair with long locks, skirt, solo, white gloves, white jacket, white shirt, masterpiece, highres, absurdres, newest, best quality, score_7honkai: star rail, honkai \\(series\\), evanescia \\(honkai: star rail\\), 1girl, animal ears, asymmetrical gloves, black gloves, black skirt, breasts, cherry blossoms, closed mouth, cropped jacket, day, gloves, hair between eyes, holding, jacket, light frown, looking at viewer, mismatched gloves, open clothes, open jacket, outdoors, partially fingerless gloves, pink hair, purple eyes, shirt, shirt tucked in, short hair with long locks, skirt, solo, white gloves, white jacket, white shirt",
           "model": "JANIMA_V1",
-          "link": "https://civitai.com/images/131962908",
+          "link": "https://civitai.com/images/132034193",
           "reactions": 0
         },
         {
           "rank": 3,
-          "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/51bad6d0-a3ba-4089-ac70-f676b7379bb6/original=true/51bad6d0-a3ba-4089-ac70-f676b7379bb6.jpeg",
-          "prompt": "Create a hyper-realistic, extremely detailed image of an anime-style chicken standing on a floating crate in the ocean. Chicken: nervous expression with wide, fearful eyes, holding a sign (THIS IS FINE!). SHARK: Hyper-detailed, sharp-toothed, and hungry swimming next to the crate. STYLE: Hyper-realistic, blending anime's expressive charm with precise textures (feathers, shark, crate) and intense, suspenseful atmosphere.",
-          "model": "Community Model",
-          "link": "https://civitai.com/images/132063287",
+          "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1a5ae0ab-be5a-4166-905f-2d721e886a29/original=true/1a5ae0ab-be5a-4166-905f-2d721e886a29.jpeg",
+          "prompt": "honkai: star rail, honkai \\(series\\), firefly \\(honkai: star rail\\), 1girl, black hairband, black jacket, closed mouth, cropped jacket, gradient eyes, grey hair, hair between eyes, hairband, hand on own hip, jacket, long hair, looking at viewer, multicolored eyes, neckerchief, orange neckerchief, purple eyes, simple background, solo, white background, masterpiece, highres, absurdres, newest, best quality, score_7honkai: star rail, honkai \\(series\\), firefly \\(honkai: star rail\\), 1girl, black hairband, black jacket, closed mouth, cropped jacket, gradient eyes, grey hair, hair between eyes, hairband, hand on own hip, jacket, long hair, looking at viewer, multicolored eyes, neckerchief, orange neckerchief, purple eyes, simple background, solo, white background",
+          "model": "JANIMA_V1",
+          "link": "https://civitai.com/images/132034194",
           "reactions": 0
         }
       ]
@@ -136,18 +136,18 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://image.lexica.art/md2_webp/64b3100b-931a-4349-a4f8-078b65479966",
-          "prompt": "Drawing of lawn full of flowers of all colors",
+          "imageUrl": "https://image.lexica.art/md2_webp/66d7920d-1c42-4825-ad64-14b29a5f7eb1",
+          "prompt": "Drawing of a field full of flowers of all colors",
           "model": "Stable Diffusion",
-          "link": "https://lexica.art/prompt/db06c404-fc54-435b-bc57-d0f3e6fd1b1c",
+          "link": "https://lexica.art/prompt/0483d5f0-76d8-4a2f-8614-58b5aa5820bc",
           "searchTopic": "oil painting impressionist style"
         },
         {
           "rank": 2,
-          "imageUrl": "https://image.lexica.art/md2_webp/686e851c-28d8-4a18-8e75-46b1256c1a15",
-          "prompt": "Generate a YouTube gaming/education logo with a retro 16-bit feel",
+          "imageUrl": "https://image.lexica.art/md2_webp/6038b031-6758-4942-b7dd-be4509164aef",
+          "prompt": "8bit black characters",
           "model": "Stable Diffusion",
-          "link": "https://lexica.art/prompt/2aa7a596-759b-4d7f-b5dc-ee64ce91be1f",
+          "link": "https://lexica.art/prompt/087105df-0f5c-494e-b54f-7a03ec9f2dba",
           "searchTopic": "pixel art retro gaming"
         }
       ]
