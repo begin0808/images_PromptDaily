@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-05-29T22:44:13.866Z",
+  "scrapedAt": "2026-05-30T22:09:46.205Z",
   "sources": [
     {
       "source": {
@@ -9,15 +9,7 @@
         "icon": "🔥",
         "count": 2
       },
-      "items": [
-        {
-          "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fr44rsycxahxn3gnhg1ju1dem7g&w=1920&q=75",
-          "prompt": "Image of Cristiano Ronaldo from a VHS camcorder recorder in a highschool in Feb of 1996. Same grain and overall film quality of cameras and vhs of the time period",
-          "model": "Chatgpt Image",
-          "link": "https://prompthero.com/prompt/a091c955611-chatgpt-image-gpt-image-2-image-of-cristiano-ronaldo-from-a-vhs-camcorder-recorder-in-a-highschool-in-feb-of-1996-same-grain-and-overall"
-        }
-      ]
+      "items": []
     },
     {
       "source": {
@@ -30,17 +22,17 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fyktjuihsozyxcetxc5hsasx2wed8&w=1920&q=75",
-          "prompt": "photography, orange hue, korean woman model, solid orange backdrop, using a camera setup that mimics a large aperture, f/1.4 --ar 9:16 --style raw",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Flapcjheub4irmicpdv5x8hykgs&w=1920&q=75",
+          "prompt": "high resolution photography, front central profile, woman facing front, gaze to front, wearing a white turtleneck sweater, photographed entirely through thick vertically reeded architectural glass, vertical grooves running top to bottom across the entire frame, parallel vertical lines clearly visible, full-frame optical distortion dominating the image, acrylic glass in the foreground textured, realistic physical light refraction warping the profile of the face and upper body into vertical repetitions, subtle light softly radiating from the clothing and gently bleeding into the glass ridges, faint light scattering through the vertical grooves, low-key studio background in pale off-white tones, cool neutral lighting, restrained and minimal, realistic physics --ar 9:16 --raw --stylize 400",
           "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/abb78caf579-midjourney-6-model-portrait"
+          "link": "https://prompthero.com/prompt/400a20c3a87-midjourney-shatter-high-resolution-photography-front-central-profile-woman-facing-front-gaze-to-front-wearing-a-white-turtleneck-sweater-photographed-entirely-through"
         },
         {
           "rank": 2,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F2oxo0xy8iw94supm5i19ln3ywos3&w=1920&q=75",
-          "prompt": "RPG, Style: MACRO, a low-quality CCTV camera with a slightly fish-eye lens effect. The camera's timestamp and static lines are visible, contributing to the grainy, low-resolution appearance of Samantha, an intricate, attractive, 18-year-old woman with",
-          "model": "Flux",
-          "link": "https://prompthero.com/prompt/193baa13e5b-flux-flux-11-pro-rpg-style-macro-a-low-quality-cctv-camera-with-a-slightly-fish-eye-lens-effect-the-cameras-timestamp-and-static"
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fmuyejayamebyuyjpbbrw0g0consy&w=1920&q=75",
+          "prompt": "sketches blueprint of futuristic sci-fi huge spacecraft, warp engines, formulas and annotations, schematic by parts, golden ratio, fake detail, trending pixiv fanbox, acrylic palette knife, style of makoto shinkai studio ghibli genshin impact james gilleard greg rutkowski chiho aoshima",
+          "model": "Midjourney",
+          "link": "https://prompthero.com/prompt/734abbef34f-midjourney-52-sketches-blueprint-of-futuristic-sci-fi-huge-spacecraft-warp-engines-formulas-and-annotations-schematic-by-parts-golden-ratio-fake-detail"
         }
       ]
     },
@@ -55,10 +47,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F7yxfewc4npicz0p4lz9t9quu91tv&w=1920&q=75",
-          "prompt": "Indian castle surrounded by water and nature, village, volumetric lighting, photorealistic, insanely detailed and intricate, Fantasy, epic cinematic shot, trending on ArtStation, mountains, 8k ultra hd, magical, mystical, matte painting, bright sunny day, flowers, massive cliffs, Sweeper3D",
-          "model": "Stable Diffusion",
-          "link": "https://prompthero.com/prompt/c8d122762d5-stable-diffusion-15-indian-castle-surrounded-by-water-and-nature-village-volumetric-lighting-photorealistic-insanely-detailed-and-intricate-fantasy-epic-cinematic-shot-trending"
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fajdfzvpiy6f09ho6es0w93oyhk0t&w=1920&q=75",
+          "prompt": "A digital architectural blueprint of a cozy, rustic cottage house, with comprehensive labeled sections and descriptive text. The cottage features a thatched roof, timbered walls, and stone foundations. It includes a detailed layout of a warm living space with a stone fireplace, an inviting kitchen, quaint bedrooms with gabled windows, and an enchanting garden with a small pond. Each section of the house, from the cross-sectional view of the walls to the individual bricks in the chimney, is meticulously detailed and labeled. The background is a stylized parchment, evoking the sense of traditional architectural plans. Text annotations are included to describe materials, construction techniques, and dimensions. The lighting is warm and soft, suggesting a sunset ambiance. The blueprint is created with fine digital lines and a watercolor effect to blend the charm of old-world craftsmanship with modern design clarity.",
+          "model": "AI Model",
+          "link": "https://prompthero.com/prompt/27067445bb6-dalle-3-a-digital-architectural-blueprint-of-a-cozy-rustic-cottage-house-with-comprehensive-labeled-sections-and-descriptive-text-the-cottage-features"
         }
       ]
     },
@@ -73,10 +65,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F99bd7wc779pysokyg1ern0zhsu0h&w=1920&q=75",
-          "prompt": "Photograph, contemporary living room, soft light of morning, integration of beige flooring and matte stone features, unified color scheme of soothing white tones, creating a white and inviting atmosphere, 35mm f/1.4G lens, set f/4, sophisticated furniture, including a white-colored sofa set and a minimalist side table, natural lights",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F1aqmlsqtgsh8qdw62nachhnovwgc&w=1920&q=75",
+          "prompt": "retro-inspired lounge with shaggy rugs, vintage stereo, mid-century furniture, using a color palette of teal, orange, brown, in a clean, minimalist illustration style --ar 9:16 --v 6.1",
           "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/867567911d0-midjourney-6-realism-living-room-interior"
+          "link": "https://prompthero.com/prompt/8ad67eea911-midjourney-6-retro-inspired-lounge-with-shaggy-rugs-vintage-stereo-mid-century-furniture-using-a-color-palette-of-teal-orange-brown-in"
         }
       ]
     },
@@ -98,32 +90,7 @@
         "icon": "🎨",
         "count": 3
       },
-      "items": [
-        {
-          "rank": 1,
-          "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/498f7b9c-ff0b-4f4e-90d1-c07cc9efb70b/original=true/498f7b9c-ff0b-4f4e-90d1-c07cc9efb70b.jpeg",
-          "prompt": "sousou no frieren, frieren, 1girl, blue scarf, blush, buttons, coat, cup, dot nose, double-breasted, drink, drinking, drinking straw, elf, floating hair, green eyes, holding, holding drink, looking at viewer, parted bangs, pointy ears, scarf, simple background, solo, standing, twintails, upper body, white background, white coat, white hair, masterpiece, highres, absurdres, newest, best quality, score_7sousou no frieren, frieren, 1girl, blue scarf, blush, buttons, coat, cup, dot nose, double-breasted, drink, drinking, drinking straw, elf, floating hair, green eyes, holding, holding drink, looking at viewer, parted bangs, pointy ears, scarf, simple background, solo, standing, twintails, upper body, white background, white coat, white hair",
-          "model": "JANIMA_V1",
-          "link": "https://civitai.com/images/132034191",
-          "reactions": 0
-        },
-        {
-          "rank": 2,
-          "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/035695fd-ba70-4874-bbd2-7283ad9b7054/original=true/035695fd-ba70-4874-bbd2-7283ad9b7054.jpeg",
-          "prompt": "honkai: star rail, honkai \\(series\\), evanescia \\(honkai: star rail\\), 1girl, animal ears, asymmetrical gloves, black gloves, black skirt, breasts, cherry blossoms, closed mouth, cropped jacket, day, gloves, hair between eyes, holding, jacket, light frown, looking at viewer, mismatched gloves, open clothes, open jacket, outdoors, partially fingerless gloves, pink hair, purple eyes, shirt, shirt tucked in, short hair with long locks, skirt, solo, white gloves, white jacket, white shirt, masterpiece, highres, absurdres, newest, best quality, score_7honkai: star rail, honkai \\(series\\), evanescia \\(honkai: star rail\\), 1girl, animal ears, asymmetrical gloves, black gloves, black skirt, breasts, cherry blossoms, closed mouth, cropped jacket, day, gloves, hair between eyes, holding, jacket, light frown, looking at viewer, mismatched gloves, open clothes, open jacket, outdoors, partially fingerless gloves, pink hair, purple eyes, shirt, shirt tucked in, short hair with long locks, skirt, solo, white gloves, white jacket, white shirt",
-          "model": "JANIMA_V1",
-          "link": "https://civitai.com/images/132034193",
-          "reactions": 0
-        },
-        {
-          "rank": 3,
-          "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1a5ae0ab-be5a-4166-905f-2d721e886a29/original=true/1a5ae0ab-be5a-4166-905f-2d721e886a29.jpeg",
-          "prompt": "honkai: star rail, honkai \\(series\\), firefly \\(honkai: star rail\\), 1girl, black hairband, black jacket, closed mouth, cropped jacket, gradient eyes, grey hair, hair between eyes, hairband, hand on own hip, jacket, long hair, looking at viewer, multicolored eyes, neckerchief, orange neckerchief, purple eyes, simple background, solo, white background, masterpiece, highres, absurdres, newest, best quality, score_7honkai: star rail, honkai \\(series\\), firefly \\(honkai: star rail\\), 1girl, black hairband, black jacket, closed mouth, cropped jacket, gradient eyes, grey hair, hair between eyes, hairband, hand on own hip, jacket, long hair, looking at viewer, multicolored eyes, neckerchief, orange neckerchief, purple eyes, simple background, solo, white background",
-          "model": "JANIMA_V1",
-          "link": "https://civitai.com/images/132034194",
-          "reactions": 0
-        }
-      ]
+      "items": []
     },
     {
       "source": {
@@ -136,19 +103,19 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://image.lexica.art/md2_webp/66d7920d-1c42-4825-ad64-14b29a5f7eb1",
-          "prompt": "Drawing of a field full of flowers of all colors",
+          "imageUrl": "https://image.lexica.art/md2_webp/6475c928-3b17-4a87-9d20-b2398c435030",
+          "prompt": "Drawing of lawn full of flowers of all colors",
           "model": "Stable Diffusion",
-          "link": "https://lexica.art/prompt/0483d5f0-76d8-4a2f-8614-58b5aa5820bc",
+          "link": "https://lexica.art/prompt/32962712-dd71-4eef-b2c0-f7b62a6b9fc7",
           "searchTopic": "oil painting impressionist style"
         },
         {
           "rank": 2,
-          "imageUrl": "https://image.lexica.art/md2_webp/6038b031-6758-4942-b7dd-be4509164aef",
-          "prompt": "8bit black characters",
+          "imageUrl": "https://image.lexica.art/md2_webp/460e492e-a881-47d4-82dc-3f583ccc3540",
+          "prompt": "T-Shirt Vector Illustration",
           "model": "Stable Diffusion",
-          "link": "https://lexica.art/prompt/087105df-0f5c-494e-b54f-7a03ec9f2dba",
-          "searchTopic": "pixel art retro gaming"
+          "link": "https://lexica.art/prompt/9fef5734-ba95-4a82-a279-46d7111780e7",
+          "searchTopic": "floating islands sky"
         }
       ]
     }
