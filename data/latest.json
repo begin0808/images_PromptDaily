@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-05-30T22:09:46.205Z",
+  "scrapedAt": "2026-05-31T22:10:22.469Z",
   "sources": [
     {
       "source": {
@@ -22,17 +22,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Flapcjheub4irmicpdv5x8hykgs&w=1920&q=75",
-          "prompt": "high resolution photography, front central profile, woman facing front, gaze to front, wearing a white turtleneck sweater, photographed entirely through thick vertically reeded architectural glass, vertical grooves running top to bottom across the entire frame, parallel vertical lines clearly visible, full-frame optical distortion dominating the image, acrylic glass in the foreground textured, realistic physical light refraction warping the profile of the face and upper body into vertical repetitions, subtle light softly radiating from the clothing and gently bleeding into the glass ridges, faint light scattering through the vertical grooves, low-key studio background in pale off-white tones, cool neutral lighting, restrained and minimal, realistic physics --ar 9:16 --raw --stylize 400",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F54xz2e9g2xcdm3f28xc308ocfug4&w=1920&q=75",
+          "prompt": "Black and white street photography of an attractive woman in leather jacket with headscarf sitting inside vintage convertible car, on the streets of London, shot by arriflex 35 BL Camera Canon K35 Prime Lenses --ar 1:2 --stylize 750",
           "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/400a20c3a87-midjourney-shatter-high-resolution-photography-front-central-profile-woman-facing-front-gaze-to-front-wearing-a-white-turtleneck-sweater-photographed-entirely-through"
-        },
-        {
-          "rank": 2,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fmuyejayamebyuyjpbbrw0g0consy&w=1920&q=75",
-          "prompt": "sketches blueprint of futuristic sci-fi huge spacecraft, warp engines, formulas and annotations, schematic by parts, golden ratio, fake detail, trending pixiv fanbox, acrylic palette knife, style of makoto shinkai studio ghibli genshin impact james gilleard greg rutkowski chiho aoshima",
-          "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/734abbef34f-midjourney-52-sketches-blueprint-of-futuristic-sci-fi-huge-spacecraft-warp-engines-formulas-and-annotations-schematic-by-parts-golden-ratio-fake-detail"
+          "link": "https://prompthero.com/prompt/7e6790663a2-midjourney-6-black-and-white-street-photography-of-an-attractive-woman-in-leather-jacket-with-headscarf-sitting-inside-vintage-convertible-car-on"
         }
       ]
     },
@@ -47,10 +40,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fajdfzvpiy6f09ho6es0w93oyhk0t&w=1920&q=75",
-          "prompt": "A digital architectural blueprint of a cozy, rustic cottage house, with comprehensive labeled sections and descriptive text. The cottage features a thatched roof, timbered walls, and stone foundations. It includes a detailed layout of a warm living space with a stone fireplace, an inviting kitchen, quaint bedrooms with gabled windows, and an enchanting garden with a small pond. Each section of the house, from the cross-sectional view of the walls to the individual bricks in the chimney, is meticulously detailed and labeled. The background is a stylized parchment, evoking the sense of traditional architectural plans. Text annotations are included to describe materials, construction techniques, and dimensions. The lighting is warm and soft, suggesting a sunset ambiance. The blueprint is created with fine digital lines and a watercolor effect to blend the charm of old-world craftsmanship with modern design clarity.",
-          "model": "AI Model",
-          "link": "https://prompthero.com/prompt/27067445bb6-dalle-3-a-digital-architectural-blueprint-of-a-cozy-rustic-cottage-house-with-comprehensive-labeled-sections-and-descriptive-text-the-cottage-features"
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fsycy7r347psiepsnq7jfd9sq2o4m&w=1920&q=75",
+          "prompt": "a big Persian Villa surrounded by water and nature, village, close view, volumetric lighting, photorealistic, insanely detailed and intricate, Fantasy, epic cinematic shot, trending on ArtStation, mountains, 8k ultra hd, magical, mystical, matte painting, bright sunny day, flowers, massive cliffs, Sweeper3D",
+          "model": "Stable Diffusion",
+          "link": "https://prompthero.com/prompt/1c1f727a02e-stable-diffusion-15-a-big-persian-villa-surrounded-by-water-and-nature-village-close-view-volumetric-lighting-photorealistic-insanely-detailed-and-intricate-fantasy"
         }
       ]
     },
@@ -65,10 +58,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F1aqmlsqtgsh8qdw62nachhnovwgc&w=1920&q=75",
-          "prompt": "retro-inspired lounge with shaggy rugs, vintage stereo, mid-century furniture, using a color palette of teal, orange, brown, in a clean, minimalist illustration style --ar 9:16 --v 6.1",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fvnh82n2fhi4ayo3xlfsuthior1km&w=1920&q=75",
+          "prompt": "Photograph, contemporary living room, soft light of morning, integration of beige flooring and matte stone features, unified color scheme of soothing white tones, 35mm f/1.4G lens, set f/4, sophisticated furniture, natural lights",
           "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/8ad67eea911-midjourney-6-retro-inspired-lounge-with-shaggy-rugs-vintage-stereo-mid-century-furniture-using-a-color-palette-of-teal-orange-brown-in"
+          "link": "https://prompthero.com/prompt/4609621b862-midjourney-6-realism-living-room-interior"
         }
       ]
     },
@@ -103,19 +96,19 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://image.lexica.art/md2_webp/6475c928-3b17-4a87-9d20-b2398c435030",
+          "imageUrl": "https://image.lexica.art/md2_webp/5a3bcc5d-7f52-4e9d-ab6c-b2cd604fe739",
           "prompt": "Drawing of lawn full of flowers of all colors",
           "model": "Stable Diffusion",
-          "link": "https://lexica.art/prompt/32962712-dd71-4eef-b2c0-f7b62a6b9fc7",
+          "link": "https://lexica.art/prompt/18344a1c-820e-40c6-9f8f-67089205fa53",
           "searchTopic": "oil painting impressionist style"
         },
         {
           "rank": 2,
-          "imageUrl": "https://image.lexica.art/md2_webp/460e492e-a881-47d4-82dc-3f583ccc3540",
-          "prompt": "T-Shirt Vector Illustration",
+          "imageUrl": "https://image.lexica.art/md2_webp/5d7d116a-d767-4a0d-9ba0-3d9674cee17e",
+          "prompt": "16-bit pixel art of a 2d gameplay night time",
           "model": "Stable Diffusion",
-          "link": "https://lexica.art/prompt/9fef5734-ba95-4a82-a279-46d7111780e7",
-          "searchTopic": "floating islands sky"
+          "link": "https://lexica.art/prompt/72c12868-3ccf-4582-b4da-da5c31db6dbb",
+          "searchTopic": "pixel art retro gaming"
         }
       ]
     }
