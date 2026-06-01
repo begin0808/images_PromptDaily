@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-05-31T22:10:22.469Z",
+  "scrapedAt": "2026-06-01T23:08:24.079Z",
   "sources": [
     {
       "source": {
@@ -9,7 +9,15 @@
         "icon": "🔥",
         "count": 2
       },
-      "items": []
+      "items": [
+        {
+          "rank": 1,
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fdd2egcf5h6m4bj9q17l2opopi4&w=1920&q=75",
+          "prompt": "A lone desert scout riding a robotic reptile-like pack mount up a rocky slope under a wide open sky, low-angle vertical composition, quiet cinematic tension, sun-baked sci-fi frontier atmosphere. The rider sits upright and calm in layered desert travel gear: wrapped scarf, sleeveless tactical vest, harness straps, cargo trousers, gloves, rugged boots, belt pouches, worn fabric folds, dusty creases, scuffed edges, practical survival styling. A long rifle is secured vertically along the rider’s back. gaze lowered toward the path ahead, expression unreadable and guarded. The mechanical mount has an elongated neck, sensor-like lens eye, segmented armor plates, exposed joints, dangling cables, scratched paint, teal structural panels, orange outer plating, black mechanical understructure, weathered metal surfaces, compact saddle system, utilitarian travel build. Hard overhead desert sunlight, sharp shadows, clean blue sky, pale cloud shapes, warm rocky ground, strong diagonal slope, sparse environment, calm before danger. cinematic poster framing, desert nomad mood, high detail, strong silhouette, atmospheric stillness.",
+          "model": "AI Model",
+          "link": "https://prompthero.com/prompt/379a7460b08-hero-10-a-lone-desert-scout-riding-a-robotic-reptile-like-pack-mount-up-a-rocky-slope-under-a-wide-open-sky"
+        }
+      ]
     },
     {
       "source": {
@@ -22,10 +30,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F54xz2e9g2xcdm3f28xc308ocfug4&w=1920&q=75",
-          "prompt": "Black and white street photography of an attractive woman in leather jacket with headscarf sitting inside vintage convertible car, on the streets of London, shot by arriflex 35 BL Camera Canon K35 Prime Lenses --ar 1:2 --stylize 750",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F1a6mljgm56sd4i00pbaqp4sr9b5d&w=1920&q=75",
+          "prompt": "a woman sitting on top of a white cube, official jil sander editorial, blue and grey tones, trending on interfacelift, coat, artforum, very beautiful long slim legs, inspired by Zhang Shuqi, flagstones, tall and slender, peter morbacher style, wooden platforms, round-cropped, 2 0 1 4. modern attire, harpers bazaar, jeongseok lee --relax --v 5.2 --ar 3:4",
           "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/7e6790663a2-midjourney-6-black-and-white-street-photography-of-an-attractive-woman-in-leather-jacket-with-headscarf-sitting-inside-vintage-convertible-car-on"
+          "link": "https://prompthero.com/prompt/af7a50d39cd-midjourney-52-a-woman-sitting-on-top-of-a-white-cube-official-jil-sander-editorial-blue-and-grey-tones-trending-on-interfacelift"
         }
       ]
     },
@@ -40,10 +48,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fsycy7r347psiepsnq7jfd9sq2o4m&w=1920&q=75",
-          "prompt": "a big Persian Villa surrounded by water and nature, village, close view, volumetric lighting, photorealistic, insanely detailed and intricate, Fantasy, epic cinematic shot, trending on ArtStation, mountains, 8k ultra hd, magical, mystical, matte painting, bright sunny day, flowers, massive cliffs, Sweeper3D",
-          "model": "Stable Diffusion",
-          "link": "https://prompthero.com/prompt/1c1f727a02e-stable-diffusion-15-a-big-persian-villa-surrounded-by-water-and-nature-village-close-view-volumetric-lighting-photorealistic-insanely-detailed-and-intricate-fantasy"
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Ffmexdigmxswh3d72618rjc9v3anx&w=1920&q=75",
+          "prompt": "minimalist line drawing, 6 spread sheet, simple human figures silhouettes, architectural sketches, used coral color, continuous single line drawing, clean minimal style, architectural scale figures, technical drawing style --ar 9:16 --style raw --v 6.1",
+          "model": "Midjourney",
+          "link": "https://prompthero.com/prompt/45430098db8-midjourney-61-minimalist-line-drawing-6-spread-sheet-simple-human-figures-silhouettes-architectural-sketches-used-coral-color-continuous-single-line-drawing-clean"
         }
       ]
     },
@@ -58,10 +66,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fvnh82n2fhi4ayo3xlfsuthior1km&w=1920&q=75",
-          "prompt": "Photograph, contemporary living room, soft light of morning, integration of beige flooring and matte stone features, unified color scheme of soothing white tones, 35mm f/1.4G lens, set f/4, sophisticated furniture, natural lights",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F56tp676tjkt4khvxmo0tgudtuqn0&w=1920&q=75",
+          "prompt": "photograph, home office, minimal, soft sunlight, warm artificial light casting, creating a warm white and inviting atmosphere, such as a discreetly placed objets --ar 9:16 --style raw",
           "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/4609621b862-midjourney-6-realism-living-room-interior"
+          "link": "https://prompthero.com/prompt/794977cc28d-midjourney-6-home-office-interior"
         }
       ]
     },
@@ -83,7 +91,32 @@
         "icon": "🎨",
         "count": 3
       },
-      "items": []
+      "items": [
+        {
+          "rank": 1,
+          "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c134412e-3f6f-4f04-b8dd-b211e9c078bf/original=true/c134412e-3f6f-4f04-b8dd-b211e9c078bf.jpeg",
+          "prompt": "wuthering waves, denia \\(wuthering waves\\), 1girl, ahoge, bare shoulders, blue hair, breasts, clenched hand, colored extremities, colored inner hair, detached sleeves, dress, gloves, hair intakes, hand up, long hair, looking at viewer, medium breasts, multicolored hair, parted lips, pink hair, purple eyes, red gloves, shadow hands, single glove, solo, white dress, masterpiece, best quality, amazing quality, highres, absurdres, newest, very awa, dynamic pose, dynamic compositionwuthering waves, denia \\(wuthering waves\\), 1girl, ahoge, bare shoulders, blue hair, breasts, clenched hand, colored extremities, colored inner hair, detached sleeves, dress, gloves, hair intakes, hand up, long hair, looking at viewer, medium breasts, multicolored hair, parted lips, pink hair, purple eyes, red gloves, shadow hands, single glove, solo, white dress",
+          "model": "anima_final_v2",
+          "link": "https://civitai.com/images/132034537",
+          "reactions": 0
+        },
+        {
+          "rank": 2,
+          "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f3fda047-3794-4e3f-8323-29981ca2240f/original=true/f3fda047-3794-4e3f-8323-29981ca2240f.jpeg",
+          "prompt": "umamusume, agnes tachyon \\(umamusume\\), 1girl, ahoge, animal ears, applying lipstick, applying makeup, applying own makeup, black jacket, blush, brown hair, closed mouth, compact \\(cosmetics\\), cosmetics, earrings, green pants, hair between eyes, holding, holding compact, holding lipstick tube, horse ears, horse girl, horse tail, jacket, jacket on shoulders, jewelry, lipstick tube, medium hair, open clothes, open jacket, pants, pink nails, red eyes, shirt, single earring, smile, solo, tail, white shirt, masterpiece, best quality, amazing quality, highres, absurdres, newest, very awa, dynamic pose, dynamic compositionumamusume, agnes tachyon \\(umamusume\\), 1girl, ahoge, animal ears, applying lipstick, applying makeup, applying own makeup, black jacket, blush, brown hair, closed mouth, compact \\(cosmetics\\), cosmetics, earrings, green pants, hair between eyes, holding, holding compact, holding lipstick tube, horse ears, horse girl, horse tail, jacket, jacket on shoulders, jewelry, lipstick tube, medium hair, open clothes, open jacket, pants, pink nails, red eyes, shirt, single earring, smile, solo, tail, white shirt",
+          "model": "anima_final_v2",
+          "link": "https://civitai.com/images/132034536",
+          "reactions": 0
+        },
+        {
+          "rank": 3,
+          "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/510c51c6-91ed-4dd8-99c5-3bbde533c7cc/original=true/510c51c6-91ed-4dd8-99c5-3bbde533c7cc.jpeg",
+          "prompt": "sousou no frieren, frieren, 1girl, earrings, elf, green eyes, holding, holding staff, jewelry, mage staff, pointy ears, staff, teardrop earrings, twintails, white hair, masterpiece, best quality, amazing quality, highres, absurdres, newest, very awa, dynamic pose, dynamic compositionsousou no frieren, frieren, 1girl, earrings, elf, green eyes, holding, holding staff, jewelry, mage staff, pointy ears, staff, teardrop earrings, twintails, white hair",
+          "model": "anima_final_v2",
+          "link": "https://civitai.com/images/132034532",
+          "reactions": 0
+        }
+      ]
     },
     {
       "source": {
@@ -96,18 +129,18 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://image.lexica.art/md2_webp/5a3bcc5d-7f52-4e9d-ab6c-b2cd604fe739",
-          "prompt": "Drawing of lawn full of flowers of all colors",
+          "imageUrl": "https://image.lexica.art/md2_webp/641c1e00-ade5-4a34-89d8-16f2340bacb0",
+          "prompt": "VANGOGH STYLE PAINTING OF BEAUTIFUL MOTHER SMILING BABY IN ARMS PLAYING IN THE GARDEN OF HER HOUSE. ...",
           "model": "Stable Diffusion",
-          "link": "https://lexica.art/prompt/18344a1c-820e-40c6-9f8f-67089205fa53",
+          "link": "https://lexica.art/prompt/98c28db2-7201-40c7-bafd-019a141c2ca1",
           "searchTopic": "oil painting impressionist style"
         },
         {
           "rank": 2,
-          "imageUrl": "https://image.lexica.art/md2_webp/5d7d116a-d767-4a0d-9ba0-3d9674cee17e",
-          "prompt": "16-bit pixel art of a 2d gameplay night time",
+          "imageUrl": "https://image.lexica.art/md2_webp/557a10dd-b345-4abc-aa99-d218b3f228ca",
+          "prompt": "Play and pause icon concepts. AI Apocalypse themed. Simple pixel art game.",
           "model": "Stable Diffusion",
-          "link": "https://lexica.art/prompt/72c12868-3ccf-4582-b4da-da5c31db6dbb",
+          "link": "https://lexica.art/prompt/c965b4a7-5fcc-41c9-973a-b1df809aa8eb",
           "searchTopic": "pixel art retro gaming"
         }
       ]
