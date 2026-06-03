@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-06-02T23:12:11.761Z",
+  "scrapedAt": "2026-06-03T23:16:29.755Z",
   "sources": [
     {
       "source": {
@@ -9,7 +9,15 @@
         "icon": "🔥",
         "count": 2
       },
-      "items": []
+      "items": [
+        {
+          "rank": 1,
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fgroddhotjj5uhssu9yjskmxmj3&w=1920&q=75",
+          "prompt": "An animation of several ants working together to defeat a giant villain in a flower.",
+          "model": "AI Model",
+          "link": "https://prompthero.com/prompt/35caafaf40b-hero-10-an-animation-of-several-ants-working-together-to-defeat-a-giant-villain-in-a-flower"
+        }
+      ]
     },
     {
       "source": {
@@ -62,26 +70,26 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0b0bdfcb-a4ea-4b34-92b4-e7a26cb2a6db/original=true/0b0bdfcb-a4ea-4b34-92b4-e7a26cb2a6db.jpeg",
-          "prompt": "wuthering waves, denia \\(wuthering waves\\), 1girl, bare shoulders, black bow, blue hair, bow, colored extremities, colored inner hair, fingernails, hair bow, hair ornament, hand up, head tilt, long fingernails, long hair, looking at viewer, multicolored hair, open mouth, pink hair, portrait, purple eyes, purple nails, smile, solo, masterpiece, highres, absurdres, newest, best quality, score_7wuthering waves, denia \\(wuthering waves\\), 1girl, bare shoulders, black bow, blue hair, bow, colored extremities, colored inner hair, fingernails, hair bow, hair ornament, hand up, head tilt, long fingernails, long hair, looking at viewer, multicolored hair, open mouth, pink hair, portrait, purple eyes, purple nails, smile, solo",
-          "model": "anima_final_v2_bf16",
-          "link": "https://civitai.com/images/132330496",
+          "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1cc0a6b3-d200-40fc-96dd-0e6d056184cc/original=true/1cc0a6b3-d200-40fc-96dd-0e6d056184cc.jpeg",
+          "prompt": "honkai: star rail, honkai \\(series\\), firefly \\(honkai: star rail\\), firefly \\(spring missive\\) \\(honkai: star rail\\), sam \\(honkai: star rail\\), 1girl, animal, black hairband, black sailor collar, black skirt, blush, breasts, cat, collarbone, drawn ears, drawn whiskers, fingernails, gradient hair, green hair, grey hair, grey skirt, hair between eyes, hair intakes, hair ornament, hairband, holding, holding umbrella, long hair, long sleeves, looking at viewer, medium breasts, multicolored hair, no shoes, official alternate costume, open mouth, pink eyes, pleated skirt, sailor collar, school uniform, serafuku, shirt, sitting, skirt, smile, solo, squatting, thighhighs, transparent, transparent umbrella, umbrella, untucked shirt, v, white cat, white thighhighs, dynamic pose, dynamic composition, masterpiece, highres, absurdres, newest, best quality, score_7honkai: star rail, honkai \\(series\\), firefly \\(honkai: star rail\\), firefly \\(spring missive\\) \\(honkai: star rail\\), sam \\(honkai: star rail\\), 1girl, animal, black hairband, black sailor collar, black skirt, blush, breasts, cat, collarbone, drawn ears, drawn whiskers, fingernails, gradient hair, green hair, grey hair, grey skirt, hair between eyes, hair intakes, hair ornament, hairband, holding, holding umbrella, long hair, long sleeves, looking at viewer, medium breasts, multicolored hair, no shoes, official alternate costume, open mouth, pink eyes, pleated skirt, sailor collar, school uniform, serafuku, shirt, sitting, skirt, smile, solo, squatting, thighhighs, transparent, transparent umbrella, umbrella, untucked shirt, v, white cat, white thighhighs",
+          "model": "JANIMA_V1_bf16",
+          "link": "https://civitai.com/images/132445608",
           "reactions": 0
         },
         {
           "rank": 2,
-          "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/69521e8e-2f0c-45b0-bded-cccfabe892e6/original=true/69521e8e-2f0c-45b0-bded-cccfabe892e6.jpeg",
-          "prompt": "(masterpiece, best quality, amazing quality, very aesthetic, \nextremely detailed, very detailed, absurdres, newest, highres, \nscore_9, score_8),\n\n@sw33t,\nblurry background, depth of field, rim light, chiaroscuro,\nanime coloring, flat color, sketch, oil painting,\n\n1girl, solo, upper body, slightly low angle,\nshort black hair, curtain bangs, parted in middle,\nice blue eyes, sharp, cold, looking at viewer,\nexpression flat, unreadable, assessing,\nround glasses, silver wire frame,\nsmoke reflected in lenses, wisps in glass,\npale skin, cool undertones,\nblack turtleneck, minimal,\n\nsmoke rising around her, thick and slow,\ncurtains of smoke parting around her body,\nboth hands at sides, not touching the smoke,\nsmoke doing the framing, not her hands,\nwisps crossing her face, softening edges,\nsmoke between viewer and her, semi transparent veil,\n\nsource of smoke unseen, massive amount,\nbacklit strongly, light source behind her,\nsmoke glowing white gold from behind,\nher figure dark against bright smoke light,\nsilhouette threatening to dissolve into smoke,\nwhite gold and deep shadow and cold blue eyes,\nthe only clear thing in an unclear world",
-          "model": "anima_baseV10",
-          "link": "https://civitai.com/images/132557325",
+          "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e59f4bca-4ee5-4397-93d4-3cf5d4e884e2/original=true/e59f4bca-4ee5-4397-93d4-3cf5d4e884e2.jpeg",
+          "prompt": "chainsaw man, makima \\(chainsaw man\\), 1girl, black necktie, closed mouth, long hair, necktie, red hair, snowing, suit, upper body, A shot with tension, official art, cinematic, fashion photography style, visual impact, sharp focus, very aesthetic, extreme aesthetic, sensitive, incredibly absurdres, 8K, intricate details, ultra detailed, HDR, high contrast, high detail RAW color art, dynamic pose, dynamic composition, dark theme, masterpiece, highres, absurdres, newest, best quality, score_7chainsaw man, makima \\(chainsaw man\\), 1girl, black necktie, closed mouth, long hair, necktie, red hair, snowing, suit, upper body",
+          "model": "JANIMA_V1_bf16",
+          "link": "https://civitai.com/images/132445614",
           "reactions": 0
         },
         {
           "rank": 3,
-          "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/240839e4-70e2-4eaa-97a3-be42bb63d214/original=true/240839e4-70e2-4eaa-97a3-be42bb63d214.jpeg",
-          "prompt": "ethereal fantasy concept art of  asian, east asian architecture,  A A golden ratio composition, mathematically perfect visual flow and focal point of sci-fi robotic factory structure with massive digital billboards and mechanical assembly lines. Environmental context: in golden autumn, crisp fall air, vibrant red and orange foliage carpeting the ground, at harsh midday sun, high noon, bright piercing daylight, sharp high-contrast shadows, with perfectly clear cloudless sky, calm and peaceful weather. featuring wild, overgrown lavender shrubs swaying chaotically in the breeze, with remnants of a forgotten stone bridge stretching across the landscape, featuring the structure of a grand, majestic mosque featuring a gleaming golden dome and tall slender minarets, decorated with a row of massive, crumbling stone guardians lining a forgotten pathway, dominated by the relic of the decaying husk of an ancient military tank, half-buried in the earth and heavily overgrown with vibrant moss, an echo of a forgotten war, with the crashed remains of a hollowed-out rusted submarine half-buried in the dirt, its hull breached and eaten by decades of corrosion, showing traces of rusted metallic debris half-buried in the terrain, where a soaring golden eagle circling high above in the vast sky, showing a small group of explorers dwarfed by the massive environment, visually enhanced by cinematic anamorphic lens flares with wide horizontal blue light streaks. Aesthetic and Style: Traditional Japanese Ukiyo-e woodblock print by Katsushika Hokusai, flat stylized colors, precise ink outlines, Edo period aesthetic. Palette: monet water lily blue and lotus pink theme. Masterpiece, high resolution, atmospheric depth.\nwhimsical soft digital painting, high quality, compositions balanced with architectural shadow lines,\nintricate lines, intriguing atmosphere, sharp magnificent details, delicate features, elaborate details, (2/3 rule composition:0.5), ultra detailed, romantic, perfect hand,\nOil painting by Jan Vermeer\n<lora:style of Jan Vermeer 122 fast:0.65> Jan Vermeer, Realistic anime art style, combines anime aesthetics with lifelike details, detailed character designs, intricate backgrounds, immersive storytelling . magnificent, celestial, ethereal, painterly, epic, majestic, magical, fantasy art, cover art, dreamy",
-          "model": "flux_dev",
-          "link": "https://civitai.com/images/132512144",
+          "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0c44942d-df9e-4af5-bb0d-26a1e2b73086/original=true/0c44942d-df9e-4af5-bb0d-26a1e2b73086.jpeg",
+          "prompt": "honkai: star rail, honkai \\(series\\), sparkle \\(honkai: star rail\\), 1girl, arm ribbon, black gloves, blunt bangs, brown hair, crazy, crazy eyes, crazy smile, fangs, fingernails, fish, flower, flower-shaped pupils, fox mask, gloves, gold trim, hair flower, hair ornament, hands on own face, hands up, long fingernails, long hair, looking at viewer, mask, mask on head, mole, mole under each eye, mole under eye, multiple moles, nail polish, open mouth, pink eyes, pink pupils, red flower, red nails, ribbon, sidelocks, single glove, smile, solo, sparkle, symbol-shaped pupils, teeth, tongue, twintails, A shot with tension, official art, cinematic, fashion photography style, visual impact, sharp focus, very aesthetic, extreme aesthetic, sensitive, incredibly absurdres, 8K, intricate details, ultra detailed, HDR, high contrast, high detail RAW color art, dynamic pose, dynamic composition, dark theme, masterpiece, highres, absurdres, newest, best quality, score_7honkai: star rail, honkai \\(series\\), sparkle \\(honkai: star rail\\), 1girl, arm ribbon, black gloves, blunt bangs, brown hair, crazy, crazy eyes, crazy smile, fangs, fingernails, fish, flower, flower-shaped pupils, fox mask, gloves, gold trim, hair flower, hair ornament, hands on own face, hands up, long fingernails, long hair, looking at viewer, mask, mask on head, mole, mole under each eye, mole under eye, multiple moles, nail polish, open mouth, pink eyes, pink pupils, red flower, red nails, ribbon, sidelocks, single glove, smile, solo, sparkle, symbol-shaped pupils, teeth, tongue, twintails",
+          "model": "JANIMA_V1_bf16",
+          "link": "https://civitai.com/images/132445613",
           "reactions": 0
         }
       ]
