@@ -134,10 +134,10 @@
         },
         {
           "rank": 2,
-          "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/db5208dd-da08-40c7-8ed4-bd67508740ac/original=true/db5208dd-da08-40c7-8ed4-bd67508740ac.jpeg",
-          "prompt": "A close-up of a face adorned with intricate black and blue patterns. The left side of the face is predominantly yellow, with symbols and doodles, while the right side is dark, featuring mechanical elements. The eye on the left is a striking shade of yellow, contrasting sharply with the surrounding patterns. The face is partially covered by a hooded garment, cinematic_1940s cinematic_octane",
-          "model": "Flux.1 D",
-          "link": "https://civitai.com/images/64399178",
+          "imageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/910c8c18-2d99-4bd0-8db5-76d37bf023d8/original=true/910c8c18-2d99-4bd0-8db5-76d37bf023d8.jpeg",
+          "prompt": "A peaceful anime-style illustration captures a quiet nighttime moment atop the tiled roof of a traditional house. A robot girl with short, softly wavy blue hair lies comfortably on the gently sloping rooftop, gazing upward into a vast star-filled sky. Her luminous blue eyes and distinctive white pupils reflect the countless stars above, giving her expression a sense of wonder and calm contemplation.",
+          "model": "Community Model",
+          "link": "https://civitai.com/images/132691723",
           "searchTopic": "pixel art retro gaming"
         }
       ]
