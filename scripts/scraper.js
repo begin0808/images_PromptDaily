@@ -189,7 +189,12 @@ const NSFW_KEYWORDS = [
  */
 function isNSFW(prompt = '', url = '') {
     const combined = `${prompt} ${url}`.toLowerCase();
-    return NSFW_KEYWORDS.some(kw => combined.includes(kw));
+    return NSFW_KEYWORDS.some(kw => {
+        if (kw === 'bra') {
+            return /\bbra\b/i.test(combined);
+        }
+        return combined.includes(kw);
+    });
 }
 
 /**
