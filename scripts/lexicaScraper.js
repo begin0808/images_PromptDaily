@@ -99,11 +99,16 @@ function getTodayTopics(count = 3) {
  * @param {Set} previousLinks - 歷史連結集合，用於去重
  * @returns {Array} - 圖片資料陣列
  */
-async function fetchFromCivitaiSearch(topic, previousLinks) {
-    const limit = 15;
+let civitaiFallbackPool = null;
+
+async function getCivitaiFallbackPool() {
+    if (civitaiFallbackPool) return civitaiFallbackPool;
+    
+    console.log(`  → 正在初始化 Civitai 備份圖片庫 (100 筆)...`);
     const params = new URLSearchParams({
-        query: topic,
-        limit: String(limit),
+        sort: 'Most Reactions',
+        period: 'Week',
+        limit: '100',
         nsfw: 'None',
     });
     const url = `https://civitai.com/api/v1/images?${params.toString()}`;
@@ -114,15 +119,21 @@ async function fetchFromCivitaiSearch(topic, previousLinks) {
         },
     });
     if (!response.ok) {
-        throw new Error(`Civitai API error: ${response.status} ${response.statusText}`);
+        throw new Error(`Civitai API fallback error: ${response.status}`);
     }
     const data = await response.json();
-    const items = data.items || [];
+    civitaiFallbackPool = data.items || [];
+    return civitaiFallbackPool;
+}
+
+async function searchInCivitaiPool(topic, previousLinks, localSelectedLinks) {
+    const pool = await getCivitaiFallbackPool();
+    const topicWords = topic.toLowerCase().split(/\W+/).filter(w => w.length > 2);
     
-    const results = [];
-    for (const img of items) {
+    const candidates = [];
+    for (const img of pool) {
         const link = `https://civitai.com/images/${img.id}`;
-        if (previousLinks.has(link)) continue;
+        if (previousLinks.has(link) || localSelectedLinks.has(link)) continue;
         
         const meta = img.meta || {};
         const prompt = meta.prompt || '';
@@ -130,19 +141,41 @@ async function fetchFromCivitaiSearch(topic, previousLinks) {
         
         // NSFW check
         const nsfwKeywords = ['sexy', 'nude', 'naked', 'nsfw', 'explicit', 'topless', 'erotic', 'hentai', 'bikini'];
-        const lower = prompt.toLowerCase();
-        if (nsfwKeywords.some(kw => lower.includes(kw))) continue;
+        const lowerPrompt = prompt.toLowerCase();
+        if (nsfwKeywords.some(kw => lowerPrompt.includes(kw))) continue;
         
+        // Calculate relevance
+        const promptWords = lowerPrompt.split(/\W+/);
+        let relevance = 0;
+        for (const tw of topicWords) {
+            if (promptWords.includes(tw)) relevance++;
+        }
+        
+        const stats = img.stats || {};
+        const reactions = (stats.heartCount || 0) + (stats.likeCount || 0);
         const model = meta.Model || meta.model || img.baseModel || 'Community Model';
         
-        results.push({
+        candidates.push({
             imageUrl: img.url || '',
             link: link,
             prompt: prompt.trim(),
             model: model,
+            relevance: relevance,
+            reactions: reactions,
         });
     }
-    return results;
+    
+    if (candidates.length === 0) return [];
+    
+    // Sort by relevance (descending), then by reactions (descending)
+    candidates.sort((a, b) => {
+        if (b.relevance !== a.relevance) {
+            return b.relevance - a.relevance;
+        }
+        return b.reactions - a.reactions;
+    });
+    
+    return candidates;
 }
 
 async function scrapeLexicaTopics(page, count = 2, previousLinks = new Set()) {
@@ -155,6 +188,7 @@ async function scrapeLexicaTopics(page, count = 2, previousLinks = new Set()) {
     const enriched = [];
     let rankCounter = 1;
     let useCivitaiFallback = false;
+    const localSelectedLinks = new Set(); // 記錄本輪已選取的連結，防止重複
 
     for (const topic of topics) {
         if (enriched.length >= count) break;
@@ -203,7 +237,7 @@ async function scrapeLexicaTopics(page, count = 2, previousLinks = new Set()) {
         if (isFallback) {
             try {
                 console.log(`  → 備份搜尋: "${topic}" (Civitai API)`);
-                results = await fetchFromCivitaiSearch(topic, previousLinks);
+                results = await searchInCivitaiPool(topic, previousLinks, localSelectedLinks);
             } catch (err) {
                 console.log(`    ⚠ Civitai 備份搜尋失敗 ("${topic}"): ${err.message}`);
                 continue;
@@ -215,7 +249,23 @@ async function scrapeLexicaTopics(page, count = 2, previousLinks = new Set()) {
             continue;
         }
 
-        // 隨機選一張（基於日期 seed）
+        // 如果是 fallback 模式，結果已經按照相關性及熱度排好序，直接取第一筆
+        if (isFallback) {
+            const item = results[0];
+            enriched.push({
+                rank: rankCounter++,
+                imageUrl: item.imageUrl,
+                prompt: item.prompt,
+                model: item.model,
+                link: item.link,
+                searchTopic: topic,
+            });
+            localSelectedLinks.add(item.link);
+            console.log(`    ✅ #${rankCounter - 1} [${item.model}] — ${item.prompt.substring(0, 60)}...`);
+            continue;
+        }
+
+        // Lexica 原始流程：隨機選一張（基於日期 seed）
         const today = new Date();
         const daySeed = today.getFullYear() * 10000 + (today.getMonth() + 1) * 100 + today.getDate();
 
@@ -225,12 +275,12 @@ async function scrapeLexicaTopics(page, count = 2, previousLinks = new Set()) {
             const item = results[idx];
 
             // 去重
-            if (previousLinks.has(item.link)) {
+            if (previousLinks.has(item.link) || localSelectedLinks.has(item.link)) {
                 continue;
             }
 
             const prompt = item.prompt;
-            const model = isFallback ? (item.model || 'Community Model') : 'Stable Diffusion';
+            const model = 'Stable Diffusion';
 
             // NSFW 過濾
             const nsfwKeywords = ['sexy', 'nude', 'naked', 'nsfw', 'explicit', 'topless', 'erotic', 'hentai', 'bikini'];
@@ -248,6 +298,7 @@ async function scrapeLexicaTopics(page, count = 2, previousLinks = new Set()) {
                 searchTopic: topic,
             });
 
+            localSelectedLinks.add(item.link);
             console.log(`    ✅ #${rankCounter - 1} [${model}] — ${prompt.substring(0, 60)}...`);
             found = true;
             break;
