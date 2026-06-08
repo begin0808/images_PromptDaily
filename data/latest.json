@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-06-07T22:13:58.229Z",
+  "scrapedAt": "2026-06-08T22:44:39.871Z",
   "sources": [
     {
       "source": {
@@ -12,17 +12,17 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fesfy2jgjorcyvrlao8r0fyr1q5&w=1920&q=75",
-          "prompt": "@Son_goku wallpaper",
-          "model": "AI Model",
-          "link": "https://prompthero.com/prompt/8c146a469d9-hero-10-songoku-wallpaper"
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fwbfe7ksgwhhxxuruw0kapl3hsb&w=1920&q=75",
+          "prompt": "fashion editorial photograph, man, shot on a Canon EOS 5D Mark IV --chaos 75 --ar 1:2 --profile rsy6uq9 --stylize 750",
+          "model": "Nano Banana",
+          "link": "https://prompthero.com/prompt/bf65bf8fd3c-nano-banana-nano-banana-2-fashion-editorial-photograph-man-shot-on-a-canon-eos-5d-mark-iv-chaos-75-ar-12-profile-rsy6uq9-stylize-750"
         },
         {
           "rank": 2,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fjyvbmq4rn0hsb3korhwsh59cj4&w=1920&q=75",
-          "prompt": "Step 02：Select Step 02：Copy Prompt\nStep 02: Paste prompt\nStep 03: Preset :Anime\nStep 04：Generate",
-          "model": "AI Model",
-          "link": "https://prompthero.com/prompt/51aaa0f8821-hero-10-step-02select-step-02copy-prompt-step-02-paste-prompt-step-03-preset-anime-step-04generate"
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fsup0yza0hr0j3p2xga4gddz0au&w=1920&q=75",
+          "prompt": "Paparazzi-style extreme close-up photo of a woman with striking facial features, caught off-guard while turning toward the camera. Face and shoulders only, shot from a low angle. Strong harsh on-camera flash, grainy high-ISO, raw candid street-photography feel. Background shows a crowded scene with motion blur (Paris Fashion Week atmosphere). Intense, spontaneous energy, imperfect and real. She is wearing a school uniform. Ultra-realistic, cinematic realism, high detail skin texture, slight lens distortion. Camera style: “35mm paparazzi lens, f/2.8, flash blown highlights”\nLook: “2000s tabloid photo aesthetic”\nQuality: “sharp focus on face, background heavily blurred and streaked”",
+          "model": "Stable Diffusion",
+          "link": "https://prompthero.com/prompt/46c078a5538-stable-diffusion-35-large-paparazzi-style-extreme-close-up-photo-of-a-woman-with-striking-facial-features-caught-off-guard-while-turning-toward-the"
         }
       ]
     },
@@ -54,15 +54,7 @@
         "icon": "🏠",
         "count": 1
       },
-      "items": [
-        {
-          "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F1vi2e016rkyd3hx568853xv47xkp&w=1920&q=75",
-          "prompt": "Winter Atmosphere Snowfall on the Mountains ~ Luxurious Living Room and Soft Jazz Music for Relax --s 250 --v 6.0",
-          "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/b733e569ade-midjourney-6-winter-atmosphere-snowfall-on-the-mountains-luxurious-living-room-and-soft-jazz-music-for-relax-s-250-v-60"
-        }
-      ]
+      "items": []
     },
     {
       "source": {
@@ -72,15 +64,7 @@
         "icon": "🧊",
         "count": 1
       },
-      "items": [
-        {
-          "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fxw9tvy2xflgkciran4enrgp1gq&w=1920&q=75",
-          "prompt": "ultra-detailed hard sci-fi biomechanical photography, complex intertwined composition, dense mechanical mass filling the frame, photorealistic industrial mecha design, 85mm macro lens, f/8 aperture, ultra-sharp focus, high dynamic range, colossal biomechanical construct made of matte black armored components, exposed joints, hydraulic pistons, braided cables, industrial tubing, layered mechanical plates with engraved serial numbers and warning labels, subtle red accent markings and technical typography scattered across the surface, organic yet aggressive silhouette resembling a living machine, purely mechanical anatomy, laboratory environment background, soft natural daylight with diffused highlights and controlled shadows, extreme greeble detail, micro-scratches, wear marks, realistic material texture, cinematic realism --ar 9:16 --raw --stylize 200",
-          "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/7c64d8dc1bb-midjourney-shatter-ultra-detailed-hard-sci-fi-biomechanical-photography-complex-intertwined-composition-dense-mechanical-mass-filling-the-frame-photorealistic-industrial-mecha-design"
-        }
-      ]
+      "items": []
     },
     {
       "source": {
@@ -103,18 +87,18 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://image.lexica.art/md2_webp/4a64e48d-7584-4ba6-9294-a059823396d0",
-          "prompt": "Dipinto stile Renoir",
+          "imageUrl": "https://image.lexica.art/md2_webp/5b2cb172-8577-4f93-9d62-4ee70eedb28a",
+          "prompt": "Drawing of a meadow full of flowers of all colors",
           "model": "Stable Diffusion",
-          "link": "https://lexica.art/prompt/5e10d12b-5d2d-4a2c-9ed2-fd66640ff5ba",
+          "link": "https://lexica.art/prompt/b3529c63-4da9-4a4c-b7c2-046f8366dee7",
           "searchTopic": "oil painting impressionist style"
         },
         {
           "rank": 2,
-          "imageUrl": "https://image.lexica.art/md2_webp/461257f8-c6ba-4f75-ab91-8134958282b0",
-          "prompt": "Pixel art style Picture the game",
+          "imageUrl": "https://image.lexica.art/md2_webp/5e569617-5894-4dab-9c0b-9dbad99086d1",
+          "prompt": "Design a minimalistic Chibi 16-bit arcade art piece showcasing a gamer who's immersed in both gaming...",
           "model": "Stable Diffusion",
-          "link": "https://lexica.art/prompt/6a5f9065-c0d2-4c99-82d5-3a8ae951c7fd",
+          "link": "https://lexica.art/prompt/4a55c335-c32b-4e73-8667-0839f6fd34f6",
           "searchTopic": "pixel art retro gaming"
         }
       ]
