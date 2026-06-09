@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-06-08T22:44:39.871Z",
+  "scrapedAt": "2026-06-09T22:43:21.021Z",
   "sources": [
     {
       "source": {
@@ -9,22 +9,7 @@
         "icon": "🔥",
         "count": 2
       },
-      "items": [
-        {
-          "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fwbfe7ksgwhhxxuruw0kapl3hsb&w=1920&q=75",
-          "prompt": "fashion editorial photograph, man, shot on a Canon EOS 5D Mark IV --chaos 75 --ar 1:2 --profile rsy6uq9 --stylize 750",
-          "model": "Nano Banana",
-          "link": "https://prompthero.com/prompt/bf65bf8fd3c-nano-banana-nano-banana-2-fashion-editorial-photograph-man-shot-on-a-canon-eos-5d-mark-iv-chaos-75-ar-12-profile-rsy6uq9-stylize-750"
-        },
-        {
-          "rank": 2,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fsup0yza0hr0j3p2xga4gddz0au&w=1920&q=75",
-          "prompt": "Paparazzi-style extreme close-up photo of a woman with striking facial features, caught off-guard while turning toward the camera. Face and shoulders only, shot from a low angle. Strong harsh on-camera flash, grainy high-ISO, raw candid street-photography feel. Background shows a crowded scene with motion blur (Paris Fashion Week atmosphere). Intense, spontaneous energy, imperfect and real. She is wearing a school uniform. Ultra-realistic, cinematic realism, high detail skin texture, slight lens distortion. Camera style: “35mm paparazzi lens, f/2.8, flash blown highlights”\nLook: “2000s tabloid photo aesthetic”\nQuality: “sharp focus on face, background heavily blurred and streaked”",
-          "model": "Stable Diffusion",
-          "link": "https://prompthero.com/prompt/46c078a5538-stable-diffusion-35-large-paparazzi-style-extreme-close-up-photo-of-a-woman-with-striking-facial-features-caught-off-guard-while-turning-toward-the"
-        }
-      ]
+      "items": []
     },
     {
       "source": {
@@ -87,19 +72,19 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://image.lexica.art/md2_webp/5b2cb172-8577-4f93-9d62-4ee70eedb28a",
-          "prompt": "Drawing of a meadow full of flowers of all colors",
+          "imageUrl": "https://image.lexica.art/md2_webp/49f4f2eb-9f56-4066-86ef-9802fd8bfbae",
+          "prompt": "Original video game album art",
           "model": "Stable Diffusion",
-          "link": "https://lexica.art/prompt/b3529c63-4da9-4a4c-b7c2-046f8366dee7",
-          "searchTopic": "oil painting impressionist style"
+          "link": "https://lexica.art/prompt/e2eac876-ba5b-4e0d-82fa-04efa406d09e",
+          "searchTopic": "pixel art retro gaming"
         },
         {
           "rank": 2,
-          "imageUrl": "https://image.lexica.art/md2_webp/5e569617-5894-4dab-9c0b-9dbad99086d1",
-          "prompt": "Design a minimalistic Chibi 16-bit arcade art piece showcasing a gamer who's immersed in both gaming...",
+          "imageUrl": "https://image.lexica.art/md2_webp/4a37d1fe-f46d-4f43-aa79-d828db5fc1fa",
+          "prompt": "An academy on a floating island with no attachment to the ground. the academy is partially embedded ...",
           "model": "Stable Diffusion",
-          "link": "https://lexica.art/prompt/4a55c335-c32b-4e73-8667-0839f6fd34f6",
-          "searchTopic": "pixel art retro gaming"
+          "link": "https://lexica.art/prompt/b31a92f9-d4d4-44cb-abd3-70696d87d350",
+          "searchTopic": "floating islands sky"
         }
       ]
     }
