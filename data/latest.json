@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-06-12T22:44:03.281Z",
+  "scrapedAt": "2026-06-13T22:15:28.814Z",
   "sources": [
     {
       "source": {
@@ -9,15 +9,7 @@
         "icon": "🔥",
         "count": 2
       },
-      "items": [
-        {
-          "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fr44rsycxahxn3gnhg1ju1dem7g&w=1920&q=75",
-          "prompt": "Image of Cristiano Ronaldo from a VHS camcorder recorder in a highschool in Feb of 1996. Same grain and overall film quality of cameras and vhs of the time period",
-          "model": "Chatgpt Image",
-          "link": "https://prompthero.com/prompt/a091c955611-chatgpt-image-gpt-image-2-image-of-cristiano-ronaldo-from-a-vhs-camcorder-recorder-in-a-highschool-in-feb-of-1996-same-grain-and-overall"
-        }
-      ]
+      "items": []
     },
     {
       "source": {
@@ -30,17 +22,17 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fzgkq5uftglj1q0xkl07ycr2n839i&w=1920&q=75",
-          "prompt": "fashion editorial photography, front shot, upper body, professional female model, shot with hasselblad x2d 100c, xcd 90mm f/2.5 lens, cinematic sepia color grading with golden hour warmth, dramatic black silhouette against burnt umber to honey amber gradient backdrop, avant-garde composition with tilted head pose, staring to camera, profound gaze, elongated body stance, flowing black turtleneck, professional main fresnel light at 60 degree angle with silk diffusion, rim light with cto gel at 75 degree angle, haze machine for ethereal atmosphere, feathered shadows, contrast curve manipulation, selective dodge and burn, grain texture overlay, color temperature adjustment at 5500k to 3200k gradient, ultra sharp details, raw format, inspired by paolo roversi lighting technique, hyper realistic, 16K, rich detail --ar 9:16 --quality 2 --style raw --personalize nq7rq2j --stylize 500 --v 6.1",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fyxmnjwx7akj5yh08n6h6er498wmu&w=1920&q=75",
+          "prompt": "Kooky portraits of 90’s mall teens in retro clothing, shot on VHS",
           "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/d6b42afab22-midjourney-6-model-portrait"
+          "link": "https://prompthero.com/prompt/d48a3c464ed-midjourney-52-kooky-portraits-of-90s-mall-teens-in-retro-clothing-shot-on-vhs"
         },
         {
           "rank": 2,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F41ju9v8tp67gu096s5vc7gpxo01w&w=1920&q=75",
-          "prompt": "editorial photography, male model, 50mm f/1.2 RF lens, f/2.8 set, 1/160s, iso 100, gradient neon orange, minimalist street style, deep orange atmospheric lighting, lights at ceiling, overhead softbox at 3200K, full-body confidence pose with silhouette, dramatic contrast, photorealistic quality, rich detailing --ar 9:16 --raw --profile otwluoo --stylize 200",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fxjsos7jl5jltflxms50aa37a4bw5&w=1920&q=75",
+          "prompt": "Japanese girl, 18-21 years old, brown hair, high-quality photo portrait, shot on a Polaroid camera, double eyelid --ar 34:65 --style raw",
           "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/7ae913f5c1c-midjourney-7-editorial-photography-male-model-50mm-f12-rf-lens-f28-set-1160s-iso-100-gradient-neon-orange-minimalist-street-style-deep"
+          "link": "https://prompthero.com/prompt/08f6365cc1f-midjourney-6-japanese-girl-18-21-years-old-brown-hair-high-quality-photo-portrait-shot-on-a-polaroid-camera-double-eyelid-ar"
         }
       ]
     },
@@ -55,10 +47,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fv6io600el19w16np6fqqihbwqeer&w=1920&q=75",
-          "prompt": "valley, fairytale treehouse village covered,, matte painting, highly detailed, dynamic lighting, cinematic, realism, realistic, photo real, sunset,detailed, high contrast, denoised, centered, michael whelan",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fenzembh96hzhjy8dvl7d4c5rryyg&w=1920&q=75",
+          "prompt": "mdjrny-v4 style traditional french cafe in the street of a small village on France. A terrace in the shade of a hundred-year-old olive tree, a friendly atmosphere around coffee and tea. \"Dolce Vita\". Unreal engine rendering, hyper realist, ultra detailed, oil painting, warm colors, happy, impressionism, Da Vinci, 4k",
           "model": "AI Model",
-          "link": "https://prompthero.com/prompt/ab61e5e9246-openjourney-15-valley-fairytale-treehouse-village-covered-matte-painting-highly-detailed-dynamic-lighting-cinematic-realism-realistic-photo-real-sunsetdetailed-high-contrast-denoised"
+          "link": "https://prompthero.com/prompt/b607aedba7e-openjourney-15-mdjrny-v4-style-traditional-french-cafe-in-the-street-of-a-small-village-on-france-a-terrace-in-the-shade"
         }
       ]
     },
@@ -73,10 +65,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fxvw1mv1z0bepo0ia03l3r2ruiovi&w=1920&q=75",
-          "prompt": "cute isometric cyberpunk bedroom, cutaway box, futuristic, highly detailed, made with blender --v 4",
-          "model": "AI Model",
-          "link": "https://prompthero.com/prompt/5a63ab9db96-openjourney-15-cute-isometric-cyberpunk-bedroom-cutaway-box-futuristic-highly-detailed-made-with-blender-v-4"
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F2hvhr1d3tbo9a259m6erubbqz7fu&w=1920&q=75",
+          "prompt": "Spacious office with frontal view, Herman Miller Aeron chairs, Artemide Tolomeo desk lamps, captured with a Canon EOS R5, 50mm f/1.2 lens, balanced natural and LED lighting",
+          "model": "Midjourney",
+          "link": "https://prompthero.com/prompt/127011c5b32-midjourney-6-spacious-office-with-frontal-view-herman-miller-aeron-chairs-artemide-tolomeo-desk-lamps-captured-with-a-canon-eos-r5-50mm"
         }
       ]
     },
@@ -91,10 +83,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fapu4bwo5ru1vtbidndl5nmsa2ytq&w=1920&q=75",
-          "prompt": "Toy with a little doll with a helmet, cute 3d render, cute detailed digital art, female explorer mini cute girl, cute digital painting, stylized 3d render, cute digital art, cute render 3d anime girl , the little astronaut looks up, cute! c4d, portrait anime space cadet girl, sitting on a white pedestal",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fuqt8i4e3j0qjokkdx437mv90xupu&w=1920&q=75",
+          "prompt": "Skeleton King of Hell :: Flaming Skull, Intricately Designed Nordic Armor, Photograph Taken on Nikon D750 :: Artgerm, WLOP, Greg Rutkowski :: Intricate, Elegant, Digital Illustration, Scenic, Hyper-Realistic, Hyper-Detailed, 8k, royal yellow and ultramarine blue",
           "model": "AI Model",
-          "link": "https://prompthero.com/prompt/6ad6047035b-rev-animated-v10-toy-with-a-little-doll-with-a-helmet-cute-3d-render-cute-detailed-digital-art-female-explorer-mini-cute-girl"
+          "link": "https://prompthero.com/prompt/160f2eb8776-openjourney-15-skeleton-king-of-hell-flaming-skull-intricately-designed-nordic-armor-photograph-taken-on-nikon-d750-artgerm-wlop-greg-rutkowski-intricate"
         }
       ]
     },
@@ -119,18 +111,18 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://image.lexica.art/md2_webp/66d7920d-1c42-4825-ad64-14b29a5f7eb1",
-          "prompt": "Drawing of a field full of flowers of all colors",
+          "imageUrl": "https://image.lexica.art/md2_webp/6475c928-3b17-4a87-9d20-b2398c435030",
+          "prompt": "Drawing of lawn full of flowers of all colors",
           "model": "Stable Diffusion",
-          "link": "https://lexica.art/prompt/0483d5f0-76d8-4a2f-8614-58b5aa5820bc",
+          "link": "https://lexica.art/prompt/32962712-dd71-4eef-b2c0-f7b62a6b9fc7",
           "searchTopic": "oil painting impressionist style"
         },
         {
           "rank": 2,
-          "imageUrl": "https://image.lexica.art/md2_webp/6038b031-6758-4942-b7dd-be4509164aef",
-          "prompt": "8bit black characters",
+          "imageUrl": "https://image.lexica.art/md2_webp/667e3296-e2cd-4a9a-881b-c09c3204fdd3",
+          "prompt": "Pixelated Pop Culture Icons\nStep into the pixelated past with \"Pixelated Pop Culture Icons.\" These N...",
           "model": "Stable Diffusion",
-          "link": "https://lexica.art/prompt/087105df-0f5c-494e-b54f-7a03ec9f2dba",
+          "link": "https://lexica.art/prompt/e63c678f-8028-4fd1-aa1a-56bcded00a6e",
           "searchTopic": "pixel art retro gaming"
         }
       ]
