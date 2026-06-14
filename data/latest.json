@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-06-13T22:15:28.814Z",
+  "scrapedAt": "2026-06-14T22:20:36.092Z",
   "sources": [
     {
       "source": {
@@ -9,7 +9,15 @@
         "icon": "🔥",
         "count": 2
       },
-      "items": []
+      "items": [
+        {
+          "rank": 1,
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fl9idxxo1hbbac7pe452p23aieu&w=1920&q=75",
+          "prompt": "high-resolution photograph, woman, stunning use of shadows, in the syle of crisp lines and forms, UHD, shot on a Sony A7III --ar 1:2 --style raw --stylize 250",
+          "model": "AI Model",
+          "link": "https://prompthero.com/prompt/4b0e3e29c9f-hero-10-high-resolution-photograph-woman-stunning-use-of-shadows-in-the-syle-of-crisp-lines-and-forms-uhd-shot-on-a"
+        }
+      ]
     },
     {
       "source": {
@@ -22,17 +30,17 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fyxmnjwx7akj5yh08n6h6er498wmu&w=1920&q=75",
-          "prompt": "Kooky portraits of 90’s mall teens in retro clothing, shot on VHS",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F9qbfr7mlnt8sn7yp01pw02z7ez1r&w=1920&q=75",
+          "prompt": "close-up of a stunning fashion model, ultra-realistic, portrait, shot on a Sony A7III, high quality --ar 35:64 --stylize 250",
           "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/d48a3c464ed-midjourney-52-kooky-portraits-of-90s-mall-teens-in-retro-clothing-shot-on-vhs"
+          "link": "https://prompthero.com/prompt/ebcc6231ec6-midjourney-6-close-up-of-a-stunning-fashion-model-ultra-realistic-portrait-shot-on-a-sony-a7iii-high-quality-ar-3564-stylize"
         },
         {
           "rank": 2,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fxjsos7jl5jltflxms50aa37a4bw5&w=1920&q=75",
-          "prompt": "Japanese girl, 18-21 years old, brown hair, high-quality photo portrait, shot on a Polaroid camera, double eyelid --ar 34:65 --style raw",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fyktjuihsozyxcetxc5hsasx2wed8&w=1920&q=75",
+          "prompt": "photography, orange hue, korean woman model, solid orange backdrop, using a camera setup that mimics a large aperture, f/1.4 --ar 9:16 --style raw",
           "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/08f6365cc1f-midjourney-6-japanese-girl-18-21-years-old-brown-hair-high-quality-photo-portrait-shot-on-a-polaroid-camera-double-eyelid-ar"
+          "link": "https://prompthero.com/prompt/abb78caf579-midjourney-6-model-portrait"
         }
       ]
     },
@@ -47,10 +55,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fenzembh96hzhjy8dvl7d4c5rryyg&w=1920&q=75",
-          "prompt": "mdjrny-v4 style traditional french cafe in the street of a small village on France. A terrace in the shade of a hundred-year-old olive tree, a friendly atmosphere around coffee and tea. \"Dolce Vita\". Unreal engine rendering, hyper realist, ultra detailed, oil painting, warm colors, happy, impressionism, Da Vinci, 4k",
-          "model": "AI Model",
-          "link": "https://prompthero.com/prompt/b607aedba7e-openjourney-15-mdjrny-v4-style-traditional-french-cafe-in-the-street-of-a-small-village-on-france-a-terrace-in-the-shade"
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F7yxfewc4npicz0p4lz9t9quu91tv&w=1920&q=75",
+          "prompt": "Indian castle surrounded by water and nature, village, volumetric lighting, photorealistic, insanely detailed and intricate, Fantasy, epic cinematic shot, trending on ArtStation, mountains, 8k ultra hd, magical, mystical, matte painting, bright sunny day, flowers, massive cliffs, Sweeper3D",
+          "model": "Stable Diffusion",
+          "link": "https://prompthero.com/prompt/c8d122762d5-stable-diffusion-15-indian-castle-surrounded-by-water-and-nature-village-volumetric-lighting-photorealistic-insanely-detailed-and-intricate-fantasy-epic-cinematic-shot-trending"
         }
       ]
     },
@@ -65,10 +73,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F2hvhr1d3tbo9a259m6erubbqz7fu&w=1920&q=75",
-          "prompt": "Spacious office with frontal view, Herman Miller Aeron chairs, Artemide Tolomeo desk lamps, captured with a Canon EOS R5, 50mm f/1.2 lens, balanced natural and LED lighting",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F5jzlog0jqbnqr10oi6wnktn8apj2&w=1920&q=75",
+          "prompt": "USM Haller Table shot in a professional photo studio, Fujifilm GFX 100S, GF 80mm f/1.7 lens, table's elegant simplicity and refined finish, in an environment that showcases the table's clean",
           "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/127011c5b32-midjourney-6-spacious-office-with-frontal-view-herman-miller-aeron-chairs-artemide-tolomeo-desk-lamps-captured-with-a-canon-eos-r5-50mm"
+          "link": "https://prompthero.com/prompt/f98dc718162-midjourney-6-more-info-wwwgraytheorystudiocom-httpswwwinstagramcomspacemakergrayve-httpspromptbasecomprofilespacemakergrayve-usm-haller-table-shot-in-a-professional-photo-studio-fujifilm-gfx-100s-gf-80mm-f17-lens-tables-elegant-simplicity-and"
         }
       ]
     },
@@ -83,10 +91,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fuqt8i4e3j0qjokkdx437mv90xupu&w=1920&q=75",
-          "prompt": "Skeleton King of Hell :: Flaming Skull, Intricately Designed Nordic Armor, Photograph Taken on Nikon D750 :: Artgerm, WLOP, Greg Rutkowski :: Intricate, Elegant, Digital Illustration, Scenic, Hyper-Realistic, Hyper-Detailed, 8k, royal yellow and ultramarine blue",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F3wnnid288hm5czhkyukfuwsgdw23&w=1920&q=75",
+          "prompt": "cyberpunk dog, futuristic, highly detailed, made with blender --v 4",
           "model": "AI Model",
-          "link": "https://prompthero.com/prompt/160f2eb8776-openjourney-15-skeleton-king-of-hell-flaming-skull-intricately-designed-nordic-armor-photograph-taken-on-nikon-d750-artgerm-wlop-greg-rutkowski-intricate"
+          "link": "https://prompthero.com/prompt/a98c21a211f-openjourney-15-cyberpunk-dog-futuristic-highly-detailed-made-with-blender-v-4"
         }
       ]
     },
@@ -111,18 +119,18 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://image.lexica.art/md2_webp/6475c928-3b17-4a87-9d20-b2398c435030",
-          "prompt": "Drawing of lawn full of flowers of all colors",
+          "imageUrl": "https://image.lexica.art/md2_webp/604c07ec-b957-4483-a916-061f613870e4",
+          "prompt": "Stilleben nach Vincent van Gogh with nature",
           "model": "Stable Diffusion",
-          "link": "https://lexica.art/prompt/32962712-dd71-4eef-b2c0-f7b62a6b9fc7",
+          "link": "https://lexica.art/prompt/41332424-df57-4984-8bd2-6eb421f6d7c5",
           "searchTopic": "oil painting impressionist style"
         },
         {
           "rank": 2,
-          "imageUrl": "https://image.lexica.art/md2_webp/667e3296-e2cd-4a9a-881b-c09c3204fdd3",
-          "prompt": "Pixelated Pop Culture Icons\nStep into the pixelated past with \"Pixelated Pop Culture Icons.\" These N...",
+          "imageUrl": "https://image.lexica.art/md2_webp/3fbe9371-8550-4458-9e61-4ee6c5628080",
+          "prompt": "3D pixel retro tiny cute tablet link to a serveur",
           "model": "Stable Diffusion",
-          "link": "https://lexica.art/prompt/e63c678f-8028-4fd1-aa1a-56bcded00a6e",
+          "link": "https://lexica.art/prompt/f9152232-4bcd-4b71-90b4-bb4fcfcb72e2",
           "searchTopic": "pixel art retro gaming"
         }
       ]
