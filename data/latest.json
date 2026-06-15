@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-06-14T22:20:36.092Z",
+  "scrapedAt": "2026-06-15T23:08:19.412Z",
   "sources": [
     {
       "source": {
@@ -12,10 +12,17 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fl9idxxo1hbbac7pe452p23aieu&w=1920&q=75",
-          "prompt": "high-resolution photograph, woman, stunning use of shadows, in the syle of crisp lines and forms, UHD, shot on a Sony A7III --ar 1:2 --style raw --stylize 250",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fni86lvglgi2kswuhueslgcphsy&w=1920&q=75",
+          "prompt": "extremely low shot of a forest green porche 911 in a field of flowers, add sakura petals in the foreground, the car in away from the camera showing the entire front car body, the left side of the car body can also be seen, cinematic photography, shot on canon, ultra realistic --ar 9:16",
           "model": "AI Model",
-          "link": "https://prompthero.com/prompt/4b0e3e29c9f-hero-10-high-resolution-photograph-woman-stunning-use-of-shadows-in-the-syle-of-crisp-lines-and-forms-uhd-shot-on-a"
+          "link": "https://prompthero.com/prompt/367f99bcd04-hero-10-extremely-low-shot-of-a-forest-green-porche-911-in-a-field-of-flowers-add-sakura-petals-in-the-foreground"
+        },
+        {
+          "rank": 2,
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fdd2egcf5h6m4bj9q17l2opopi4&w=1920&q=75",
+          "prompt": "A lone desert scout riding a robotic reptile-like pack mount up a rocky slope under a wide open sky, low-angle vertical composition, quiet cinematic tension, sun-baked sci-fi frontier atmosphere. The rider sits upright and calm in layered desert travel gear: wrapped scarf, sleeveless tactical vest, harness straps, cargo trousers, gloves, rugged boots, belt pouches, worn fabric folds, dusty creases, scuffed edges, practical survival styling. A long rifle is secured vertically along the rider’s back. gaze lowered toward the path ahead, expression unreadable and guarded. The mechanical mount has an elongated neck, sensor-like lens eye, segmented armor plates, exposed joints, dangling cables, scratched paint, teal structural panels, orange outer plating, black mechanical understructure, weathered metal surfaces, compact saddle system, utilitarian travel build. Hard overhead desert sunlight, sharp shadows, clean blue sky, pale cloud shapes, warm rocky ground, strong diagonal slope, sparse environment, calm before danger. cinematic poster framing, desert nomad mood, high detail, strong silhouette, atmospheric stillness.",
+          "model": "AI Model",
+          "link": "https://prompthero.com/prompt/379a7460b08-hero-10-a-lone-desert-scout-riding-a-robotic-reptile-like-pack-mount-up-a-rocky-slope-under-a-wide-open-sky"
         }
       ]
     },
@@ -30,17 +37,17 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F9qbfr7mlnt8sn7yp01pw02z7ez1r&w=1920&q=75",
-          "prompt": "close-up of a stunning fashion model, ultra-realistic, portrait, shot on a Sony A7III, high quality --ar 35:64 --stylize 250",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Flapcjheub4irmicpdv5x8hykgs&w=1920&q=75",
+          "prompt": "high resolution photography, front central profile, woman facing front, gaze to front, wearing a white turtleneck sweater, photographed entirely through thick vertically reeded architectural glass, vertical grooves running top to bottom across the entire frame, parallel vertical lines clearly visible, full-frame optical distortion dominating the image, acrylic glass in the foreground textured, realistic physical light refraction warping the profile of the face and upper body into vertical repetitions, subtle light softly radiating from the clothing and gently bleeding into the glass ridges, faint light scattering through the vertical grooves, low-key studio background in pale off-white tones, cool neutral lighting, restrained and minimal, realistic physics --ar 9:16 --raw --stylize 400",
           "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/ebcc6231ec6-midjourney-6-close-up-of-a-stunning-fashion-model-ultra-realistic-portrait-shot-on-a-sony-a7iii-high-quality-ar-3564-stylize"
+          "link": "https://prompthero.com/prompt/400a20c3a87-midjourney-shatter-high-resolution-photography-front-central-profile-woman-facing-front-gaze-to-front-wearing-a-white-turtleneck-sweater-photographed-entirely-through"
         },
         {
           "rank": 2,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fyktjuihsozyxcetxc5hsasx2wed8&w=1920&q=75",
-          "prompt": "photography, orange hue, korean woman model, solid orange backdrop, using a camera setup that mimics a large aperture, f/1.4 --ar 9:16 --style raw",
-          "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/abb78caf579-midjourney-6-model-portrait"
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F2oxo0xy8iw94supm5i19ln3ywos3&w=1920&q=75",
+          "prompt": "RPG, Style: MACRO, a low-quality CCTV camera with a slightly fish-eye lens effect. The camera's timestamp and static lines are visible, contributing to the grainy, low-resolution appearance of Samantha, an intricate, attractive, 18-year-old woman with",
+          "model": "Flux",
+          "link": "https://prompthero.com/prompt/193baa13e5b-flux-flux-11-pro-rpg-style-macro-a-low-quality-cctv-camera-with-a-slightly-fish-eye-lens-effect-the-cameras-timestamp-and-static"
         }
       ]
     },
@@ -55,10 +62,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F7yxfewc4npicz0p4lz9t9quu91tv&w=1920&q=75",
-          "prompt": "Indian castle surrounded by water and nature, village, volumetric lighting, photorealistic, insanely detailed and intricate, Fantasy, epic cinematic shot, trending on ArtStation, mountains, 8k ultra hd, magical, mystical, matte painting, bright sunny day, flowers, massive cliffs, Sweeper3D",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fbzdmodwk6dnft5gnqgdta2jpnrg3&w=1920&q=75",
+          "prompt": "futuristic tempura food, night, japanese, neon light, volumetric smoke, volumetric light, octane render, food commercial, Filmic",
           "model": "Stable Diffusion",
-          "link": "https://prompthero.com/prompt/c8d122762d5-stable-diffusion-15-indian-castle-surrounded-by-water-and-nature-village-volumetric-lighting-photorealistic-insanely-detailed-and-intricate-fantasy-epic-cinematic-shot-trending"
+          "link": "https://prompthero.com/prompt/02bb5115ef4-stable-diffusion-15-futuristic-tempura-food-night-japanese-neon-light-volumetric-smoke-volumetric-light-octane-render-food-commercial-filmic"
         }
       ]
     },
@@ -73,10 +80,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F5jzlog0jqbnqr10oi6wnktn8apj2&w=1920&q=75",
-          "prompt": "USM Haller Table shot in a professional photo studio, Fujifilm GFX 100S, GF 80mm f/1.7 lens, table's elegant simplicity and refined finish, in an environment that showcases the table's clean",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F99bd7wc779pysokyg1ern0zhsu0h&w=1920&q=75",
+          "prompt": "Photograph, contemporary living room, soft light of morning, integration of beige flooring and matte stone features, unified color scheme of soothing white tones, creating a white and inviting atmosphere, 35mm f/1.4G lens, set f/4, sophisticated furniture, including a white-colored sofa set and a minimalist side table, natural lights",
           "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/f98dc718162-midjourney-6-more-info-wwwgraytheorystudiocom-httpswwwinstagramcomspacemakergrayve-httpspromptbasecomprofilespacemakergrayve-usm-haller-table-shot-in-a-professional-photo-studio-fujifilm-gfx-100s-gf-80mm-f17-lens-tables-elegant-simplicity-and"
+          "link": "https://prompthero.com/prompt/867567911d0-midjourney-6-realism-living-room-interior"
         }
       ]
     },
@@ -88,15 +95,7 @@
         "icon": "🧊",
         "count": 1
       },
-      "items": [
-        {
-          "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F3wnnid288hm5czhkyukfuwsgdw23&w=1920&q=75",
-          "prompt": "cyberpunk dog, futuristic, highly detailed, made with blender --v 4",
-          "model": "AI Model",
-          "link": "https://prompthero.com/prompt/a98c21a211f-openjourney-15-cyberpunk-dog-futuristic-highly-detailed-made-with-blender-v-4"
-        }
-      ]
+      "items": []
     },
     {
       "source": {
@@ -119,18 +118,18 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://image.lexica.art/md2_webp/604c07ec-b957-4483-a916-061f613870e4",
-          "prompt": "Stilleben nach Vincent van Gogh with nature",
+          "imageUrl": "https://image.lexica.art/md2_webp/5a3bcc5d-7f52-4e9d-ab6c-b2cd604fe739",
+          "prompt": "Drawing of lawn full of flowers of all colors",
           "model": "Stable Diffusion",
-          "link": "https://lexica.art/prompt/41332424-df57-4984-8bd2-6eb421f6d7c5",
+          "link": "https://lexica.art/prompt/18344a1c-820e-40c6-9f8f-67089205fa53",
           "searchTopic": "oil painting impressionist style"
         },
         {
           "rank": 2,
-          "imageUrl": "https://image.lexica.art/md2_webp/3fbe9371-8550-4458-9e61-4ee6c5628080",
-          "prompt": "3D pixel retro tiny cute tablet link to a serveur",
+          "imageUrl": "https://image.lexica.art/md2_webp/557a10dd-b345-4abc-aa99-d218b3f228ca",
+          "prompt": "Play and pause icon concepts. AI Apocalypse themed. Simple pixel art game.",
           "model": "Stable Diffusion",
-          "link": "https://lexica.art/prompt/f9152232-4bcd-4b71-90b4-bb4fcfcb72e2",
+          "link": "https://lexica.art/prompt/c965b4a7-5fcc-41c9-973a-b1df809aa8eb",
           "searchTopic": "pixel art retro gaming"
         }
       ]
