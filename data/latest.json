@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-06-18T23:01:40.394Z",
+  "scrapedAt": "2026-06-19T22:13:02.772Z",
   "sources": [
     {
       "source": {
@@ -12,10 +12,17 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fh76qn3jb3j3mr9ngtk0s4pm8xp&w=1920&q=75",
-          "prompt": "poster of warrior princess| standing on hill |centered| key visual| intricate| highly detailed| breathtaking| precise lineart| vibrant| panoramic| cinematic| Carne Griffiths| Conrad Roset",
-          "model": "Stable Diffusion",
-          "link": "https://prompthero.com/prompt/803441baca4-stable-diffusion-35-large-poster-of-warrior-princess-standing-on-hill-centered-key-visual-intricate-highly-detailed-breathtaking-precise-lineart-vibrant-panoramic-cinematic-carne"
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fk20qw9fbu6mz4x2q42fok3agem&w=1920&q=75",
+          "prompt": "A striking close-up portrait of a female cyborg with long, straight black hair and blunt bangs. Her face is a hybrid of organic and mechanical elements: the left side features pale human skin with scattered freckles, a vivid blue eye, and a silver dangling earring, while the right side is a gleaming, damaged metal endoskeleton with a glowing red robotic eye and exposed internal wiring. She wears a sleek black high-collared top. Her right shoulder and upper arm show battle damage with torn skin revealing machinery underneath, accented by rust-colored stains and a black tattoo on her bicep. The background is stark white. Style: High-quality cyberpunk comic book illustration, manga influence, sharp ink lines, dramatic lighting, semi-realistic anatomy, gritty texture, detailed mechanical rendering.",
+          "model": "AI Model",
+          "link": "https://prompthero.com/prompt/59e28ec219a-a-striking-close-up-portrait-of-a-female-cyborg-with-long-straight-black-hair-and-blunt-bangs-her-face-is"
+        },
+        {
+          "rank": 2,
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fd0oan4p2rxjfq894i9f4iz7e3x&w=1920&q=75",
+          "prompt": "Transforming the photographed person into a realistic 3D figurine in front of a computer desk. The computer screen displays a 3D design drawing of the figurine's software interface. The figurine has a transparent base, and next to it is its matching packaging box, allowing the figurine to be seen.\nThe overall scene is in a realistic style, with the character presented in an ultra-realistic manner. The image quality reaches 4K high definition, the lighting effects are bright and layered, and the colors are saturated and vibrant, showcasing the exquisite imaging effect of high-end photography.\nVisual Tone: The scene is rich in color and visually impactful. The camera should be able to display different grand backgrounds, with detailed and lively elements in the background, creating an immersive experience.",
+          "model": "Nano Banana",
+          "link": "https://prompthero.com/prompt/1232f6ac884-nano-banana-nano-banana-2-transforming-the-photographed-person-into-a-realistic-3d-figurine-in-front-of-a-computer-desk-the-computer-screen-displays-a"
         }
       ]
     },
@@ -27,7 +34,22 @@
         "icon": "✨",
         "count": 2
       },
-      "items": []
+      "items": [
+        {
+          "rank": 1,
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F7nqvhyrmf607ngkesub1l7kxc9j3&w=1920&q=75",
+          "prompt": "photography, portrait of contrast, profile silhouette of a woman, vibrant hot pink backdrop, visualize using a camera setup that mimics a large aperture, focusing solely on the silhouette's edge, while a low ISO maintains the richness of color without grain, photorealistic, UHD --ar 9:16 --chaos 1.7 --style raw",
+          "model": "Midjourney",
+          "link": "https://prompthero.com/prompt/f0df2fdf530-midjourney-6-chroma-portrait"
+        },
+        {
+          "rank": 2,
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fuzz5smeabs9ptyzu8sc14l61ez71&w=1920&q=75",
+          "prompt": "wide and low angle, cinematic, fashion photography for the brand Uniqlo. Woman sitting on floor wearing a Uniqlo heattech top, and brown chinos. The background is a gradient, red, pink and orange, studio setting --ar 9:16",
+          "model": "Midjourney",
+          "link": "https://prompthero.com/prompt/a885efdb34f-midjourney-6-wide-and-low-angle-cinematic-fashion-photography-for-the-brand-uniqlo-woman-sitting-on-floor-wearing-a-uniqlo-heattech-top"
+        }
+      ]
     },
     {
       "source": {
@@ -40,10 +62,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Frwkin38megc374c4nbbl7fx8b73g&w=1920&q=75",
-          "prompt": "In the style of el lissitzky, Bauhaus art, epic swimming pool, futuristic, geometric forms, light beams, light installation, space age, glow, color transition, establishing shot, Japanese print, space galaxy, mountains, 1980s fashion, flat forms, anamorphic lens, smooth, denoise --q 2 --v 5.1 --ar 3:4",
-          "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/8fdeda3cdf0-midjourney-51-in-the-style-of-el-lissitzky-bauhaus-art-epic-swimming-pool-futuristic-geometric-forms-light-beams-light-installation-space-age"
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fsemnta30wx2nkvrayjsmoxnzq9ll&w=1920&q=75",
+          "prompt": "Persian architecture, temple volume atrium light full of rose, hanging gardens, vibrant flowers, architecture in Isfahan, soft colors, slight mist, ,by Jean Leon Gerome, Asher Brown Durand , trending on artstation, fantasy, epic, detailed architecture",
+          "model": "Stable Diffusion",
+          "link": "https://prompthero.com/prompt/01d175727f6-stable-diffusion-15-persian-architecture-temple-volume-atrium-light-full-of-rose-hanging-gardens-vibrant-flowers-architecture-in-isfahan-soft-colors-slight-mist"
         }
       ]
     },
@@ -58,10 +80,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F56tp676tjkt4khvxmo0tgudtuqn0&w=1920&q=75",
-          "prompt": "photograph, home office, minimal, soft sunlight, warm artificial light casting, creating a warm white and inviting atmosphere, such as a discreetly placed objets --ar 9:16 --style raw",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fzbmm6yc1j1esrjo2658w1jf3ywlh&w=1920&q=75",
+          "prompt": "photography, a long hallway submerged under a calm ocean, walls and ceiling in a vibrant turquoise color, the surface of the water creating a wavy light pattern on the floor, the hallway lit by embedded small white lights, a modern and tranquil underwater architecture, photorealism, UHD --ar 9:16 --stylize 500",
           "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/794977cc28d-midjourney-6-home-office-interior"
+          "link": "https://prompthero.com/prompt/17a34124c06-midjourney-6-photography-a-long-hallway-submerged-under-a-calm-ocean-walls-and-ceiling-in-a-vibrant-turquoise-color-the-surface-of"
         }
       ]
     },
@@ -73,7 +95,15 @@
         "icon": "🧊",
         "count": 1
       },
-      "items": []
+      "items": [
+        {
+          "rank": 1,
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F3d1lfhfw5af34wqgss4ghhlkqc9n&w=1920&q=75",
+          "prompt": "photorealistic, high resolution rendering, balloon of lettering, \"HAPPY NEW YEAR 2025\", used color is Pantone Bran, Crocus, Deja vu blue, perpect composition and alignment, natural light set, white backdrop, ultra realistic, rich detail --ar 9:16 --style raw --profile ue2yzjl --stylize 300 --v 6.1",
+          "model": "Midjourney",
+          "link": "https://prompthero.com/prompt/ce23f67b3ea-midjourney-61-happy-new-year-2025"
+        }
+      ]
     },
     {
       "source": {
@@ -96,18 +126,18 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://image.lexica.art/md2_webp/49f2106d-f9fb-4367-85f6-eccb2bccd2af",
-          "prompt": "A flying island with a city on top in the middle of the desert. below is an abandoned city",
+          "imageUrl": "https://image.lexica.art/md2_webp/4e040359-4bff-4f0b-8160-efa6aa523135",
+          "prompt": "A HDR image of a lush and beautiful village",
           "model": "Stable Diffusion",
-          "link": "https://lexica.art/prompt/559508c4-b0e3-4d2f-ac68-03f09ad4282c",
+          "link": "https://lexica.art/prompt/5cb5b8cc-ef2b-4642-818f-eb873077a4ef",
           "searchTopic": "floating islands sky"
         },
         {
           "rank": 2,
-          "imageUrl": "https://image.lexica.art/md2_webp/670bfb94-a5c8-4dc9-a84f-6a8c78c91ffc",
-          "prompt": "Logotipo enmarcado en un hexagono 3d",
+          "imageUrl": "https://image.lexica.art/md2_webp/65b7f5e2-e503-4f72-8d2c-9cbe078cda51",
+          "prompt": "Devil biting hard into smart phone screen falling  for love verry abstract poligon style 3d",
           "model": "Stable Diffusion",
-          "link": "https://lexica.art/prompt/67c46a0f-5732-4058-bc41-732e1c656268",
+          "link": "https://lexica.art/prompt/63b424c9-7fd3-450d-91fb-a0d74d18a054",
           "searchTopic": "low poly 3D render geometric"
         }
       ]
