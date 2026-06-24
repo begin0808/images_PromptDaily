@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-06-23T22:20:41.211Z",
+  "scrapedAt": "2026-06-24T22:24:59.275Z",
   "sources": [
     {
       "source": {
@@ -9,15 +9,7 @@
         "icon": "🔥",
         "count": 2
       },
-      "items": [
-        {
-          "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fl3s6u6zjg3jodh96gnywu9snta&w=1920&q=75",
-          "prompt": "high-resolution photograph, woman, stunning use of shadows, in the syle of crisp lines and forms, UHD, shot on a Sony A7III --ar 1:2 --style raw --stylize 250",
-          "model": "AI Model",
-          "link": "https://prompthero.com/prompt/7f154d8277d-hero-10-high-resolution-photograph-woman-stunning-use-of-shadows-in-the-syle-of-crisp-lines-and-forms-uhd-shot-on-a"
-        }
-      ]
+      "items": []
     },
     {
       "source": {
@@ -27,7 +19,22 @@
         "icon": "✨",
         "count": 2
       },
-      "items": []
+      "items": [
+        {
+          "rank": 1,
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fwrpbbm0g66wjerf6nluq4u0gothp&w=1920&q=75",
+          "prompt": "a woman with long wild hair on a windy day, in the style of toy camera effects, haunting elegance, frozen movement, captivating gaze, voigtlander bessa r2m, black paintings, new york school --ar 71:128 --stylize 750 --v 6",
+          "model": "Midjourney",
+          "link": "https://prompthero.com/prompt/bc8c5f53f0d-midjourney-6-a-woman-with-long-wild-hair-on-a-windy-day-in-the-style-of-toy-camera-effects-haunting-elegance-frozen"
+        },
+        {
+          "rank": 2,
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fo7zetbmbjk7fr0d6qfsdlws88i8o&w=1920&q=75",
+          "prompt": "a black and white photo of a woman with shadow., in the style of minimalist beauty, light bronze and bronze, serene faces, sharp edges, karencore, high definition, contrast shading, realism --ar 3:5 --stylize 750 --v 6.0 --style raw",
+          "model": "Midjourney",
+          "link": "https://prompthero.com/prompt/32aa4f3bf8f-midjourney-6-a-black-and-white-photo-of-a-woman-with-shadow-in-the-style-of-minimalist-beauty-light-bronze-and-bronze"
+        }
+      ]
     },
     {
       "source": {
@@ -37,7 +44,15 @@
         "icon": "🏛",
         "count": 1
       },
-      "items": []
+      "items": [
+        {
+          "rank": 1,
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F0nxrp9nfk9otvpl2jfk6oac08jd9&w=1920&q=75",
+          "prompt": "architectural photography, wide shot of a modern house embedded in a natural forest environment, high-definition photography, exterior view focusing on the structure and its interaction with the surrounding environment, modern house with large glass windows and wooden frame, structure appears suspended over a lush, green undergrowth, integrating seamlessly into the forest, dense forest with mature trees and a carpet of ferns, natural lighting with sunlight filtering through trees, highlighting the transparency and reflective surfaces of the house, detailed texture of the wood and glass, the organic spread of the greenery, enhanced clarity, focus on the harmony between man-made and natural elements, used camera is Sony α7R IV, paired with a Sony FE 24-70mm f/2.8 GM lens, set to an aperture of f/8 for optimal depth of field and sharpness, shutter speed of 1/125 to freeze the ambient light play, keeping ISO at 100 for the finest image quality, high resolution, UHD, rich detailing --ar 9:16 --v 6.1",
+          "model": "Midjourney",
+          "link": "https://prompthero.com/prompt/2b074b1826f-midjourney-6-architectural-photography-wide-shot-of-a-modern-house-embedded-in-a-natural-forest-environment-high-definition-photography-exterior-view-focusing"
+        }
+      ]
     },
     {
       "source": {
@@ -47,7 +62,15 @@
         "icon": "🏠",
         "count": 1
       },
-      "items": []
+      "items": [
+        {
+          "rank": 1,
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fgnh46yz8p3hbpdtonzfl13phthkq&w=1920&q=75",
+          "prompt": "Architectural photography, cinematic shot, interior space, vertical light panels transition from pink tone hues, creating an ethereal gradient effect, modernism, underpinned by stark black structural beams, with a minimalist reception desk subtly lit to enhance the sleek design, foreground, a large, raw stone adds a touch of organic texture, used camera is Sony α7R IV, paired with a Sony FE 24-70mm f/2.8 GM lens, set to an aperture of f/8 for optimal depth of field and sharpness, shutter speed of 1/125 to freeze the ambient light play, keeping ISO at 100 for the finest image quality, ensuring every detail from the light patterns to the material textures is vividly and professionally presented, realism lighting, five people realistic shilouette --ar 9:16 --stylize 700 --v 6",
+          "model": "Midjourney",
+          "link": "https://prompthero.com/prompt/2c3aebd4a1d-midjourney-6-hotel-reception"
+        }
+      ]
     },
     {
       "source": {
@@ -57,7 +80,15 @@
         "icon": "🧊",
         "count": 1
       },
-      "items": []
+      "items": [
+        {
+          "rank": 1,
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fcujdu1lngdzt02zvtqz9dmu4wtol&w=1920&q=75",
+          "prompt": "3d image, cute girl, in the style of Pixar --ar 1:2 --stylize 750",
+          "model": "Midjourney",
+          "link": "https://prompthero.com/prompt/57a63e488dc-midjourney-6-3d-image-cute-girl-in-the-style-of-pixar-ar-12-stylize-750"
+        }
+      ]
     },
     {
       "source": {
@@ -80,19 +111,19 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://image.lexica.art/md2_webp/49f4f2eb-9f56-4066-86ef-9802fd8bfbae",
-          "prompt": "Original video game album art",
+          "imageUrl": "https://image.lexica.art/md2_webp/5a33b18f-8cf4-4baf-a753-82b489abaa73",
+          "prompt": "Abstract Claude Monet painting Centaurus",
           "model": "Stable Diffusion",
-          "link": "https://lexica.art/prompt/e2eac876-ba5b-4e0d-82fa-04efa406d09e",
-          "searchTopic": "pixel art retro gaming"
+          "link": "https://lexica.art/prompt/4743512e-2ef8-4a06-a01c-30f3cc7b2e99",
+          "searchTopic": "oil painting impressionist style"
         },
         {
           "rank": 2,
-          "imageUrl": "https://image.lexica.art/md2_webp/45c5861e-9d45-4a0e-ba6e-263e795029e8",
-          "prompt": "Futurepunk style child standing on the floating island overlooking city. The futuristic skyscrapers ...",
+          "imageUrl": "https://image.lexica.art/md2_webp/5b7e059c-7150-4cce-90a5-9c7631928cc0",
+          "prompt": "Business man tie no jacket 8-bit video game graphics",
           "model": "Stable Diffusion",
-          "link": "https://lexica.art/prompt/d31fecda-77e5-42f2-baf1-5f08b4f7707d",
-          "searchTopic": "floating islands sky"
+          "link": "https://lexica.art/prompt/bd62f79f-1149-4c4d-bb0c-9c2eba81c4b2",
+          "searchTopic": "pixel art retro gaming"
         }
       ]
     }
