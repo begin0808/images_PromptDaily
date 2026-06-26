@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-06-25T22:27:42.809Z",
+  "scrapedAt": "2026-06-26T22:21:14.517Z",
   "sources": [
     {
       "source": {
@@ -12,10 +12,17 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fsd4kxuwohgl7hpmyu0zwf4z6mn&w=1920&q=75",
-          "prompt": "Ultra-cinematic superhero movie poster, Iron Man standing confidently in the center wearing a sleek red and gold armored suit, dark black background, giant metallic text \"IRON MAN\" behind him, dramatic red rim lighting on both sides, intense facial expression visible through partially opened helmet, high contrast lighting, realistic metal reflections, epic Hollywood blockbuster poster style, detailed armor textures, volumetric smoke, dark atmosphere, sharp focus, photorealistic, 8K, professional movie poster, symmetrical composition, powerful and heroic pose, premium cinematic color grading.",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fr44rsycxahxn3gnhg1ju1dem7g&w=1920&q=75",
+          "prompt": "Image of Cristiano Ronaldo from a VHS camcorder recorder in a highschool in Feb of 1996. Same grain and overall film quality of cameras and vhs of the time period",
+          "model": "Chatgpt Image",
+          "link": "https://prompthero.com/prompt/a091c955611-chatgpt-image-gpt-image-2-image-of-cristiano-ronaldo-from-a-vhs-camcorder-recorder-in-a-highschool-in-feb-of-1996-same-grain-and-overall"
+        },
+        {
+          "rank": 2,
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fd6t0j8j0ue6lubej7nlgx1d0cd&w=1920&q=75",
+          "prompt": "grok image grok imagine image a quiet room no windows no doors in the center a mirror not old not new the reflection is no",
           "model": "AI Model",
-          "link": "https://prompthero.com/prompt/0650f53612c-hero-10-ultra-cinematic-superhero-movie-poster-iron-man-standing-confidently-in-the-center-wearing-a-sleek-red-and-gold-armored-suit"
+          "link": "https://prompthero.com/prompt/d62ed49482d-grok-image-grok-imagine-image-a-quiet-room-no-windows-no-doors-in-the-center-a-mirror-not-old-not-new-the-reflection-is-no"
         }
       ]
     },
@@ -30,17 +37,17 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F10pckza1p0gaurf4kxbsmp7d1qnp&w=1920&q=75",
-          "prompt": "a young girl in a business suit with a very angry expression, in the style of unreal engine 5, cartoonish caricatures, i can't believe how beautiful this is, animated gifs, life-like avian illustrations, close-up, soft, romantic scenes --ar 35:64 --stylize 750 --v 6",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fzgkq5uftglj1q0xkl07ycr2n839i&w=1920&q=75",
+          "prompt": "fashion editorial photography, front shot, upper body, professional female model, shot with hasselblad x2d 100c, xcd 90mm f/2.5 lens, cinematic sepia color grading with golden hour warmth, dramatic black silhouette against burnt umber to honey amber gradient backdrop, avant-garde composition with tilted head pose, staring to camera, profound gaze, elongated body stance, flowing black turtleneck, professional main fresnel light at 60 degree angle with silk diffusion, rim light with cto gel at 75 degree angle, haze machine for ethereal atmosphere, feathered shadows, contrast curve manipulation, selective dodge and burn, grain texture overlay, color temperature adjustment at 5500k to 3200k gradient, ultra sharp details, raw format, inspired by paolo roversi lighting technique, hyper realistic, 16K, rich detail --ar 9:16 --quality 2 --style raw --personalize nq7rq2j --stylize 500 --v 6.1",
           "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/455ba9632b9-midjourney-6-a-young-girl-in-a-business-suit-with-a-very-angry-expression-in-the-style-of-unreal-engine-5-cartoonish"
+          "link": "https://prompthero.com/prompt/d6b42afab22-midjourney-6-model-portrait"
         },
         {
           "rank": 2,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fluqvns7twvdbtnmwlaesatvjuqmr&w=1920&q=75",
-          "prompt": "red race car, in the style of sam spratt, historical illustrations, old masters, genndy tartakovsky, soggy, masaccio, monochromatic realism --ar 63:128 --stylize 750 --v 6",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F41ju9v8tp67gu096s5vc7gpxo01w&w=1920&q=75",
+          "prompt": "editorial photography, male model, 50mm f/1.2 RF lens, f/2.8 set, 1/160s, iso 100, gradient neon orange, minimalist street style, deep orange atmospheric lighting, lights at ceiling, overhead softbox at 3200K, full-body confidence pose with silhouette, dramatic contrast, photorealistic quality, rich detailing --ar 9:16 --raw --profile otwluoo --stylize 200",
           "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/01b47dfdc90-midjourney-6-red-race-car-in-the-style-of-sam-spratt-historical-illustrations-old-masters-genndy-tartakovsky-soggy-masaccio-monochromatic-realism-ar"
+          "link": "https://prompthero.com/prompt/7ae913f5c1c-midjourney-7-editorial-photography-male-model-50mm-f12-rf-lens-f28-set-1160s-iso-100-gradient-neon-orange-minimalist-street-style-deep"
         }
       ]
     },
@@ -55,10 +62,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fjig5foi8fh7k920flrcl96dwhabz&w=1920&q=75",
-          "prompt": "Baroque rococo architecture, architectural photography, post apocalyptic New York, hyperrealism, hyperrealistic, octane render, cinematic, hyper detailed, 8K",
-          "model": "Stable Diffusion",
-          "link": "https://prompthero.com/prompt/5cc60dbf76a-stable-diffusion-15-baroque-rococo-architecture-architectural-photography-post-apocalyptic-new-york-hyperrealism-hyperrealistic-octane-render-cinematic-hyper-detailed-8k"
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fv6io600el19w16np6fqqihbwqeer&w=1920&q=75",
+          "prompt": "valley, fairytale treehouse village covered,, matte painting, highly detailed, dynamic lighting, cinematic, realism, realistic, photo real, sunset,detailed, high contrast, denoised, centered, michael whelan",
+          "model": "AI Model",
+          "link": "https://prompthero.com/prompt/ab61e5e9246-openjourney-15-valley-fairytale-treehouse-village-covered-matte-painting-highly-detailed-dynamic-lighting-cinematic-realism-realistic-photo-real-sunsetdetailed-high-contrast-denoised"
         }
       ]
     },
@@ -73,10 +80,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fcdrr3lmo3580jid36nfgo1xzsxcd&w=1920&q=75",
-          "prompt": "modern minimalist, architectural photography, illuminated grand entrance with curved light panels forming an arch, symmetrical frontal view, centered composition with vanishing point perspective, wide angle lens, low angle shot, golden hour lighting, reflective marble floor with wet surface reflections, dramatic architectural lighting, glass panels grid pattern, contemporary urban setting, photorealism, rich detailing --ar 9:16 --quality 2 --stylize 500 --v 6.1",
-          "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/6673e814834-midjourney-6-httpslittlygrayve-modern-minimalist-architectural-photography-illuminated-grand-entrance-with-curved-light-panels-forming-an-arch-symmetrical-frontal-view-centered-composition-with"
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fxvw1mv1z0bepo0ia03l3r2ruiovi&w=1920&q=75",
+          "prompt": "cute isometric cyberpunk bedroom, cutaway box, futuristic, highly detailed, made with blender --v 4",
+          "model": "AI Model",
+          "link": "https://prompthero.com/prompt/5a63ab9db96-openjourney-15-cute-isometric-cyberpunk-bedroom-cutaway-box-futuristic-highly-detailed-made-with-blender-v-4"
         }
       ]
     },
@@ -91,10 +98,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fvm9lp8mvyzb90w7duiocftw5tfzv&w=1920&q=75",
-          "prompt": "Incredibly detailed technical diagram of the profile of a woman with the top and back of her head split into complex geometric shapes and flowers growing from the shapes, Chiaroscuro lighting, fine intricate details --q 2 --upbeta --v 4 --v 4",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fapu4bwo5ru1vtbidndl5nmsa2ytq&w=1920&q=75",
+          "prompt": "Toy with a little doll with a helmet, cute 3d render, cute detailed digital art, female explorer mini cute girl, cute digital painting, stylized 3d render, cute digital art, cute render 3d anime girl , the little astronaut looks up, cute! c4d, portrait anime space cadet girl, sitting on a white pedestal",
           "model": "AI Model",
-          "link": "https://prompthero.com/prompt/0c8536f3b23-openjourney-15-incredibly-detailed-technical-diagram-of-the-profile-of-a-woman-with-the-top-and-back-of-her-head-split-into"
+          "link": "https://prompthero.com/prompt/6ad6047035b-rev-animated-v10-toy-with-a-little-doll-with-a-helmet-cute-3d-render-cute-detailed-digital-art-female-explorer-mini-cute-girl"
         }
       ]
     },
@@ -119,18 +126,18 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://image.lexica.art/md2_webp/62951333-ce40-468e-84d4-c3f324f23c27",
-          "prompt": "Mediterranean landscape in the foreground beautiful bushes with flowers",
+          "imageUrl": "https://image.lexica.art/md2_webp/66d7920d-1c42-4825-ad64-14b29a5f7eb1",
+          "prompt": "Drawing of a field full of flowers of all colors",
           "model": "Stable Diffusion",
-          "link": "https://lexica.art/prompt/731c55ae-c9bd-4c33-875a-1be1b0c75efb",
+          "link": "https://lexica.art/prompt/0483d5f0-76d8-4a2f-8614-58b5aa5820bc",
           "searchTopic": "oil painting impressionist style"
         },
         {
           "rank": 2,
-          "imageUrl": "https://image.lexica.art/md2_webp/686e851c-28d8-4a18-8e75-46b1256c1a15",
-          "prompt": "Generate a YouTube gaming/education logo with a retro 16-bit feel",
+          "imageUrl": "https://image.lexica.art/md2_webp/6038b031-6758-4942-b7dd-be4509164aef",
+          "prompt": "8bit black characters",
           "model": "Stable Diffusion",
-          "link": "https://lexica.art/prompt/2aa7a596-759b-4d7f-b5dc-ee64ce91be1f",
+          "link": "https://lexica.art/prompt/087105df-0f5c-494e-b54f-7a03ec9f2dba",
           "searchTopic": "pixel art retro gaming"
         }
       ]
