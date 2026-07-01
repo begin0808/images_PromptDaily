@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-06-30T22:21:25.860Z",
+  "scrapedAt": "2026-07-01T22:24:25.673Z",
   "sources": [
     {
       "source": {
@@ -12,17 +12,17 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fzpflok2n99l8ppgxxg7sqrr4xo&w=1920&q=75",
-          "prompt": "Japanese girl, 18-21 years old, brown hair, high-quality photo portrait, shot on a Polaroid camera, double eyelid --ar 34:65 --style raw",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fkc7vgny8szh7ru5bsiwxstfg57&w=1920&q=75",
+          "prompt": "Japanese negative film aesthetic, rooftop summer scene, soft natural sunlight, slight overexposure highlights, low contrast, muted faded colors, subtle grain subject standing or sitting on rooftop edge area, body relaxed, slight wind moving hair and clothes, looking toward camera with calm distant gaze, not posing open sky, empty space, minimal elements, imperfect composition, quiet isolated mood, nostalgic and reflective, “memory-like realism” --2:3",
           "model": "AI Model",
-          "link": "https://prompthero.com/prompt/89e3fd3ea54-hero-10-japanese-girl-18-21-years-old-brown-hair-high-quality-photo-portrait-shot-on-a-polaroid-camera-double-eyelid-ar"
+          "link": "https://prompthero.com/prompt/25340d72b6f-japanese-negative-film-aesthetic-rooftop-summer-scene-soft-natural-sunlight-slight-overexposure-highlights-low-contrast-muted-faded-colors-subtle-grain"
         },
         {
           "rank": 2,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fm2ie8s2h4ku13ksglie3r4fmed&w=1920&q=75",
-          "prompt": "centered, masterpiece, a painting of a man in a boxing ring, trending on Artstation, jazza and rossdraws, anime style hyper detailed, card game illustration, powerful chin, punching, kawacy, profile picture, sachin teng, will smith anime style",
-          "model": "Stable Diffusion",
-          "link": "https://prompthero.com/prompt/061dcc5058c-stable-diffusion-35-large-centered-masterpiece-a-painting-of-a-man-in-a-boxing-ring-trending-on-artstation-jazza-and-rossdraws-anime-style-hyper"
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fgrp4mr2nuui8vjvfk89qljpetd&w=1920&q=75",
+          "prompt": "grok image grok imagine image meta version 12 locale es ve type advancedprofileanimalhumorgaming globalconfidence 091 subject species domestic cat apparentbreed short haired mixed breed furcolor",
+          "model": "AI Model",
+          "link": "https://prompthero.com/prompt/b0d9573619e-grok-image-grok-imagine-image-meta-version-12-locale-es-ve-type-advancedprofileanimalhumorgaming-globalconfidence-091-subject-species-domestic-cat-apparentbreed-short-haired-mixed-breed-furcolor"
         }
       ]
     },
@@ -37,17 +37,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F54xz2e9g2xcdm3f28xc308ocfug4&w=1920&q=75",
-          "prompt": "Black and white street photography of an attractive woman in leather jacket with headscarf sitting inside vintage convertible car, on the streets of London, shot by arriflex 35 BL Camera Canon K35 Prime Lenses --ar 1:2 --stylize 750",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F1a6mljgm56sd4i00pbaqp4sr9b5d&w=1920&q=75",
+          "prompt": "a woman sitting on top of a white cube, official jil sander editorial, blue and grey tones, trending on interfacelift, coat, artforum, very beautiful long slim legs, inspired by Zhang Shuqi, flagstones, tall and slender, peter morbacher style, wooden platforms, round-cropped, 2 0 1 4. modern attire, harpers bazaar, jeongseok lee --relax --v 5.2 --ar 3:4",
           "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/7e6790663a2-midjourney-6-black-and-white-street-photography-of-an-attractive-woman-in-leather-jacket-with-headscarf-sitting-inside-vintage-convertible-car-on"
-        },
-        {
-          "rank": 2,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fmuyejayamebyuyjpbbrw0g0consy&w=1920&q=75",
-          "prompt": "sketches blueprint of futuristic sci-fi huge spacecraft, warp engines, formulas and annotations, schematic by parts, golden ratio, fake detail, trending pixiv fanbox, acrylic palette knife, style of makoto shinkai studio ghibli genshin impact james gilleard greg rutkowski chiho aoshima",
-          "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/734abbef34f-midjourney-52-sketches-blueprint-of-futuristic-sci-fi-huge-spacecraft-warp-engines-formulas-and-annotations-schematic-by-parts-golden-ratio-fake-detail"
+          "link": "https://prompthero.com/prompt/af7a50d39cd-midjourney-52-a-woman-sitting-on-top-of-a-white-cube-official-jil-sander-editorial-blue-and-grey-tones-trending-on-interfacelift"
         }
       ]
     },
@@ -62,10 +55,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fajdfzvpiy6f09ho6es0w93oyhk0t&w=1920&q=75",
-          "prompt": "A digital architectural blueprint of a cozy, rustic cottage house, with comprehensive labeled sections and descriptive text. The cottage features a thatched roof, timbered walls, and stone foundations. It includes a detailed layout of a warm living space with a stone fireplace, an inviting kitchen, quaint bedrooms with gabled windows, and an enchanting garden with a small pond. Each section of the house, from the cross-sectional view of the walls to the individual bricks in the chimney, is meticulously detailed and labeled. The background is a stylized parchment, evoking the sense of traditional architectural plans. Text annotations are included to describe materials, construction techniques, and dimensions. The lighting is warm and soft, suggesting a sunset ambiance. The blueprint is created with fine digital lines and a watercolor effect to blend the charm of old-world craftsmanship with modern design clarity.",
-          "model": "AI Model",
-          "link": "https://prompthero.com/prompt/27067445bb6-dalle-3-a-digital-architectural-blueprint-of-a-cozy-rustic-cottage-house-with-comprehensive-labeled-sections-and-descriptive-text-the-cottage-features"
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Ffmexdigmxswh3d72618rjc9v3anx&w=1920&q=75",
+          "prompt": "minimalist line drawing, 6 spread sheet, simple human figures silhouettes, architectural sketches, used coral color, continuous single line drawing, clean minimal style, architectural scale figures, technical drawing style --ar 9:16 --style raw --v 6.1",
+          "model": "Midjourney",
+          "link": "https://prompthero.com/prompt/45430098db8-midjourney-61-minimalist-line-drawing-6-spread-sheet-simple-human-figures-silhouettes-architectural-sketches-used-coral-color-continuous-single-line-drawing-clean"
         }
       ]
     },
@@ -80,10 +73,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F1aqmlsqtgsh8qdw62nachhnovwgc&w=1920&q=75",
-          "prompt": "retro-inspired lounge with shaggy rugs, vintage stereo, mid-century furniture, using a color palette of teal, orange, brown, in a clean, minimalist illustration style --ar 9:16 --v 6.1",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fvnh82n2fhi4ayo3xlfsuthior1km&w=1920&q=75",
+          "prompt": "Photograph, contemporary living room, soft light of morning, integration of beige flooring and matte stone features, unified color scheme of soothing white tones, 35mm f/1.4G lens, set f/4, sophisticated furniture, natural lights",
           "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/8ad67eea911-midjourney-6-retro-inspired-lounge-with-shaggy-rugs-vintage-stereo-mid-century-furniture-using-a-color-palette-of-teal-orange-brown-in"
+          "link": "https://prompthero.com/prompt/4609621b862-midjourney-6-realism-living-room-interior"
         }
       ]
     },
@@ -118,19 +111,19 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://image.lexica.art/md2_webp/64b3100b-931a-4349-a4f8-078b65479966",
-          "prompt": "Drawing of lawn full of flowers of all colors",
+          "imageUrl": "https://image.lexica.art/md2_webp/641c1e00-ade5-4a34-89d8-16f2340bacb0",
+          "prompt": "VANGOGH STYLE PAINTING OF BEAUTIFUL MOTHER SMILING BABY IN ARMS PLAYING IN THE GARDEN OF HER HOUSE. ...",
           "model": "Stable Diffusion",
-          "link": "https://lexica.art/prompt/db06c404-fc54-435b-bc57-d0f3e6fd1b1c",
+          "link": "https://lexica.art/prompt/98c28db2-7201-40c7-bafd-019a141c2ca1",
           "searchTopic": "oil painting impressionist style"
         },
         {
           "rank": 2,
-          "imageUrl": "https://image.lexica.art/md2_webp/5d7d116a-d767-4a0d-9ba0-3d9674cee17e",
-          "prompt": "16-bit pixel art of a 2d gameplay night time",
+          "imageUrl": "https://image.lexica.art/md2_webp/46aec53a-dc6d-4cde-857d-c3989f5e2a11",
+          "prompt": "A flying island with a city on top in the middle of the desert. below is an abandoned city. no grass",
           "model": "Stable Diffusion",
-          "link": "https://lexica.art/prompt/72c12868-3ccf-4582-b4da-da5c31db6dbb",
-          "searchTopic": "pixel art retro gaming"
+          "link": "https://lexica.art/prompt/d142c801-8e73-4f5f-a0a7-f8be872f912a",
+          "searchTopic": "floating islands sky"
         }
       ]
     }
