@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-07-06T22:21:06.450Z",
+  "scrapedAt": "2026-07-07T22:18:56.269Z",
   "sources": [
     {
       "source": {
@@ -12,17 +12,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fwbfe7ksgwhhxxuruw0kapl3hsb&w=1920&q=75",
-          "prompt": "fashion editorial photograph, man, shot on a Canon EOS 5D Mark IV --chaos 75 --ar 1:2 --profile rsy6uq9 --stylize 750",
-          "model": "Nano Banana",
-          "link": "https://prompthero.com/prompt/bf65bf8fd3c-nano-banana-nano-banana-2-fashion-editorial-photograph-man-shot-on-a-canon-eos-5d-mark-iv-chaos-75-ar-12-profile-rsy6uq9-stylize-750"
-        },
-        {
-          "rank": 2,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fyivuu3iwixp9aa4h1p9baayi1b&w=1920&q=75",
-          "prompt": "photography, portrait of contrast, profile silhouette of a woman, vibrant hot pink backdrop, visualize using a camera setup that mimics a large aperture, focusing solely on the silhouette's edge, while a low ISO maintains the richness of color without grain, photorealistic, UHD --ar 9:16 --chaos 1.7 --style raw",
-          "model": "Flux",
-          "link": "https://prompthero.com/prompt/c00722618f4-flux-kontext-flux-kontext-pro-photography-portrait-of-contrast-profile-silhouette-of-a-woman-vibrant-hot-pink-backdrop-visualize-using-a-camera-setup-that-mimics"
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fl3s6u6zjg3jodh96gnywu9snta&w=1920&q=75",
+          "prompt": "high-resolution photograph, woman, stunning use of shadows, in the syle of crisp lines and forms, UHD, shot on a Sony A7III --ar 1:2 --style raw --stylize 250",
+          "model": "AI Model",
+          "link": "https://prompthero.com/prompt/7f154d8277d-hero-10-high-resolution-photograph-woman-stunning-use-of-shadows-in-the-syle-of-crisp-lines-and-forms-uhd-shot-on-a"
         }
       ]
     },
@@ -34,7 +27,15 @@
         "icon": "✨",
         "count": 2
       },
-      "items": []
+      "items": [
+        {
+          "rank": 1,
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Ffds4eerq5hcof9611i9eo0v2h6&w=1920&q=75",
+          "prompt": "A highly detailed, photorealistic, cinematic vertical medium-close-up shot of a stunning young east asian woman captured with a raw, vintage 35mm flash-photography aesthetic in a dark, intimate setting. Shot Angle & Pose: The image is captured from a slightly high-angle, close-up perspective, giving it the intimate, spontaneous feel of a candid snapshot or selfie. She leans forward playfully, pushing her right shoulder slightly inward. She tilts her head up and to the side, gazing directly into the lens with a sultry, confident, and magnetic expression. Her lips are softly parted in a relaxed, subtle smile. Subject Appearance: She has a flawless, glowing, sun-kissed olive complexion rendered with a realistic, slightly dewy skin texture. Her dark hair is styled in wild, voluminous, messy curls, with loose, textured strands carelessly falling across her forehead and partially obscuring her right eye. Her facial features are striking and naturally glamorous, featuring expressive dark eyes, natural eyebrows, and very glossy, plump lips. Character Figure: She possesses a slender, graceful, and highly feminine figure. Her dynamic, leaning posture dramatically highlights her smooth bare shoulders, elegant collarbones, and deep, prominent cleavage, creating a striking and sensuous silhouette. Outfit Details: She is wearing a simple, alluring, light cream or pale beige camisole: Top: A thin, lightweight slip-style tank top with delicate spaghetti straps. It features a deep, plunging neckline with subtle gathered ruching at the center of the bust, clinging softly to her curves with visible fabric folds. Bottoms: Not visible in the frame. Accessories: She is wearing large, ornate, textured gold hoop earrings that catch the bright light of the flash. Setting & Lighting: Setting: A dark, moody, and indistinct background, suggesting a nighttime interior, possibly the inside of a car or a dimly lit party space. The background is heavily engulfed in deep, grainy shadows with vague, reflective surfaces hinting at windows or mirrors. Lighting: The scene is completely defined by intense, harsh, direct on-camera flash lighting typical of vintage point-and-shoot or disposable cameras. The flash brilliantly illuminates her face and chest, creating high-contrast specular highlights on her glowing skin. The image features a distinct retro analog film color grade with a warm, slightly greenish-yellow tint. A prominent, vibrant orange and red horizontal lens flare or light leak streaks across the right side of the frame, perfectly capturing a nostalgic, raw, and gritty snapshot aesthetic. 8k resolution, raw photo aesthetic, vintage 35mm disposable camera style, sharp focus on the subject, high-fidelity texture rendering, harsh high-contrast flash lighting, prominent lens flare, retro warm-green color grading, gritty yet glamorous cinematic composition.",
+          "model": "AI Model",
+          "link": "https://prompthero.com/prompt/e7685238cf9-hunyuan-hunyuan-3-a-highly-detailed-photorealistic-cinematic-vertical-medium-close-up-shot-of-a-stunning-young-east-asian-woman-captured-with-a"
+        }
+      ]
     },
     {
       "source": {
@@ -54,15 +55,7 @@
         "icon": "🏠",
         "count": 1
       },
-      "items": [
-        {
-          "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F1vdtdm62yczb6o5uejcye0agsr1q&w=1920&q=75",
-          "prompt": "mid-sized living room with a candid angle, dieter rams 620 chair program, flos arco floor lamp, Nikon Z6 II, 35mm f/1.8 lens, morning light streaming through sheer curtains",
-          "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/812dde8c057-midjourney-6-mid-sized-living-room-with-a-candid-angle-dieter-rams-620-chair-program-flos-arco-floor-lamp-nikon-z6-ii"
-        }
-      ]
+      "items": []
     },
     {
       "source": {
@@ -72,15 +65,7 @@
         "icon": "🧊",
         "count": 1
       },
-      "items": [
-        {
-          "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fxw9tvy2xflgkciran4enrgp1gq&w=1920&q=75",
-          "prompt": "ultra-detailed hard sci-fi biomechanical photography, complex intertwined composition, dense mechanical mass filling the frame, photorealistic industrial mecha design, 85mm macro lens, f/8 aperture, ultra-sharp focus, high dynamic range, colossal biomechanical construct made of matte black armored components, exposed joints, hydraulic pistons, braided cables, industrial tubing, layered mechanical plates with engraved serial numbers and warning labels, subtle red accent markings and technical typography scattered across the surface, organic yet aggressive silhouette resembling a living machine, purely mechanical anatomy, laboratory environment background, soft natural daylight with diffused highlights and controlled shadows, extreme greeble detail, micro-scratches, wear marks, realistic material texture, cinematic realism --ar 9:16 --raw --stylize 200",
-          "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/7c64d8dc1bb-midjourney-shatter-ultra-detailed-hard-sci-fi-biomechanical-photography-complex-intertwined-composition-dense-mechanical-mass-filling-the-frame-photorealistic-industrial-mecha-design"
-        }
-      ]
+      "items": []
     },
     {
       "source": {
@@ -103,19 +88,19 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://image.lexica.art/md2_webp/5b2cb172-8577-4f93-9d62-4ee70eedb28a",
-          "prompt": "Drawing of a meadow full of flowers of all colors",
+          "imageUrl": "https://image.lexica.art/md2_webp/49f4f2eb-9f56-4066-86ef-9802fd8bfbae",
+          "prompt": "Original video game album art",
           "model": "Stable Diffusion",
-          "link": "https://lexica.art/prompt/b3529c63-4da9-4a4c-b7c2-046f8366dee7",
-          "searchTopic": "oil painting impressionist style"
+          "link": "https://lexica.art/prompt/e2eac876-ba5b-4e0d-82fa-04efa406d09e",
+          "searchTopic": "pixel art retro gaming"
         },
         {
           "rank": 2,
-          "imageUrl": "https://image.lexica.art/md2_webp/5e569617-5894-4dab-9c0b-9dbad99086d1",
-          "prompt": "Design a minimalistic Chibi 16-bit arcade art piece showcasing a gamer who's immersed in both gaming...",
+          "imageUrl": "https://image.lexica.art/md2_webp/4f5cf0ee-1035-4a37-9c2b-5abd755f5c4e",
+          "prompt": "Floating island in the sky",
           "model": "Stable Diffusion",
-          "link": "https://lexica.art/prompt/4a55c335-c32b-4e73-8667-0839f6fd34f6",
-          "searchTopic": "pixel art retro gaming"
+          "link": "https://lexica.art/prompt/b1290b53-bb38-43a5-8cf7-cb1ca10fa3c1",
+          "searchTopic": "floating islands sky"
         }
       ]
     }
