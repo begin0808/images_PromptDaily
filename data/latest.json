@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-07-16T22:11:19.082Z",
+  "scrapedAt": "2026-07-17T22:01:35.896Z",
   "sources": [
     {
       "source": {
@@ -12,17 +12,17 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fzklecqioo5hj15d2htki9cnh26&w=1920&q=75",
-          "prompt": "Vintage melancholic vibe, phone camera style, super low resolution, close-up face shot, warm Japanese-style filter. The pic shows a super fair, slim, gorgeous cool-toned, girl with messy bun hair, curly bangs,some strands covering her eyes, wearing a light white fitted long-sleeve top, covered with a blanket, leaning back while holding a persian cat. Only her eyes are visible, with her hair naturally falling around. The whole scene has this dreamy, hazy feel. It's like a photo taken with just a regular iPhone, with a bit of motion blur, kinda messy composition, just a quick snap, like a candid shot you'd take without thinking.",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fj2dx4tevg70o1n3w94xnqpukn9&w=1920&q=75",
+          "prompt": "high-resolution photograph, woman, stunning use of shadows, in the syle of crisp lines and forms, UHD, shot on a Sony A7III --ar 1:2 --style raw --stylize 250",
           "model": "AI Model",
-          "link": "https://prompthero.com/prompt/03500d2a169-hero-10-vintage-melancholic-vibe-phone-camera-style-super-low-resolution-close-up-face-shot-warm-japanese-style-filter-the-pic-shows"
+          "link": "https://prompthero.com/prompt/82dffc0f4ce-hero-10-high-resolution-photograph-woman-stunning-use-of-shadows-in-the-syle-of-crisp-lines-and-forms-uhd-shot-on-a"
         },
         {
           "rank": 2,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fvwi2lhxj778dfm5g7jei160sij&w=1920&q=75",
-          "prompt": "painting style, illustration of a muscular young man with short brown hair, a tough and intense gaze, and strong, calloused hands, white dragon hoodie. He looks like a seasoned fighter with scars and marks of fight on his face and body. sweat, speed and blur effect, in a dynamic epic action pose, dark boxing club background, in the middle of a fierce battle. in the style of Prokoko, with a focus on bold, expressive brushstrokes and vivid colors. The background can be left to the artist\\'s interpretation. The modifier is CarnageStyle, the color is blood_red, and the intensity is 1.6, the lighting is cinematic, the angle is dynamic, the details are extreme",
-          "model": "AI Model",
-          "link": "https://prompthero.com/prompt/4f31956b37f-hero-10-painting-style-illustration-of-a-muscular-young-man-with-short-brown-hair-a-tough-and-intense-gaze-and-strong-calloused"
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fsnreqe2vurftveqscrpcysichr&w=1920&q=75",
+          "prompt": "(Nano Banana Pro) Professional full-body editorial photography of a high-fashion model standing in front of a sleek dark wall with a subtle metallic \"GUCCI\" logo. The model is wearing a minimalist tight black long-sleeve turtleneck top paired with black leggings featuring stylish cutout details at the hips. She has a clean, slicked-back ponytail hairstyle, posing confidently with hands on her hips. She is wearing black high-heeled shoes with metallic accents and carrying a small black leather handbag. Cinematic studio lighting, sharp focus, 8k resolution, minimalist 90s fashion aesthetic, high-end editorial look.",
+          "model": "Flux",
+          "link": "https://prompthero.com/prompt/e3a017d25dc-flux-pro-nano-banana-pro-professional-full-body-editorial-photography-of-a-high-fashion-model-standing-in-front-of-a-sleek-dark"
         }
       ]
     },
@@ -34,7 +34,22 @@
         "icon": "✨",
         "count": 2
       },
-      "items": []
+      "items": [
+        {
+          "rank": 1,
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F7nqvhyrmf607ngkesub1l7kxc9j3&w=1920&q=75",
+          "prompt": "photography, portrait of contrast, profile silhouette of a woman, vibrant hot pink backdrop, visualize using a camera setup that mimics a large aperture, focusing solely on the silhouette's edge, while a low ISO maintains the richness of color without grain, photorealistic, UHD --ar 9:16 --chaos 1.7 --style raw",
+          "model": "Midjourney",
+          "link": "https://prompthero.com/prompt/f0df2fdf530-midjourney-6-chroma-portrait"
+        },
+        {
+          "rank": 2,
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fuzz5smeabs9ptyzu8sc14l61ez71&w=1920&q=75",
+          "prompt": "wide and low angle, cinematic, fashion photography for the brand Uniqlo. Woman sitting on floor wearing a Uniqlo heattech top, and brown chinos. The background is a gradient, red, pink and orange, studio setting --ar 9:16",
+          "model": "Midjourney",
+          "link": "https://prompthero.com/prompt/a885efdb34f-midjourney-6-wide-and-low-angle-cinematic-fashion-photography-for-the-brand-uniqlo-woman-sitting-on-floor-wearing-a-uniqlo-heattech-top"
+        }
+      ]
     },
     {
       "source": {
@@ -47,10 +62,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Frwkin38megc374c4nbbl7fx8b73g&w=1920&q=75",
-          "prompt": "In the style of el lissitzky, Bauhaus art, epic swimming pool, futuristic, geometric forms, light beams, light installation, space age, glow, color transition, establishing shot, Japanese print, space galaxy, mountains, 1980s fashion, flat forms, anamorphic lens, smooth, denoise --q 2 --v 5.1 --ar 3:4",
-          "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/8fdeda3cdf0-midjourney-51-in-the-style-of-el-lissitzky-bauhaus-art-epic-swimming-pool-futuristic-geometric-forms-light-beams-light-installation-space-age"
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fsemnta30wx2nkvrayjsmoxnzq9ll&w=1920&q=75",
+          "prompt": "Persian architecture, temple volume atrium light full of rose, hanging gardens, vibrant flowers, architecture in Isfahan, soft colors, slight mist, ,by Jean Leon Gerome, Asher Brown Durand , trending on artstation, fantasy, epic, detailed architecture",
+          "model": "Stable Diffusion",
+          "link": "https://prompthero.com/prompt/01d175727f6-stable-diffusion-15-persian-architecture-temple-volume-atrium-light-full-of-rose-hanging-gardens-vibrant-flowers-architecture-in-isfahan-soft-colors-slight-mist"
         }
       ]
     },
@@ -65,10 +80,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fvnh82n2fhi4ayo3xlfsuthior1km&w=1920&q=75",
-          "prompt": "Photograph, contemporary living room, soft light of morning, integration of beige flooring and matte stone features, unified color scheme of soothing white tones, 35mm f/1.4G lens, set f/4, sophisticated furniture, natural lights",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fzbmm6yc1j1esrjo2658w1jf3ywlh&w=1920&q=75",
+          "prompt": "photography, a long hallway submerged under a calm ocean, walls and ceiling in a vibrant turquoise color, the surface of the water creating a wavy light pattern on the floor, the hallway lit by embedded small white lights, a modern and tranquil underwater architecture, photorealism, UHD --ar 9:16 --stylize 500",
           "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/4609621b862-midjourney-6-realism-living-room-interior"
+          "link": "https://prompthero.com/prompt/17a34124c06-midjourney-6-photography-a-long-hallway-submerged-under-a-calm-ocean-walls-and-ceiling-in-a-vibrant-turquoise-color-the-surface-of"
         }
       ]
     },
@@ -80,7 +95,15 @@
         "icon": "🧊",
         "count": 1
       },
-      "items": []
+      "items": [
+        {
+          "rank": 1,
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F3d1lfhfw5af34wqgss4ghhlkqc9n&w=1920&q=75",
+          "prompt": "photorealistic, high resolution rendering, balloon of lettering, \"HAPPY NEW YEAR 2025\", used color is Pantone Bran, Crocus, Deja vu blue, perpect composition and alignment, natural light set, white backdrop, ultra realistic, rich detail --ar 9:16 --style raw --profile ue2yzjl --stylize 300 --v 6.1",
+          "model": "Midjourney",
+          "link": "https://prompthero.com/prompt/ce23f67b3ea-midjourney-61-happy-new-year-2025"
+        }
+      ]
     },
     {
       "source": {
@@ -103,18 +126,18 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://image.lexica.art/md2_webp/45c5861e-9d45-4a0e-ba6e-263e795029e8",
-          "prompt": "Futurepunk style child standing on the floating island overlooking city. The futuristic skyscrapers ...",
+          "imageUrl": "https://image.lexica.art/md2_webp/337bfd13-6d22-458a-aba3-64626901d146",
+          "prompt": "The youthful and whimsical floating island",
           "model": "Stable Diffusion",
-          "link": "https://lexica.art/prompt/d31fecda-77e5-42f2-baf1-5f08b4f7707d",
+          "link": "https://lexica.art/prompt/3f6dd2de-ae50-4cb3-ad51-2887df907198",
           "searchTopic": "floating islands sky"
         },
         {
           "rank": 2,
-          "imageUrl": "https://image.lexica.art/md2_webp/70d12cc5-0d12-4b48-9f29-fdeb5924f97a",
-          "prompt": "Polygonal aggressive bull muscular charging",
+          "imageUrl": "https://image.lexica.art/md2_webp/6eaf5bd7-4041-4ba5-974a-7bcd448bbb76",
+          "prompt": "3D abstract shapes",
           "model": "Stable Diffusion",
-          "link": "https://lexica.art/prompt/0066090a-15a2-462d-a85a-513efcfc75e2",
+          "link": "https://lexica.art/prompt/96b6fc03-b1b3-4457-9da5-f86ff783019f",
           "searchTopic": "low poly 3D render geometric"
         }
       ]
