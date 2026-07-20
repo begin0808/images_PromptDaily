@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-07-19T22:00:40.054Z",
+  "scrapedAt": "2026-07-20T22:08:33.080Z",
   "sources": [
     {
       "source": {
@@ -12,10 +12,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fsrylcw14c604q2scfjgwo1qvoc&w=1920&q=75",
-          "prompt": "Japanese negative film aesthetic, rooftop summer scene, soft natural sunlight, slight overexposure highlights, low contrast, muted faded colors, subtle grain subject standing or sitting on rooftop edge area, body relaxed, slight wind moving hair and clothes, looking toward camera with calm distant gaze, not posing open sky, empty space, minimal elements, imperfect composition, quiet isolated mood, nostalgic and reflective, “memory-like realism” --2:3",
-          "model": "AI Model",
-          "link": "https://prompthero.com/prompt/ab59fb2794b-hero-10-japanese-negative-film-aesthetic-rooftop-summer-scene-soft-natural-sunlight-slight-overexposure-highlights-low-contrast-muted-faded-colors-subtle-grain"
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fyivuu3iwixp9aa4h1p9baayi1b&w=1920&q=75",
+          "prompt": "photography, portrait of contrast, profile silhouette of a woman, vibrant hot pink backdrop, visualize using a camera setup that mimics a large aperture, focusing solely on the silhouette's edge, while a low ISO maintains the richness of color without grain, photorealistic, UHD --ar 9:16 --chaos 1.7 --style raw",
+          "model": "Flux",
+          "link": "https://prompthero.com/prompt/c00722618f4-flux-kontext-flux-kontext-pro-photography-portrait-of-contrast-profile-silhouette-of-a-woman-vibrant-hot-pink-backdrop-visualize-using-a-camera-setup-that-mimics"
         }
       ]
     },
@@ -27,15 +27,7 @@
         "icon": "✨",
         "count": 2
       },
-      "items": [
-        {
-          "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Frl1ul2i0eqithy4gp45cj83e11ga&w=1920&q=75",
-          "prompt": "1 girl, beautiful Korean girl, (Cute Loose Bob hair), (wearing a cropped hoodie, capri sweatpants:1. 5), (hands in pockets:1. 5), (red lips:1. 3), (small breasts:1. 3), (toned stomach:1. 3), (eyelashes:1. 2), (aegyo sal:1. 2), beautiful detailed eyes, symmetrical eyes, (detailed face), immersive background, volumetric haze, global illumination, soft lighting, (flowing hair), (bright smile), natural lighting, (realistic:1.5), (lifelike:1.4), (4k, digital art, masterpiece), High detail digital painting, realistic, (top quality), (soft shadows), (best character art), ultra high resolution, highly detailed digital artwork, physically-based rendering, realism with an artistic touch, vibrant colors, f2.2 lens, soft palette, natural beauty.",
-          "model": "Stable Diffusion",
-          "link": "https://prompthero.com/prompt/8887d8e2e22-stable-diffusion-15-1-girl-beautiful-korean-girl-cute-loose-bob-hair-wearing-a-cropped-hoodie-capri-sweatpants1-5-hands-in-pockets1-5"
-        }
-      ]
+      "items": []
     },
     {
       "source": {
@@ -68,10 +60,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fb2m11p6rzmy7w1s5pm4jf9q5zyrl&w=1920&q=75",
-          "prompt": "cyborg woman megan fox Miyazaki| with a visible detailed brain| muscles cable wires| biopunk| cybernetic| cyberpunk| white marble bust| sharp focus| smooth| hyperrealism| highly detailed| intricate details| carved by michelangelo",
-          "model": "Stable Diffusion",
-          "link": "https://prompthero.com/prompt/6a9c804b0cc-stable-diffusion-15-cyborg-woman-megan-fox-miyazaki-with-a-visible-detailed-brain-muscles-cable-wires-biopunk-cybernetic-cyberpunk-white-marble-bust-sharp"
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fxw9tvy2xflgkciran4enrgp1gq&w=1920&q=75",
+          "prompt": "ultra-detailed hard sci-fi biomechanical photography, complex intertwined composition, dense mechanical mass filling the frame, photorealistic industrial mecha design, 85mm macro lens, f/8 aperture, ultra-sharp focus, high dynamic range, colossal biomechanical construct made of matte black armored components, exposed joints, hydraulic pistons, braided cables, industrial tubing, layered mechanical plates with engraved serial numbers and warning labels, subtle red accent markings and technical typography scattered across the surface, organic yet aggressive silhouette resembling a living machine, purely mechanical anatomy, laboratory environment background, soft natural daylight with diffused highlights and controlled shadows, extreme greeble detail, micro-scratches, wear marks, realistic material texture, cinematic realism --ar 9:16 --raw --stylize 200",
+          "model": "Midjourney",
+          "link": "https://prompthero.com/prompt/7c64d8dc1bb-midjourney-shatter-ultra-detailed-hard-sci-fi-biomechanical-photography-complex-intertwined-composition-dense-mechanical-mass-filling-the-frame-photorealistic-industrial-mecha-design"
         }
       ]
     },
@@ -96,18 +88,18 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://image.lexica.art/md2_webp/4a64e48d-7584-4ba6-9294-a059823396d0",
-          "prompt": "Dipinto stile Renoir",
+          "imageUrl": "https://image.lexica.art/md2_webp/5b2cb172-8577-4f93-9d62-4ee70eedb28a",
+          "prompt": "Drawing of a meadow full of flowers of all colors",
           "model": "Stable Diffusion",
-          "link": "https://lexica.art/prompt/5e10d12b-5d2d-4a2c-9ed2-fd66640ff5ba",
+          "link": "https://lexica.art/prompt/b3529c63-4da9-4a4c-b7c2-046f8366dee7",
           "searchTopic": "oil painting impressionist style"
         },
         {
           "rank": 2,
-          "imageUrl": "https://image.lexica.art/md2_webp/461257f8-c6ba-4f75-ab91-8134958282b0",
-          "prompt": "Pixel art style Picture the game",
+          "imageUrl": "https://image.lexica.art/md2_webp/5e569617-5894-4dab-9c0b-9dbad99086d1",
+          "prompt": "Design a minimalistic Chibi 16-bit arcade art piece showcasing a gamer who's immersed in both gaming...",
           "model": "Stable Diffusion",
-          "link": "https://lexica.art/prompt/6a5f9065-c0d2-4c99-82d5-3a8ae951c7fd",
+          "link": "https://lexica.art/prompt/4a55c335-c32b-4e73-8667-0839f6fd34f6",
           "searchTopic": "pixel art retro gaming"
         }
       ]
