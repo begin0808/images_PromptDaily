@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-07-26T22:07:37.997Z",
+  "scrapedAt": "2026-07-27T22:14:33.494Z",
   "sources": [
     {
       "source": {
@@ -12,10 +12,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fhlkvrthg9cg5pd8rsdx60w363c&w=1920&q=75",
-          "prompt": "Vintage melancholic vibe, phone camera style, super low resolution, close-up face shot, warm Japanese-style filter. The pic shows a super fair, slim, gorgeous cool-toned, girl with messy bun hair, curly bangs,some strands covering her eyes, wearing a light white fitted long-sleeve top, covered with a blanket, leaning back while holding a persian cat. Only her eyes are visible, with her hair naturally falling around. The whole scene has this dreamy, hazy feel. It's like a photo taken with just a regular iPhone, with a bit of motion blur, kinda messy composition, just a quick snap, like a candid shot you'd take without thinking.",
-          "model": "AI Model",
-          "link": "https://prompthero.com/prompt/2e17ff22d68-vintage-melancholic-vibe-phone-camera-style-super-low-resolution-close-up-face-shot-warm-japanese-style-filter-the-pic-shows"
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fwhw7kcx454xn6elezgfikweg8b&w=1920&q=75",
+          "prompt": "(Nano Banana Pro) Close-up fashion photography. A female model viewed through a pane of rain-streaked glass. The water droplets distort the light, creating an ethereal, dreamlike quality. The model is wearing a high-collared, liquid-satin fabric that mimics the fluidity of the water. Soft, cool-toned lighting, diffused and hazy. 90s minimalist fashion editorial style, hyper-elegant, focus on the interplay between wet surfaces and soft textile. Cinematic, melancholic, ethereal aesthetic.",
+          "model": "Flux",
+          "link": "https://prompthero.com/prompt/3a85ebf9400-flux-pro-nano-banana-pro-close-up-fashion-photography-a-female-model-viewed-through-a-pane-of-rain-streaked-glass-the-water"
         }
       ]
     },
@@ -30,17 +30,17 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F9qbfr7mlnt8sn7yp01pw02z7ez1r&w=1920&q=75",
-          "prompt": "close-up of a stunning fashion model, ultra-realistic, portrait, shot on a Sony A7III, high quality --ar 35:64 --stylize 250",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Flapcjheub4irmicpdv5x8hykgs&w=1920&q=75",
+          "prompt": "high resolution photography, front central profile, woman facing front, gaze to front, wearing a white turtleneck sweater, photographed entirely through thick vertically reeded architectural glass, vertical grooves running top to bottom across the entire frame, parallel vertical lines clearly visible, full-frame optical distortion dominating the image, acrylic glass in the foreground textured, realistic physical light refraction warping the profile of the face and upper body into vertical repetitions, subtle light softly radiating from the clothing and gently bleeding into the glass ridges, faint light scattering through the vertical grooves, low-key studio background in pale off-white tones, cool neutral lighting, restrained and minimal, realistic physics --ar 9:16 --raw --stylize 400",
           "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/ebcc6231ec6-midjourney-6-close-up-of-a-stunning-fashion-model-ultra-realistic-portrait-shot-on-a-sony-a7iii-high-quality-ar-3564-stylize"
+          "link": "https://prompthero.com/prompt/400a20c3a87-midjourney-shatter-high-resolution-photography-front-central-profile-woman-facing-front-gaze-to-front-wearing-a-white-turtleneck-sweater-photographed-entirely-through"
         },
         {
           "rank": 2,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fyktjuihsozyxcetxc5hsasx2wed8&w=1920&q=75",
-          "prompt": "photography, orange hue, korean woman model, solid orange backdrop, using a camera setup that mimics a large aperture, f/1.4 --ar 9:16 --style raw",
-          "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/abb78caf579-midjourney-6-model-portrait"
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F2oxo0xy8iw94supm5i19ln3ywos3&w=1920&q=75",
+          "prompt": "RPG, Style: MACRO, a low-quality CCTV camera with a slightly fish-eye lens effect. The camera's timestamp and static lines are visible, contributing to the grainy, low-resolution appearance of Samantha, an intricate, attractive, 18-year-old woman with",
+          "model": "Flux",
+          "link": "https://prompthero.com/prompt/193baa13e5b-flux-flux-11-pro-rpg-style-macro-a-low-quality-cctv-camera-with-a-slightly-fish-eye-lens-effect-the-cameras-timestamp-and-static"
         }
       ]
     },
@@ -55,10 +55,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F7yxfewc4npicz0p4lz9t9quu91tv&w=1920&q=75",
-          "prompt": "Indian castle surrounded by water and nature, village, volumetric lighting, photorealistic, insanely detailed and intricate, Fantasy, epic cinematic shot, trending on ArtStation, mountains, 8k ultra hd, magical, mystical, matte painting, bright sunny day, flowers, massive cliffs, Sweeper3D",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fbzdmodwk6dnft5gnqgdta2jpnrg3&w=1920&q=75",
+          "prompt": "futuristic tempura food, night, japanese, neon light, volumetric smoke, volumetric light, octane render, food commercial, Filmic",
           "model": "Stable Diffusion",
-          "link": "https://prompthero.com/prompt/c8d122762d5-stable-diffusion-15-indian-castle-surrounded-by-water-and-nature-village-volumetric-lighting-photorealistic-insanely-detailed-and-intricate-fantasy-epic-cinematic-shot-trending"
+          "link": "https://prompthero.com/prompt/02bb5115ef4-stable-diffusion-15-futuristic-tempura-food-night-japanese-neon-light-volumetric-smoke-volumetric-light-octane-render-food-commercial-filmic"
         }
       ]
     },
@@ -70,15 +70,7 @@
         "icon": "🏠",
         "count": 1
       },
-      "items": [
-        {
-          "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F5jzlog0jqbnqr10oi6wnktn8apj2&w=1920&q=75",
-          "prompt": "USM Haller Table shot in a professional photo studio, Fujifilm GFX 100S, GF 80mm f/1.7 lens, table's elegant simplicity and refined finish, in an environment that showcases the table's clean",
-          "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/f98dc718162-midjourney-6-more-info-wwwgraytheorystudiocom-httpswwwinstagramcomspacemakergrayve-httpspromptbasecomprofilespacemakergrayve-usm-haller-table-shot-in-a-professional-photo-studio-fujifilm-gfx-100s-gf-80mm-f17-lens-tables-elegant-simplicity-and"
-        }
-      ]
+      "items": []
     },
     {
       "source": {
@@ -88,15 +80,7 @@
         "icon": "🧊",
         "count": 1
       },
-      "items": [
-        {
-          "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F3wnnid288hm5czhkyukfuwsgdw23&w=1920&q=75",
-          "prompt": "cyberpunk dog, futuristic, highly detailed, made with blender --v 4",
-          "model": "AI Model",
-          "link": "https://prompthero.com/prompt/a98c21a211f-openjourney-15-cyberpunk-dog-futuristic-highly-detailed-made-with-blender-v-4"
-        }
-      ]
+      "items": []
     },
     {
       "source": {
@@ -119,18 +103,18 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://image.lexica.art/md2_webp/604c07ec-b957-4483-a916-061f613870e4",
-          "prompt": "Stilleben nach Vincent van Gogh with nature",
+          "imageUrl": "https://image.lexica.art/md2_webp/5a3bcc5d-7f52-4e9d-ab6c-b2cd604fe739",
+          "prompt": "Drawing of lawn full of flowers of all colors",
           "model": "Stable Diffusion",
-          "link": "https://lexica.art/prompt/41332424-df57-4984-8bd2-6eb421f6d7c5",
+          "link": "https://lexica.art/prompt/18344a1c-820e-40c6-9f8f-67089205fa53",
           "searchTopic": "oil painting impressionist style"
         },
         {
           "rank": 2,
-          "imageUrl": "https://image.lexica.art/md2_webp/3fbe9371-8550-4458-9e61-4ee6c5628080",
-          "prompt": "3D pixel retro tiny cute tablet link to a serveur",
+          "imageUrl": "https://image.lexica.art/md2_webp/557a10dd-b345-4abc-aa99-d218b3f228ca",
+          "prompt": "Play and pause icon concepts. AI Apocalypse themed. Simple pixel art game.",
           "model": "Stable Diffusion",
-          "link": "https://lexica.art/prompt/f9152232-4bcd-4b71-90b4-bb4fcfcb72e2",
+          "link": "https://lexica.art/prompt/c965b4a7-5fcc-41c9-973a-b1df809aa8eb",
           "searchTopic": "pixel art retro gaming"
         }
       ]
