@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-07-27T22:14:33.494Z",
+  "scrapedAt": "2026-07-28T22:12:44.224Z",
   "sources": [
     {
       "source": {
@@ -12,10 +12,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fwhw7kcx454xn6elezgfikweg8b&w=1920&q=75",
-          "prompt": "(Nano Banana Pro) Close-up fashion photography. A female model viewed through a pane of rain-streaked glass. The water droplets distort the light, creating an ethereal, dreamlike quality. The model is wearing a high-collared, liquid-satin fabric that mimics the fluidity of the water. Soft, cool-toned lighting, diffused and hazy. 90s minimalist fashion editorial style, hyper-elegant, focus on the interplay between wet surfaces and soft textile. Cinematic, melancholic, ethereal aesthetic.",
-          "model": "Flux",
-          "link": "https://prompthero.com/prompt/3a85ebf9400-flux-pro-nano-banana-pro-close-up-fashion-photography-a-female-model-viewed-through-a-pane-of-rain-streaked-glass-the-water"
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fs1euxmsal9lsliu0injxss2pf7&w=1920&q=75",
+          "prompt": "Hyper-realistic vertical full body of a girl at a car show, captured with a Canon EOS R5 and an 85mm f/1.4 lens, emphasizing a distinctively dewy, glass-skin complexion. The subject is an white female with dark hair and a luminous, highly hydrated skin texture that catches the ambient convention lighting; specular highlights glisten naturally across her cheekbones, the bridge of her nose, and forehead, showcasing a premium, moisture-rich skincare finish without appearing oily. She holds a playful, dynamic pose, leaning slightly against the side of a modified white sports car, her body angled to display the vehicle’s livery. Her right arm extends forward, index finger pointing directly into the camera lens, creating a foreshortened perspective where the fingertip is slightly soft due to shallow depth of field, while focus remains razor-sharp on her eyes and face. She is winking her right eye while her left eye remains wide and engaging, featuring a sharp, dark pupil with distinct catchlights from overhead softboxes. Her expression is a confident, welcoming smile with gradient pink lips that have a moisturizing gloss finish. Her hair is long dark hair, long, and pulled back into a high ponytail that cascades over her right shoulder. She wears a tight-fitting black racing romper with a red-tabbed zipper at the chest; the text \"FORTEC\" is printed in white and red on the left chest and right thigh. A subtle dusting of freckles just below the eyes is visible on her left collarbone, and she wears a thin gold necklace. On her legs, she wears black thigh-high suede boots with heels, her right leg bent at the knee in a classic Reference image women stance. To her left, the car door and fender are visible, painted white with gold racing graphics. The lighting is bright, diffused, and cool-toned, typical of a convention hall, creating smooth transitions between light and shadow on her skin and the car's metal surfaces. The background is pushed into a creamy, indistinct bokeh, revealing blurred shapes of exhibition booths and signage, ensuring the subject pops against the busy environment. High-fidelity texture rendering captures the weave of the fabric, the velvet texture of the boots, the sleek gloss of the car paint, and the ultra-smooth, dewy quality of her skin.",
+          "model": "Nano Banana",
+          "link": "https://prompthero.com/prompt/044079fd95e-nano-banana-nano-banana-2-hyper-realistic-vertical-full-body-of-a-girl-at-a-car-show-captured-with-a-canon-eos-r5-and-an"
         }
       ]
     },
@@ -30,17 +30,17 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Flapcjheub4irmicpdv5x8hykgs&w=1920&q=75",
-          "prompt": "high resolution photography, front central profile, woman facing front, gaze to front, wearing a white turtleneck sweater, photographed entirely through thick vertically reeded architectural glass, vertical grooves running top to bottom across the entire frame, parallel vertical lines clearly visible, full-frame optical distortion dominating the image, acrylic glass in the foreground textured, realistic physical light refraction warping the profile of the face and upper body into vertical repetitions, subtle light softly radiating from the clothing and gently bleeding into the glass ridges, faint light scattering through the vertical grooves, low-key studio background in pale off-white tones, cool neutral lighting, restrained and minimal, realistic physics --ar 9:16 --raw --stylize 400",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F54xz2e9g2xcdm3f28xc308ocfug4&w=1920&q=75",
+          "prompt": "Black and white street photography of an attractive woman in leather jacket with headscarf sitting inside vintage convertible car, on the streets of London, shot by arriflex 35 BL Camera Canon K35 Prime Lenses --ar 1:2 --stylize 750",
           "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/400a20c3a87-midjourney-shatter-high-resolution-photography-front-central-profile-woman-facing-front-gaze-to-front-wearing-a-white-turtleneck-sweater-photographed-entirely-through"
+          "link": "https://prompthero.com/prompt/7e6790663a2-midjourney-6-black-and-white-street-photography-of-an-attractive-woman-in-leather-jacket-with-headscarf-sitting-inside-vintage-convertible-car-on"
         },
         {
           "rank": 2,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F2oxo0xy8iw94supm5i19ln3ywos3&w=1920&q=75",
-          "prompt": "RPG, Style: MACRO, a low-quality CCTV camera with a slightly fish-eye lens effect. The camera's timestamp and static lines are visible, contributing to the grainy, low-resolution appearance of Samantha, an intricate, attractive, 18-year-old woman with",
-          "model": "Flux",
-          "link": "https://prompthero.com/prompt/193baa13e5b-flux-flux-11-pro-rpg-style-macro-a-low-quality-cctv-camera-with-a-slightly-fish-eye-lens-effect-the-cameras-timestamp-and-static"
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fmuyejayamebyuyjpbbrw0g0consy&w=1920&q=75",
+          "prompt": "sketches blueprint of futuristic sci-fi huge spacecraft, warp engines, formulas and annotations, schematic by parts, golden ratio, fake detail, trending pixiv fanbox, acrylic palette knife, style of makoto shinkai studio ghibli genshin impact james gilleard greg rutkowski chiho aoshima",
+          "model": "Midjourney",
+          "link": "https://prompthero.com/prompt/734abbef34f-midjourney-52-sketches-blueprint-of-futuristic-sci-fi-huge-spacecraft-warp-engines-formulas-and-annotations-schematic-by-parts-golden-ratio-fake-detail"
         }
       ]
     },
@@ -55,10 +55,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fbzdmodwk6dnft5gnqgdta2jpnrg3&w=1920&q=75",
-          "prompt": "futuristic tempura food, night, japanese, neon light, volumetric smoke, volumetric light, octane render, food commercial, Filmic",
-          "model": "Stable Diffusion",
-          "link": "https://prompthero.com/prompt/02bb5115ef4-stable-diffusion-15-futuristic-tempura-food-night-japanese-neon-light-volumetric-smoke-volumetric-light-octane-render-food-commercial-filmic"
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fajdfzvpiy6f09ho6es0w93oyhk0t&w=1920&q=75",
+          "prompt": "A digital architectural blueprint of a cozy, rustic cottage house, with comprehensive labeled sections and descriptive text. The cottage features a thatched roof, timbered walls, and stone foundations. It includes a detailed layout of a warm living space with a stone fireplace, an inviting kitchen, quaint bedrooms with gabled windows, and an enchanting garden with a small pond. Each section of the house, from the cross-sectional view of the walls to the individual bricks in the chimney, is meticulously detailed and labeled. The background is a stylized parchment, evoking the sense of traditional architectural plans. Text annotations are included to describe materials, construction techniques, and dimensions. The lighting is warm and soft, suggesting a sunset ambiance. The blueprint is created with fine digital lines and a watercolor effect to blend the charm of old-world craftsmanship with modern design clarity.",
+          "model": "AI Model",
+          "link": "https://prompthero.com/prompt/27067445bb6-dalle-3-a-digital-architectural-blueprint-of-a-cozy-rustic-cottage-house-with-comprehensive-labeled-sections-and-descriptive-text-the-cottage-features"
         }
       ]
     },
@@ -70,7 +70,15 @@
         "icon": "🏠",
         "count": 1
       },
-      "items": []
+      "items": [
+        {
+          "rank": 1,
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F99bd7wc779pysokyg1ern0zhsu0h&w=1920&q=75",
+          "prompt": "Photograph, contemporary living room, soft light of morning, integration of beige flooring and matte stone features, unified color scheme of soothing white tones, creating a white and inviting atmosphere, 35mm f/1.4G lens, set f/4, sophisticated furniture, including a white-colored sofa set and a minimalist side table, natural lights",
+          "model": "Midjourney",
+          "link": "https://prompthero.com/prompt/867567911d0-midjourney-6-realism-living-room-interior"
+        }
+      ]
     },
     {
       "source": {
@@ -103,18 +111,18 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://image.lexica.art/md2_webp/5a3bcc5d-7f52-4e9d-ab6c-b2cd604fe739",
+          "imageUrl": "https://image.lexica.art/md2_webp/64b3100b-931a-4349-a4f8-078b65479966",
           "prompt": "Drawing of lawn full of flowers of all colors",
           "model": "Stable Diffusion",
-          "link": "https://lexica.art/prompt/18344a1c-820e-40c6-9f8f-67089205fa53",
+          "link": "https://lexica.art/prompt/db06c404-fc54-435b-bc57-d0f3e6fd1b1c",
           "searchTopic": "oil painting impressionist style"
         },
         {
           "rank": 2,
-          "imageUrl": "https://image.lexica.art/md2_webp/557a10dd-b345-4abc-aa99-d218b3f228ca",
-          "prompt": "Play and pause icon concepts. AI Apocalypse themed. Simple pixel art game.",
+          "imageUrl": "https://image.lexica.art/md2_webp/5d7d116a-d767-4a0d-9ba0-3d9674cee17e",
+          "prompt": "16-bit pixel art of a 2d gameplay night time",
           "model": "Stable Diffusion",
-          "link": "https://lexica.art/prompt/c965b4a7-5fcc-41c9-973a-b1df809aa8eb",
+          "link": "https://lexica.art/prompt/72c12868-3ccf-4582-b4da-da5c31db6dbb",
           "searchTopic": "pixel art retro gaming"
         }
       ]
