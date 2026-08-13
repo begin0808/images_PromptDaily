@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-08-12T21:55:25.174Z",
+  "scrapedAt": "2026-08-13T21:55:37.281Z",
   "sources": [
     {
       "source": {
@@ -9,22 +9,7 @@
         "icon": "🔥",
         "count": 2
       },
-      "items": [
-        {
-          "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Foznvbmgqw63onp904ukaz0r91n&w=1920&q=75",
-          "prompt": "black and white photography of rapper in baseball cap emerging from fog on stage during concert, side view, volumetric lighting, cinematic angle, cinematic lights,",
-          "model": "Nano Banana",
-          "link": "https://prompthero.com/prompt/6220eb47e51-nano-banana-nano-banana-2-black-and-white-photography-of-rapper-in-baseball-cap-emerging-from-fog-on-stage-during-concert-side-view-volumetric-lighting"
-        },
-        {
-          "rank": 2,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fpbwlcmou0jjiugf44cfphsneok&w=1920&q=75",
-          "prompt": "A cinematic portrait of an Asian woman standing in a quiet forest, captured in a spontaneous moment as she turns her head slightly back toward the camera. Soft sunlight filters through tall trees, creating dramatic patches of light and shadow across her face and body. A distinct vertical light leak streak cuts through the frame, adding a striking analog imperfection. Her hair moves gently in the breeze, with loose strands catching the light, adding natural motion and softness. She wears a simple light-colored blouse layered with dark suspenders, creating a subtle contrast against the deep forest tones. Her expression is calm, slightly distant, and introspective, with her eyes softly meeting the camera. The background is filled with blurred tree trunks and glowing bokeh highlights, creating depth and atmosphere. The color grading features rich teal shadows and warm orange highlights, giving a cinematic teal-and-orange contrast. The image has a strong analog film aesthetic with visible grain, soft haze, slight blur, and light distortion. Imperfect framing, natural light flare, and film burn elements enhance the nostalgic 35mm film look. Cinematic film still, dreamy and moody atmosphere, poetic forest setting, high detail, hd quality.",
-          "model": "Stable Diffusion",
-          "link": "https://prompthero.com/prompt/cac42eb006b-stable-diffusion-35-large-a-cinematic-portrait-of-an-asian-woman-standing-in-a-quiet-forest-captured-in-a-spontaneous-moment-as-she-turns"
-        }
-      ]
+      "items": []
     },
     {
       "source": {
@@ -47,10 +32,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Ffmexdigmxswh3d72618rjc9v3anx&w=1920&q=75",
-          "prompt": "minimalist line drawing, 6 spread sheet, simple human figures silhouettes, architectural sketches, used coral color, continuous single line drawing, clean minimal style, architectural scale figures, technical drawing style --ar 9:16 --style raw --v 6.1",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Frwkin38megc374c4nbbl7fx8b73g&w=1920&q=75",
+          "prompt": "In the style of el lissitzky, Bauhaus art, epic swimming pool, futuristic, geometric forms, light beams, light installation, space age, glow, color transition, establishing shot, Japanese print, space galaxy, mountains, 1980s fashion, flat forms, anamorphic lens, smooth, denoise --q 2 --v 5.1 --ar 3:4",
           "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/45430098db8-midjourney-61-minimalist-line-drawing-6-spread-sheet-simple-human-figures-silhouettes-architectural-sketches-used-coral-color-continuous-single-line-drawing-clean"
+          "link": "https://prompthero.com/prompt/8fdeda3cdf0-midjourney-51-in-the-style-of-el-lissitzky-bauhaus-art-epic-swimming-pool-futuristic-geometric-forms-light-beams-light-installation-space-age"
         }
       ]
     },
@@ -65,10 +50,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F1aqmlsqtgsh8qdw62nachhnovwgc&w=1920&q=75",
-          "prompt": "retro-inspired lounge with shaggy rugs, vintage stereo, mid-century furniture, using a color palette of teal, orange, brown, in a clean, minimalist illustration style --ar 9:16 --v 6.1",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fvnh82n2fhi4ayo3xlfsuthior1km&w=1920&q=75",
+          "prompt": "Photograph, contemporary living room, soft light of morning, integration of beige flooring and matte stone features, unified color scheme of soothing white tones, 35mm f/1.4G lens, set f/4, sophisticated furniture, natural lights",
           "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/8ad67eea911-midjourney-6-retro-inspired-lounge-with-shaggy-rugs-vintage-stereo-mid-century-furniture-using-a-color-palette-of-teal-orange-brown-in"
+          "link": "https://prompthero.com/prompt/4609621b862-midjourney-6-realism-living-room-interior"
         }
       ]
     },
@@ -103,19 +88,19 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://image.lexica.art/md2_webp/641c1e00-ade5-4a34-89d8-16f2340bacb0",
-          "prompt": "VANGOGH STYLE PAINTING OF BEAUTIFUL MOTHER SMILING BABY IN ARMS PLAYING IN THE GARDEN OF HER HOUSE. ...",
+          "imageUrl": "https://image.lexica.art/md2_webp/460e492e-a881-47d4-82dc-3f583ccc3540",
+          "prompt": "T-Shirt Vector Illustration",
           "model": "Stable Diffusion",
-          "link": "https://lexica.art/prompt/98c28db2-7201-40c7-bafd-019a141c2ca1",
-          "searchTopic": "oil painting impressionist style"
+          "link": "https://lexica.art/prompt/9fef5734-ba95-4a82-a279-46d7111780e7",
+          "searchTopic": "floating islands sky"
         },
         {
           "rank": 2,
-          "imageUrl": "https://image.lexica.art/md2_webp/40365273-808f-4749-8278-c0f20d15344f",
-          "prompt": "A flying island with a city on top in the middle of the desert. below is an abandoned city",
+          "imageUrl": "https://image.lexica.art/md2_webp/58cd78d1-2649-46f5-b692-38401837a80b",
+          "prompt": "Purple and blue  3D ABSTRACT GEOMETRIC PATTERN center figure \norigami 3d",
           "model": "Stable Diffusion",
-          "link": "https://lexica.art/prompt/70d2faff-d62c-4ca1-9f2b-46072be7091a",
-          "searchTopic": "floating islands sky"
+          "link": "https://lexica.art/prompt/f9bce772-e6b5-4c7e-ac7c-c280d0763bd5",
+          "searchTopic": "low poly 3D render geometric"
         }
       ]
     }
