@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-08-16T21:27:54.314Z",
+  "scrapedAt": "2026-08-17T21:37:49.466Z",
   "sources": [
     {
       "source": {
@@ -9,7 +9,22 @@
         "icon": "🔥",
         "count": 2
       },
-      "items": []
+      "items": [
+        {
+          "rank": 1,
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fgz41k75a97a3ofv7st8lyg3l4v&w=1920&q=75",
+          "prompt": "Vintage melancholic vibe, phone camera style, super low resolution, close-up face shot, warm Japanese-style filter. The pic shows a super fair, slim, gorgeous cool-toned, girl with messy bun hair, curly bangs,some strands covering her eyes, wearing a light white fitted long-sleeve top, covered with a blanket, leaning back while holding a persian cat. Only her eyes are visible, with her hair naturally falling around. The whole scene has this dreamy, hazy feel. It's like a photo taken with just a regular iPhone, with a bit of motion blur, kinda messy composition, just a quick snap, like a candid shot you'd take without thinking.",
+          "model": "AI Model",
+          "link": "https://prompthero.com/prompt/35fda656356-hero-10-vintage-melancholic-vibe-phone-camera-style-super-low-resolution-close-up-face-shot-warm-japanese-style-filter-the-pic-shows"
+        },
+        {
+          "rank": 2,
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fs3xjo6r578jkaejwywcditybyn&w=1920&q=75",
+          "prompt": "角色设定：一位由牡丹花幻化而成的花仙子，形象为3D写实风格，面容精致，不要卡通风。身穿由层层叠叠、渐变粉白色牡丹花瓣组成的华丽长裙，发间点缀着含苞待放的牡丹花枝。 场景设定：清晨的薄雾森林，阳光透过高大乔木的缝隙，形成一道道“丁达尔光束”，照亮了林间空地。空气中漂浮着金色的尘埃和细小的光点。 画面构图：低角度仰拍，花仙子侧身站在画面中央，伸出纤纤玉手，似乎要去触碰一片飘落的花瓣，温馨、梦幻氛围。 画面质量：4k超高清，电影级光影，暖色调，细节丰富，艺术感，16:9比例。",
+          "model": "AI Model",
+          "link": "https://prompthero.com/prompt/cbbb1714405-hero-10-3d-4k169"
+        }
+      ]
     },
     {
       "source": {
@@ -52,10 +67,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fb2m11p6rzmy7w1s5pm4jf9q5zyrl&w=1920&q=75",
-          "prompt": "cyborg woman megan fox Miyazaki| with a visible detailed brain| muscles cable wires| biopunk| cybernetic| cyberpunk| white marble bust| sharp focus| smooth| hyperrealism| highly detailed| intricate details| carved by michelangelo",
-          "model": "Stable Diffusion",
-          "link": "https://prompthero.com/prompt/6a9c804b0cc-stable-diffusion-15-cyborg-woman-megan-fox-miyazaki-with-a-visible-detailed-brain-muscles-cable-wires-biopunk-cybernetic-cyberpunk-white-marble-bust-sharp"
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fxw9tvy2xflgkciran4enrgp1gq&w=1920&q=75",
+          "prompt": "ultra-detailed hard sci-fi biomechanical photography, complex intertwined composition, dense mechanical mass filling the frame, photorealistic industrial mecha design, 85mm macro lens, f/8 aperture, ultra-sharp focus, high dynamic range, colossal biomechanical construct made of matte black armored components, exposed joints, hydraulic pistons, braided cables, industrial tubing, layered mechanical plates with engraved serial numbers and warning labels, subtle red accent markings and technical typography scattered across the surface, organic yet aggressive silhouette resembling a living machine, purely mechanical anatomy, laboratory environment background, soft natural daylight with diffused highlights and controlled shadows, extreme greeble detail, micro-scratches, wear marks, realistic material texture, cinematic realism --ar 9:16 --raw --stylize 200",
+          "model": "Midjourney",
+          "link": "https://prompthero.com/prompt/7c64d8dc1bb-midjourney-shatter-ultra-detailed-hard-sci-fi-biomechanical-photography-complex-intertwined-composition-dense-mechanical-mass-filling-the-frame-photorealistic-industrial-mecha-design"
         }
       ]
     },
