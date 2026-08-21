@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-08-20T21:35:11.539Z",
+  "scrapedAt": "2026-08-21T21:32:18.937Z",
   "sources": [
     {
       "source": {
@@ -12,17 +12,17 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fznuawjwmdqmtm4qbmjwzao1cnh&w=1920&q=75",
-          "prompt": "A painting in the style of Michael Whelan of an anthropomorphic knight in full armor standing on the ground with his sword raised, behind him is a large stone door that leads into sand dunes where skeletons and dragons stand guard, desert background, warm tones, fantasy art style, dungeons & Dragons. --ar 45:64 --v 5.2 --style raw",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fv1_b75b6ef429e9dea94835de2426&w=1920&q=75",
+          "prompt": "Cinematic portrait of a woman with long, wavy blonde hair cascading over one shoulder, styled in soft waves that frame her face. Her striking green eyes gaze directly at the viewer, accentuated by subtle winged eyeliner and natural lashes. Lips are painted a muted rose hue, slightly parted for an intimate expression. Skin glows under warm directional lighting from the left, casting gentle shadows across collarbones and shoulders, enhancing dimensionality. She is bare-chested, with no jewelry — no necklace, earrings, or rings visible. The background is deep charcoal black, creating dramatic contrast and focusing attention on her form. Shot with a 85mm lens at f/1.4 for shallow depth of field; skin texture rendered with hyperrealistic detail including faint pores and natural sheen. Lighting mimics Rembrandt-style studio setup: key light from upper left, fill reflected subtly off white bounce board below frame edge. No tattoos, no text overlays, no borders — pure photographic realism with painterly warmth in highlights.",
           "model": "AI Model",
-          "link": "https://prompthero.com/prompt/fe225fee4d8-hero-10-a-painting-in-the-style-of-michael-whelan-of-an-anthropomorphic-knight-in-full-armor-standing-on-the-ground-with"
+          "link": "https://prompthero.com/prompt/9222904a044-hero-10-cinematic-portrait-of-a-woman-with-long-wavy-blonde-hair-cascading-over-one-shoulder-styled-in-soft-waves-that-frame"
         },
         {
           "rank": 2,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fc6hypdbmn1ungzpr1qtyjg6gn4&w=1920&q=75",
-          "prompt": "اعملي صورتي متل هاي الصورة بس بدون تغير اي ملامح في وجهي",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fqnliblxdfsm62vcge4tka6k1qh&w=1920&q=75",
+          "prompt": "A golden retriever reading the newspaper on the New York subway, sitting next to a cat who is knitting",
           "model": "AI Model",
-          "link": "https://prompthero.com/prompt/50e6413e304-hero-10"
+          "link": "https://prompthero.com/prompt/d59edd338db-hero-10-a-golden-retriever-reading-the-newspaper-on-the-new-york-subway-sitting-next-to-a-cat-who-is-knitting"
         }
       ]
     },
@@ -34,7 +34,22 @@
         "icon": "✨",
         "count": 2
       },
-      "items": []
+      "items": [
+        {
+          "rank": 1,
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F10pckza1p0gaurf4kxbsmp7d1qnp&w=1920&q=75",
+          "prompt": "a young girl in a business suit with a very angry expression, in the style of unreal engine 5, cartoonish caricatures, i can't believe how beautiful this is, animated gifs, life-like avian illustrations, close-up, soft, romantic scenes --ar 35:64 --stylize 750 --v 6",
+          "model": "Midjourney",
+          "link": "https://prompthero.com/prompt/455ba9632b9-midjourney-6-a-young-girl-in-a-business-suit-with-a-very-angry-expression-in-the-style-of-unreal-engine-5-cartoonish"
+        },
+        {
+          "rank": 2,
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fluqvns7twvdbtnmwlaesatvjuqmr&w=1920&q=75",
+          "prompt": "red race car, in the style of sam spratt, historical illustrations, old masters, genndy tartakovsky, soggy, masaccio, monochromatic realism --ar 63:128 --stylize 750 --v 6",
+          "model": "Midjourney",
+          "link": "https://prompthero.com/prompt/01b47dfdc90-midjourney-6-red-race-car-in-the-style-of-sam-spratt-historical-illustrations-old-masters-genndy-tartakovsky-soggy-masaccio-monochromatic-realism-ar"
+        }
+      ]
     },
     {
       "source": {
@@ -44,7 +59,15 @@
         "icon": "🏛",
         "count": 1
       },
-      "items": []
+      "items": [
+        {
+          "rank": 1,
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fjig5foi8fh7k920flrcl96dwhabz&w=1920&q=75",
+          "prompt": "Baroque rococo architecture, architectural photography, post apocalyptic New York, hyperrealism, hyperrealistic, octane render, cinematic, hyper detailed, 8K",
+          "model": "Stable Diffusion",
+          "link": "https://prompthero.com/prompt/5cc60dbf76a-stable-diffusion-15-baroque-rococo-architecture-architectural-photography-post-apocalyptic-new-york-hyperrealism-hyperrealistic-octane-render-cinematic-hyper-detailed-8k"
+        }
+      ]
     },
     {
       "source": {
@@ -54,7 +77,15 @@
         "icon": "🏠",
         "count": 1
       },
-      "items": []
+      "items": [
+        {
+          "rank": 1,
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fcdrr3lmo3580jid36nfgo1xzsxcd&w=1920&q=75",
+          "prompt": "modern minimalist, architectural photography, illuminated grand entrance with curved light panels forming an arch, symmetrical frontal view, centered composition with vanishing point perspective, wide angle lens, low angle shot, golden hour lighting, reflective marble floor with wet surface reflections, dramatic architectural lighting, glass panels grid pattern, contemporary urban setting, photorealism, rich detailing --ar 9:16 --quality 2 --stylize 500 --v 6.1",
+          "model": "Midjourney",
+          "link": "https://prompthero.com/prompt/6673e814834-midjourney-6-httpslittlygrayve-modern-minimalist-architectural-photography-illuminated-grand-entrance-with-curved-light-panels-forming-an-arch-symmetrical-frontal-view-centered-composition-with"
+        }
+      ]
     },
     {
       "source": {
@@ -64,7 +95,15 @@
         "icon": "🧊",
         "count": 1
       },
-      "items": []
+      "items": [
+        {
+          "rank": 1,
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fvm9lp8mvyzb90w7duiocftw5tfzv&w=1920&q=75",
+          "prompt": "Incredibly detailed technical diagram of the profile of a woman with the top and back of her head split into complex geometric shapes and flowers growing from the shapes, Chiaroscuro lighting, fine intricate details --q 2 --upbeta --v 4 --v 4",
+          "model": "AI Model",
+          "link": "https://prompthero.com/prompt/0c8536f3b23-openjourney-15-incredibly-detailed-technical-diagram-of-the-profile-of-a-woman-with-the-top-and-back-of-her-head-split-into"
+        }
+      ]
     },
     {
       "source": {
