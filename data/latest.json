@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-08-29T23:13:51.762Z",
+  "scrapedAt": "2026-08-30T23:23:21.705Z",
   "sources": [
     {
       "source": {
@@ -29,15 +29,7 @@
         "icon": "🏛",
         "count": 1
       },
-      "items": [
-        {
-          "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Frwkin38megc374c4nbbl7fx8b73g&w=1920&q=75",
-          "prompt": "In the style of el lissitzky, Bauhaus art, epic swimming pool, futuristic, geometric forms, light beams, light installation, space age, glow, color transition, establishing shot, Japanese print, space galaxy, mountains, 1980s fashion, flat forms, anamorphic lens, smooth, denoise --q 2 --v 5.1 --ar 3:4",
-          "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/8fdeda3cdf0-midjourney-51-in-the-style-of-el-lissitzky-bauhaus-art-epic-swimming-pool-futuristic-geometric-forms-light-beams-light-installation-space-age"
-        }
-      ]
+      "items": []
     },
     {
       "source": {
@@ -47,15 +39,7 @@
         "icon": "🏠",
         "count": 1
       },
-      "items": [
-        {
-          "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F56tp676tjkt4khvxmo0tgudtuqn0&w=1920&q=75",
-          "prompt": "photograph, home office, minimal, soft sunlight, warm artificial light casting, creating a warm white and inviting atmosphere, such as a discreetly placed objets --ar 9:16 --style raw",
-          "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/794977cc28d-midjourney-6-home-office-interior"
-        }
-      ]
+      "items": []
     },
     {
       "source": {
@@ -65,7 +49,15 @@
         "icon": "🧊",
         "count": 1
       },
-      "items": []
+      "items": [
+        {
+          "rank": 1,
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fb2m11p6rzmy7w1s5pm4jf9q5zyrl&w=1920&q=75",
+          "prompt": "cyborg woman megan fox Miyazaki| with a visible detailed brain| muscles cable wires| biopunk| cybernetic| cyberpunk| white marble bust| sharp focus| smooth| hyperrealism| highly detailed| intricate details| carved by michelangelo",
+          "model": "Stable Diffusion",
+          "link": "https://prompthero.com/prompt/6a9c804b0cc-stable-diffusion-15-cyborg-woman-megan-fox-miyazaki-with-a-visible-detailed-brain-muscles-cable-wires-biopunk-cybernetic-cyberpunk-white-marble-bust-sharp"
+        }
+      ]
     },
     {
       "source": {
