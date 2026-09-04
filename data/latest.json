@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-09-03T23:17:50.488Z",
+  "scrapedAt": "2026-09-04T22:59:12.618Z",
   "sources": [
     {
       "source": {
@@ -12,17 +12,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Ft8f0mb3kh220z8b5nor7t2ojlz&w=1920&q=75",
-          "prompt": "Use my uploaded face reference image and my uploaded full-body reference image as the only identity and body reference.\nCreate a completely realistic cinematic photograph of the same person from my references. Preserve my exact face identity, right side profile, facial structure, glasses, hairstyle, beard shape, ears, skin details, body proportions, height and natural physique. Do not change my face. Do not create a different person. The person in the image must be me.\nScene: A lonely rainy night city street with a cinematic atmosphere. A modern glass bus stop shelter is placed in the middle background with soft pink neon lights glowing inside. The street is wet after rain and the asphalt reflects the neon pink light. There is light fog, dark trees, distant street lights and a quiet empty urban environment.\nThe man is walking slowly from the right side of the frame, completely in right-side profile view, looking forward naturally. He is passing in front of the bus stop, but he is several meters away from the bus stop and not close to the camera.\nVERY IMPORTANT CAMERA DISTANCE: The camera must be positioned extremely far away from the subject, around 200 meters distance. This must be a very wide cinematic establishing shot, not a close shot.\nDo not move the camera closer. Do not create a portrait composition. Do not zoom in.\nThe man and the bus stop should appear relatively small inside a large environment. Show a huge amount of the rainy street, empty space, reflections on the wet ground, trees, street lights and atmosphere around the character.\nThe full body of the man must be visible from head to toe. Keep the exact side profile walking pose. The image should feel like a movie scene where the viewer is watching the character from far away.\nCamera style: Ultra wide cinematic composition, distant camera perspective, professional cinema camera, 24mm wide-angle lens look, deep environment, realistic perspective, natural proportions.\nStyle and clothing: Keep my real body shape and proportions from the reference.\nI am wearing:\noversized white t-shirt with a modern stylish streetwear look\nloose modern baggy pants matching the atmosphere\nfashionable modern sneakers\na luxury expensive watch on my left wrist\nPhotography style: Ultra realistic professional cinematic photography. Dark movie color grading. Realistic night lighting. Natural shadows. Real rain atmosphere. High-end camera quality. Real human skin texture. No AI appearance. No artificial face. No cartoon style. No unrealistic body proportions.\nAspect ratio: Vertical 9:16 Instagram Reels format.\nFinal image should look like a real frame from a high-budget movie, captured from a very far distance, not an AI-generated image.",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fv1_b75b6ef429e9dea94835de2426&w=1920&q=75",
+          "prompt": "Cinematic portrait of a woman with long, wavy blonde hair cascading over one shoulder, styled in soft waves that frame her face. Her striking green eyes gaze directly at the viewer, accentuated by subtle winged eyeliner and natural lashes. Lips are painted a muted rose hue, slightly parted for an intimate expression. Skin glows under warm directional lighting from the left, casting gentle shadows across collarbones and shoulders, enhancing dimensionality. She is bare-chested, with no jewelry — no necklace, earrings, or rings visible. The background is deep charcoal black, creating dramatic contrast and focusing attention on her form. Shot with a 85mm lens at f/1.4 for shallow depth of field; skin texture rendered with hyperrealistic detail including faint pores and natural sheen. Lighting mimics Rembrandt-style studio setup: key light from upper left, fill reflected subtly off white bounce board below frame edge. No tattoos, no text overlays, no borders — pure photographic realism with painterly warmth in highlights.",
           "model": "AI Model",
-          "link": "https://prompthero.com/prompt/479b5ce4506-seedream-5-seedream-5-pro-use-my-uploaded-face-reference-image-and-my-uploaded-full-body-reference-image-as-the-only-identity-and-body-reference"
-        },
-        {
-          "rank": 2,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fc6hypdbmn1ungzpr1qtyjg6gn4&w=1920&q=75",
-          "prompt": "اعملي صورتي متل هاي الصورة بس بدون تغير اي ملامح في وجهي",
-          "model": "AI Model",
-          "link": "https://prompthero.com/prompt/50e6413e304-hero-10"
+          "link": "https://prompthero.com/prompt/9222904a044-hero-10-cinematic-portrait-of-a-woman-with-long-wavy-blonde-hair-cascading-over-one-shoulder-styled-in-soft-waves-that-frame"
         }
       ]
     },
@@ -34,7 +27,22 @@
         "icon": "✨",
         "count": 2
       },
-      "items": []
+      "items": [
+        {
+          "rank": 1,
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F10pckza1p0gaurf4kxbsmp7d1qnp&w=1920&q=75",
+          "prompt": "a young girl in a business suit with a very angry expression, in the style of unreal engine 5, cartoonish caricatures, i can't believe how beautiful this is, animated gifs, life-like avian illustrations, close-up, soft, romantic scenes --ar 35:64 --stylize 750 --v 6",
+          "model": "Midjourney",
+          "link": "https://prompthero.com/prompt/455ba9632b9-midjourney-6-a-young-girl-in-a-business-suit-with-a-very-angry-expression-in-the-style-of-unreal-engine-5-cartoonish"
+        },
+        {
+          "rank": 2,
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fluqvns7twvdbtnmwlaesatvjuqmr&w=1920&q=75",
+          "prompt": "red race car, in the style of sam spratt, historical illustrations, old masters, genndy tartakovsky, soggy, masaccio, monochromatic realism --ar 63:128 --stylize 750 --v 6",
+          "model": "Midjourney",
+          "link": "https://prompthero.com/prompt/01b47dfdc90-midjourney-6-red-race-car-in-the-style-of-sam-spratt-historical-illustrations-old-masters-genndy-tartakovsky-soggy-masaccio-monochromatic-realism-ar"
+        }
+      ]
     },
     {
       "source": {
@@ -44,7 +52,15 @@
         "icon": "🏛",
         "count": 1
       },
-      "items": []
+      "items": [
+        {
+          "rank": 1,
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fjig5foi8fh7k920flrcl96dwhabz&w=1920&q=75",
+          "prompt": "Baroque rococo architecture, architectural photography, post apocalyptic New York, hyperrealism, hyperrealistic, octane render, cinematic, hyper detailed, 8K",
+          "model": "Stable Diffusion",
+          "link": "https://prompthero.com/prompt/5cc60dbf76a-stable-diffusion-15-baroque-rococo-architecture-architectural-photography-post-apocalyptic-new-york-hyperrealism-hyperrealistic-octane-render-cinematic-hyper-detailed-8k"
+        }
+      ]
     },
     {
       "source": {
@@ -54,7 +70,15 @@
         "icon": "🏠",
         "count": 1
       },
-      "items": []
+      "items": [
+        {
+          "rank": 1,
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fcdrr3lmo3580jid36nfgo1xzsxcd&w=1920&q=75",
+          "prompt": "modern minimalist, architectural photography, illuminated grand entrance with curved light panels forming an arch, symmetrical frontal view, centered composition with vanishing point perspective, wide angle lens, low angle shot, golden hour lighting, reflective marble floor with wet surface reflections, dramatic architectural lighting, glass panels grid pattern, contemporary urban setting, photorealism, rich detailing --ar 9:16 --quality 2 --stylize 500 --v 6.1",
+          "model": "Midjourney",
+          "link": "https://prompthero.com/prompt/6673e814834-midjourney-6-httpslittlygrayve-modern-minimalist-architectural-photography-illuminated-grand-entrance-with-curved-light-panels-forming-an-arch-symmetrical-frontal-view-centered-composition-with"
+        }
+      ]
     },
     {
       "source": {
@@ -64,7 +88,15 @@
         "icon": "🧊",
         "count": 1
       },
-      "items": []
+      "items": [
+        {
+          "rank": 1,
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fvm9lp8mvyzb90w7duiocftw5tfzv&w=1920&q=75",
+          "prompt": "Incredibly detailed technical diagram of the profile of a woman with the top and back of her head split into complex geometric shapes and flowers growing from the shapes, Chiaroscuro lighting, fine intricate details --q 2 --upbeta --v 4 --v 4",
+          "model": "AI Model",
+          "link": "https://prompthero.com/prompt/0c8536f3b23-openjourney-15-incredibly-detailed-technical-diagram-of-the-profile-of-a-woman-with-the-top-and-back-of-her-head-split-into"
+        }
+      ]
     },
     {
       "source": {
