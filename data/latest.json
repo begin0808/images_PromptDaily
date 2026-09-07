@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-09-06T22:53:00.321Z",
+  "scrapedAt": "2026-09-07T23:27:01.085Z",
   "sources": [
     {
       "source": {
@@ -12,10 +12,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fv1_c280e996f45679a906bae71a54&w=1920&q=75",
-          "prompt": "Use my uploaded photo as the primary facial identity reference. Preserve my real facial identity, facial proportions, eye shape, nose, lips, jawline, skin texture, and overall likeness. Transform me into an ultra-realistic cinematic cybernetic human, inspired by a high-end futuristic sci-fi aesthetic. Create a dramatic extreme close-up portrait, showing approximately half of my face as natural human skin and the other half seamlessly transformed into advanced biomechanical cybernetic components. The cybernetic side should contain:\n- intricate titanium and dark metallic facial plates\n- exposed micro-mechanical structures\n- realistic screws, pistons, sensors and tiny cameras\n- dense fiber-optic cables and microscopic circuitry\n- subtle glowing orange and blue electronic elements\n- realistic mechanical connections beneath the skin\n- partially exposed synthetic jaw and cheek structures Keep the transition between human skin and machinery extremely detailed and believable, with cracked/fragmented skin gradually revealing the mechanical layers underneath. My visible human eye should remain completely natural and highly detailed, with realistic iris texture and reflections. Lighting:\ndramatic cinematic lighting,\ndark background,\nstrong side lighting,\nsubtle warm orange rim light,\ndeep shadows,\nhigh contrast,\nbeautiful specular highlights on metal,\nshallow depth of field,\nsoft cinematic bokeh. Visual quality:\nhyper-realistic,\nphotorealistic skin pores,\nindividual facial hairs,\nrealistic metal scratches and wear,\nmicro-detail,\nphysically accurate reflections,\ncinematic color grading,\n8K-level detail,\npremium sci-fi movie concept art,\nshot with a macro cinematic lens. Composition:\nvertical portrait,\nface filling most of the frame,\nextreme close-up,\ncentered composition,\nintense realistic expression,\nprofessional cinematic photography. IMPORTANT:\nDo not replace my identity with another person.\nKeep my face recognizable and faithful to the uploaded photo.\nDo not make me look like a generic AI character.\nMaintain realistic human anatomy and natural facial proportions.",
-          "model": "AI Model",
-          "link": "https://prompthero.com/prompt/eed9f10bfbf-hero-10-use-my-uploaded-photo-as-the-primary-facial-identity-reference-preserve-my-real-facial-identity-facial-proportions-eye-shape-nose"
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fwhpvnxadvq6ea1v9vkfw9cm8yx&w=1920&q=75",
+          "prompt": "​A very ordinary, aggressively mediocre iPhone selfie taken with flash at night in a dark room, sitting on a couch. A sloppy snapshot with slight motion blur, uneven lighting, and slight overexposure. Awkward angle, nonexistent composition, like a photo accidentally taken while taking a phone out of your pocket. The subject is a stunningly attractive Iranian girl with blonde hair and delicate, aesthetic tattoos on her skin. She has distinct cosmetic enhancements: a perfect rhinoplasty nose, full injected lips with glossy lipstick, prominent high cheekbones, a sharp angled jawline, striking cat eyes, and a small nose piercing. She has a highly attractive, fit, and athletic body, wearing a casual tight sporty top and white socks. Raw amateur photography, hyper-realistic authentic smartphone selfie.",
+          "model": "Flux",
+          "link": "https://prompthero.com/prompt/8972dd19b8a-flux-pro-11-ultra-blonde-tattooed-girl-mirror-selfie"
         }
       ]
     },
@@ -30,17 +30,17 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fyxmnjwx7akj5yh08n6h6er498wmu&w=1920&q=75",
-          "prompt": "Kooky portraits of 90’s mall teens in retro clothing, shot on VHS",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F9qbfr7mlnt8sn7yp01pw02z7ez1r&w=1920&q=75",
+          "prompt": "close-up of a stunning fashion model, ultra-realistic, portrait, shot on a Sony A7III, high quality --ar 35:64 --stylize 250",
           "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/d48a3c464ed-midjourney-52-kooky-portraits-of-90s-mall-teens-in-retro-clothing-shot-on-vhs"
+          "link": "https://prompthero.com/prompt/ebcc6231ec6-midjourney-6-close-up-of-a-stunning-fashion-model-ultra-realistic-portrait-shot-on-a-sony-a7iii-high-quality-ar-3564-stylize"
         },
         {
           "rank": 2,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fxjsos7jl5jltflxms50aa37a4bw5&w=1920&q=75",
-          "prompt": "Japanese girl, 18-21 years old, brown hair, high-quality photo portrait, shot on a Polaroid camera, double eyelid --ar 34:65 --style raw",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Flapcjheub4irmicpdv5x8hykgs&w=1920&q=75",
+          "prompt": "high resolution photography, front central profile, woman facing front, gaze to front, wearing a white turtleneck sweater, photographed entirely through thick vertically reeded architectural glass, vertical grooves running top to bottom across the entire frame, parallel vertical lines clearly visible, full-frame optical distortion dominating the image, acrylic glass in the foreground textured, realistic physical light refraction warping the profile of the face and upper body into vertical repetitions, subtle light softly radiating from the clothing and gently bleeding into the glass ridges, faint light scattering through the vertical grooves, low-key studio background in pale off-white tones, cool neutral lighting, restrained and minimal, realistic physics --ar 9:16 --raw --stylize 400",
           "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/08f6365cc1f-midjourney-6-japanese-girl-18-21-years-old-brown-hair-high-quality-photo-portrait-shot-on-a-polaroid-camera-double-eyelid-ar"
+          "link": "https://prompthero.com/prompt/400a20c3a87-midjourney-shatter-high-resolution-photography-front-central-profile-woman-facing-front-gaze-to-front-wearing-a-white-turtleneck-sweater-photographed-entirely-through"
         }
       ]
     },
@@ -55,10 +55,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fddru406580h1uwmkuw71lz6zobkj&w=1920&q=75",
-          "prompt": "photography, triangular pattern translucent glass wall installation with black metal frame grid, warm golden backlight creating honeycomb shadows, silhouette of person walking, zen interior design style, amber glow atmospheric lighting, professional studio setup with two continuous led panels for backlight at 2800k, geometric repetitive patterns, high contrast interior shot, ultra sharp details, photorealistic quality, 48K resolution, rich detailing --ar 2:3 --quality 2 --style raw --sref 1009931265 --personalize c84qxg1 --stylize 400 --v 6.1",
-          "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/1c17421637a-midjourney-6-photography-triangular-pattern-translucent-glass-wall-installation-with-black-metal-frame-grid-warm-golden-backlight-creating-honeycomb-shadows-silhouette-of"
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fenzembh96hzhjy8dvl7d4c5rryyg&w=1920&q=75",
+          "prompt": "mdjrny-v4 style traditional french cafe in the street of a small village on France. A terrace in the shade of a hundred-year-old olive tree, a friendly atmosphere around coffee and tea. \"Dolce Vita\". Unreal engine rendering, hyper realist, ultra detailed, oil painting, warm colors, happy, impressionism, Da Vinci, 4k",
+          "model": "AI Model",
+          "link": "https://prompthero.com/prompt/b607aedba7e-openjourney-15-mdjrny-v4-style-traditional-french-cafe-in-the-street-of-a-small-village-on-france-a-terrace-in-the-shade"
         }
       ]
     },
@@ -73,10 +73,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fxvw1mv1z0bepo0ia03l3r2ruiovi&w=1920&q=75",
-          "prompt": "cute isometric cyberpunk bedroom, cutaway box, futuristic, highly detailed, made with blender --v 4",
-          "model": "AI Model",
-          "link": "https://prompthero.com/prompt/5a63ab9db96-openjourney-15-cute-isometric-cyberpunk-bedroom-cutaway-box-futuristic-highly-detailed-made-with-blender-v-4"
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F1vi2e016rkyd3hx568853xv47xkp&w=1920&q=75",
+          "prompt": "Winter Atmosphere Snowfall on the Mountains ~ Luxurious Living Room and Soft Jazz Music for Relax --s 250 --v 6.0",
+          "model": "Midjourney",
+          "link": "https://prompthero.com/prompt/b733e569ade-midjourney-6-winter-atmosphere-snowfall-on-the-mountains-luxurious-living-room-and-soft-jazz-music-for-relax-s-250-v-60"
         }
       ]
     },
@@ -91,10 +91,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fuqt8i4e3j0qjokkdx437mv90xupu&w=1920&q=75",
-          "prompt": "Skeleton King of Hell :: Flaming Skull, Intricately Designed Nordic Armor, Photograph Taken on Nikon D750 :: Artgerm, WLOP, Greg Rutkowski :: Intricate, Elegant, Digital Illustration, Scenic, Hyper-Realistic, Hyper-Detailed, 8k, royal yellow and ultramarine blue",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F3wnnid288hm5czhkyukfuwsgdw23&w=1920&q=75",
+          "prompt": "cyberpunk dog, futuristic, highly detailed, made with blender --v 4",
           "model": "AI Model",
-          "link": "https://prompthero.com/prompt/160f2eb8776-openjourney-15-skeleton-king-of-hell-flaming-skull-intricately-designed-nordic-armor-photograph-taken-on-nikon-d750-artgerm-wlop-greg-rutkowski-intricate"
+          "link": "https://prompthero.com/prompt/a98c21a211f-openjourney-15-cyberpunk-dog-futuristic-highly-detailed-made-with-blender-v-4"
         }
       ]
     },
