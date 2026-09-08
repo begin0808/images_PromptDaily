@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-09-07T23:27:01.085Z",
+  "scrapedAt": "2026-09-08T23:19:40.093Z",
   "sources": [
     {
       "source": {
@@ -12,10 +12,17 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fwhpvnxadvq6ea1v9vkfw9cm8yx&w=1920&q=75",
-          "prompt": "​A very ordinary, aggressively mediocre iPhone selfie taken with flash at night in a dark room, sitting on a couch. A sloppy snapshot with slight motion blur, uneven lighting, and slight overexposure. Awkward angle, nonexistent composition, like a photo accidentally taken while taking a phone out of your pocket. The subject is a stunningly attractive Iranian girl with blonde hair and delicate, aesthetic tattoos on her skin. She has distinct cosmetic enhancements: a perfect rhinoplasty nose, full injected lips with glossy lipstick, prominent high cheekbones, a sharp angled jawline, striking cat eyes, and a small nose piercing. She has a highly attractive, fit, and athletic body, wearing a casual tight sporty top and white socks. Raw amateur photography, hyper-realistic authentic smartphone selfie.",
-          "model": "Flux",
-          "link": "https://prompthero.com/prompt/8972dd19b8a-flux-pro-11-ultra-blonde-tattooed-girl-mirror-selfie"
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fv1_4d231f65ffd081d7bc9ed3459a&w=1920&q=75",
+          "prompt": "Create an Ultra-realistic cinematic dark poster dramatic over-the-shoulder pose of a young man (using the same face as uploaded image), camera positioned slightly behind the shoulder, 90-45 degree side profile facing right, strong rim light outlining the messy textured hair, nose and sharp jawline, deep black background, only the edges of the face glowing with white light, brown round sunglasses with silver rimmed reflecting a soft glow, mysterious shadowed face with almost no facial details visible, intense cinematic lighting",
+          "model": "AI Model",
+          "link": "https://prompthero.com/prompt/d1acaeb4e38-hero-10-create-an-ultra-realistic-cinematic-dark-poster-dramatic-over-the-shoulder-pose-of-a-young-man-using-the-same-face"
+        },
+        {
+          "rank": 2,
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fv1_5f39ac3c357bc3376c8bd67d60&w=1920&q=75",
+          "prompt": "create eksprestion",
+          "model": "Nano Banana",
+          "link": "https://prompthero.com/prompt/0e55b02e1cb-nano-banana-nano-banana-2-create-eksprestion"
         }
       ]
     },
@@ -30,17 +37,17 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F9qbfr7mlnt8sn7yp01pw02z7ez1r&w=1920&q=75",
-          "prompt": "close-up of a stunning fashion model, ultra-realistic, portrait, shot on a Sony A7III, high quality --ar 35:64 --stylize 250",
-          "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/ebcc6231ec6-midjourney-6-close-up-of-a-stunning-fashion-model-ultra-realistic-portrait-shot-on-a-sony-a7iii-high-quality-ar-3564-stylize"
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F2oxo0xy8iw94supm5i19ln3ywos3&w=1920&q=75",
+          "prompt": "RPG, Style: MACRO, a low-quality CCTV camera with a slightly fish-eye lens effect. The camera's timestamp and static lines are visible, contributing to the grainy, low-resolution appearance of Samantha, an intricate, attractive, 18-year-old woman with",
+          "model": "Flux",
+          "link": "https://prompthero.com/prompt/193baa13e5b-flux-flux-11-pro-rpg-style-macro-a-low-quality-cctv-camera-with-a-slightly-fish-eye-lens-effect-the-cameras-timestamp-and-static"
         },
         {
           "rank": 2,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Flapcjheub4irmicpdv5x8hykgs&w=1920&q=75",
-          "prompt": "high resolution photography, front central profile, woman facing front, gaze to front, wearing a white turtleneck sweater, photographed entirely through thick vertically reeded architectural glass, vertical grooves running top to bottom across the entire frame, parallel vertical lines clearly visible, full-frame optical distortion dominating the image, acrylic glass in the foreground textured, realistic physical light refraction warping the profile of the face and upper body into vertical repetitions, subtle light softly radiating from the clothing and gently bleeding into the glass ridges, faint light scattering through the vertical grooves, low-key studio background in pale off-white tones, cool neutral lighting, restrained and minimal, realistic physics --ar 9:16 --raw --stylize 400",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fyktjuihsozyxcetxc5hsasx2wed8&w=1920&q=75",
+          "prompt": "photography, orange hue, korean woman model, solid orange backdrop, using a camera setup that mimics a large aperture, f/1.4 --ar 9:16 --style raw",
           "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/400a20c3a87-midjourney-shatter-high-resolution-photography-front-central-profile-woman-facing-front-gaze-to-front-wearing-a-white-turtleneck-sweater-photographed-entirely-through"
+          "link": "https://prompthero.com/prompt/abb78caf579-midjourney-6-model-portrait"
         }
       ]
     },
@@ -55,10 +62,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fenzembh96hzhjy8dvl7d4c5rryyg&w=1920&q=75",
-          "prompt": "mdjrny-v4 style traditional french cafe in the street of a small village on France. A terrace in the shade of a hundred-year-old olive tree, a friendly atmosphere around coffee and tea. \"Dolce Vita\". Unreal engine rendering, hyper realist, ultra detailed, oil painting, warm colors, happy, impressionism, Da Vinci, 4k",
-          "model": "AI Model",
-          "link": "https://prompthero.com/prompt/b607aedba7e-openjourney-15-mdjrny-v4-style-traditional-french-cafe-in-the-street-of-a-small-village-on-france-a-terrace-in-the-shade"
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fbzdmodwk6dnft5gnqgdta2jpnrg3&w=1920&q=75",
+          "prompt": "futuristic tempura food, night, japanese, neon light, volumetric smoke, volumetric light, octane render, food commercial, Filmic",
+          "model": "Stable Diffusion",
+          "link": "https://prompthero.com/prompt/02bb5115ef4-stable-diffusion-15-futuristic-tempura-food-night-japanese-neon-light-volumetric-smoke-volumetric-light-octane-render-food-commercial-filmic"
         }
       ]
     },
@@ -73,10 +80,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F1vi2e016rkyd3hx568853xv47xkp&w=1920&q=75",
-          "prompt": "Winter Atmosphere Snowfall on the Mountains ~ Luxurious Living Room and Soft Jazz Music for Relax --s 250 --v 6.0",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F1vdtdm62yczb6o5uejcye0agsr1q&w=1920&q=75",
+          "prompt": "mid-sized living room with a candid angle, dieter rams 620 chair program, flos arco floor lamp, Nikon Z6 II, 35mm f/1.8 lens, morning light streaming through sheer curtains",
           "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/b733e569ade-midjourney-6-winter-atmosphere-snowfall-on-the-mountains-luxurious-living-room-and-soft-jazz-music-for-relax-s-250-v-60"
+          "link": "https://prompthero.com/prompt/812dde8c057-midjourney-6-mid-sized-living-room-with-a-candid-angle-dieter-rams-620-chair-program-flos-arco-floor-lamp-nikon-z6-ii"
         }
       ]
     },
@@ -88,15 +95,7 @@
         "icon": "🧊",
         "count": 1
       },
-      "items": [
-        {
-          "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F3wnnid288hm5czhkyukfuwsgdw23&w=1920&q=75",
-          "prompt": "cyberpunk dog, futuristic, highly detailed, made with blender --v 4",
-          "model": "AI Model",
-          "link": "https://prompthero.com/prompt/a98c21a211f-openjourney-15-cyberpunk-dog-futuristic-highly-detailed-made-with-blender-v-4"
-        }
-      ]
+      "items": []
     },
     {
       "source": {
