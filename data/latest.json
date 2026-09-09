@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-09-08T23:19:40.093Z",
+  "scrapedAt": "2026-09-09T23:10:33.267Z",
   "sources": [
     {
       "source": {
@@ -9,22 +9,7 @@
         "icon": "🔥",
         "count": 2
       },
-      "items": [
-        {
-          "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fv1_4d231f65ffd081d7bc9ed3459a&w=1920&q=75",
-          "prompt": "Create an Ultra-realistic cinematic dark poster dramatic over-the-shoulder pose of a young man (using the same face as uploaded image), camera positioned slightly behind the shoulder, 90-45 degree side profile facing right, strong rim light outlining the messy textured hair, nose and sharp jawline, deep black background, only the edges of the face glowing with white light, brown round sunglasses with silver rimmed reflecting a soft glow, mysterious shadowed face with almost no facial details visible, intense cinematic lighting",
-          "model": "AI Model",
-          "link": "https://prompthero.com/prompt/d1acaeb4e38-hero-10-create-an-ultra-realistic-cinematic-dark-poster-dramatic-over-the-shoulder-pose-of-a-young-man-using-the-same-face"
-        },
-        {
-          "rank": 2,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fv1_5f39ac3c357bc3376c8bd67d60&w=1920&q=75",
-          "prompt": "create eksprestion",
-          "model": "Nano Banana",
-          "link": "https://prompthero.com/prompt/0e55b02e1cb-nano-banana-nano-banana-2-create-eksprestion"
-        }
-      ]
+      "items": []
     },
     {
       "source": {
@@ -34,22 +19,7 @@
         "icon": "✨",
         "count": 2
       },
-      "items": [
-        {
-          "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F2oxo0xy8iw94supm5i19ln3ywos3&w=1920&q=75",
-          "prompt": "RPG, Style: MACRO, a low-quality CCTV camera with a slightly fish-eye lens effect. The camera's timestamp and static lines are visible, contributing to the grainy, low-resolution appearance of Samantha, an intricate, attractive, 18-year-old woman with",
-          "model": "Flux",
-          "link": "https://prompthero.com/prompt/193baa13e5b-flux-flux-11-pro-rpg-style-macro-a-low-quality-cctv-camera-with-a-slightly-fish-eye-lens-effect-the-cameras-timestamp-and-static"
-        },
-        {
-          "rank": 2,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fyktjuihsozyxcetxc5hsasx2wed8&w=1920&q=75",
-          "prompt": "photography, orange hue, korean woman model, solid orange backdrop, using a camera setup that mimics a large aperture, f/1.4 --ar 9:16 --style raw",
-          "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/abb78caf579-midjourney-6-model-portrait"
-        }
-      ]
+      "items": []
     },
     {
       "source": {
@@ -62,10 +32,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fbzdmodwk6dnft5gnqgdta2jpnrg3&w=1920&q=75",
-          "prompt": "futuristic tempura food, night, japanese, neon light, volumetric smoke, volumetric light, octane render, food commercial, Filmic",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F7yxfewc4npicz0p4lz9t9quu91tv&w=1920&q=75",
+          "prompt": "Indian castle surrounded by water and nature, village, volumetric lighting, photorealistic, insanely detailed and intricate, Fantasy, epic cinematic shot, trending on ArtStation, mountains, 8k ultra hd, magical, mystical, matte painting, bright sunny day, flowers, massive cliffs, Sweeper3D",
           "model": "Stable Diffusion",
-          "link": "https://prompthero.com/prompt/02bb5115ef4-stable-diffusion-15-futuristic-tempura-food-night-japanese-neon-light-volumetric-smoke-volumetric-light-octane-render-food-commercial-filmic"
+          "link": "https://prompthero.com/prompt/c8d122762d5-stable-diffusion-15-indian-castle-surrounded-by-water-and-nature-village-volumetric-lighting-photorealistic-insanely-detailed-and-intricate-fantasy-epic-cinematic-shot-trending"
         }
       ]
     },
@@ -80,10 +50,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F1vdtdm62yczb6o5uejcye0agsr1q&w=1920&q=75",
-          "prompt": "mid-sized living room with a candid angle, dieter rams 620 chair program, flos arco floor lamp, Nikon Z6 II, 35mm f/1.8 lens, morning light streaming through sheer curtains",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F5jzlog0jqbnqr10oi6wnktn8apj2&w=1920&q=75",
+          "prompt": "USM Haller Table shot in a professional photo studio, Fujifilm GFX 100S, GF 80mm f/1.7 lens, table's elegant simplicity and refined finish, in an environment that showcases the table's clean",
           "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/812dde8c057-midjourney-6-mid-sized-living-room-with-a-candid-angle-dieter-rams-620-chair-program-flos-arco-floor-lamp-nikon-z6-ii"
+          "link": "https://prompthero.com/prompt/f98dc718162-midjourney-6-more-info-wwwgraytheorystudiocom-httpswwwinstagramcomspacemakergrayve-httpspromptbasecomprofilespacemakergrayve-usm-haller-table-shot-in-a-professional-photo-studio-fujifilm-gfx-100s-gf-80mm-f17-lens-tables-elegant-simplicity-and"
         }
       ]
     },
