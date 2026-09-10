@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-09-09T23:10:33.267Z",
+  "scrapedAt": "2026-09-10T23:05:28.301Z",
   "sources": [
     {
       "source": {
@@ -9,7 +9,15 @@
         "icon": "🔥",
         "count": 2
       },
-      "items": []
+      "items": [
+        {
+          "rank": 1,
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fssvn90oy8pu5rhzvjqlr5t3218&w=1920&q=75",
+          "prompt": "(Nano Banana Pro) Full-length editorial fashion photograph of a long-legged woman standing against a minimalist white wall. She wears a stylish black-and-white gingham mini dress with a side slit and black strappy high heels. Her hands are posed gently against the wall with a wide stance. The background features two decorative, fan-shaped natural straw wall hangings mounted vertically. Modern indoor lighting, clean aesthetic, highly detailed, photorealistic.",
+          "model": "Flux",
+          "link": "https://prompthero.com/prompt/53f29c4e0ac-flux-pro-nano-banana-pro-full-length-editorial-fashion-photograph-of-a-long-legged-woman-standing-against-a-minimalist-white-wall-she"
+        }
+      ]
     },
     {
       "source": {
@@ -19,7 +27,22 @@
         "icon": "✨",
         "count": 2
       },
-      "items": []
+      "items": [
+        {
+          "rank": 1,
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F54xz2e9g2xcdm3f28xc308ocfug4&w=1920&q=75",
+          "prompt": "Black and white street photography of an attractive woman in leather jacket with headscarf sitting inside vintage convertible car, on the streets of London, shot by arriflex 35 BL Camera Canon K35 Prime Lenses --ar 1:2 --stylize 750",
+          "model": "Midjourney",
+          "link": "https://prompthero.com/prompt/7e6790663a2-midjourney-6-black-and-white-street-photography-of-an-attractive-woman-in-leather-jacket-with-headscarf-sitting-inside-vintage-convertible-car-on"
+        },
+        {
+          "rank": 2,
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fmuyejayamebyuyjpbbrw0g0consy&w=1920&q=75",
+          "prompt": "sketches blueprint of futuristic sci-fi huge spacecraft, warp engines, formulas and annotations, schematic by parts, golden ratio, fake detail, trending pixiv fanbox, acrylic palette knife, style of makoto shinkai studio ghibli genshin impact james gilleard greg rutkowski chiho aoshima",
+          "model": "Midjourney",
+          "link": "https://prompthero.com/prompt/734abbef34f-midjourney-52-sketches-blueprint-of-futuristic-sci-fi-huge-spacecraft-warp-engines-formulas-and-annotations-schematic-by-parts-golden-ratio-fake-detail"
+        }
+      ]
     },
     {
       "source": {
@@ -32,10 +55,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F7yxfewc4npicz0p4lz9t9quu91tv&w=1920&q=75",
-          "prompt": "Indian castle surrounded by water and nature, village, volumetric lighting, photorealistic, insanely detailed and intricate, Fantasy, epic cinematic shot, trending on ArtStation, mountains, 8k ultra hd, magical, mystical, matte painting, bright sunny day, flowers, massive cliffs, Sweeper3D",
-          "model": "Stable Diffusion",
-          "link": "https://prompthero.com/prompt/c8d122762d5-stable-diffusion-15-indian-castle-surrounded-by-water-and-nature-village-volumetric-lighting-photorealistic-insanely-detailed-and-intricate-fantasy-epic-cinematic-shot-trending"
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fajdfzvpiy6f09ho6es0w93oyhk0t&w=1920&q=75",
+          "prompt": "A digital architectural blueprint of a cozy, rustic cottage house, with comprehensive labeled sections and descriptive text. The cottage features a thatched roof, timbered walls, and stone foundations. It includes a detailed layout of a warm living space with a stone fireplace, an inviting kitchen, quaint bedrooms with gabled windows, and an enchanting garden with a small pond. Each section of the house, from the cross-sectional view of the walls to the individual bricks in the chimney, is meticulously detailed and labeled. The background is a stylized parchment, evoking the sense of traditional architectural plans. Text annotations are included to describe materials, construction techniques, and dimensions. The lighting is warm and soft, suggesting a sunset ambiance. The blueprint is created with fine digital lines and a watercolor effect to blend the charm of old-world craftsmanship with modern design clarity.",
+          "model": "AI Model",
+          "link": "https://prompthero.com/prompt/27067445bb6-dalle-3-a-digital-architectural-blueprint-of-a-cozy-rustic-cottage-house-with-comprehensive-labeled-sections-and-descriptive-text-the-cottage-features"
         }
       ]
     },
@@ -50,10 +73,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F5jzlog0jqbnqr10oi6wnktn8apj2&w=1920&q=75",
-          "prompt": "USM Haller Table shot in a professional photo studio, Fujifilm GFX 100S, GF 80mm f/1.7 lens, table's elegant simplicity and refined finish, in an environment that showcases the table's clean",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F99bd7wc779pysokyg1ern0zhsu0h&w=1920&q=75",
+          "prompt": "Photograph, contemporary living room, soft light of morning, integration of beige flooring and matte stone features, unified color scheme of soothing white tones, creating a white and inviting atmosphere, 35mm f/1.4G lens, set f/4, sophisticated furniture, including a white-colored sofa set and a minimalist side table, natural lights",
           "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/f98dc718162-midjourney-6-more-info-wwwgraytheorystudiocom-httpswwwinstagramcomspacemakergrayve-httpspromptbasecomprofilespacemakergrayve-usm-haller-table-shot-in-a-professional-photo-studio-fujifilm-gfx-100s-gf-80mm-f17-lens-tables-elegant-simplicity-and"
+          "link": "https://prompthero.com/prompt/867567911d0-midjourney-6-realism-living-room-interior"
         }
       ]
     },
