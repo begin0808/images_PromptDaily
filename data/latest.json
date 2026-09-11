@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-09-10T23:05:28.301Z",
+  "scrapedAt": "2026-09-11T23:11:32.163Z",
   "sources": [
     {
       "source": {
@@ -12,10 +12,17 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fssvn90oy8pu5rhzvjqlr5t3218&w=1920&q=75",
-          "prompt": "(Nano Banana Pro) Full-length editorial fashion photograph of a long-legged woman standing against a minimalist white wall. She wears a stylish black-and-white gingham mini dress with a side slit and black strappy high heels. Her hands are posed gently against the wall with a wide stance. The background features two decorative, fan-shaped natural straw wall hangings mounted vertically. Modern indoor lighting, clean aesthetic, highly detailed, photorealistic.",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Flcvt55mpcaxx3xb8i3f4f4m7pc&w=1920&q=75",
+          "prompt": "Hyper-realistic vertical full body of a girl at a car show, captured with a Canon EOS R5 and an 85mm f/1.4 lens, emphasizing a distinctively dewy, glass-skin complexion. The subject is an white female with dark hair and a luminous, highly hydrated skin texture that catches the ambient convention lighting; specular highlights glisten naturally across her cheekbones, the bridge of her nose, and forehead, showcasing a premium, moisture-rich skincare finish without appearing oily. She holds a playful, dynamic pose, leaning slightly against the side of a modified white sports car, her body angled to display the vehicle’s livery. Her right arm extends forward, index finger pointing directly into the camera lens, creating a foreshortened perspective where the fingertip is slightly soft due to shallow depth of field, while focus remains razor-sharp on her eyes and face. She is winking her right eye while her left eye remains wide and engaging, featuring a sharp, dark pupil with distinct catchlights from overhead softboxes. Her expression is a confident, welcoming smile with gradient pink lips that have a moisturizing gloss finish. Her hair is long dark hair, long, and pulled back into a high ponytail that cascades over her right shoulder. She wears a tight-fitting black racing romper with a red-tabbed zipper at the chest; the text \"FORTEC\" is printed in white and red on the left chest and right thigh. A subtle dusting of freckles just below the eyes is visible on her left collarbone, and she wears a thin gold necklace. On her legs, she wears black thigh-high suede boots with heels, her right leg bent at the knee in a classic Reference image women stance. To her left, the car door and fender are visible, painted white with gold racing graphics. The lighting is bright, diffused, and cool-toned, typical of a convention hall, creating smooth transitions between light and shadow on her skin and the car's metal surfaces. The background is pushed into a creamy, indistinct bokeh, revealing blurred shapes of exhibition booths and signage, ensuring the subject pops against the busy environment. High-fidelity texture rendering captures the weave of the fabric, the velvet texture of the boots, the sleek gloss of the car paint, and the ultra-smooth, dewy quality of her skin.",
+          "model": "Nano Banana",
+          "link": "https://prompthero.com/prompt/6200582c451-nano-banana-nano-banana-2-hyper-realistic-vertical-full-body-of-a-girl-at-a-car-show-captured-with-a-canon-eos-r5-and-an"
+        },
+        {
+          "rank": 2,
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fibiu2t87gir0j1g95eze9gwfh1&w=1920&q=75",
+          "prompt": "Cinematic, hyper-realistic close-up shot of an elite Special Forces operator in heavy black tactical gear, wearing a menacing skull balaclava and glowing night-vision goggles. Standing in a war-torn urban battlefield at night, heavy rain pouring down. Thick smoke and fog illuminated by intense red distress flares in the background. The operator is holding a highly customized modern assault rifle with active red laser sights cutting through the smoke. Water droplets, mud, and grime incredibly detailed on the gear and weapon. 8k resolution, ray tracing, Unreal Engine 5 render, cinematic lighting, masterpiece, photorealistic next-gen gaming aesthetic.",
           "model": "Flux",
-          "link": "https://prompthero.com/prompt/53f29c4e0ac-flux-pro-nano-banana-pro-full-length-editorial-fashion-photograph-of-a-long-legged-woman-standing-against-a-minimalist-white-wall-she"
+          "link": "https://prompthero.com/prompt/65b44920c5b-flux-dev-elite-ghost-operator-night-operation"
         }
       ]
     },
@@ -30,17 +37,17 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F54xz2e9g2xcdm3f28xc308ocfug4&w=1920&q=75",
-          "prompt": "Black and white street photography of an attractive woman in leather jacket with headscarf sitting inside vintage convertible car, on the streets of London, shot by arriflex 35 BL Camera Canon K35 Prime Lenses --ar 1:2 --stylize 750",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F7nqvhyrmf607ngkesub1l7kxc9j3&w=1920&q=75",
+          "prompt": "photography, portrait of contrast, profile silhouette of a woman, vibrant hot pink backdrop, visualize using a camera setup that mimics a large aperture, focusing solely on the silhouette's edge, while a low ISO maintains the richness of color without grain, photorealistic, UHD --ar 9:16 --chaos 1.7 --style raw",
           "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/7e6790663a2-midjourney-6-black-and-white-street-photography-of-an-attractive-woman-in-leather-jacket-with-headscarf-sitting-inside-vintage-convertible-car-on"
+          "link": "https://prompthero.com/prompt/f0df2fdf530-midjourney-6-chroma-portrait"
         },
         {
           "rank": 2,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fmuyejayamebyuyjpbbrw0g0consy&w=1920&q=75",
-          "prompt": "sketches blueprint of futuristic sci-fi huge spacecraft, warp engines, formulas and annotations, schematic by parts, golden ratio, fake detail, trending pixiv fanbox, acrylic palette knife, style of makoto shinkai studio ghibli genshin impact james gilleard greg rutkowski chiho aoshima",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fuzz5smeabs9ptyzu8sc14l61ez71&w=1920&q=75",
+          "prompt": "wide and low angle, cinematic, fashion photography for the brand Uniqlo. Woman sitting on floor wearing a Uniqlo heattech top, and brown chinos. The background is a gradient, red, pink and orange, studio setting --ar 9:16",
           "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/734abbef34f-midjourney-52-sketches-blueprint-of-futuristic-sci-fi-huge-spacecraft-warp-engines-formulas-and-annotations-schematic-by-parts-golden-ratio-fake-detail"
+          "link": "https://prompthero.com/prompt/a885efdb34f-midjourney-6-wide-and-low-angle-cinematic-fashion-photography-for-the-brand-uniqlo-woman-sitting-on-floor-wearing-a-uniqlo-heattech-top"
         }
       ]
     },
@@ -55,10 +62,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fajdfzvpiy6f09ho6es0w93oyhk0t&w=1920&q=75",
-          "prompt": "A digital architectural blueprint of a cozy, rustic cottage house, with comprehensive labeled sections and descriptive text. The cottage features a thatched roof, timbered walls, and stone foundations. It includes a detailed layout of a warm living space with a stone fireplace, an inviting kitchen, quaint bedrooms with gabled windows, and an enchanting garden with a small pond. Each section of the house, from the cross-sectional view of the walls to the individual bricks in the chimney, is meticulously detailed and labeled. The background is a stylized parchment, evoking the sense of traditional architectural plans. Text annotations are included to describe materials, construction techniques, and dimensions. The lighting is warm and soft, suggesting a sunset ambiance. The blueprint is created with fine digital lines and a watercolor effect to blend the charm of old-world craftsmanship with modern design clarity.",
-          "model": "AI Model",
-          "link": "https://prompthero.com/prompt/27067445bb6-dalle-3-a-digital-architectural-blueprint-of-a-cozy-rustic-cottage-house-with-comprehensive-labeled-sections-and-descriptive-text-the-cottage-features"
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fsemnta30wx2nkvrayjsmoxnzq9ll&w=1920&q=75",
+          "prompt": "Persian architecture, temple volume atrium light full of rose, hanging gardens, vibrant flowers, architecture in Isfahan, soft colors, slight mist, ,by Jean Leon Gerome, Asher Brown Durand , trending on artstation, fantasy, epic, detailed architecture",
+          "model": "Stable Diffusion",
+          "link": "https://prompthero.com/prompt/01d175727f6-stable-diffusion-15-persian-architecture-temple-volume-atrium-light-full-of-rose-hanging-gardens-vibrant-flowers-architecture-in-isfahan-soft-colors-slight-mist"
         }
       ]
     },
@@ -73,10 +80,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F99bd7wc779pysokyg1ern0zhsu0h&w=1920&q=75",
-          "prompt": "Photograph, contemporary living room, soft light of morning, integration of beige flooring and matte stone features, unified color scheme of soothing white tones, creating a white and inviting atmosphere, 35mm f/1.4G lens, set f/4, sophisticated furniture, including a white-colored sofa set and a minimalist side table, natural lights",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F1aqmlsqtgsh8qdw62nachhnovwgc&w=1920&q=75",
+          "prompt": "retro-inspired lounge with shaggy rugs, vintage stereo, mid-century furniture, using a color palette of teal, orange, brown, in a clean, minimalist illustration style --ar 9:16 --v 6.1",
           "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/867567911d0-midjourney-6-realism-living-room-interior"
+          "link": "https://prompthero.com/prompt/8ad67eea911-midjourney-6-retro-inspired-lounge-with-shaggy-rugs-vintage-stereo-mid-century-furniture-using-a-color-palette-of-teal-orange-brown-in"
         }
       ]
     },
@@ -88,7 +95,15 @@
         "icon": "🧊",
         "count": 1
       },
-      "items": []
+      "items": [
+        {
+          "rank": 1,
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F3d1lfhfw5af34wqgss4ghhlkqc9n&w=1920&q=75",
+          "prompt": "photorealistic, high resolution rendering, balloon of lettering, \"HAPPY NEW YEAR 2025\", used color is Pantone Bran, Crocus, Deja vu blue, perpect composition and alignment, natural light set, white backdrop, ultra realistic, rich detail --ar 9:16 --style raw --profile ue2yzjl --stylize 300 --v 6.1",
+          "model": "Midjourney",
+          "link": "https://prompthero.com/prompt/ce23f67b3ea-midjourney-61-happy-new-year-2025"
+        }
+      ]
     },
     {
       "source": {
