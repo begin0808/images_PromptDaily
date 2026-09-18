@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-09-17T23:30:27.553Z",
+  "scrapedAt": "2026-09-18T23:12:42.462Z",
   "sources": [
     {
       "source": {
@@ -9,22 +9,7 @@
         "icon": "🔥",
         "count": 2
       },
-      "items": [
-        {
-          "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fv1_94b8863900d44a30b095daef35&w=1920&q=75",
-          "prompt": "Create an ultra-realistic cinematic bullet-time sequence using the uploaded image as the exact first frame and visual reference. Time is completely frozen. The businessman remains suspended in the exact same falling position throughout the entire video. His body, arms, legs, facial expression, round black glasses, white shirt, black tie, trousers and shoes must remain perfectly motionless. The coffee cup remains standing upright on the wet pavement. The exploding coffee splash, individual coffee droplets, water droplets, ice fragments and pieces of slush remain completely suspended in mid-air. Background pedestrians, vehicles, clothing, flags and every other element are also frozen. Only the camera moves. The camera performs one smooth, continuous 360-degree orbital movement around the falling businessman at a very low ground-level angle. Maintain a constant distance from the subject and keep his face as the main focal point. Create strong cinematic parallax between the foreground ice fragments, suspended droplets, the businessman and the tall Wall Street buildings. The orbit begins in front of the businessman, moves smoothly around his left side, passes behind him, continues around his right side and returns seamlessly to the original frontal position. Use an 18mm wide-angle cinematic lens with subtle perspective distortion. Preserve the dramatic urban canyon created by the tall buildings on both sides of the street. Maintain the overcast winter lighting, cool blue-grey color grading, wet pavement reflections and premium Hollywood visual-effects realism. The camera movement must be extremely smooth, stable and continuous, with no cuts, transitions, zooms or camera shake. CRITICAL: The subject and all environmental elements must remain perfectly frozen. Only the camera is allowed to move. Preserve the man's identity, facial structure, hair, light stubble and distinctive round black glasses throughout the complete orbit. No body movement, no blinking, no breathing, no falling progression, no moving liquid, no changing droplets, no fluttering clothes, no facial transformation, no identity drift, no morphing, no duplicated limbs, no distorted hands, no moving cup, no additional people, no disappearing objects, no motion blur, no scene transitions and no slow-motion action.",
-          "model": "AI Model",
-          "link": "https://prompthero.com/prompt/2f5bff266c7-hero-10-create-an-ultra-realistic-cinematic-bullet-time-sequence-using-the-uploaded-image-as-the-exact-first-frame-and-visual-reference"
-        },
-        {
-          "rank": 2,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fv1_f1fe050c521406ea9230482374&w=1920&q=75",
-          "prompt": "Create an ultra-realistic cinematic bullet-time sequence using the uploaded image as the exact first frame and visual reference. Time is completely frozen. The businessman remains suspended in the exact same falling position throughout the entire video. His body, arms, legs, facial expression, round black glasses, white shirt, black tie, trousers and shoes must remain perfectly motionless. The coffee cup remains standing upright on the wet pavement. The exploding coffee splash, individual coffee droplets, water droplets, ice fragments and pieces of slush remain completely suspended in mid-air. Background pedestrians, vehicles, clothing, Bangladeshi flags and every other element are also frozen. Only the camera moves. The camera performs one smooth, continuous 360-degree orbital movement around the falling businessman at a very low ground-level angle. Maintain a constant distance from the subject and keep his face as the main focal point. Create strong cinematic parallax between the foreground ice fragments, suspended droplets, the businessman and the tall Wall Street buildings. The orbit begins in front of the businessman, moves smoothly around his left side, passes behind him, continues around his right side and returns seamlessly to the original frontal position. Use an 18mm wide-angle cinematic lens with subtle perspective distortion. Preserve the dramatic urban canyon created by the tall buildings on both sides of the street. Maintain the overcast winter lighting, cool blue-grey color grading, wet pavement reflections and premium Hollywood visual-effects realism. The camera movement must be extremely smooth, stable and continuous, with no cuts, transitions, zooms or camera shake. CRITICAL: The subject and all environmental elements must remain perfectly frozen. Only the camera is allowed to move. Preserve the man's identity, facial structure, hair, light stubble and distinctive round black glasses throughout the complete orbit. No body movement, no blinking, no breathing, no falling progression, no moving liquid, no changing droplets, no fluttering clothes, no facial transformation, no identity drift, no morphing, no duplicated limbs, no distorted hands, no moving cup, no additional people, no disappearing objects, no motion blur, no scene transitions and no slow-motion action.",
-          "model": "AI Model",
-          "link": "https://prompthero.com/prompt/367031d5c52-hero-10-create-an-ultra-realistic-cinematic-bullet-time-sequence-using-the-uploaded-image-as-the-exact-first-frame-and-visual-reference"
-        }
-      ]
+      "items": []
     },
     {
       "source": {
@@ -34,7 +19,22 @@
         "icon": "✨",
         "count": 2
       },
-      "items": []
+      "items": [
+        {
+          "rank": 1,
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F10pckza1p0gaurf4kxbsmp7d1qnp&w=1920&q=75",
+          "prompt": "a young girl in a business suit with a very angry expression, in the style of unreal engine 5, cartoonish caricatures, i can't believe how beautiful this is, animated gifs, life-like avian illustrations, close-up, soft, romantic scenes --ar 35:64 --stylize 750 --v 6",
+          "model": "Midjourney",
+          "link": "https://prompthero.com/prompt/455ba9632b9-midjourney-6-a-young-girl-in-a-business-suit-with-a-very-angry-expression-in-the-style-of-unreal-engine-5-cartoonish"
+        },
+        {
+          "rank": 2,
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fluqvns7twvdbtnmwlaesatvjuqmr&w=1920&q=75",
+          "prompt": "red race car, in the style of sam spratt, historical illustrations, old masters, genndy tartakovsky, soggy, masaccio, monochromatic realism --ar 63:128 --stylize 750 --v 6",
+          "model": "Midjourney",
+          "link": "https://prompthero.com/prompt/01b47dfdc90-midjourney-6-red-race-car-in-the-style-of-sam-spratt-historical-illustrations-old-masters-genndy-tartakovsky-soggy-masaccio-monochromatic-realism-ar"
+        }
+      ]
     },
     {
       "source": {
@@ -44,7 +44,15 @@
         "icon": "🏛",
         "count": 1
       },
-      "items": []
+      "items": [
+        {
+          "rank": 1,
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fjig5foi8fh7k920flrcl96dwhabz&w=1920&q=75",
+          "prompt": "Baroque rococo architecture, architectural photography, post apocalyptic New York, hyperrealism, hyperrealistic, octane render, cinematic, hyper detailed, 8K",
+          "model": "Stable Diffusion",
+          "link": "https://prompthero.com/prompt/5cc60dbf76a-stable-diffusion-15-baroque-rococo-architecture-architectural-photography-post-apocalyptic-new-york-hyperrealism-hyperrealistic-octane-render-cinematic-hyper-detailed-8k"
+        }
+      ]
     },
     {
       "source": {
@@ -54,7 +62,15 @@
         "icon": "🏠",
         "count": 1
       },
-      "items": []
+      "items": [
+        {
+          "rank": 1,
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fcdrr3lmo3580jid36nfgo1xzsxcd&w=1920&q=75",
+          "prompt": "modern minimalist, architectural photography, illuminated grand entrance with curved light panels forming an arch, symmetrical frontal view, centered composition with vanishing point perspective, wide angle lens, low angle shot, golden hour lighting, reflective marble floor with wet surface reflections, dramatic architectural lighting, glass panels grid pattern, contemporary urban setting, photorealism, rich detailing --ar 9:16 --quality 2 --stylize 500 --v 6.1",
+          "model": "Midjourney",
+          "link": "https://prompthero.com/prompt/6673e814834-midjourney-6-httpslittlygrayve-modern-minimalist-architectural-photography-illuminated-grand-entrance-with-curved-light-panels-forming-an-arch-symmetrical-frontal-view-centered-composition-with"
+        }
+      ]
     },
     {
       "source": {
@@ -64,7 +80,15 @@
         "icon": "🧊",
         "count": 1
       },
-      "items": []
+      "items": [
+        {
+          "rank": 1,
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fvm9lp8mvyzb90w7duiocftw5tfzv&w=1920&q=75",
+          "prompt": "Incredibly detailed technical diagram of the profile of a woman with the top and back of her head split into complex geometric shapes and flowers growing from the shapes, Chiaroscuro lighting, fine intricate details --q 2 --upbeta --v 4 --v 4",
+          "model": "AI Model",
+          "link": "https://prompthero.com/prompt/0c8536f3b23-openjourney-15-incredibly-detailed-technical-diagram-of-the-profile-of-a-woman-with-the-top-and-back-of-her-head-split-into"
+        }
+      ]
     },
     {
       "source": {
