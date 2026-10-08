@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-10-07T00:35:21.276Z",
+  "scrapedAt": "2026-10-08T00:55:44.308Z",
   "sources": [
     {
       "source": {
@@ -9,15 +9,7 @@
         "icon": "🔥",
         "count": 2
       },
-      "items": [
-        {
-          "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fv1_0e2bd59fe41ab9715ac65d2800&w=1920&q=75",
-          "prompt": "Oversized white sweatshirt, white purple oversized combat jean, styled with footwear: white purple neutral or nike sneakers and white ribbed socks.\nEnvironment: muted white purple-toned studio background.\nLighting: soft cinematic glow highlighting skin and fabric textures.\nStyle: fashion editorial x futuristic.\nComposition: model seated elegantly with relaxed posture. In floor keep my face and body hair style 100% same as in reference Images.",
-          "model": "Chatgpt Image",
-          "link": "https://prompthero.com/prompt/43d0c01e73c-chatgpt-image-gpt-image-25-oversized-white-sweatshirt-white-purple-oversized-combat-jean-styled-with-footwear-white-purple-neutral-or-nike-sneakers-and-white-ribbed"
-        }
-      ]
+      "items": []
     },
     {
       "source": {
@@ -30,17 +22,17 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Flapcjheub4irmicpdv5x8hykgs&w=1920&q=75",
-          "prompt": "high resolution photography, front central profile, woman facing front, gaze to front, wearing a white turtleneck sweater, photographed entirely through thick vertically reeded architectural glass, vertical grooves running top to bottom across the entire frame, parallel vertical lines clearly visible, full-frame optical distortion dominating the image, acrylic glass in the foreground textured, realistic physical light refraction warping the profile of the face and upper body into vertical repetitions, subtle light softly radiating from the clothing and gently bleeding into the glass ridges, faint light scattering through the vertical grooves, low-key studio background in pale off-white tones, cool neutral lighting, restrained and minimal, realistic physics --ar 9:16 --raw --stylize 400",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F54xz2e9g2xcdm3f28xc308ocfug4&w=1920&q=75",
+          "prompt": "Black and white street photography of an attractive woman in leather jacket with headscarf sitting inside vintage convertible car, on the streets of London, shot by arriflex 35 BL Camera Canon K35 Prime Lenses --ar 1:2 --stylize 750",
           "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/400a20c3a87-midjourney-shatter-high-resolution-photography-front-central-profile-woman-facing-front-gaze-to-front-wearing-a-white-turtleneck-sweater-photographed-entirely-through"
+          "link": "https://prompthero.com/prompt/7e6790663a2-midjourney-6-black-and-white-street-photography-of-an-attractive-woman-in-leather-jacket-with-headscarf-sitting-inside-vintage-convertible-car-on"
         },
         {
           "rank": 2,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fyktjuihsozyxcetxc5hsasx2wed8&w=1920&q=75",
-          "prompt": "photography, orange hue, korean woman model, solid orange backdrop, using a camera setup that mimics a large aperture, f/1.4 --ar 9:16 --style raw",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F1a6mljgm56sd4i00pbaqp4sr9b5d&w=1920&q=75",
+          "prompt": "a woman sitting on top of a white cube, official jil sander editorial, blue and grey tones, trending on interfacelift, coat, artforum, very beautiful long slim legs, inspired by Zhang Shuqi, flagstones, tall and slender, peter morbacher style, wooden platforms, round-cropped, 2 0 1 4. modern attire, harpers bazaar, jeongseok lee --relax --v 5.2 --ar 3:4",
           "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/abb78caf579-midjourney-6-model-portrait"
+          "link": "https://prompthero.com/prompt/af7a50d39cd-midjourney-52-a-woman-sitting-on-top-of-a-white-cube-official-jil-sander-editorial-blue-and-grey-tones-trending-on-interfacelift"
         }
       ]
     },
@@ -55,10 +47,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fbzdmodwk6dnft5gnqgdta2jpnrg3&w=1920&q=75",
-          "prompt": "futuristic tempura food, night, japanese, neon light, volumetric smoke, volumetric light, octane render, food commercial, Filmic",
-          "model": "Stable Diffusion",
-          "link": "https://prompthero.com/prompt/02bb5115ef4-stable-diffusion-15-futuristic-tempura-food-night-japanese-neon-light-volumetric-smoke-volumetric-light-octane-render-food-commercial-filmic"
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fajdfzvpiy6f09ho6es0w93oyhk0t&w=1920&q=75",
+          "prompt": "A digital architectural blueprint of a cozy, rustic cottage house, with comprehensive labeled sections and descriptive text. The cottage features a thatched roof, timbered walls, and stone foundations. It includes a detailed layout of a warm living space with a stone fireplace, an inviting kitchen, quaint bedrooms with gabled windows, and an enchanting garden with a small pond. Each section of the house, from the cross-sectional view of the walls to the individual bricks in the chimney, is meticulously detailed and labeled. The background is a stylized parchment, evoking the sense of traditional architectural plans. Text annotations are included to describe materials, construction techniques, and dimensions. The lighting is warm and soft, suggesting a sunset ambiance. The blueprint is created with fine digital lines and a watercolor effect to blend the charm of old-world craftsmanship with modern design clarity.",
+          "model": "AI Model",
+          "link": "https://prompthero.com/prompt/27067445bb6-dalle-3-a-digital-architectural-blueprint-of-a-cozy-rustic-cottage-house-with-comprehensive-labeled-sections-and-descriptive-text-the-cottage-features"
         }
       ]
     },
@@ -73,10 +65,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F5jzlog0jqbnqr10oi6wnktn8apj2&w=1920&q=75",
-          "prompt": "USM Haller Table shot in a professional photo studio, Fujifilm GFX 100S, GF 80mm f/1.7 lens, table's elegant simplicity and refined finish, in an environment that showcases the table's clean",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F1vi2e016rkyd3hx568853xv47xkp&w=1920&q=75",
+          "prompt": "Winter Atmosphere Snowfall on the Mountains ~ Luxurious Living Room and Soft Jazz Music for Relax --s 250 --v 6.0",
           "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/f98dc718162-midjourney-6-more-info-wwwgraytheorystudiocom-httpswwwinstagramcomspacemakergrayve-httpspromptbasecomprofilespacemakergrayve-usm-haller-table-shot-in-a-professional-photo-studio-fujifilm-gfx-100s-gf-80mm-f17-lens-tables-elegant-simplicity-and"
+          "link": "https://prompthero.com/prompt/b733e569ade-midjourney-6-winter-atmosphere-snowfall-on-the-mountains-luxurious-living-room-and-soft-jazz-music-for-relax-s-250-v-60"
         }
       ]
     },
