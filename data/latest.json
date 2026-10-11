@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-10-10T00:41:46.258Z",
+  "scrapedAt": "2026-10-11T00:12:17.312Z",
   "sources": [
     {
       "source": {
@@ -12,17 +12,17 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fv1_cc6796aee175a8ccbe4bc348c2&w=1920&q=75",
-          "prompt": "\"image_generation\":(\n\"quality\": \"hyper-realistic\",\n\"face\": (\"preserve_original\": true, \"reference_match'\": true),\n\"subject\":{\n\"description\": \"A stylish person with the same face.\",\n“clothing\":{\n\"Top\": (\"type\": \"knitted sweater\", \"color\": \"light grey (Tom Theme) \". }\n\"pants\": (\"type\": \"high-waisted jeans\", \"color\": \"denim blue\".\n\"shoes\":(\"type\": \"high-top sneakers\", \"color\": \"white\")\n\"pose\": \"standing with arm around a giant 3D spongebob while Patrick Star\nsits on spongebob's shoulder\",\n\"expression\": \"fun, mischievous\"\n\"character_element\":{\n\"name\": \"spongebob & Patrick Star\",\n\"type': \"3D photorealistic duo\",\n\"interaction': \"spongebob poses confidently, Patrick Star looks playful\"\n\"environment-( \"background'. (clean grey-blue backdrop\"}\n}",
-          "model": "Veo",
-          "link": "https://prompthero.com/prompt/484ec5b9ead-hero-10-imagegeneration-quality-hyper-realistic-face-preserveoriginal-true-referencematch-true-subject-description-a-stylish-person-with-the-same-face-clothing-top"
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fv1_cb2edc3567554b3d6b13021b9c&w=1920&q=75",
+          "prompt": "Cinematic, hyper-realistic close-up shot of an elite Special Forces operator in heavy black tactical gear, wearing a menacing skull balaclava and glowing night-vision goggles. Standing in a war-torn urban battlefield at night, heavy rain pouring down. Thick smoke and fog illuminated by intense red distress flares in the background. The operator is holding a highly customized modern assault rifle with active red laser sights cutting through the smoke. Water droplets, mud, and grime incredibly detailed on the gear and weapon. 8k resolution, ray tracing, Unreal Engine 5 render, cinematic lighting, masterpiece, photorealistic next-gen gaming aesthetic.",
+          "model": "Flux",
+          "link": "https://prompthero.com/prompt/45d94c6d73e-flux-kontext-flux-kontext-pro-cinematic-hyper-realistic-close-up-shot-of-an-elite-special-forces-operator-in-heavy-black-tactical-gear-wearing-a-menacing"
         },
         {
           "rank": 2,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fv1_2b94acd9ac6c1ab51f156582bf&w=1920&q=75",
-          "prompt": "Ultra-cinematic black-and-white portrait of a young man standing in a dark minimalist studio, wearing a long black wool overcoat and black knit sweater. Dramatic single spotlight from the upper left corner creates a strong diagonal beam of light across the background and partially illuminates the face. Subject positioned slightly off-center, looking away from the camera with a contemplative, melancholic expression. Sharp jawline, textured messy hair, subtle skin detail, high-fashion editorial styling. Deep shadows, high contrast monochrome photography, moody atmosphere, fine art portrait, luxury fashion campaign aesthetic, minimal composition, negative space, soft falloff lighting, volumetric light beam, chiaroscuro lighting inspired by classic cinema and modern fashion editorials. Professional studio photography, medium shot, 85mm lens, f/2.0, shallow depth of field, ultra-detailed facial features, realistic skin texture, cinematic tonal range, rich blacks, smooth grayscale transitions, premium magazine cover quality, dramatic mood, timeless elegance. Background completely dark except for the diagonal spotlight, subtle haze to enhance the light beam, clean composition, no distractions, no props, photorealistic, masterpiece quality, 8k resolution.",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fv1_f8ffb4376b04e9eeeb68d2489d&w=1920&q=75",
+          "prompt": "strong horoscope prince| centered| key visual| intricate| highly detailed| breathtaking beauty| precise lineart| vibrant| comprehensive cinematic| Carne Griffiths| Conrad Roset",
           "model": "Stable Diffusion",
-          "link": "https://prompthero.com/prompt/c60676db61a-stable-diffusion-35-large-ultra-cinematic-black-and-white-portrait-of-a-young-man-standing-in-a-dark-minimalist-studio-wearing-a-long-black"
+          "link": "https://prompthero.com/prompt/ef853ecbd77-stable-diffusion-35-large-strong-horoscope-prince-centered-key-visual-intricate-highly-detailed-breathtaking-beauty-precise-lineart-vibrant-comprehensive-cinematic-carne-griffiths-conrad-roset"
         }
       ]
     },
@@ -34,22 +34,7 @@
         "icon": "✨",
         "count": 2
       },
-      "items": [
-        {
-          "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fguh4uhe8x4g86qclfvqkbyx16w&w=1920&q=75",
-          "prompt": "A highly detailed, photorealistic, cinematic vertical medium-close-up shot of a stunning young east asian woman captured with a raw, vintage 35mm flash-photography aesthetic in a dark, intimate setting. Shot Angle & Pose: The image is captured from a slightly high-angle, close-up perspective, giving it the intimate, spontaneous feel of a candid snapshot or selfie. She leans forward playfully, pushing her right shoulder slightly inward. She tilts her head up and to the side, gazing directly into the lens with a sultry, confident, and magnetic expression. Her lips are softly parted in a relaxed, subtle smile. Subject Appearance: She has a flawless, glowing, sun-kissed olive complexion rendered with a realistic, slightly dewy skin texture. Her dark hair is styled in wild, voluminous, messy curls, with loose, textured strands carelessly falling across her forehead and partially obscuring her right eye. Her facial features are striking and naturally glamorous, featuring expressive dark eyes, natural eyebrows, and very glossy, plump lips. Character Figure: She possesses a slender, graceful, and highly feminine figure. Her dynamic, leaning posture dramatically highlights her smooth bare shoulders, elegant collarbones, and deep, prominent cleavage, creating a striking and sensuous silhouette. Outfit Details: She is wearing a simple, alluring, light cream or pale beige camisole: Top: A thin, lightweight slip-style tank top with delicate spaghetti straps. It features a deep, plunging neckline with subtle gathered ruching at the center of the bust, clinging softly to her curves with visible fabric folds. Bottoms: Not visible in the frame. Accessories: She is wearing large, ornate, textured gold hoop earrings that catch the bright light of the flash. Setting & Lighting: Setting: A dark, moody, and indistinct background, suggesting a nighttime interior, possibly the inside of a car or a dimly lit party space. The background is heavily engulfed in deep, grainy shadows with vague, reflective surfaces hinting at windows or mirrors. Lighting: The scene is completely defined by intense, harsh, direct on-camera flash lighting typical of vintage point-and-shoot or disposable cameras. The flash brilliantly illuminates her face and chest, creating high-contrast specular highlights on her glowing skin. The image features a distinct retro analog film color grade with a warm, slightly greenish-yellow tint. A prominent, vibrant orange and red horizontal lens flare or light leak streaks across the right side of the frame, perfectly capturing a nostalgic, raw, and gritty snapshot aesthetic. 8k resolution, raw photo aesthetic, vintage 35mm disposable camera style, sharp focus on the subject, high-fidelity texture rendering, harsh high-contrast flash lighting, prominent lens flare, retro warm-green color grading, gritty yet glamorous cinematic composition.",
-          "model": "AI Model",
-          "link": "https://prompthero.com/prompt/7ff1b7cb2a1-hero-10-a-highly-detailed-photorealistic-cinematic-vertical-medium-close-up-shot-of-a-stunning-young-east-asian-woman-captured-with-a"
-        },
-        {
-          "rank": 2,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fkix3ksvzmp3ze646keiyfi03cqqj&w=1920&q=75",
-          "prompt": "A person with slicked-back dark hair wearing oversized square sunglasses is shown in a dramatic, cinematic portrait. The lighting creates a strong shadow across the face, revealing only part of the skin tone and features, while the background is a vibrant gradient of deep red to orange, forming a glowing circular or sun-like halo effect behind the head. The clothing is dark, almost blending into the shadows, giving the portrait a bold, fashion-editorial, and futuristic mood.",
-          "model": "Chatgpt Image",
-          "link": "https://prompthero.com/prompt/012ce232b42-chatgpt-image-gpt-4o-a-person-with-slicked-back-dark-hair-wearing-oversized-square-sunglasses-is-shown-in-a-dramatic-cinematic-portrait-the-lighting"
-        }
-      ]
+      "items": []
     },
     {
       "source": {
@@ -59,15 +44,7 @@
         "icon": "🏛",
         "count": 1
       },
-      "items": [
-        {
-          "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F7yxfewc4npicz0p4lz9t9quu91tv&w=1920&q=75",
-          "prompt": "Indian castle surrounded by water and nature, village, volumetric lighting, photorealistic, insanely detailed and intricate, Fantasy, epic cinematic shot, trending on ArtStation, mountains, 8k ultra hd, magical, mystical, matte painting, bright sunny day, flowers, massive cliffs, Sweeper3D",
-          "model": "Stable Diffusion",
-          "link": "https://prompthero.com/prompt/c8d122762d5-stable-diffusion-15-indian-castle-surrounded-by-water-and-nature-village-volumetric-lighting-photorealistic-insanely-detailed-and-intricate-fantasy-epic-cinematic-shot-trending"
-        }
-      ]
+      "items": []
     },
     {
       "source": {
@@ -80,10 +57,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F1aqmlsqtgsh8qdw62nachhnovwgc&w=1920&q=75",
-          "prompt": "retro-inspired lounge with shaggy rugs, vintage stereo, mid-century furniture, using a color palette of teal, orange, brown, in a clean, minimalist illustration style --ar 9:16 --v 6.1",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fvnh82n2fhi4ayo3xlfsuthior1km&w=1920&q=75",
+          "prompt": "Photograph, contemporary living room, soft light of morning, integration of beige flooring and matte stone features, unified color scheme of soothing white tones, 35mm f/1.4G lens, set f/4, sophisticated furniture, natural lights",
           "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/8ad67eea911-midjourney-6-retro-inspired-lounge-with-shaggy-rugs-vintage-stereo-mid-century-furniture-using-a-color-palette-of-teal-orange-brown-in"
+          "link": "https://prompthero.com/prompt/4609621b862-midjourney-6-realism-living-room-interior"
         }
       ]
     },
@@ -98,10 +75,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F8lswozll2l25ndz3agpgy8fobwg4&w=1920&q=75",
-          "prompt": "complex 3d render ultra detailed of a beautiful porcelain profile woman android face, cyborg, robotic parts, 150 mm, beautiful studio soft light, rim light, vibrant details, luxurious cyberpunk, lace, hyperrealistic, anatomical, facial muscles, cable electric wires, microchip, elegant, beautiful background, octane render, H.R. Giger style, 8k",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fb2m11p6rzmy7w1s5pm4jf9q5zyrl&w=1920&q=75",
+          "prompt": "cyborg woman megan fox Miyazaki| with a visible detailed brain| muscles cable wires| biopunk| cybernetic| cyberpunk| white marble bust| sharp focus| smooth| hyperrealism| highly detailed| intricate details| carved by michelangelo",
           "model": "Stable Diffusion",
-          "link": "https://prompthero.com/prompt/da2f99076b7-stable-diffusion-15-complex-3d-render-ultra-detailed-of-a-beautiful-porcelain-profile-woman-android-face-cyborg-robotic-parts-150-mm-beautiful-studio"
+          "link": "https://prompthero.com/prompt/6a9c804b0cc-stable-diffusion-15-cyborg-woman-megan-fox-miyazaki-with-a-visible-detailed-brain-muscles-cable-wires-biopunk-cybernetic-cyberpunk-white-marble-bust-sharp"
         }
       ]
     },
@@ -126,18 +103,18 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://image.lexica.art/md2_webp/5a33b18f-8cf4-4baf-a753-82b489abaa73",
-          "prompt": "Abstract Claude Monet painting Centaurus",
+          "imageUrl": "https://image.lexica.art/md2_webp/64b3100b-931a-4349-a4f8-078b65479966",
+          "prompt": "Drawing of lawn full of flowers of all colors",
           "model": "Stable Diffusion",
-          "link": "https://lexica.art/prompt/4743512e-2ef8-4a06-a01c-30f3cc7b2e99",
+          "link": "https://lexica.art/prompt/db06c404-fc54-435b-bc57-d0f3e6fd1b1c",
           "searchTopic": "oil painting impressionist style"
         },
         {
           "rank": 2,
-          "imageUrl": "https://image.lexica.art/md2_webp/667e3296-e2cd-4a9a-881b-c09c3204fdd3",
-          "prompt": "Pixelated Pop Culture Icons\nStep into the pixelated past with \"Pixelated Pop Culture Icons.\" These N...",
+          "imageUrl": "https://image.lexica.art/md2_webp/686e851c-28d8-4a18-8e75-46b1256c1a15",
+          "prompt": "Generate a YouTube gaming/education logo with a retro 16-bit feel",
           "model": "Stable Diffusion",
-          "link": "https://lexica.art/prompt/e63c678f-8028-4fd1-aa1a-56bcded00a6e",
+          "link": "https://lexica.art/prompt/2aa7a596-759b-4d7f-b5dc-ee64ce91be1f",
           "searchTopic": "pixel art retro gaming"
         }
       ]
