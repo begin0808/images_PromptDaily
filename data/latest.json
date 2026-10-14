@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-10-14T00:14:52.369Z",
+  "scrapedAt": "2026-10-14T23:51:01.719Z",
   "sources": [
     {
       "source": {
@@ -12,17 +12,17 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fv1_ac916f81168df87076ba612016&w=1920&q=75",
-          "prompt": "hyper realistic HD cinematic quality image A haunting blend of gothic horror and carnival mystery unfolds beneath the faded circus tent. A sinister clown looms behind an elegantly dressed maid, creating an unsettling contrast between innocence and menace. Atmospheric lighting, vintage circus details, and cinematic realism immerse viewers in a chilling scene inspired by classic horror, dark fantasy, and eerie Halloween aesthetics.",
-          "model": "AI Model",
-          "link": "https://prompthero.com/prompt/843cfcbefac-riverflow-riverflow-25-hyper-realistic-hd-cinematic-quality-image-a-haunting-blend-of-gothic-horror-and-carnival-mystery-unfolds-beneath-the-faded-circus"
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fv1_07a4af3d3c4e0be1f06d4fd658&w=1920&q=75",
+          "prompt": "A masterpiece cinematic color photo of a 34-year-old muscular Italian man with gritty, masculine and intense gaze. Sharp high cheekbones, a chiseled narrow sculpted jawline, intense dark brown eyes. On his right cheek, a prominent vertical scar is clearly visible. His hair is pitch black, matte-textured, slightly longer and messily tousled on top with natural volume, styled with a clean tapered shadow fade on the sides. A well-defined dark mustache and heavy 5 o'clock shadow stubble. He's an athletic lean, muscular build (6'3\"), with toned abs, not bulky. He has heavy transitioning seamlessly black-and-grey tattoos covering his entire throat, neck, collarbone and entire chest: a large, detailed snake tattoo starts at the center of his throat and crawls down the middle of his chest, surrounded by intricate linework and shading. He wears a premium black leather motorcycle jacket over an open white dress shirt, showcasing a defined chest with intricate black ink snake tattoos. He is lighting a cigarette. Directly behind him stands a majestic, sleek white Doberman with cropped ears and a thick silver chain collar. The background features grand, ancient neoclassical stone architecture with massive monolithic pillars, soaring arches, and a monumental historic building facade under a dramatic overcast gray sky. High-end editorial fashion photography, cinematic mood, rich professional color grading, dramatic chiaroscuro lighting, shot on 85mm lens, sharp focus, imposing and powerful atmosphere.",
+          "model": "Flux",
+          "link": "https://prompthero.com/prompt/869df0f4100-flux-flux-3-a-masterpiece-cinematic-color-photo-of-a-34-year-old-muscular-italian-man-with-gritty-masculine-and-intense-gaze-sharp"
         },
         {
           "rank": 2,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fv1_e68c5e9ee052f0e33629a4747a&w=1920&q=75",
-          "prompt": "Minecraft character reverse engineer picture.",
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fv1_a1c0d49544052914303328e868&w=1920&q=75",
+          "prompt": "cette fauchesse sur un velo noir",
           "model": "AI Model",
-          "link": "https://prompthero.com/prompt/15349d94175-hero-10-minecraft-character-reverse-engineer-picture"
+          "link": "https://prompthero.com/prompt/3968177cd8f-hero-10-cette-fauchesse-sur-un-velo-noir"
         }
       ]
     },
@@ -37,17 +37,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fwrpbbm0g66wjerf6nluq4u0gothp&w=1920&q=75",
-          "prompt": "a woman with long wild hair on a windy day, in the style of toy camera effects, haunting elegance, frozen movement, captivating gaze, voigtlander bessa r2m, black paintings, new york school --ar 71:128 --stylize 750 --v 6",
-          "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/bc8c5f53f0d-midjourney-6-a-woman-with-long-wild-hair-on-a-windy-day-in-the-style-of-toy-camera-effects-haunting-elegance-frozen"
-        },
-        {
-          "rank": 2,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fo7zetbmbjk7fr0d6qfsdlws88i8o&w=1920&q=75",
-          "prompt": "a black and white photo of a woman with shadow., in the style of minimalist beauty, light bronze and bronze, serene faces, sharp edges, karencore, high definition, contrast shading, realism --ar 3:5 --stylize 750 --v 6.0 --style raw",
-          "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/32aa4f3bf8f-midjourney-6-a-black-and-white-photo-of-a-woman-with-shadow-in-the-style-of-minimalist-beauty-light-bronze-and-bronze"
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Frl1ul2i0eqithy4gp45cj83e11ga&w=1920&q=75",
+          "prompt": "1 girl, beautiful Korean girl, (Cute Loose Bob hair), (wearing a cropped hoodie, capri sweatpants:1. 5), (hands in pockets:1. 5), (red lips:1. 3), (small breasts:1. 3), (toned stomach:1. 3), (eyelashes:1. 2), (aegyo sal:1. 2), beautiful detailed eyes, symmetrical eyes, (detailed face), immersive background, volumetric haze, global illumination, soft lighting, (flowing hair), (bright smile), natural lighting, (realistic:1.5), (lifelike:1.4), (4k, digital art, masterpiece), High detail digital painting, realistic, (top quality), (soft shadows), (best character art), ultra high resolution, highly detailed digital artwork, physically-based rendering, realism with an artistic touch, vibrant colors, f2.2 lens, soft palette, natural beauty.",
+          "model": "Stable Diffusion",
+          "link": "https://prompthero.com/prompt/8887d8e2e22-stable-diffusion-15-1-girl-beautiful-korean-girl-cute-loose-bob-hair-wearing-a-cropped-hoodie-capri-sweatpants1-5-hands-in-pockets1-5"
         }
       ]
     },
@@ -59,15 +52,7 @@
         "icon": "🏛",
         "count": 1
       },
-      "items": [
-        {
-          "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F0nxrp9nfk9otvpl2jfk6oac08jd9&w=1920&q=75",
-          "prompt": "architectural photography, wide shot of a modern house embedded in a natural forest environment, high-definition photography, exterior view focusing on the structure and its interaction with the surrounding environment, modern house with large glass windows and wooden frame, structure appears suspended over a lush, green undergrowth, integrating seamlessly into the forest, dense forest with mature trees and a carpet of ferns, natural lighting with sunlight filtering through trees, highlighting the transparency and reflective surfaces of the house, detailed texture of the wood and glass, the organic spread of the greenery, enhanced clarity, focus on the harmony between man-made and natural elements, used camera is Sony α7R IV, paired with a Sony FE 24-70mm f/2.8 GM lens, set to an aperture of f/8 for optimal depth of field and sharpness, shutter speed of 1/125 to freeze the ambient light play, keeping ISO at 100 for the finest image quality, high resolution, UHD, rich detailing --ar 9:16 --v 6.1",
-          "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/2b074b1826f-midjourney-6-architectural-photography-wide-shot-of-a-modern-house-embedded-in-a-natural-forest-environment-high-definition-photography-exterior-view-focusing"
-        }
-      ]
+      "items": []
     },
     {
       "source": {
@@ -77,15 +62,7 @@
         "icon": "🏠",
         "count": 1
       },
-      "items": [
-        {
-          "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F56tp676tjkt4khvxmo0tgudtuqn0&w=1920&q=75",
-          "prompt": "photograph, home office, minimal, soft sunlight, warm artificial light casting, creating a warm white and inviting atmosphere, such as a discreetly placed objets --ar 9:16 --style raw",
-          "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/794977cc28d-midjourney-6-home-office-interior"
-        }
-      ]
+      "items": []
     },
     {
       "source": {
@@ -95,15 +72,7 @@
         "icon": "🧊",
         "count": 1
       },
-      "items": [
-        {
-          "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fcujdu1lngdzt02zvtqz9dmu4wtol&w=1920&q=75",
-          "prompt": "3d image, cute girl, in the style of Pixar --ar 1:2 --stylize 750",
-          "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/57a63e488dc-midjourney-6-3d-image-cute-girl-in-the-style-of-pixar-ar-12-stylize-750"
-        }
-      ]
+      "items": []
     },
     {
       "source": {
@@ -126,19 +95,19 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://image.lexica.art/md2_webp/4a64e48d-7584-4ba6-9294-a059823396d0",
-          "prompt": "Dipinto stile Renoir",
+          "imageUrl": "https://image.lexica.art/md2_webp/46aec53a-dc6d-4cde-857d-c3989f5e2a11",
+          "prompt": "A flying island with a city on top in the middle of the desert. below is an abandoned city. no grass",
           "model": "Stable Diffusion",
-          "link": "https://lexica.art/prompt/5e10d12b-5d2d-4a2c-9ed2-fd66640ff5ba",
-          "searchTopic": "oil painting impressionist style"
+          "link": "https://lexica.art/prompt/d142c801-8e73-4f5f-a0a7-f8be872f912a",
+          "searchTopic": "floating islands sky"
         },
         {
           "rank": 2,
-          "imageUrl": "https://image.lexica.art/md2_webp/5e569617-5894-4dab-9c0b-9dbad99086d1",
-          "prompt": "Design a minimalistic Chibi 16-bit arcade art piece showcasing a gamer who's immersed in both gaming...",
+          "imageUrl": "https://image.lexica.art/md2_webp/57464c88-4713-49a8-a632-645fa19dc429",
+          "prompt": "Isometric shape",
           "model": "Stable Diffusion",
-          "link": "https://lexica.art/prompt/4a55c335-c32b-4e73-8667-0839f6fd34f6",
-          "searchTopic": "pixel art retro gaming"
+          "link": "https://lexica.art/prompt/3a58ea59-ab19-4f61-942d-601e768a66e7",
+          "searchTopic": "low poly 3D render geometric"
         }
       ]
     }
