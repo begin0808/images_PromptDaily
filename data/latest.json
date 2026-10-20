@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-10-20T00:13:37.316Z",
+  "scrapedAt": "2026-10-20T23:46:52.661Z",
   "sources": [
     {
       "source": {
@@ -9,22 +9,7 @@
         "icon": "🔥",
         "count": 2
       },
-      "items": [
-        {
-          "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fv1_83ef2f91c34ae8af954d3a0b29&w=1920&q=75",
-          "prompt": "switch the people on the video for the ones on the two images provided",
-          "model": "AI Model",
-          "link": "https://prompthero.com/prompt/7cbcf6c5dd5-minimax-h3-minimax-h3-switch-the-people-on-the-video-for-the-ones-on-the-two-images-provided"
-        },
-        {
-          "rank": 2,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fv1_de391857bf64833c9d675abc51&w=1920&q=75",
-          "prompt": "A flat bright red poster background with nothing else in it. From the bottom of the frame a violet purple hand rises, palm open, fingers curled upward, skin glowing under hard neon light with fine visible texture. The hand cradles a torn scrap of an old photograph, like the last surviving piece of a face. The scrap is printed in cool ice blue and shows only a pair of dark eyes and the bridge of a nose, looking straight at the viewer with a tired quiet stare. The paper edges are rough and jagged and two fingers slip through a rip in the middle. Strong duotone colour, only red, violet and pale blue in the whole image. Bold graphic collage style, high contrast, hard shadow, matte print grain. Vertical composition with wide empty red space above the hand. No text anywhere in the frame. Aspect ratio 2 by 3.",
-          "model": "Flux",
-          "link": "https://prompthero.com/prompt/fd2cb38309c-flux-flux-3-a-flat-bright-red-poster-background-with-nothing-else-in-it-from-the-bottom-of-the-frame-a-violet-purple"
-        }
-      ]
+      "items": []
     },
     {
       "source": {
@@ -34,22 +19,7 @@
         "icon": "✨",
         "count": 2
       },
-      "items": [
-        {
-          "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F9qbfr7mlnt8sn7yp01pw02z7ez1r&w=1920&q=75",
-          "prompt": "close-up of a stunning fashion model, ultra-realistic, portrait, shot on a Sony A7III, high quality --ar 35:64 --stylize 250",
-          "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/ebcc6231ec6-midjourney-6-close-up-of-a-stunning-fashion-model-ultra-realistic-portrait-shot-on-a-sony-a7iii-high-quality-ar-3564-stylize"
-        },
-        {
-          "rank": 2,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F2oxo0xy8iw94supm5i19ln3ywos3&w=1920&q=75",
-          "prompt": "RPG, Style: MACRO, a low-quality CCTV camera with a slightly fish-eye lens effect. The camera's timestamp and static lines are visible, contributing to the grainy, low-resolution appearance of Samantha, an intricate, attractive, 18-year-old woman with",
-          "model": "Flux",
-          "link": "https://prompthero.com/prompt/193baa13e5b-flux-flux-11-pro-rpg-style-macro-a-low-quality-cctv-camera-with-a-slightly-fish-eye-lens-effect-the-cameras-timestamp-and-static"
-        }
-      ]
+      "items": []
     },
     {
       "source": {
@@ -62,10 +32,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Fenzembh96hzhjy8dvl7d4c5rryyg&w=1920&q=75",
-          "prompt": "mdjrny-v4 style traditional french cafe in the street of a small village on France. A terrace in the shade of a hundred-year-old olive tree, a friendly atmosphere around coffee and tea. \"Dolce Vita\". Unreal engine rendering, hyper realist, ultra detailed, oil painting, warm colors, happy, impressionism, Da Vinci, 4k",
-          "model": "AI Model",
-          "link": "https://prompthero.com/prompt/b607aedba7e-openjourney-15-mdjrny-v4-style-traditional-french-cafe-in-the-street-of-a-small-village-on-france-a-terrace-in-the-shade"
+          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2Frwkin38megc374c4nbbl7fx8b73g&w=1920&q=75",
+          "prompt": "In the style of el lissitzky, Bauhaus art, epic swimming pool, futuristic, geometric forms, light beams, light installation, space age, glow, color transition, establishing shot, Japanese print, space galaxy, mountains, 1980s fashion, flat forms, anamorphic lens, smooth, denoise --q 2 --v 5.1 --ar 3:4",
+          "model": "Midjourney",
+          "link": "https://prompthero.com/prompt/8fdeda3cdf0-midjourney-51-in-the-style-of-el-lissitzky-bauhaus-art-epic-swimming-pool-futuristic-geometric-forms-light-beams-light-installation-space-age"
         }
       ]
     },
@@ -87,15 +57,7 @@
         "icon": "🧊",
         "count": 1
       },
-      "items": [
-        {
-          "rank": 1,
-          "imageUrl": "https://prompthero.com/_next/image?url=https%3A%2F%2Fcdn.prompthero.com%2F3wnnid288hm5czhkyukfuwsgdw23&w=1920&q=75",
-          "prompt": "cyberpunk dog, futuristic, highly detailed, made with blender --v 4",
-          "model": "AI Model",
-          "link": "https://prompthero.com/prompt/a98c21a211f-openjourney-15-cyberpunk-dog-futuristic-highly-detailed-made-with-blender-v-4"
-        }
-      ]
+      "items": []
     },
     {
       "source": {
