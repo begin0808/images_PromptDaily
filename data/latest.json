@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-10-31T00:38:51.108Z",
+  "scrapedAt": "2026-11-01T00:01:28.262Z",
   "sources": [
     {
       "source": {
@@ -9,22 +9,7 @@
         "icon": "🔥",
         "count": 2
       },
-      "items": [
-        {
-          "rank": 1,
-          "imageUrl": "https://img.prompthero.com/v1_976d80665724da359edfaa9e0a/1080.webp",
-          "prompt": "convert to a painting",
-          "model": "Nano Banana",
-          "link": "https://prompthero.com/prompt/9e2cfe0ef61-nano-banana-nano-banana-2-convert-to-a-painting"
-        },
-        {
-          "rank": 2,
-          "imageUrl": "https://img.prompthero.com/v1_d80c97d2def4b486e7e338d21f/640.webp",
-          "prompt": "Hyper detailed goddess with skin made of liquid metal (Cyberpunk style) on a futuristic beach, a golden glowing core beating inside the chest sending energy to whole body, her hair is made of glass and glowing fiber optics, facing viewer. 35mm shot, f4.6, sharp focus, bokeh, glow_in_the_dark, eye_glow, luminescence, perfect composition. Lumen, RTX, reflections",
-          "model": "Stable Diffusion",
-          "link": "https://prompthero.com/prompt/c83306f05de-stable-diffusion-35-large-hyper-detailed-goddess-with-skin-made-of-liquid-metal-cyberpunk-style-on-a-futuristic-beach-a-golden-glowing-core-beating"
-        }
-      ]
+      "items": []
     },
     {
       "source": {
@@ -37,17 +22,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://img.prompthero.com/zgkq5uftglj1q0xkl07ycr2n839i/1080.webp",
-          "prompt": "fashion editorial photography, front shot, upper body, professional female model, shot with hasselblad x2d 100c, xcd 90mm f/2.5 lens, cinematic sepia color grading with golden hour warmth, dramatic black silhouette against burnt umber to honey amber gradient backdrop, avant-garde composition with tilted head pose, staring to camera, profound gaze, elongated body stance, flowing black turtleneck, professional main fresnel light at 60 degree angle with silk diffusion, rim light with cto gel at 75 degree angle, haze machine for ethereal atmosphere, feathered shadows, contrast curve manipulation, selective dodge and burn, grain texture overlay, color temperature adjustment at 5500k to 3200k gradient, ultra sharp details, raw format, inspired by paolo roversi lighting technique, hyper realistic, 16K, rich detail --ar 9:16 --quality 2 --style raw --personalize nq7rq2j --stylize 500 --v 6.1",
+          "imageUrl": "https://img.prompthero.com/41ju9v8tp67gu096s5vc7gpxo01w/1080.webp",
+          "prompt": "editorial photography, male model, 50mm f/1.2 RF lens, f/2.8 set, 1/160s, iso 100, gradient neon orange, minimalist street style, deep orange atmospheric lighting, lights at ceiling, overhead softbox at 3200K, full-body confidence pose with silhouette, dramatic contrast, photorealistic quality, rich detailing --ar 9:16 --raw --profile otwluoo --stylize 200",
           "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/d6b42afab22-midjourney-6-model-portrait"
-        },
-        {
-          "rank": 2,
-          "imageUrl": "https://img.prompthero.com/1a6mljgm56sd4i00pbaqp4sr9b5d/1080.webp",
-          "prompt": "a woman sitting on top of a white cube, official jil sander editorial, blue and grey tones, trending on interfacelift, coat, artforum, very beautiful long slim legs, inspired by Zhang Shuqi, flagstones, tall and slender, peter morbacher style, wooden platforms, round-cropped, 2 0 1 4. modern attire, harpers bazaar, jeongseok lee --relax --v 5.2 --ar 3:4",
-          "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/af7a50d39cd-midjourney-52-a-woman-sitting-on-top-of-a-white-cube-official-jil-sander-editorial-blue-and-grey-tones-trending-on-interfacelift"
+          "link": "https://prompthero.com/prompt/7ae913f5c1c-midjourney-7-editorial-photography-male-model-50mm-f12-rf-lens-f28-set-1160s-iso-100-gradient-neon-orange-minimalist-street-style-deep"
         }
       ]
     },
@@ -59,15 +37,7 @@
         "icon": "🏛",
         "count": 1
       },
-      "items": [
-        {
-          "rank": 1,
-          "imageUrl": "https://img.prompthero.com/v6io600el19w16np6fqqihbwqeer/640.webp",
-          "prompt": "valley, fairytale treehouse village covered,, matte painting, highly detailed, dynamic lighting, cinematic, realism, realistic, photo real, sunset,detailed, high contrast, denoised, centered, michael whelan",
-          "model": "AI Model",
-          "link": "https://prompthero.com/prompt/ab61e5e9246-openjourney-15-valley-fairytale-treehouse-village-covered-matte-painting-highly-detailed-dynamic-lighting-cinematic-realism-realistic-photo-real-sunsetdetailed-high-contrast-denoised"
-        }
-      ]
+      "items": []
     },
     {
       "source": {
@@ -77,15 +47,7 @@
         "icon": "🏠",
         "count": 1
       },
-      "items": [
-        {
-          "rank": 1,
-          "imageUrl": "https://img.prompthero.com/2hvhr1d3tbo9a259m6erubbqz7fu/1080.webp",
-          "prompt": "Spacious office with frontal view, Herman Miller Aeron chairs, Artemide Tolomeo desk lamps, captured with a Canon EOS R5, 50mm f/1.2 lens, balanced natural and LED lighting",
-          "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/127011c5b32-midjourney-6-spacious-office-with-frontal-view-herman-miller-aeron-chairs-artemide-tolomeo-desk-lamps-captured-with-a-canon-eos-r5-50mm"
-        }
-      ]
+      "items": []
     },
     {
       "source": {
@@ -95,15 +57,7 @@
         "icon": "🧊",
         "count": 1
       },
-      "items": [
-        {
-          "rank": 1,
-          "imageUrl": "https://img.prompthero.com/apu4bwo5ru1vtbidndl5nmsa2ytq/1080.webp",
-          "prompt": "Toy with a little doll with a helmet, cute 3d render, cute detailed digital art, female explorer mini cute girl, cute digital painting, stylized 3d render, cute digital art, cute render 3d anime girl , the little astronaut looks up, cute! c4d, portrait anime space cadet girl, sitting on a white pedestal",
-          "model": "AI Model",
-          "link": "https://prompthero.com/prompt/6ad6047035b-rev-animated-v10-toy-with-a-little-doll-with-a-helmet-cute-3d-render-cute-detailed-digital-art-female-explorer-mini-cute-girl"
-        }
-      ]
+      "items": []
     },
     {
       "source": {
