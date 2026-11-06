@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-11-05T01:26:08.462Z",
+  "scrapedAt": "2026-11-06T01:29:43.473Z",
   "sources": [
     {
       "source": {
@@ -12,17 +12,17 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://img.prompthero.com/v1_2174b1835f376d72650d839e21/1080.webp",
-          "prompt": "high-end portrait photography, editorial studio photography, cinematic color grading, vertical composition with dramatic negative space above the subject, slightly low angle, centered framing, commercial extreme quality color portrait photography, shot on full-frame camera, 85mm portrait lens, precise focus on facial textures, shallow depth of field, solitary handsome male model sitting in a minimalist chair, relaxed yet guarded posture, one hand resting near the chin, calm intense expression, wearing a textured heavy knit charcoal turtleneck and a tailored muted dark-olive wool overcoat, raw studio environment with a visible overhead softbox light source, clean seamless studio floor fading into darkness, minimalist and cold studio setting, introspective mood, quiet tension, single top-down key light creating strong highlights and deep shadows, low-key lighting with controlled falloff, chiaroscuro effect, desaturated earthy color palette with cold icy undertones, cinematic muted colors, extreme tonal range, crisp skin texture, intricate knit and wool fabric detail preserved, rich detailed textures --ar 9:16 --raw",
-          "model": "AI Model",
-          "link": "https://prompthero.com/prompt/00271e9fba2-hero-10-high-end-portrait-photography-editorial-studio-photography-cinematic-color-grading-vertical-composition-with-dramatic-negative-space-above-the-subject-slightly"
+          "imageUrl": "https://img.prompthero.com/v1_a25e424624e30f41f97dddc834/1080.webp",
+          "prompt": "a happy golden retriever wearing sunglasses",
+          "model": "Nano Banana",
+          "link": "https://prompthero.com/prompt/f62354c05e1-nano-banana-nano-banana-21-a-happy-golden-retriever-wearing-sunglasses"
         },
         {
           "rank": 2,
-          "imageUrl": "https://img.prompthero.com/v1_04817b2aac81cf4506ac944c05/1080.webp",
-          "prompt": "grok image grok imagine image 2 imagedescription title surveillance feed defiant subject in retail shop aspectratio 45 mood raw gritty confrontational authentic visualelements subject framing centered",
-          "model": "AI Model",
-          "link": "https://prompthero.com/prompt/60c39311d87-grok-image-grok-imagine-image-2-imagedescription-title-surveillance-feed-defiant-subject-in-retail-shop-aspectratio-45-mood-raw-gritty-confrontational-authentic-visualelements-subject-framing-centered"
+          "imageUrl": "https://img.prompthero.com/v1_6efcd78a36caaf43bb2479c94f/1080.webp",
+          "prompt": "playing guitar with Angus Young, on stage at an acdc concert, both wearing matching school uniforms",
+          "model": "Nano Banana",
+          "link": "https://prompthero.com/prompt/84bb652bc61-nano-banana-nano-banana-2-playing-guitar-with-angus-young-on-stage-at-an-acdc-concert-both-wearing-matching-school-uniforms"
         }
       ]
     },
@@ -37,10 +37,17 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://img.prompthero.com/54xz2e9g2xcdm3f28xc308ocfug4/1080.webp",
-          "prompt": "Black and white street photography of an attractive woman in leather jacket with headscarf sitting inside vintage convertible car, on the streets of London, shot by arriflex 35 BL Camera Canon K35 Prime Lenses --ar 1:2 --stylize 750",
+          "imageUrl": "https://img.prompthero.com/7nqvhyrmf607ngkesub1l7kxc9j3/1080.webp",
+          "prompt": "photography, portrait of contrast, profile silhouette of a woman, vibrant hot pink backdrop, visualize using a camera setup that mimics a large aperture, focusing solely on the silhouette's edge, while a low ISO maintains the richness of color without grain, photorealistic, UHD --ar 9:16 --chaos 1.7 --style raw",
           "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/7e6790663a2-midjourney-6-black-and-white-street-photography-of-an-attractive-woman-in-leather-jacket-with-headscarf-sitting-inside-vintage-convertible-car-on"
+          "link": "https://prompthero.com/prompt/f0df2fdf530-midjourney-6-chroma-portrait"
+        },
+        {
+          "rank": 2,
+          "imageUrl": "https://img.prompthero.com/uzz5smeabs9ptyzu8sc14l61ez71/1080.webp",
+          "prompt": "wide and low angle, cinematic, fashion photography for the brand Uniqlo. Woman sitting on floor wearing a Uniqlo heattech top, and brown chinos. The background is a gradient, red, pink and orange, studio setting --ar 9:16",
+          "model": "Midjourney",
+          "link": "https://prompthero.com/prompt/a885efdb34f-midjourney-6-wide-and-low-angle-cinematic-fashion-photography-for-the-brand-uniqlo-woman-sitting-on-floor-wearing-a-uniqlo-heattech-top"
         }
       ]
     },
@@ -55,10 +62,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://img.prompthero.com/ajdfzvpiy6f09ho6es0w93oyhk0t/1080.webp",
-          "prompt": "A digital architectural blueprint of a cozy, rustic cottage house, with comprehensive labeled sections and descriptive text. The cottage features a thatched roof, timbered walls, and stone foundations. It includes a detailed layout of a warm living space with a stone fireplace, an inviting kitchen, quaint bedrooms with gabled windows, and an enchanting garden with a small pond. Each section of the house, from the cross-sectional view of the walls to the individual bricks in the chimney, is meticulously detailed and labeled. The background is a stylized parchment, evoking the sense of traditional architectural plans. Text annotations are included to describe materials, construction techniques, and dimensions. The lighting is warm and soft, suggesting a sunset ambiance. The blueprint is created with fine digital lines and a watercolor effect to blend the charm of old-world craftsmanship with modern design clarity.",
-          "model": "AI Model",
-          "link": "https://prompthero.com/prompt/27067445bb6-dalle-3-a-digital-architectural-blueprint-of-a-cozy-rustic-cottage-house-with-comprehensive-labeled-sections-and-descriptive-text-the-cottage-features"
+          "imageUrl": "https://img.prompthero.com/semnta30wx2nkvrayjsmoxnzq9ll/640.webp",
+          "prompt": "Persian architecture, temple volume atrium light full of rose, hanging gardens, vibrant flowers, architecture in Isfahan, soft colors, slight mist, ,by Jean Leon Gerome, Asher Brown Durand , trending on artstation, fantasy, epic, detailed architecture",
+          "model": "Stable Diffusion",
+          "link": "https://prompthero.com/prompt/01d175727f6-stable-diffusion-15-persian-architecture-temple-volume-atrium-light-full-of-rose-hanging-gardens-vibrant-flowers-architecture-in-isfahan-soft-colors-slight-mist"
         }
       ]
     },
@@ -73,10 +80,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://img.prompthero.com/1vi2e016rkyd3hx568853xv47xkp/1080.webp",
-          "prompt": "Winter Atmosphere Snowfall on the Mountains ~ Luxurious Living Room and Soft Jazz Music for Relax --s 250 --v 6.0",
+          "imageUrl": "https://img.prompthero.com/99bd7wc779pysokyg1ern0zhsu0h/1080.webp",
+          "prompt": "Photograph, contemporary living room, soft light of morning, integration of beige flooring and matte stone features, unified color scheme of soothing white tones, creating a white and inviting atmosphere, 35mm f/1.4G lens, set f/4, sophisticated furniture, including a white-colored sofa set and a minimalist side table, natural lights",
           "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/b733e569ade-midjourney-6-winter-atmosphere-snowfall-on-the-mountains-luxurious-living-room-and-soft-jazz-music-for-relax-s-250-v-60"
+          "link": "https://prompthero.com/prompt/867567911d0-midjourney-6-realism-living-room-interior"
         }
       ]
     },
@@ -91,10 +98,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://img.prompthero.com/spzhkzmkfthp3zfo97wt5h32zi/1080.webp",
-          "prompt": "realistic render, cyberpunk, front central view, upper-body, skeletal teeth and jaw, reflective black alloy futuristic skeletal figure, lily in one's hand, intricate cyborg details with matte silver steel and egg-shell black finishes, solid black background, studio lighting setup with soft diffused highlights, extreme quality, low-key, HDRI, hyper-detailed materials, cinematic framing --ar 9:16 --raw",
+          "imageUrl": "https://img.prompthero.com/3d1lfhfw5af34wqgss4ghhlkqc9n/1080.webp",
+          "prompt": "photorealistic, high resolution rendering, balloon of lettering, \"HAPPY NEW YEAR 2025\", used color is Pantone Bran, Crocus, Deja vu blue, perpect composition and alignment, natural light set, white backdrop, ultra realistic, rich detail --ar 9:16 --style raw --profile ue2yzjl --stylize 300 --v 6.1",
           "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/914313f2f1e-midjourney-shatter-realistic-render-cyberpunk-front-central-view-upper-body-skeletal-teeth-and-jaw-reflective-black-alloy-futuristic-skeletal-figure-lily-in"
+          "link": "https://prompthero.com/prompt/ce23f67b3ea-midjourney-61-happy-new-year-2025"
         }
       ]
     },
