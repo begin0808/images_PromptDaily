@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-11-08T00:23:13.194Z",
+  "scrapedAt": "2026-11-09T00:42:56.020Z",
   "sources": [
     {
       "source": {
@@ -9,7 +9,15 @@
         "icon": "🔥",
         "count": 2
       },
-      "items": []
+      "items": [
+        {
+          "rank": 1,
+          "imageUrl": "https://img.prompthero.com/v1_0f6a281c16b561d0458bb18850/1080.webp",
+          "prompt": "with Taylor Swift backstage at a concert, excited fans vibe",
+          "model": "Nano Banana",
+          "link": "https://prompthero.com/prompt/37c36dcaffe-nano-banana-nano-banana-21-with-taylor-swift-backstage-at-a-concert-excited-fans-vibe"
+        }
+      ]
     },
     {
       "source": {
@@ -29,7 +37,15 @@
         "icon": "🏛",
         "count": 1
       },
-      "items": []
+      "items": [
+        {
+          "rank": 1,
+          "imageUrl": "https://img.prompthero.com/rwkin38megc374c4nbbl7fx8b73g/1080.webp",
+          "prompt": "In the style of el lissitzky, Bauhaus art, epic swimming pool, futuristic, geometric forms, light beams, light installation, space age, glow, color transition, establishing shot, Japanese print, space galaxy, mountains, 1980s fashion, flat forms, anamorphic lens, smooth, denoise --q 2 --v 5.1 --ar 3:4",
+          "model": "Midjourney",
+          "link": "https://prompthero.com/prompt/8fdeda3cdf0-midjourney-51-in-the-style-of-el-lissitzky-bauhaus-art-epic-swimming-pool-futuristic-geometric-forms-light-beams-light-installation-space-age"
+        }
+      ]
     },
     {
       "source": {
@@ -39,15 +55,7 @@
         "icon": "🏠",
         "count": 1
       },
-      "items": [
-        {
-          "rank": 1,
-          "imageUrl": "https://img.prompthero.com/vnh82n2fhi4ayo3xlfsuthior1km/1080.webp",
-          "prompt": "Photograph, contemporary living room, soft light of morning, integration of beige flooring and matte stone features, unified color scheme of soothing white tones, 35mm f/1.4G lens, set f/4, sophisticated furniture, natural lights",
-          "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/4609621b862-midjourney-6-realism-living-room-interior"
-        }
-      ]
+      "items": []
     },
     {
       "source": {
@@ -57,15 +65,7 @@
         "icon": "🧊",
         "count": 1
       },
-      "items": [
-        {
-          "rank": 1,
-          "imageUrl": "https://img.prompthero.com/b2m11p6rzmy7w1s5pm4jf9q5zyrl/640.webp",
-          "prompt": "cyborg woman megan fox Miyazaki| with a visible detailed brain| muscles cable wires| biopunk| cybernetic| cyberpunk| white marble bust| sharp focus| smooth| hyperrealism| highly detailed| intricate details| carved by michelangelo",
-          "model": "Stable Diffusion",
-          "link": "https://prompthero.com/prompt/6a9c804b0cc-stable-diffusion-15-cyborg-woman-megan-fox-miyazaki-with-a-visible-detailed-brain-muscles-cable-wires-biopunk-cybernetic-cyberpunk-white-marble-bust-sharp"
-        }
-      ]
+      "items": []
     },
     {
       "source": {
