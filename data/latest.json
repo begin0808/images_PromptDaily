@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-11-09T00:42:56.020Z",
+  "scrapedAt": "2026-11-10T03:24:23.094Z",
   "sources": [
     {
       "source": {
@@ -12,10 +12,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://img.prompthero.com/v1_0f6a281c16b561d0458bb18850/1080.webp",
-          "prompt": "with Taylor Swift backstage at a concert, excited fans vibe",
-          "model": "Nano Banana",
-          "link": "https://prompthero.com/prompt/37c36dcaffe-nano-banana-nano-banana-21-with-taylor-swift-backstage-at-a-concert-excited-fans-vibe"
+          "imageUrl": "https://img.prompthero.com/v1_565efe64b9473f76953650ab11/1080.webp",
+          "prompt": "Portrait of a woman with long, wavy hair, looking up and to the side. Black and white with strong chiaroscuro accentuating facial features. Dramatic lighting, focused on the face, with a dark, blurred background. The expression is pensive, with the mouth slightly open. A high-resolution, fashion aesthetic with fine detail.",
+          "model": "AI Model",
+          "link": "https://prompthero.com/prompt/11a678af0b9-grok-image-grok-imagine-image-2-portrait-of-a-woman-with-long-wavy-hair-looking-up-and-to-the-side-black-and-white-with-strong-chiaroscuro"
         }
       ]
     },
@@ -27,7 +27,22 @@
         "icon": "✨",
         "count": 2
       },
-      "items": []
+      "items": [
+        {
+          "rank": 1,
+          "imageUrl": "https://img.prompthero.com/fds4eerq5hcof9611i9eo0v2h6/1080.webp",
+          "prompt": "A highly detailed, photorealistic, cinematic vertical medium-close-up shot of a stunning young east asian woman captured with a raw, vintage 35mm flash-photography aesthetic in a dark, intimate setting. Shot Angle & Pose: The image is captured from a slightly high-angle, close-up perspective, giving it the intimate, spontaneous feel of a candid snapshot or selfie. She leans forward playfully, pushing her right shoulder slightly inward. She tilts her head up and to the side, gazing directly into the lens with a sultry, confident, and magnetic expression. Her lips are softly parted in a relaxed, subtle smile. Subject Appearance: She has a flawless, glowing, sun-kissed olive complexion rendered with a realistic, slightly dewy skin texture. Her dark hair is styled in wild, voluminous, messy curls, with loose, textured strands carelessly falling across her forehead and partially obscuring her right eye. Her facial features are striking and naturally glamorous, featuring expressive dark eyes, natural eyebrows, and very glossy, plump lips. Character Figure: She possesses a slender, graceful, and highly feminine figure. Her dynamic, leaning posture dramatically highlights her smooth bare shoulders, elegant collarbones, and deep, prominent cleavage, creating a striking and sensuous silhouette. Outfit Details: She is wearing a simple, alluring, light cream or pale beige camisole: Top: A thin, lightweight slip-style tank top with delicate spaghetti straps. It features a deep, plunging neckline with subtle gathered ruching at the center of the bust, clinging softly to her curves with visible fabric folds. Bottoms: Not visible in the frame. Accessories: She is wearing large, ornate, textured gold hoop earrings that catch the bright light of the flash. Setting & Lighting: Setting: A dark, moody, and indistinct background, suggesting a nighttime interior, possibly the inside of a car or a dimly lit party space. The background is heavily engulfed in deep, grainy shadows with vague, reflective surfaces hinting at windows or mirrors. Lighting: The scene is completely defined by intense, harsh, direct on-camera flash lighting typical of vintage point-and-shoot or disposable cameras. The flash brilliantly illuminates her face and chest, creating high-contrast specular highlights on her glowing skin. The image features a distinct retro analog film color grade with a warm, slightly greenish-yellow tint. A prominent, vibrant orange and red horizontal lens flare or light leak streaks across the right side of the frame, perfectly capturing a nostalgic, raw, and gritty snapshot aesthetic. 8k resolution, raw photo aesthetic, vintage 35mm disposable camera style, sharp focus on the subject, high-fidelity texture rendering, harsh high-contrast flash lighting, prominent lens flare, retro warm-green color grading, gritty yet glamorous cinematic composition.",
+          "model": "AI Model",
+          "link": "https://prompthero.com/prompt/e7685238cf9-hunyuan-hunyuan-3-a-highly-detailed-photorealistic-cinematic-vertical-medium-close-up-shot-of-a-stunning-young-east-asian-woman-captured-with-a"
+        },
+        {
+          "rank": 2,
+          "imageUrl": "https://img.prompthero.com/ws0y934lhyz4axbzbpg0kfhdt05g/1080.webp",
+          "prompt": "An image of a young woman with a medium complexion and chestnut-colored hair styled in a casual updo with loose strands around her face. She has a natural makeup look with defined eyes and a neutral lip color. She is wearing a fitted, cropped burgundy T-shirt with short sleeves and high-waisted black pants with distinctive button details. She stands confidently, with one hand on her hip and the other gently touching her pants. The lighting is soft and frontal, highlighting her features and the texture of her clothing against a muted dark background.",
+          "model": "Stable Diffusion",
+          "link": "https://prompthero.com/prompt/efe70985326-stable-diffusion-xl-base-09-comfyui-based-workflow-seargesdxl432-checkpoints-models-used-dreamshaper-xl-turbo-turbovisionxlsuperfastxl-realvisxlv30turbov30-juggernautxlv8-dreamshaperxlturbo-full-credits-shall-go-to-the-an-image-of-a-young-woman-with-a-medium-complexion-and-chestnut-colored-hair-styled-in-a-casual-updo-with"
+        }
+      ]
     },
     {
       "source": {
@@ -40,10 +55,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://img.prompthero.com/rwkin38megc374c4nbbl7fx8b73g/1080.webp",
-          "prompt": "In the style of el lissitzky, Bauhaus art, epic swimming pool, futuristic, geometric forms, light beams, light installation, space age, glow, color transition, establishing shot, Japanese print, space galaxy, mountains, 1980s fashion, flat forms, anamorphic lens, smooth, denoise --q 2 --v 5.1 --ar 3:4",
+          "imageUrl": "https://img.prompthero.com/fmexdigmxswh3d72618rjc9v3anx/1080.webp",
+          "prompt": "minimalist line drawing, 6 spread sheet, simple human figures silhouettes, architectural sketches, used coral color, continuous single line drawing, clean minimal style, architectural scale figures, technical drawing style --ar 9:16 --style raw --v 6.1",
           "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/8fdeda3cdf0-midjourney-51-in-the-style-of-el-lissitzky-bauhaus-art-epic-swimming-pool-futuristic-geometric-forms-light-beams-light-installation-space-age"
+          "link": "https://prompthero.com/prompt/45430098db8-midjourney-61-minimalist-line-drawing-6-spread-sheet-simple-human-figures-silhouettes-architectural-sketches-used-coral-color-continuous-single-line-drawing-clean"
         }
       ]
     },
@@ -55,7 +70,15 @@
         "icon": "🏠",
         "count": 1
       },
-      "items": []
+      "items": [
+        {
+          "rank": 1,
+          "imageUrl": "https://img.prompthero.com/zbmm6yc1j1esrjo2658w1jf3ywlh/1080.webp",
+          "prompt": "photography, a long hallway submerged under a calm ocean, walls and ceiling in a vibrant turquoise color, the surface of the water creating a wavy light pattern on the floor, the hallway lit by embedded small white lights, a modern and tranquil underwater architecture, photorealism, UHD --ar 9:16 --stylize 500",
+          "model": "Midjourney",
+          "link": "https://prompthero.com/prompt/17a34124c06-midjourney-6-photography-a-long-hallway-submerged-under-a-calm-ocean-walls-and-ceiling-in-a-vibrant-turquoise-color-the-surface-of"
+        }
+      ]
     },
     {
       "source": {
@@ -65,7 +88,15 @@
         "icon": "🧊",
         "count": 1
       },
-      "items": []
+      "items": [
+        {
+          "rank": 1,
+          "imageUrl": "https://img.prompthero.com/xw9tvy2xflgkciran4enrgp1gq/1080.webp",
+          "prompt": "ultra-detailed hard sci-fi biomechanical photography, complex intertwined composition, dense mechanical mass filling the frame, photorealistic industrial mecha design, 85mm macro lens, f/8 aperture, ultra-sharp focus, high dynamic range, colossal biomechanical construct made of matte black armored components, exposed joints, hydraulic pistons, braided cables, industrial tubing, layered mechanical plates with engraved serial numbers and warning labels, subtle red accent markings and technical typography scattered across the surface, organic yet aggressive silhouette resembling a living machine, purely mechanical anatomy, laboratory environment background, soft natural daylight with diffused highlights and controlled shadows, extreme greeble detail, micro-scratches, wear marks, realistic material texture, cinematic realism --ar 9:16 --raw --stylize 200",
+          "model": "Midjourney",
+          "link": "https://prompthero.com/prompt/7c64d8dc1bb-midjourney-shatter-ultra-detailed-hard-sci-fi-biomechanical-photography-complex-intertwined-composition-dense-mechanical-mass-filling-the-frame-photorealistic-industrial-mecha-design"
+        }
+      ]
     },
     {
       "source": {
