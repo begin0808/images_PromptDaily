@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-11-12T02:13:10.727Z",
+  "scrapedAt": "2026-11-13T01:46:34.091Z",
   "sources": [
     {
       "source": {
@@ -12,17 +12,17 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://img.prompthero.com/pa6fsxijv0pgge7g0lov9tjkqw/1080.webp",
-          "prompt": "Crea una fotografía espontánea y fotorrealista de la mujer adulta de referencia, conservando su identidad y apariencia reconocible. Reconstruye completamente su rostro y cuerpo desde la nueva perspectiva, sin reutilizar ni superponer elementos de la imagen original. La escena ocurre en el pequeño baño público de un antro nocturno. La mujer está sentada normalmente sobre un retrete, con la espalda ligeramente encorvada, los hombros relajados y los pies apoyados en el suelo Su mejor amiga acaba de sorprenderla tomándole una foto. La mujer levanta la mirada hacia la cámara y comienza a reírse de vergüenza, cubriéndose parcialmente la sonrisa con una mano. Su postura es cotidiana, relajada e imperfecta, como una reacción capturada accidentalmente, sin poses exageradas. La amiga toma la fotografía de pie, desde un ángulo picado de aproximadamente 40°, apuntando el iPhone hacia abajo. Encuadre vertical 9:16, mostrando el rostro, el cuerpo sentado y parte del cubículo. El baño está deteriorado, con azulejos sucios, grafitis, piso húmedo y un glory hole circular visible en la pared lateral, sin actividad. La única iluminación importante proviene del flash directo del teléfono, que produce sombras duras y reflejos sobre los azulejos en un ambiente nocturno oscuro. **Estilo:** fotografía real de iPhone, improvisada y sin preparación, expresión genuina, anatomía natural, perspectiva físicamente coherente, textura auténtica de piel y ausencia de poses forzadas, deformaciones o apariencia de imagen generada por IA.",
-          "model": "Flux",
-          "link": "https://prompthero.com/prompt/2c6eda39805-flux-crea-una-fotografa-espontnea-y-fotorrealista-de-la-mujer-adulta-de-referencia-conservando-su-identidad-y-apariencia-reconocible-reconstruye-completamente"
+          "imageUrl": "https://img.prompthero.com/v1_041f316fc2936fc5fa27913567/1080.webp",
+          "prompt": "A giant attractive woman looking down on a tiny man",
+          "model": "AI Model",
+          "link": "https://prompthero.com/prompt/72bfc9c1849-hero-10-a-giant-attractive-woman-looking-down-on-a-tiny-man"
         },
         {
           "rank": 2,
-          "imageUrl": "https://img.prompthero.com/v1_a87009b6ebe242f978b426d3a8/1080.webp",
-          "prompt": "Photorealistic Image of a beautiful 25-year-old woman in a Forest with The Matterhorn in the background. The sun rays are shining through the trees and a light morning fog from behind the camera on her face, trees and ground. There is dew on the grass around her. She is wearing sand-colored shorts with white tank top and hiking boots. Her white socks are scrunched up to the mid-shin. She is sitting on a rock with 1 foot on the ground and the other one is bent up on another rock and she is tying her hiking boot. She is hot and sweaty and has a canteen on a belt around her waist. cinematic warm grading. The subject is to the left of the image. She is looking directly at the camera with beautiful Green eyes and red hair with blonde highlights. Her really long hair is braided into a thick ponytail hanging down over her left shoulder.",
+          "imageUrl": "https://img.prompthero.com/v1_3195cc01585fc7f5e033b6f8c1/1080.webp",
+          "prompt": "A playful summer picnic fashion editorial featuring a young woman with soft blonde twin ponytails, wearing a pastel-pink and mint-green strawberry-patterned knitted cardigan, a cream pleated skirt with delicate lace edging, pale-pink ribbed socks and retro pastel sneakers. She sits on a red-and-cream gingham picnic blanket, holding a small strawberry between her fingers. A woven basket filled with strawberries, a glass bottle of lemonade and a tiny crocheted mushroom bag sit beside her. Open grassy field, distant blue horizon, bright cloudless sky, close three-quarter composition, relaxed youthful pose, vivid textile details, charming handmade accessories, gentle sunlight, realistic fashion photography, soft film-like colors, no text, no logo, no watermark",
           "model": "AI Model",
-          "link": "https://prompthero.com/prompt/3a09c88cd77-seedream-5-seedream-5-pro-photorealistic-image-of-a-beautiful-25-year-old-woman-in-a-forest-with-the-matterhorn-in-the-background-the-sun"
+          "link": "https://prompthero.com/prompt/afd8d5c5b91-seedream-5-v2-a-playful-summer-picnic-fashion-editorial-featuring-a-young-woman-with-soft-blonde-twin-ponytails-wearing-a-pastel-pink-and"
         }
       ]
     },
@@ -37,10 +37,17 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://img.prompthero.com/rl1ul2i0eqithy4gp45cj83e11ga/1080.webp",
-          "prompt": "1 girl, beautiful Korean girl, (Cute Loose Bob hair), (wearing a cropped hoodie, capri sweatpants:1. 5), (hands in pockets:1. 5), (red lips:1. 3), (small breasts:1. 3), (toned stomach:1. 3), (eyelashes:1. 2), (aegyo sal:1. 2), beautiful detailed eyes, symmetrical eyes, (detailed face), immersive background, volumetric haze, global illumination, soft lighting, (flowing hair), (bright smile), natural lighting, (realistic:1.5), (lifelike:1.4), (4k, digital art, masterpiece), High detail digital painting, realistic, (top quality), (soft shadows), (best character art), ultra high resolution, highly detailed digital artwork, physically-based rendering, realism with an artistic touch, vibrant colors, f2.2 lens, soft palette, natural beauty.",
-          "model": "Stable Diffusion",
-          "link": "https://prompthero.com/prompt/8887d8e2e22-stable-diffusion-15-1-girl-beautiful-korean-girl-cute-loose-bob-hair-wearing-a-cropped-hoodie-capri-sweatpants1-5-hands-in-pockets1-5"
+          "imageUrl": "https://img.prompthero.com/luqvns7twvdbtnmwlaesatvjuqmr/1080.webp",
+          "prompt": "red race car, in the style of sam spratt, historical illustrations, old masters, genndy tartakovsky, soggy, masaccio, monochromatic realism --ar 63:128 --stylize 750 --v 6",
+          "model": "Midjourney",
+          "link": "https://prompthero.com/prompt/01b47dfdc90-midjourney-6-red-race-car-in-the-style-of-sam-spratt-historical-illustrations-old-masters-genndy-tartakovsky-soggy-masaccio-monochromatic-realism-ar"
+        },
+        {
+          "rank": 2,
+          "imageUrl": "https://img.prompthero.com/10pckza1p0gaurf4kxbsmp7d1qnp/1080.webp",
+          "prompt": "a young girl in a business suit with a very angry expression, in the style of unreal engine 5, cartoonish caricatures, i can't believe how beautiful this is, animated gifs, life-like avian illustrations, close-up, soft, romantic scenes --ar 35:64 --stylize 750 --v 6",
+          "model": "Midjourney",
+          "link": "https://prompthero.com/prompt/455ba9632b9-midjourney-6-a-young-girl-in-a-business-suit-with-a-very-angry-expression-in-the-style-of-unreal-engine-5-cartoonish"
         }
       ]
     },
@@ -52,7 +59,15 @@
         "icon": "🏛",
         "count": 1
       },
-      "items": []
+      "items": [
+        {
+          "rank": 1,
+          "imageUrl": "https://img.prompthero.com/jig5foi8fh7k920flrcl96dwhabz/1080.webp",
+          "prompt": "Baroque rococo architecture, architectural photography, post apocalyptic New York, hyperrealism, hyperrealistic, octane render, cinematic, hyper detailed, 8K",
+          "model": "Stable Diffusion",
+          "link": "https://prompthero.com/prompt/5cc60dbf76a-stable-diffusion-15-baroque-rococo-architecture-architectural-photography-post-apocalyptic-new-york-hyperrealism-hyperrealistic-octane-render-cinematic-hyper-detailed-8k"
+        }
+      ]
     },
     {
       "source": {
@@ -62,7 +77,15 @@
         "icon": "🏠",
         "count": 1
       },
-      "items": []
+      "items": [
+        {
+          "rank": 1,
+          "imageUrl": "https://img.prompthero.com/cdrr3lmo3580jid36nfgo1xzsxcd/1080.webp",
+          "prompt": "modern minimalist, architectural photography, illuminated grand entrance with curved light panels forming an arch, symmetrical frontal view, centered composition with vanishing point perspective, wide angle lens, low angle shot, golden hour lighting, reflective marble floor with wet surface reflections, dramatic architectural lighting, glass panels grid pattern, contemporary urban setting, photorealism, rich detailing --ar 9:16 --quality 2 --stylize 500 --v 6.1",
+          "model": "Midjourney",
+          "link": "https://prompthero.com/prompt/6673e814834-midjourney-6-httpslittlygrayve-modern-minimalist-architectural-photography-illuminated-grand-entrance-with-curved-light-panels-forming-an-arch-symmetrical-frontal-view-centered-composition-with"
+        }
+      ]
     },
     {
       "source": {
@@ -72,7 +95,15 @@
         "icon": "🧊",
         "count": 1
       },
-      "items": []
+      "items": [
+        {
+          "rank": 1,
+          "imageUrl": "https://img.prompthero.com/vm9lp8mvyzb90w7duiocftw5tfzv/640.webp",
+          "prompt": "Incredibly detailed technical diagram of the profile of a woman with the top and back of her head split into complex geometric shapes and flowers growing from the shapes, Chiaroscuro lighting, fine intricate details --q 2 --upbeta --v 4 --v 4",
+          "model": "AI Model",
+          "link": "https://prompthero.com/prompt/0c8536f3b23-openjourney-15-incredibly-detailed-technical-diagram-of-the-profile-of-a-woman-with-the-top-and-back-of-her-head-split-into"
+        }
+      ]
     },
     {
       "source": {
