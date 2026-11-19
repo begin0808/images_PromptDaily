@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-11-18T02:50:49.401Z",
+  "scrapedAt": "2026-11-19T02:29:14.452Z",
   "sources": [
     {
       "source": {
@@ -9,7 +9,22 @@
         "icon": "🔥",
         "count": 2
       },
-      "items": []
+      "items": [
+        {
+          "rank": 1,
+          "imageUrl": "https://img.prompthero.com/v1_04817b2aac81cf4506ac944c05/1080.webp",
+          "prompt": "grok image grok imagine image 2 imagedescription title surveillance feed defiant subject in retail shop aspectratio 45 mood raw gritty confrontational authentic visualelements subject framing centered",
+          "model": "AI Model",
+          "link": "https://prompthero.com/prompt/60c39311d87-grok-image-grok-imagine-image-2-imagedescription-title-surveillance-feed-defiant-subject-in-retail-shop-aspectratio-45-mood-raw-gritty-confrontational-authentic-visualelements-subject-framing-centered"
+        },
+        {
+          "rank": 2,
+          "imageUrl": "https://img.prompthero.com/v1_c42a932458d4f70e05b3d51c64/1080.webp",
+          "prompt": "Ultra-realistic fashion beauty crop of a female model wearing the reference red baseball cap and matching red hoodie. Framing: Tight portrait crop from nose to forehead, cap and eyes filling the frame. Focus: The embroidered logo perfectly centered above the model’s eyes, stitching detail and thread depth clearly visible. Pose: Model gripping the hoodie collar softly with both hands, creating subtle fabric folds. Lighting: Soft frontal studio light with faint shadow sculpting on cheekbones and under the cap. Background: Minimal warm studio backdrop, ivory-to-beige gradient. Mood: Bold, confident, fashion-house campaign energy. Finish: Ultra-sharp fabric detail, cinematic realism, shallow depth of field, no text, no branding overlays.",
+          "model": "AI Model",
+          "link": "https://prompthero.com/prompt/a2b88615720-hero-10-ultra-realistic-fashion-beauty-crop-of-a-female-model-wearing-the-reference-red-baseball-cap-and-matching-red-hoodie-framing"
+        }
+      ]
     },
     {
       "source": {
@@ -22,17 +37,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://img.prompthero.com/yktjuihsozyxcetxc5hsasx2wed8/1080.webp",
-          "prompt": "photography, orange hue, korean woman model, solid orange backdrop, using a camera setup that mimics a large aperture, f/1.4 --ar 9:16 --style raw",
+          "imageUrl": "https://img.prompthero.com/54xz2e9g2xcdm3f28xc308ocfug4/1080.webp",
+          "prompt": "Black and white street photography of an attractive woman in leather jacket with headscarf sitting inside vintage convertible car, on the streets of London, shot by arriflex 35 BL Camera Canon K35 Prime Lenses --ar 1:2 --stylize 750",
           "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/abb78caf579-midjourney-6-model-portrait"
-        },
-        {
-          "rank": 2,
-          "imageUrl": "https://img.prompthero.com/lapcjheub4irmicpdv5x8hykgs/1080.webp",
-          "prompt": "high resolution photography, front central profile, woman facing front, gaze to front, wearing a white turtleneck sweater, photographed entirely through thick vertically reeded architectural glass, vertical grooves running top to bottom across the entire frame, parallel vertical lines clearly visible, full-frame optical distortion dominating the image, acrylic glass in the foreground textured, realistic physical light refraction warping the profile of the face and upper body into vertical repetitions, subtle light softly radiating from the clothing and gently bleeding into the glass ridges, faint light scattering through the vertical grooves, low-key studio background in pale off-white tones, cool neutral lighting, restrained and minimal, realistic physics --ar 9:16 --raw --stylize 400",
-          "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/400a20c3a87-midjourney-shatter-high-resolution-photography-front-central-profile-woman-facing-front-gaze-to-front-wearing-a-white-turtleneck-sweater-photographed-entirely-through"
+          "link": "https://prompthero.com/prompt/7e6790663a2-midjourney-6-black-and-white-street-photography-of-an-attractive-woman-in-leather-jacket-with-headscarf-sitting-inside-vintage-convertible-car-on"
         }
       ]
     },
@@ -47,10 +55,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://img.prompthero.com/bzdmodwk6dnft5gnqgdta2jpnrg3/1080.webp",
-          "prompt": "futuristic tempura food, night, japanese, neon light, volumetric smoke, volumetric light, octane render, food commercial, Filmic",
-          "model": "Stable Diffusion",
-          "link": "https://prompthero.com/prompt/02bb5115ef4-stable-diffusion-15-futuristic-tempura-food-night-japanese-neon-light-volumetric-smoke-volumetric-light-octane-render-food-commercial-filmic"
+          "imageUrl": "https://img.prompthero.com/ajdfzvpiy6f09ho6es0w93oyhk0t/1080.webp",
+          "prompt": "A digital architectural blueprint of a cozy, rustic cottage house, with comprehensive labeled sections and descriptive text. The cottage features a thatched roof, timbered walls, and stone foundations. It includes a detailed layout of a warm living space with a stone fireplace, an inviting kitchen, quaint bedrooms with gabled windows, and an enchanting garden with a small pond. Each section of the house, from the cross-sectional view of the walls to the individual bricks in the chimney, is meticulously detailed and labeled. The background is a stylized parchment, evoking the sense of traditional architectural plans. Text annotations are included to describe materials, construction techniques, and dimensions. The lighting is warm and soft, suggesting a sunset ambiance. The blueprint is created with fine digital lines and a watercolor effect to blend the charm of old-world craftsmanship with modern design clarity.",
+          "model": "AI Model",
+          "link": "https://prompthero.com/prompt/27067445bb6-dalle-3-a-digital-architectural-blueprint-of-a-cozy-rustic-cottage-house-with-comprehensive-labeled-sections-and-descriptive-text-the-cottage-features"
         }
       ]
     },
@@ -65,10 +73,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://img.prompthero.com/5jzlog0jqbnqr10oi6wnktn8apj2/1080.webp",
-          "prompt": "USM Haller Table shot in a professional photo studio, Fujifilm GFX 100S, GF 80mm f/1.7 lens, table's elegant simplicity and refined finish, in an environment that showcases the table's clean",
+          "imageUrl": "https://img.prompthero.com/1vi2e016rkyd3hx568853xv47xkp/1080.webp",
+          "prompt": "Winter Atmosphere Snowfall on the Mountains ~ Luxurious Living Room and Soft Jazz Music for Relax --s 250 --v 6.0",
           "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/f98dc718162-midjourney-6-more-info-wwwgraytheorystudiocom-httpswwwinstagramcomspacemakergrayve-httpspromptbasecomprofilespacemakergrayve-usm-haller-table-shot-in-a-professional-photo-studio-fujifilm-gfx-100s-gf-80mm-f17-lens-tables-elegant-simplicity-and"
+          "link": "https://prompthero.com/prompt/b733e569ade-midjourney-6-winter-atmosphere-snowfall-on-the-mountains-luxurious-living-room-and-soft-jazz-music-for-relax-s-250-v-60"
         }
       ]
     },
@@ -80,15 +88,7 @@
         "icon": "🧊",
         "count": 1
       },
-      "items": [
-        {
-          "rank": 1,
-          "imageUrl": "https://img.prompthero.com/3wnnid288hm5czhkyukfuwsgdw23/640.webp",
-          "prompt": "cyberpunk dog, futuristic, highly detailed, made with blender --v 4",
-          "model": "AI Model",
-          "link": "https://prompthero.com/prompt/a98c21a211f-openjourney-15-cyberpunk-dog-futuristic-highly-detailed-made-with-blender-v-4"
-        }
-      ]
+      "items": []
     },
     {
       "source": {
