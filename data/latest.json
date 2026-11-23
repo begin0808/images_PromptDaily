@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-11-22T01:15:12.966Z",
+  "scrapedAt": "2026-11-23T01:38:39.545Z",
   "sources": [
     {
       "source": {
@@ -12,10 +12,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://img.prompthero.com/v1_8cbd381671bf1872ffdfa3ff49/640.webp",
-          "prompt": "mirelo video to sfx v15",
-          "model": "AI Model",
-          "link": "https://prompthero.com/prompt/7c556cae908-mirelo-video-to-sfx-v15"
+          "imageUrl": "https://img.prompthero.com/v1_0f6a281c16b561d0458bb18850/1080.webp",
+          "prompt": "with Taylor Swift backstage at a concert, excited fans vibe",
+          "model": "Nano Banana",
+          "link": "https://prompthero.com/prompt/37c36dcaffe-nano-banana-nano-banana-21-with-taylor-swift-backstage-at-a-concert-excited-fans-vibe"
         }
       ]
     },
@@ -37,15 +37,7 @@
         "icon": "🏛",
         "count": 1
       },
-      "items": [
-        {
-          "rank": 1,
-          "imageUrl": "https://img.prompthero.com/ddru406580h1uwmkuw71lz6zobkj/1080.webp",
-          "prompt": "photography, triangular pattern translucent glass wall installation with black metal frame grid, warm golden backlight creating honeycomb shadows, silhouette of person walking, zen interior design style, amber glow atmospheric lighting, professional studio setup with two continuous led panels for backlight at 2800k, geometric repetitive patterns, high contrast interior shot, ultra sharp details, photorealistic quality, 48K resolution, rich detailing --ar 2:3 --quality 2 --style raw --sref 1009931265 --personalize c84qxg1 --stylize 400 --v 6.1",
-          "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/1c17421637a-midjourney-6-photography-triangular-pattern-translucent-glass-wall-installation-with-black-metal-frame-grid-warm-golden-backlight-creating-honeycomb-shadows-silhouette-of"
-        }
-      ]
+      "items": []
     },
     {
       "source": {
@@ -55,15 +47,7 @@
         "icon": "🏠",
         "count": 1
       },
-      "items": [
-        {
-          "rank": 1,
-          "imageUrl": "https://img.prompthero.com/vnh82n2fhi4ayo3xlfsuthior1km/1080.webp",
-          "prompt": "Photograph, contemporary living room, soft light of morning, integration of beige flooring and matte stone features, unified color scheme of soothing white tones, 35mm f/1.4G lens, set f/4, sophisticated furniture, natural lights",
-          "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/4609621b862-midjourney-6-realism-living-room-interior"
-        }
-      ]
+      "items": []
     },
     {
       "source": {
@@ -73,15 +57,7 @@
         "icon": "🧊",
         "count": 1
       },
-      "items": [
-        {
-          "rank": 1,
-          "imageUrl": "https://img.prompthero.com/b2m11p6rzmy7w1s5pm4jf9q5zyrl/640.webp",
-          "prompt": "cyborg woman megan fox Miyazaki| with a visible detailed brain| muscles cable wires| biopunk| cybernetic| cyberpunk| white marble bust| sharp focus| smooth| hyperrealism| highly detailed| intricate details| carved by michelangelo",
-          "model": "Stable Diffusion",
-          "link": "https://prompthero.com/prompt/6a9c804b0cc-stable-diffusion-15-cyborg-woman-megan-fox-miyazaki-with-a-visible-detailed-brain-muscles-cable-wires-biopunk-cybernetic-cyberpunk-white-marble-bust-sharp"
-        }
-      ]
+      "items": []
     },
     {
       "source": {
