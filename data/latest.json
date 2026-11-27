@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-11-26T03:29:13.128Z",
+  "scrapedAt": "2026-11-27T03:36:03.805Z",
   "sources": [
     {
       "source": {
@@ -12,17 +12,17 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://img.prompthero.com/v1_64f11d7e61c3ffd5af33322499/1080.webp",
-          "prompt": "Create an Ultra-realistic cinematic dark poster dramatic over-the-shoulder pose of a young man (using the same face as uploaded image), camera positioned slightly behind the shoulder, 90-45 degree side profile facing right, strong rim light outlining the messy textured hair, nose and sharp jawline, deep black background, only the edges of the face glowing with white light, brown round sunglasses with silver rimmed reflecting a soft glow, mysterious shadowed face with almost no facial details visible, intense cinematic lighting",
+          "imageUrl": "https://img.prompthero.com/v1_3195cc01585fc7f5e033b6f8c1/1080.webp",
+          "prompt": "A playful summer picnic fashion editorial featuring a young woman with soft blonde twin ponytails, wearing a pastel-pink and mint-green strawberry-patterned knitted cardigan, a cream pleated skirt with delicate lace edging, pale-pink ribbed socks and retro pastel sneakers. She sits on a red-and-cream gingham picnic blanket, holding a small strawberry between her fingers. A woven basket filled with strawberries, a glass bottle of lemonade and a tiny crocheted mushroom bag sit beside her. Open grassy field, distant blue horizon, bright cloudless sky, close three-quarter composition, relaxed youthful pose, vivid textile details, charming handmade accessories, gentle sunlight, realistic fashion photography, soft film-like colors, no text, no logo, no watermark",
           "model": "AI Model",
-          "link": "https://prompthero.com/prompt/4cc6519d643-hero-10-create-an-ultra-realistic-cinematic-dark-poster-dramatic-over-the-shoulder-pose-of-a-young-man-using-the-same-face"
+          "link": "https://prompthero.com/prompt/afd8d5c5b91-seedream-5-v2-a-playful-summer-picnic-fashion-editorial-featuring-a-young-woman-with-soft-blonde-twin-ponytails-wearing-a-pastel-pink-and"
         },
         {
           "rank": 2,
-          "imageUrl": "https://img.prompthero.com/v1_b72e881dcd0bf3050207879f25/1080.webp",
-          "prompt": "Vertical bust CG portrait, realistic live-action version of Sailor Moon, long golden twin tails with double hair buns, red gem and pearl hair ornaments on buns, golden crescent ornament on forehead, big sparkling eyes, pink blush, sweet gentle smile, wearing black and white lolita dress with frilled lace cuffs, big red bow with pearl on chest, pearl decorations on sleeves, resting elbow on golden carved throne, hand propping cheek, luxurious golden European palace interior, gilded relief wall, huge crystal chandelier, warm golden sunlight coming through tall arched windows, vases with pink roses beside window, warm rim light glowing on hair, translucent delicate skin, ultra detailed hair strands, 8K, anime live-action style, pearlescent texture, gorgeous royal portrait --ar 4:5 --v 6.0 --style raw --s 220 --q 2",
-          "model": "AI Model",
-          "link": "https://prompthero.com/prompt/8aa2a68e4a2-hero-10-vertical-bust-cg-portrait-realistic-live-action-version-of-sailor-moon-long-golden-twin-tails-with-double-hair-buns-red"
+          "imageUrl": "https://img.prompthero.com/v1_e80babf49e8088936a0672c76e/1080.webp",
+          "prompt": "realistic,portrait, 1girl, crop top, blonde hair, dark eyes, glowing eyes,skirt, parted lips, blush, sunlight,grin,short shorts,hand on back,half body,humpbacked,(skirt:1.0)",
+          "model": "Stable Diffusion",
+          "link": "https://prompthero.com/prompt/f29f7de2c6f-stable-diffusion-35-large-realisticportrait-1girl-crop-top-blonde-hair-dark-eyes-glowing-eyesskirt-parted-lips-blush-sunlightgrinshort-shortshand-on-backhalf-bodyhumpbackedskirt10"
         }
       ]
     },
@@ -34,7 +34,22 @@
         "icon": "✨",
         "count": 2
       },
-      "items": []
+      "items": [
+        {
+          "rank": 1,
+          "imageUrl": "https://img.prompthero.com/luqvns7twvdbtnmwlaesatvjuqmr/1080.webp",
+          "prompt": "red race car, in the style of sam spratt, historical illustrations, old masters, genndy tartakovsky, soggy, masaccio, monochromatic realism --ar 63:128 --stylize 750 --v 6",
+          "model": "Midjourney",
+          "link": "https://prompthero.com/prompt/01b47dfdc90-midjourney-6-red-race-car-in-the-style-of-sam-spratt-historical-illustrations-old-masters-genndy-tartakovsky-soggy-masaccio-monochromatic-realism-ar"
+        },
+        {
+          "rank": 2,
+          "imageUrl": "https://img.prompthero.com/10pckza1p0gaurf4kxbsmp7d1qnp/1080.webp",
+          "prompt": "a young girl in a business suit with a very angry expression, in the style of unreal engine 5, cartoonish caricatures, i can't believe how beautiful this is, animated gifs, life-like avian illustrations, close-up, soft, romantic scenes --ar 35:64 --stylize 750 --v 6",
+          "model": "Midjourney",
+          "link": "https://prompthero.com/prompt/455ba9632b9-midjourney-6-a-young-girl-in-a-business-suit-with-a-very-angry-expression-in-the-style-of-unreal-engine-5-cartoonish"
+        }
+      ]
     },
     {
       "source": {
@@ -44,7 +59,15 @@
         "icon": "🏛",
         "count": 1
       },
-      "items": []
+      "items": [
+        {
+          "rank": 1,
+          "imageUrl": "https://img.prompthero.com/jig5foi8fh7k920flrcl96dwhabz/1080.webp",
+          "prompt": "Baroque rococo architecture, architectural photography, post apocalyptic New York, hyperrealism, hyperrealistic, octane render, cinematic, hyper detailed, 8K",
+          "model": "Stable Diffusion",
+          "link": "https://prompthero.com/prompt/5cc60dbf76a-stable-diffusion-15-baroque-rococo-architecture-architectural-photography-post-apocalyptic-new-york-hyperrealism-hyperrealistic-octane-render-cinematic-hyper-detailed-8k"
+        }
+      ]
     },
     {
       "source": {
@@ -54,7 +77,15 @@
         "icon": "🏠",
         "count": 1
       },
-      "items": []
+      "items": [
+        {
+          "rank": 1,
+          "imageUrl": "https://img.prompthero.com/cdrr3lmo3580jid36nfgo1xzsxcd/1080.webp",
+          "prompt": "modern minimalist, architectural photography, illuminated grand entrance with curved light panels forming an arch, symmetrical frontal view, centered composition with vanishing point perspective, wide angle lens, low angle shot, golden hour lighting, reflective marble floor with wet surface reflections, dramatic architectural lighting, glass panels grid pattern, contemporary urban setting, photorealism, rich detailing --ar 9:16 --quality 2 --stylize 500 --v 6.1",
+          "model": "Midjourney",
+          "link": "https://prompthero.com/prompt/6673e814834-midjourney-6-httpslittlygrayve-modern-minimalist-architectural-photography-illuminated-grand-entrance-with-curved-light-panels-forming-an-arch-symmetrical-frontal-view-centered-composition-with"
+        }
+      ]
     },
     {
       "source": {
@@ -67,10 +98,10 @@
       "items": [
         {
           "rank": 1,
-          "imageUrl": "https://img.prompthero.com/spzhkzmkfthp3zfo97wt5h32zi/1080.webp",
-          "prompt": "realistic render, cyberpunk, front central view, upper-body, skeletal teeth and jaw, reflective black alloy futuristic skeletal figure, lily in one's hand, intricate cyborg details with matte silver steel and egg-shell black finishes, solid black background, studio lighting setup with soft diffused highlights, extreme quality, low-key, HDRI, hyper-detailed materials, cinematic framing --ar 9:16 --raw",
-          "model": "Midjourney",
-          "link": "https://prompthero.com/prompt/914313f2f1e-midjourney-shatter-realistic-render-cyberpunk-front-central-view-upper-body-skeletal-teeth-and-jaw-reflective-black-alloy-futuristic-skeletal-figure-lily-in"
+          "imageUrl": "https://img.prompthero.com/vm9lp8mvyzb90w7duiocftw5tfzv/640.webp",
+          "prompt": "Incredibly detailed technical diagram of the profile of a woman with the top and back of her head split into complex geometric shapes and flowers growing from the shapes, Chiaroscuro lighting, fine intricate details --q 2 --upbeta --v 4 --v 4",
+          "model": "AI Model",
+          "link": "https://prompthero.com/prompt/0c8536f3b23-openjourney-15-incredibly-detailed-technical-diagram-of-the-profile-of-a-woman-with-the-top-and-back-of-her-head-split-into"
         }
       ]
     },

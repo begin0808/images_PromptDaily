@@ -1,12 +1,5 @@
 {
   "links": {
-    "https://prompthero.com/prompt/72bfc9c1849-hero-10-a-giant-attractive-woman-looking-down-on-a-tiny-man": "2026-11-13",
-    "https://prompthero.com/prompt/afd8d5c5b91-seedream-5-v2-a-playful-summer-picnic-fashion-editorial-featuring-a-young-woman-with-soft-blonde-twin-ponytails-wearing-a-pastel-pink-and": "2026-11-13",
-    "https://prompthero.com/prompt/01b47dfdc90-midjourney-6-red-race-car-in-the-style-of-sam-spratt-historical-illustrations-old-masters-genndy-tartakovsky-soggy-masaccio-monochromatic-realism-ar": "2026-11-13",
-    "https://prompthero.com/prompt/455ba9632b9-midjourney-6-a-young-girl-in-a-business-suit-with-a-very-angry-expression-in-the-style-of-unreal-engine-5-cartoonish": "2026-11-13",
-    "https://prompthero.com/prompt/5cc60dbf76a-stable-diffusion-15-baroque-rococo-architecture-architectural-photography-post-apocalyptic-new-york-hyperrealism-hyperrealistic-octane-render-cinematic-hyper-detailed-8k": "2026-11-13",
-    "https://prompthero.com/prompt/6673e814834-midjourney-6-httpslittlygrayve-modern-minimalist-architectural-photography-illuminated-grand-entrance-with-curved-light-panels-forming-an-arch-symmetrical-frontal-view-centered-composition-with": "2026-11-13",
-    "https://prompthero.com/prompt/0c8536f3b23-openjourney-15-incredibly-detailed-technical-diagram-of-the-profile-of-a-woman-with-the-top-and-back-of-her-head-split-into": "2026-11-13",
     "https://prompthero.com/prompt/d6b42afab22-midjourney-6-model-portrait": "2026-11-14",
     "https://prompthero.com/prompt/ab61e5e9246-openjourney-15-valley-fairytale-treehouse-village-covered-matte-painting-highly-detailed-dynamic-lighting-cinematic-realism-realistic-photo-real-sunsetdetailed-high-contrast-denoised": "2026-11-14",
     "https://prompthero.com/prompt/127011c5b32-midjourney-6-spacious-office-with-frontal-view-herman-miller-aeron-chairs-artemide-tolomeo-desk-lamps-captured-with-a-canon-eos-r5-50mm": "2026-11-14",
@@ -64,6 +57,13 @@
     "https://prompthero.com/prompt/57a63e488dc-midjourney-6-3d-image-cute-girl-in-the-style-of-pixar-ar-12-stylize-750": "2026-11-25",
     "https://prompthero.com/prompt/4cc6519d643-hero-10-create-an-ultra-realistic-cinematic-dark-poster-dramatic-over-the-shoulder-pose-of-a-young-man-using-the-same-face": "2026-11-26",
     "https://prompthero.com/prompt/8aa2a68e4a2-hero-10-vertical-bust-cg-portrait-realistic-live-action-version-of-sailor-moon-long-golden-twin-tails-with-double-hair-buns-red": "2026-11-26",
-    "https://prompthero.com/prompt/914313f2f1e-midjourney-shatter-realistic-render-cyberpunk-front-central-view-upper-body-skeletal-teeth-and-jaw-reflective-black-alloy-futuristic-skeletal-figure-lily-in": "2026-11-26"
+    "https://prompthero.com/prompt/914313f2f1e-midjourney-shatter-realistic-render-cyberpunk-front-central-view-upper-body-skeletal-teeth-and-jaw-reflective-black-alloy-futuristic-skeletal-figure-lily-in": "2026-11-26",
+    "https://prompthero.com/prompt/afd8d5c5b91-seedream-5-v2-a-playful-summer-picnic-fashion-editorial-featuring-a-young-woman-with-soft-blonde-twin-ponytails-wearing-a-pastel-pink-and": "2026-11-27",
+    "https://prompthero.com/prompt/f29f7de2c6f-stable-diffusion-35-large-realisticportrait-1girl-crop-top-blonde-hair-dark-eyes-glowing-eyesskirt-parted-lips-blush-sunlightgrinshort-shortshand-on-backhalf-bodyhumpbackedskirt10": "2026-11-27",
+    "https://prompthero.com/prompt/01b47dfdc90-midjourney-6-red-race-car-in-the-style-of-sam-spratt-historical-illustrations-old-masters-genndy-tartakovsky-soggy-masaccio-monochromatic-realism-ar": "2026-11-27",
+    "https://prompthero.com/prompt/455ba9632b9-midjourney-6-a-young-girl-in-a-business-suit-with-a-very-angry-expression-in-the-style-of-unreal-engine-5-cartoonish": "2026-11-27",
+    "https://prompthero.com/prompt/5cc60dbf76a-stable-diffusion-15-baroque-rococo-architecture-architectural-photography-post-apocalyptic-new-york-hyperrealism-hyperrealistic-octane-render-cinematic-hyper-detailed-8k": "2026-11-27",
+    "https://prompthero.com/prompt/6673e814834-midjourney-6-httpslittlygrayve-modern-minimalist-architectural-photography-illuminated-grand-entrance-with-curved-light-panels-forming-an-arch-symmetrical-frontal-view-centered-composition-with": "2026-11-27",
+    "https://prompthero.com/prompt/0c8536f3b23-openjourney-15-incredibly-detailed-technical-diagram-of-the-profile-of-a-woman-with-the-top-and-back-of-her-head-split-into": "2026-11-27"
   }
 }
